@@ -1,0 +1,21 @@
+---
+title: "Literature review for TradMod thesis"
+format: html
+author:
+  - name: Morgane Kerdoncuff
+    orcid:
+    email: morgane.kerdoncuf@uib.no
+    affiliations:
+      - Department of Biological Sciences, University of Bergen, Norway
+      - Center for Sustainable Area Management (CeSAM), University of Bergen, Norway
+date: today
+bibliography: NBR_TRADMOD.bib
+execute: 
+  echo: false
+---
+
+# FOOD PRODUCTION CHALLENGES
+
+# TRADITIONAL SMALL-SCALE GRAZING SYSTEMS
+
+# LANDSCAPE MULTIFUNCTIONALITY
