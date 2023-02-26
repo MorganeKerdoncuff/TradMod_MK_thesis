@@ -14,3 +14,41 @@ execute:
   echo: false
 ---
 
+# Introduction & context - Food production & food availability at a global & regional scales
+
+# Small-scale grazing systems and cultural landscape
+
+## Cultural landscapes and traditional agriculture
+
+- Even in small-scale systems, changes in management with the use of fertilizers and seed mixtures. In our case, only 4 of our infields were without any sort of treatment apart from grazing.
+
+## Biodiversity associated with low-intensity grazing systems & current trends
+
+## Western Norway and Nordhordland Biosphere Reserve context
+
+# Diversity and functionality across scale
+
+```{r DenglerConcept}
+#| label: fig-denglerconcept
+#| out-width: "491px"
+#| fig-cap: "From Dengler et al. (2014) - Conceptual model of the drivers of species pool in grasslands across scales"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Dengler.etal2014_ConceptScaleFiltersGrasslandFlora.jpg")
+```
+
+## When farmers shape the landscape matrix biodiversity
+
+### The agricultural landscape matrix and the farm 
+
+### PAPER III ("NBR-grazers") - When the farmer unintentionnally creates and interacts with the mosaic
+
+### PAPER I ("ØY") - When the farmer intentionally creates the mosaic
+
+## Functionality of the field system
+
+### PAPER IV ("SHEEP") - Within the field
+
+### PAPER II ("MORGANE D") - From functions to services
+
+## Methodology point here

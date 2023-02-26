@@ -20,6 +20,9 @@
 #data (excludes everything in the folder data)
 data/*
 
+#illustrations
+illustrations/
+
 #figures & output (excludes all figure files)
 outputs/*
 *.png
@@ -33,3 +36,4 @@ outputs/*
 # Bibliography (exclude all bibtex files)
 *.bib
 *.json
+MKTradMod_LiteratureReview_files/*

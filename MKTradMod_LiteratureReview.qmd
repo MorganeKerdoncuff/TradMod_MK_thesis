@@ -19,3 +19,39 @@ execute:
 # TRADITIONAL SMALL-SCALE GRAZING SYSTEMS
 
 # LANDSCAPE MULTIFUNCTIONALITY
+
+# DIVERSITY AND FUNCTIONALITY ACROSS SCALE
+
+ref (@habelEuropeanGrasslandEcosystems2013) 
+- High-species richness in grassland explained by a combination of factors across scales. Respectively: large evolutionary species pool; intermediate position along environmental gradient; landscape heterogeneity/mass effect; continuity of habitat patches in space and time; reduction of competitive exclusion.
+- Need to consider different taxa, functional groups, scales of drivers when assessing management effect on grassland biodiversity.
+
+## GEOMORPHOLOGY EFFECT
+
+ref (@habelEuropeanGrasslandEcosystems2013) 
+- Topographic wetness index negatively affected primary producers
+
+
+## LANDSCAPE EFFECT
+
+ref (@leprovostContrastingResponsesBelowground2021)
+- landscape-level land use the most important driver of species richness of both above and belowground trophic groups
+- primary producers variance approx. equally explained by plot-level & landscape-level factors, total variance explained by model very high (50%)
+- aboveground arthropod (both predators & omnivores) variance mostly explained by landscape-level factors, but total variance explained smaller (~15% for predators, ~10% for omnivores)
+- grassland permanency negatively affected primary producers but positively affected arthropods (both predators and omnivores)
+- insect herbivores variance best explained by wider landscape (2000 m radius) while primary producers, omnivores & predators arthropods variances were best explained by smaller-scale landscape (500 m radius)
+- high land use intensity in surrounding landscape weakens the correlation between trophic groups -> disruption species interactions
+
+## MANAGEMENT ON FIELD EFFECT
+
+ref (@leprovostContrastingResponsesBelowground2021)
+- field-level factors (plant community heterogeneity & land use temporal variation) less important drivers but sill significant
+- land use intensity negatively affected primary producers diversity & insect herbivores, but omnivores and predators arthropods not significantly affected
+- increase plot-level intensity reduce species richness of primary producers
+
+## FINE-SCALE ENVIRONMENT EFFECT
+
+# MEASURING BIODIVERSITY IN AGRICULTURAL LANDSCAPES
+
+ref (@leprovostContrastingResponsesBelowground2021)
+- belowground diversity does not respond to land use intensity and change the same way as aboveground diversity. As conservative management decisions are taken in regard to aboveground diversity, it may not stimulate, if not even negtaively affect belowground biota
