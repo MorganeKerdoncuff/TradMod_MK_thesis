@@ -26,11 +26,26 @@ ref (@habelEuropeanGrasslandEcosystems2013)
 - High-species richness in grassland explained by a combination of factors across scales. Respectively: large evolutionary species pool; intermediate position along environmental gradient; landscape heterogeneity/mass effect; continuity of habitat patches in space and time; reduction of competitive exclusion.
 - Need to consider different taxa, functional groups, scales of drivers when assessing management effect on grassland biodiversity.
 
+ref (@zelnikPlantSpeciesDiversity2013)
+- plant species richness in Central European meadows was first determined by soil factors, then climatic, then topographic and finally management.
+- floristic composition variance best explained by altitude, pH, flooding frequency, mean annual temperature, date of mowing, humidity, annual precipitation, available P and total N
+
+ref (@siefertScaleDependenceVegetationenvironment2012)
+- edaphic variables with highest overall primacy across scale -> the most likely to explain the most variation in plant community composition
+
 ## GEOMORPHOLOGY EFFECT
 
 ref (@habelEuropeanGrasslandEcosystems2013) 
 - Topographic wetness index negatively affected primary producers
 
+ref (@klimekPlantSpeciesRichness2007a)
+- elevation, slope angle and solar radiation significant driver of plant species composition in grasslands
+- sites with high soil quality opposed to those with higher slope angles
+  - Frequencies of *Cardamine pratensis* & *Alopecurus pratensis* correlated with high soil quality
+  - Higher frequencies of *Poa pratensis*, *Dactylis glomerata* and *Festuca pratensis* on steeper sites
+- second gradient elevation - solar radiation
+  - *Trifolium dubium* and *Poa angustifolia* occurred more on sites at low elevation or relatively high solar radiation
+  - *Heracleum sphondylium* and *Agrostis capillaris* occurred more on sites at higher elevation or with low solar radiation
 
 ## LANDSCAPE EFFECT
 
@@ -51,7 +66,43 @@ ref (@leprovostContrastingResponsesBelowground2021)
 
 ## FINE-SCALE ENVIRONMENT EFFECT
 
+ref (@klimekPlantSpeciesRichness2007a)
+- Nitrogen fertilization: grasslands with *Stellaria media*, *Poa annua* & *Poa trivialis* positively correlated, while *Ranunculus acris*, *Trifolium pratense* and *Rumex acetosa* negatively correlated
+
 # MEASURING BIODIVERSITY IN AGRICULTURAL LANDSCAPES
 
 ref (@leprovostContrastingResponsesBelowground2021)
-- belowground diversity does not respond to land use intensity and change the same way as aboveground diversity. As conservative management decisions are taken in regard to aboveground diversity, it may not stimulate, if not even negtaively affect belowground biota
+- belowground diversity does not respond to land use intensity and change the same way as aboveground diversity. As conservative management decisions are taken in regard to aboveground diversity, it may not stimulate, if not even negatively affect belowground biota
+
+# ECOLOGICAL METHODOLOGY
+
+## SCALE
+
+ref (@denglerBiodiversityPalaearcticGrasslands2014)
+- Extremely diverse grasslands (particularly central Europe) can be explained by five preconditions: 1) Large evolutionary species pool; 2) Intermediate position along environmental gradients; 3) Landscape heterogeneity/mass effect; 4) Continuity of habitat patches in space and time; 5) Reduction of competitive exclusion
+```{r DenglerConcept}
+#| label: fig-denglerconcept
+#| out-width: "491px"
+#| fig-cap: "From Dengler et al. (2014) - Conceptual model of the drivers of species pool in grasslands across scales"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Dengler.etal2014_ConceptScaleFiltersGrasslandFlora.jpg")
+```
+
+ref (@siefertScaleDependenceVegetationenvironment2012)
+- Between the effects of fine-scale (e.g. edaphic) and broad-scale (e.g. climatic) factors on community data, the variance explained will depend differently on the extent and the grain of the survey. Fine-scale variation will be very high at small extent but will stabilize quickly on bigger areas, while broad-scale variation will be very low at first at increase with bigger extent. Both will decrease with higher grain, but it will be sharp and fast for fine-scale and slow for broad-scale. The influence of the latter can then be expected to increase with bigger spatial grain. There would then be a spatial grain threshold from which broad-scale variables take over fine-scale variables to explain species composition variance.
+```{r SiefertScale}
+#| label: fig-siefertscale
+#| out-width: "491px"
+#| fig-cap: "From Siefert et al. (2012) - Theoritical expectations of the amount of between-sample variance in climatic and edaphic factors as a function of spatial extent and grain"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Siefert.etal2012_ScaleExtentGrain_VarExp.jpg")
+```
+- New metric: multivariate effect size statistic MESS = average of correlation coefficients across multiple ordination axes, weighted by the amount of variance accounted for by each axis
+- Estimated extent threshold of 2000 km^2^ or 45 km linear distance -> from where plant distribution more likely to be explained by climatic factors (e.g. temperature) than edaphic factors (e.g. pH)
+
+## DIVERSITY VS COMMUNITY COMPOSITION
+
+ref (@klimekPlantSpeciesRichness2007a)
+- variation partitioning more explanatory for species diversity than for species composition -> can be due to statistical method or actual complexity of community responses compared to diversity
