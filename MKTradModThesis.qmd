@@ -16,19 +16,19 @@ execute:
 
 # Introduction & context: Feeding the world in a more sustainable way - How traditional food systems in Northern countries fit into the bigger picture
 
-- 2050 food demand projection including climate change uncertainty: increase between 30% and 62% (van Dijk et al., 2021)
-- meat consumption is also projected to increase by 3% (per capita meat consumption) in Western countries even if the populations are already reaching a level which is harmful for their health (Alexandratos and Bruinsma, 2012)
-- sustainable intensification has been presented as a solution to be able to fulfill the food production objectives (should look at: Godfray and Garnett, 2014; Cassman and Grassini, 2020) + short description of what sustainable intensification is (optimisation production, crop-based, biotech...)
-- however, increasing the food production in some European countries to the FAO objective (+ 10%) would not even be possible even if all the semi-natural habitats were converted into croplands, as for example in Germany, Italy and Austria (Jeanneret et al., 2021)
+- 2050 food demand projection including climate change uncertainty: increase between 30% and 62% (@vandijkMetaanalysisProjectedGlobal2021)
+- meat consumption is also projected to increase by 3% (per capita meat consumption) in Western countries even if the populations are already reaching a level which is harmful for their health (@alexandratosWorldAgriculture20302012)
+- sustainable intensification has been presented as a solution to be able to fulfill the food production objectives (should look at: Godfray and Garnett, 2014; Cassman and Grassini, 2020) + short description of what sustainable intensification is (optimisation production, crop-based, biotech...) - also @rockstromSustainableIntensificationAgriculture2017 and @pywellWildlifefriendlyFarmingIncreases2015
+- however, increasing the food production in some European countries to the FAO objective (+ 10%) would not even be possible even if all the semi-natural habitats were converted into croplands, as for example in Germany, Italy and Austria (@jeanneretIncreaseFoodProduction2021)
 - there are also limits to the crop-based approach:
-    - from 1961 to 2009 (~50 years), the percentage of calories from crop production consumed as food decreased from 57% to 51% (West et al., 2014)
-    - in Western countries, only 40% of crops are used for direct food production (Foley at al., 2011)
-    - on the other hand, animal product has become the food category which accounts for the largest land use (38% in 2005 against 35% in 1963) compared to cereals (31% in 2005 against 40% in 1963). Half of the total cropland requirement increase is due to growing land demand for animal products (Kastner et al., 2012)
-    - there are unfortunately lots of waste in the process, as about 89% of the crop calories produced for animal feeds are lost, which makes that only 4% of the produced calories available to humans are in the form of animal products (Cassidy et al., 2013)
-    - a production-based strategy will also have a high environmental impact, including land degradation and biodiversity loss (Hunter et al., 2017 + some others)
-- It is therefore more a question of food availability than food production, especially in the Western countries: optimising land use in the Northern hemisphere could reduce the impact in tropical zones on top of preserving local biodiversity  and cultural landscape, by switching from a grain-fed to pasture-fed animals (Foley et al., 2011)
-- To counteract the current trend where land use is driven by market and technology instead of local environmental conditions and population needs, there is need for multifunctional use of the land and landscape planning (Jongman, 2002)
-- This would need both regional and global collaboration, as 60% and 88% of biodiversity loss projection would be avoided under national and global optimisation scenarii respectively (Egli et al., 2018)
+    - from 1961 to 2009 (~50 years), the percentage of calories from crop production consumed as food decreased from 57% to 51% (@westLeveragePointsImproving2014)
+    - in Western countries, only 40% of crops are used for direct food production (@foleySolutionsCultivatedPlanet2011)
+    - on the other hand, animal product has become the food category which accounts for the largest land use (38% in 2005 against 35% in 1963) compared to cereals (31% in 2005 against 40% in 1963). Half of the total cropland requirement increase is due to growing land demand for animal products (@kastnerGlobalChangesDiets2012)
+    - there are unfortunately lots of waste in the process, as about 89% of the crop calories produced for animal feeds are lost, which makes that only 4% of the produced calories available to humans are in the form of animal products (@cassidyRedefiningAgriculturalYields2013)
+    - a production-based strategy will also have a high environmental impact, including land degradation and biodiversity loss (@hunterAgriculture2050Recalibrating2017 + some others)
+- It is therefore more a question of food availability than food production, especially in the Western countries: optimizing land use in the Northern hemisphere could reduce the impact in tropical zones on top of preserving local biodiversity  and cultural landscape, by switching from a grain-fed to pasture-fed animals (@foleySolutionsCultivatedPlanet2011)
+- To counteract the current trend where land use is driven by market and technology instead of local environmental conditions and population needs, there is need for multifunctional use of the land and landscape planning (@jongmanHomogenisationFragmentationEuropean2002)
+- This would need both regional and global collaboration, as 60% and 88% of biodiversity loss projection would be avoided under national and global optimisation scenarii respectively (@egliWinnersLosersNational2018)
 - UNESCO MAB - Biosphere Reserve network as a great playground to experiment regional landscape planning & develop international collaboration ;-)
 - maybe need to develop slightly on SDGs & 2030 Agenda
 - Some examples here + blabla on us
@@ -37,15 +37,15 @@ execute:
 
 ## Cultural landscapes and traditional agriculture
 
-- Even in small-scale systems, changes in management with the use of fertilizers and seed mixtures. In our case, only 4 of our infields were without any sort of treatment apart from grazing.
-- European cultural landscape is a complex & intertwined network of mosaics resulting from a multi-layered historical use (Vos and Meekes, 1999)
-- Categorisation of cultural landscape by the World Heritage Convention (see  Phillips, 1998)
-- With time, the primary role of agricultural areas, which represented the main labour supplier for food production, has declined at the same time as new demands have raised, such as recreation & nature conservation (vos and Meekes, 1999)
-- "Traditional" grazing should not be characterized per se as low-intensity, especially in highly populated areas, though high biodiversity can still be hosted thanks to many nutrient & input gradients at local & regional scales (Plieninger et al., 2006)
-- Low-intensity farmlands are characterized by low nutrient inputs & low output per hectare (Bignal and McCracken, 1996)
-- Traditional farming has shaped the landscape through involution (Vos and Meekes, 1999), by adapting management practices to natural environment (Bignal and McCracken), in opposition to conventional agriculture which "replace" existing landscapes thanks to technological advances which give control over natural conditions
-- [Land use history in Western Norway - (Bakka and Kaland, 1971; Hamre et al., 2007; Hjelle et al., 2006)]
-- How grazing systems in Western Norway respond to traditional land use principles (Plieninger et al., 2006):
+- Even in small-scale systems, changes in management with the use of fertilizers and seed mixtures, which can still affect species diversity (@beckmannConventionalLandUse2019). In our case, only 4 of our infields were without any sort of treatment apart from grazing.
+- European cultural landscape is a complex & intertwined network of mosaics resulting from a multi-layered historical use (@vosTrendsEuropeanCultural1999)
+- Categorisation of cultural landscape by the World Heritage Convention (see  @phillipsNatureCulturalLandscapes1998)
+- With time, the primary role of agricultural areas, which represented the main labour supplier for food production, has declined at the same time as new demands have raised, such as recreation & nature conservation (@vosTrendsEuropeanCultural1999)
+- "Traditional" grazing should not be characterized per se as low-intensity, especially in highly populated areas, though high biodiversity can still be hosted thanks to many nutrient & input gradients at local & regional scales (@plieningerTraditionalLanduseNature2006)
+- Low-intensity farmlands are characterized by low nutrient inputs & low output per hectare (@bignalLowIntensityFarmingSystems1996)
+- Traditional farming has shaped the landscape through involution (@vosTrendsEuropeanCultural1999), by adapting management practices to natural environment (@bignalLowIntensityFarmingSystems1996), in opposition to conventional agriculture which "replace" existing landscapes thanks to technological advances which give control over natural conditions
+- [Land use history in Western Norway - (@bakkaEarlyFarmingHordaland1971; @hamreLandcoverStructuralChanges2007; @hjelleHesitantHuntersReview2006)]
+- How grazing systems in Western Norway respond to traditional land use principles (@plieningerTraditionalLanduseNature2006):
     - Multiple use: farmers usually have a mixed system, with livestock, forest & crop (can rely on some examples from gårdskart)
     - Rotational use: inmark/utmark, also rotations between fields in the same area & between animals
     - Recycling: low nutrient inputs, again inmark/utmark process

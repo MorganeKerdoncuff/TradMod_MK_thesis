@@ -18,6 +18,20 @@ execute:
 
 # TRADITIONAL SMALL-SCALE GRAZING SYSTEMS
 
+ref (@beckmannConventionalLandUse2019)
+```{r BeckmannIntensity}
+#| label: fig-beckmannintensity
+#| out-width: "491px"
+#| fig-cap: "From Beckmann et al. (2019) - Land use intensity classes"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Beckmann.etal2019_IntensityTable.png")
+```
+- All land use types (forestry, crops, green fodder) considered, intensification within low-intensity systems would not affect yield and species richness (all taxa), but stepping up to medium intensity would expose to species richness loss (-7.7% [-13.7, -1.3]) without substantial yield increase (+6% [-5, +18.3])
+- Still all land use types considered: the most impactful intensification was within medium-intensity systems for both yield increase (+84.9% [+65.8, +106.1]) and species richness loss (-22.9% [-28.1, -17.4]) -> but careful, low replication level for meta-analysis (19 & 29 respectively)
+- In general for green fodder systems, species richness significantly decrease under intensification (-12.4% [-21.8, -1.9]) & yield increased but not significantly (+14.2 [-5.6, +38.2]). Invertebrates particularly impacted in green fodder compared with other land uses
+- land use history, taxonomic group and climatic zone covariates explained significant proportion of heterogeneity
+
 # LANDSCAPE MULTIFUNCTIONALITY
 
 # DIVERSITY AND FUNCTIONALITY ACROSS SCALE
