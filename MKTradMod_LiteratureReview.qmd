@@ -14,11 +14,94 @@ execute:
   echo: false
 ---
 
-# FOOD PRODUCTION CHALLENGES
+# FOOD PRODUCTION
 
-# TRADITIONAL SMALL-SCALE GRAZING SYSTEMS
+## GLOBAL AGRICULTURE & FOOD DEMAND
 
-ref (@beckmannConventionalLandUse2019)
+@vandijkMetaanalysisProjectedGlobal2021
+- AIM: meta-analysis projection global food consumption 2010-2050
+- Total food consumption 2050: +35%-56%
+- Total food demand considering climate change uncertainty: +30%-62% (but not significantly different without climate)
+- Conclusions balance previsions from FAO, 2009 (70%) & Tilman et al. 2011 (100-110%) which promote technological solutions over agroecological approach
+
+@theinternationalbankforreconstructionanddevelopmentWorldDevelopmentReport2007
+- AIM: report on global agriculture development
+- In developing countries, shift from extensive grazing to intensive stall-fed husbandry
+- Agriculture & aquaculture revolution, increasing protein supply & diversifying diets, but risks of increasing waste pollution & disease outburst due to growing concentrations of animals near urban & peri-urban areas
+
+@hunterAgriculture2050Recalibrating2017
+- AIM: new prediction models on crop production to 2050 & environmental impact
+- CONCLUSION: need to consider both goals of increased production and limitation (if not decrease) of environmental impact & land degradation
+
+@foleySolutionsCultivatedPlanet2011
+- AIM: solution on how to solve food production and land degradation dilemma
+- Global increase of croplands and pastures by 3% between 1985 and 2005, but not homogeneously across the globe (even decrease in temperate zone)
+- Crop production: 62% (mass) to human, 35% to livestock, 3% to bioenergy & others
+- Disparity between Global North & South, with only 40% of crop to direct food production in Western countries vs 80% in Asia & Africa
+- Careful with the crop-crop-crop strategy, while developing pastures would provide calories, jobs and food security
+```{r FoleyAgriculture}
+#| label: fig-foleyagriculture
+#| out-width: "491px"
+#| fig-cap: "From Foley et al. 2011 - Conceptual model of what agriculture should aim for"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Foley.etal2011_WhatAgricultureShouldAimFor_ConceptModel.png")
+```
+- Transformation of agriculture should reduce GHG, biodiversity & habitat loss, unsustainable water withdrawals & chemical pollution
+- Increasing food production in non-tropical zones may reduce pressure on tropical forests
+->	Switch from grain-fed to pasture-fed animals would enhance food availability. Not just about producing more, but how we produce
+
+FAO DATA 2020
+- Decrease in land under permanent meadows and pastures during past 20 years, from 3 388 k to 3 183 k (6%), level we had in 1973
+- 2001-2020: 33% Asia; 26% Africa; 24% America; 11% Oceania; 5% Europe (177 k)
+- 1981-2000: 28% Asia; 26% Africa; 24% America; 14% Oceania; 10% Europe (306 k)
+- 1961-1980: Africa 27%; America 24%; Asia 21%; Oceania 16%; Europe 13% (402 k)
+
+@ramankuttyFarmingPlanetGeographic2008
+- AIM: modelling global crop & pasture land cover
+- For year 2000: 28 millions km2 pastures, compared to 34.4 millions FAO
+- Europe (2000): 0.67 million km2 (14.4% cover land area)
+
+@westLeveragePointsImproving2014
+- AIM: how to improve global food security & environmental sustainability
+- 1961-2009: percentage of calories from crop production consumed as food decreased from 57% to 51%
+- Diet gap (human-edible crop calories which do not end up in food system): US 26%, China 17%, Western Europe 11%, Brazil 6% -> changing allocation in these regions would provide enough calories for 2.4 billion people
+
+@cassidyRedefiningAgriculturalYields2013
+- AIM: global patterns of crop production & allocation to determine amount of human-consumable calories globally produced
+- Feed crop: 24% global crop production (mass), 36% global calorie production & 53% global plant protein production
+- Among the 36% for animal feed, 89% is lost -> only 4% of crop-produced calories available to humans in the form of animal product
+- To shift feed & other crop to direct human consumption would increase global calories by 70% or feed 4 billion people
+
+@kastnerGlobalChangesDiets2012
+- AIM: how changes in consumption drivers are projected to affect future global demand for cropland
+- Steady global increase in average availability of food calories per person during recent decades -> rich diet food with higher rates of increase (including animal products), compared to more basic food with slower increase (cereals) or decrease (roots)
+- In Northern Europe, total per capita food supply relatively constant.
+- At global level, average land area needed to feed a person in 2005 was 2/3 of 1963 value -> food production more area-efficient
+- Switch of category which accounts for the largest land use: from cereals (1963 40%; 2005 31%) to animal product (35%; 38%)
+- Half of the 30% total cropland requirement increase between 1963 & 2005 is due to growing land demand for animal products
+- Population growth as the major driver of growing land demand, but large heterogeneity according to regions (North vs South)
+
+## SUSTAINABLE INTENSIFICATION
+
+@egliWinnersLosersNational2018
+- AIM: explore spatial optimisation of sustainable intensification
+- Same trends of agriculture intensification by 2040 would lead to a decrease of 11% of global biodiversity for a global production gain of 20%
+- However, 60% of biodiversity loss projection would be avoided under national optimization scenario, and 88% would be avoided under global optimization scenario
+- In global scenario production gains negatively correlated with national economic reliance on agriculture
+
+## AGRICULTURE IN EUROPE
+
+@jeanneretIncreaseFoodProduction2021
+- AIM: how semi-natural habitat conversion to crops would influence diversity & productivity in Europe
+- Productivity not related with share of semi-natural habitats in 10 European countries, including NO.
+- Question the objective of +10% food production increase by FAO -> not even possible for some countries even if total conversion into arable land (Germany, Italy, Austria).
+- Importance of semi-natural habitats to biodiversity of agricultural landscape & increase of conversion would sacrifice lots of it for only a limited gain in production.
+
+## AGRICULTURE INTENSIFICATION
+
+@beckmannConventionalLandUse2019
+- AIM: meta-analysis on the effect intensification on both productivity and species richness for different land uses (forestry, crops, green fodder)
 ```{r BeckmannIntensity}
 #| label: fig-beckmannintensity
 #| out-width: "491px"
@@ -32,27 +115,135 @@ knitr::include_graphics("illustrations/Beckmann.etal2019_IntensityTable.png")
 - In general for green fodder systems, species richness significantly decrease under intensification (-12.4% [-21.8, -1.9]) & yield increased but not significantly (+14.2 [-5.6, +38.2]). Invertebrates particularly impacted in green fodder compared with other land uses
 - land use history, taxonomic group and climatic zone covariates explained significant proportion of heterogeneity
 
+@newboldGlobalEffectsLand2015
+- AIM: global study on impact of anthropogenic land use change on biodiversity & projection until 2095
+- Estimated loss of 13.6% of terrestrial within-sample species richness from past land use change
+- Worst scenario 2100: reduction 77% within-sample species richness
+
+@bentonFarmlandBiodiversityHabitat2003
+- AIM: Review of causes and consequences of farmland biodiversity decline
+- ISSUE: focus on cropland and bird diversity
+- Habitat heterogeneity across scales (landscape, between-fields, within-fields)
+
+# LOW INTENSITY FARMING & CULTURAL LANDSCAPE
+
+@jongmanHomogenisationFragmentationEuropean2002
+- AIM: review causes & solutions to homogenisation and fragmentation in Europe
+- Homogenization of European agricultural landscape, loss of regional biological and cultural diversity -> land use not anymore dictated by environmental conditions (topography, soil, climate…) but by market & technology
+- Solution: sustainable and multifunctional use of the land, landscape planning (socio-economic functions within present & future dynamics of society, politically most desired development, ecological processes, long term educational objectives, genius loci & related aesthetics)
+
+@garibaldiFarmingApproachesGreater2017
+- AIM: review on alternative farming systems + analysis of quantitative impact of them on socioeconomic values
+-	Failure of conventional systems to address food security (availability, access, utilization) across the globe -> current production should nourish populations but still malnourishment on one side & obesity on the other
+-	Reasoning behind alternatives: regenerative system which creates fewer negative externalities and is driven by local people (empowerment)
+-	About 2/3 of reviewed studies showed higher crop yield & farm profitability for alternative compared with conventional practices
+-	No trade-off identified between farm profitability & crop yield -> does not support assumption that alternatives to conventional farming are low-yielding or less profitable
+
+@haladaWhichHabitatsEuropean2011
+- AIM: to list habitats from the Habitat Directive which are dependent of agricultural practices
+- Agricultural habitats have in proportion a poorer conservation status compared to non-agricultural habitats
+- Northern meadows and Fennoscandian pastures fully dependent on agricultural management
+
+@bignalLowIntensityFarmingSystems1996
+- AIM: characterisation of low-intensity farming systems across Europe and their importance for biodiversity conservation
+- Low-intensity farmlands host a substantial proportion of European most highly valued biotopes
+- Intensification & abandonment throughout whole Europe.
+- Characteristics of low-intensity farmlands, common to both crops & livestock: low nutrient inputs & low output per hectare -> management techniques adapted to natural environmental constraints rather than the other way around
+- All remaining high nature conservation value grasslands across Europe associated with low-intensity livestock systems
+- Example: mixed farming systems (livestock + crops) provided optimal prey availability for chough all year round
+- Importance of the temporal cycle of farming activity with species life cycle
+- Call for preserving already existing low-intensity farming systems instead of waiting them to be converted to start restoration
+
+@vosTrendsEuropeanCultural1999
+- AIM: trends in European cultural landscape development – perspectives for a sustainable future
+- Decline of primary function of agriculture (no longer main labour supplier for food production) vs new roles & demands (recreation & nature conservation)
+- European cultural landscape: complex mosaics from multi-layered historical use
+- Historical stages:
+  -	Natural/prehistoric landscape, from Palaeolithic till ancient Greeks
+  -	Antique landscape, from ancient Greeks till Mediaeval
+  -	Mediaeval landscape, from early Mediaeval till Renaissance
+  -	Traditional agricultural landscape, from Renaissance till 19th century (up to today)
+  -	Industrial landscape, from mid-18th till mid-20th century (up to today)
+  -	Postmodern landscapes, nowadays: 
+	  - industrial production landscapes
+    - overstressed multifunctional landscapes
+  	- archaic traditional landscapes
+    - marginalized vanishing landscapes
+    - natural landscapes: relict & new nature
+- Difference between:
+  -	Involution (gradual endogenous transformation of preexisting structures & processes by adaptation & refinement), or how traditional landscapes have evolved
+  -	Replacement, allowed by technological advances which give stronger control of physical conditions
+- Engagement (belonging) vs alienation
+- Perspectives: landscape multifunctionality
+
+@phillipsNatureCulturalLandscapes1998
+- Title: The nature of cultural landscapes: a nature conservation perspective
+- Few if any pristine landscapes & human modification does not always relate to loss of biodiversity -> gradient
+- Strong link between cultural diversity & natural diversity
+- Issue with cultural landscape definition: as there are cultural aspects to almost all landscapes, it makes it all “cultural”
+- Joint evolution of natural & cultural sciences, as cultural values also exist in spiritual significance & cultural importance of landscapes, and not only big monuments
+- Cultural landscape categories under The World Heritage Convention:
+  -	“Landscapes designed and created intentionally by man” -> biological resources
+  -	“Organically evolved landscapes or continuing and evolving landscapes” (result from human responses to natural environment) -> land use characteristics (“sustainable”)
+  -	“Associative landscapes” (religious, artistic or cultural associations) -> attachment of human values to nature
+
+@plieningerTraditionalLanduseNature2006
+- AIM: review/opinion on trends of traditional rural landscapes in Europe
+- Traditional land use is not always synonyms of low-intensity grazing systems, especially in densely populated areas -> still even high-intensity also high biodiversity due to many nutrient & labour inputs gradients at local & regional scales
+Principles of traditional systems:
+  -	Multiple use: risk minimisation through polyculture & interaction between public, common & private land-use
+  -	Rotational use: spatial & temporal differentiation
+  -	Recycling between outputs & inputs
+  -	Low-energy economy: scarcity of energy & transport resources
+  -	Spatial fuzziness: different land-use structures & processes intertwined
+  
+@torokGrazingEuropeanOpen2016
+- AIM: special issue on alternative grazing systems diversity & functionality & socio-economic trade-offs
+- Year-round grazing or traditional low-intensity grazing systems suitable for large and heterogeneous areas
+- Importance of spatio-temporal variation in grazing intensities
+- Main limitation of keeping traditional grazing systems is economic outcomes -> importance of relocalizing the economy for sustainable farmer business
+
+
 # LANDSCAPE MULTIFUNCTIONALITY
 
 # DIVERSITY AND FUNCTIONALITY ACROSS SCALE
 
-ref (@habelEuropeanGrasslandEcosystems2013) 
+@habelEuropeanGrasslandEcosystems2013
 - High-species richness in grassland explained by a combination of factors across scales. Respectively: large evolutionary species pool; intermediate position along environmental gradient; landscape heterogeneity/mass effect; continuity of habitat patches in space and time; reduction of competitive exclusion.
 - Need to consider different taxa, functional groups, scales of drivers when assessing management effect on grassland biodiversity.
 
-ref (@zelnikPlantSpeciesDiversity2013)
+@zelnikPlantSpeciesDiversity2013
+- AIM: Survey plant richness & composition x abiotic factors in wet Molinia grasslands
 - plant species richness in Central European meadows was first determined by soil factors, then climatic, then topographic and finally management.
 - floristic composition variance best explained by altitude, pH, flooding frequency, mean annual temperature, date of mowing, humidity, annual precipitation, available P and total N
 
-ref (@siefertScaleDependenceVegetationenvironment2012)
+@siefertScaleDependenceVegetationenvironment2012
 - edaphic variables with highest overall primacy across scale -> the most likely to explain the most variation in plant community composition
+
+@turtureanuScaleTaxondependentBiodiversity2014
+- AIM: assess plant diversity according to scale and 4 predictors (soil, topography, climate, land-use)
+- Relative importance of predictors different according to scales: at very fine (0.0001-0.01 m^2^) humus content, microrelief & land-use at bigger scales (from 0.1 to 100 m^2^)
+- Other significant factors, but not for whole range: heat load index, litter cover & altitude
+- At 10 m^2^:
+  -	vascular species richness negatively affected by heat load index, micro-relief, clay content, temperature annual range & management type
+  -	bryophyte species richness negatively affected by heat load index & humus content, positively affected by stone cover
+  -	lichen species richness positively affected by humus content & minimum temperature of coldest month, unimodal response to microrelief
+
+@zulkaSpeciesRichnessDry2014
+- AIM: assess plant & arthropod diversity according to patch size, isolation or habitat quality
+  -	Historical patch size stronger predictor than current one
+  -	None of patch quality measures significant predictor for total grassland species richness, but species richness including all species positively affected by % agricultural matrix & patch heterogeneity
+  -	Specialist richness increased with amount of extensively used landscape elements
+  -	All species richness (specialists, all grassland, all species) negatively affected by increasing distance to next large grassland area
+  -	All taxa combined, grassland specialists mostly driven by aboveground standing phytomass April, gravel content & area if short-grass dry grassland (landscape)
+
 
 ## GEOMORPHOLOGY EFFECT
 
-ref (@habelEuropeanGrasslandEcosystems2013) 
+@habelEuropeanGrasslandEcosystems2013
 - Topographic wetness index negatively affected primary producers
 
-ref (@klimekPlantSpeciesRichness2007a)
+@klimekPlantSpeciesRichness2007a
 - elevation, slope angle and solar radiation significant driver of plant species composition in grasslands
 - sites with high soil quality opposed to those with higher slope angles
   - Frequencies of *Cardamine pratensis* & *Alopecurus pratensis* correlated with high soil quality
@@ -63,7 +254,7 @@ ref (@klimekPlantSpeciesRichness2007a)
 
 ## LANDSCAPE EFFECT
 
-ref (@leprovostContrastingResponsesBelowground2021)
+@leprovostContrastingResponsesBelowground2021
 - landscape-level land use the most important driver of species richness of both above and belowground trophic groups
 - primary producers variance approx. equally explained by plot-level & landscape-level factors, total variance explained by model very high (50%)
 - aboveground arthropod (both predators & omnivores) variance mostly explained by landscape-level factors, but total variance explained smaller (~15% for predators, ~10% for omnivores)
@@ -71,17 +262,132 @@ ref (@leprovostContrastingResponsesBelowground2021)
 - insect herbivores variance best explained by wider landscape (2000 m radius) while primary producers, omnivores & predators arthropods variances were best explained by smaller-scale landscape (500 m radius)
 - high land use intensity in surrounding landscape weakens the correlation between trophic groups -> disruption species interactions
 
-## MANAGEMENT ON FIELD EFFECT
+@seiboldArthropodDeclineGrasslands2019
+- AIM: explore arthropod biodiversity loss across different land use and intensity in forests and grasslands over 10 years
 
-ref (@leprovostContrastingResponsesBelowground2021)
+## FIELD MANAGEMENT EFFECT
+
+@leprovostContrastingResponsesBelowground2021
 - field-level factors (plant community heterogeneity & land use temporal variation) less important drivers but sill significant
 - land use intensity negatively affected primary producers diversity & insect herbivores, but omnivores and predators arthropods not significantly affected
 - increase plot-level intensity reduce species richness of primary producers
 
+@kohlerChangesSpeciesComposition2005
+- AIM: long-term experiment to assess different management practices on plant species composition in dry limestone grasslands as an alternative to traditional management, not anymore economically viable
+
+
+### GRAZING EFFECT
+
+@milchunasQuantitativeEffectsGrazing1993
+- AIM: meta-analysis of grazing effect on vegetation and soil
+- Main drivers of species composition (>50% variance): aboveground net primary production, evolutionary grazing history & consumption level.
+- Contradicting responses of species dominance under grazing -> effect most sensitive to evolutionary history & grazing variables
+- Difference in ANPP between grazed vs ungrazed negatively related to increasing years of treatment, levels of consumption & site productivity
+```{r MilchunasConcept}
+#| label: fig-milchunasconcept
+#| out-width: "491px"
+#| fig-cap: "From Milchunas and Lauenroth 1993 - Conceptual model of species diversity and composition against grazing intensity"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Milchunas-Lauenroth1993_ConceptModel-Species diversity-compo related to grazing intensity.png")
+```
+
+@allanInterannualVariationLanduse2014
+- AIM: effect of land-use intensity (LUI) & interannual variation on multidiversity
+- Negative response of multidiversity under increasing LUI, but not all taxonomic groups were affected equally -> most sensitive were Orthoptera, Araneae, Lepidoptera, plants & lichens species richness; not affected were Diptera, arbuscular mycorrrhizal fungi & bats
+- Grazing & mowing looked more important than fertilisation to drive decline in multidiversity
+- Interannual changes in LUI beneficial for biodiversity, with higher effect at low mean LUI level in general, but with significant effects for rare species also at intermediate and high LUI level
+- Temporal variation of overall LUI better predictor of multidiversity than variation of individual LUI component
+- Belowground multidiversity less affected by land-use intensification or interannual variation
+
+@skornikEffectGrazingPressure2010
+- AIM: 10 years experiment to study sheep grazing intensity & abandonment on plant species richness and composition in Mediterranean grasslands
+- Categories of grazing intensities: heavy with 12 sheep/ha, moderate with 7 sheep/ha, light with 4 sheep/ha
+- significant differences in species richness for different levels of grazing pressure: low-intensity (22.0 +- 2.5) > moderate > high (12.2 +- 2.5)
+- heavy grazing with distinct community composition, with 25 exclusive species such as *Achillea millefolium*, *Dactylis glomerata*, *Festuca pratensis*, *Festuca rubra*, *Poa pratensis* -> species from mesic soils (relatively nutrient rich)
+- no substantial difference in community composition between light and moderate grazing
+- on grasslands with similar productivity potential (biomass in exclosure), residual standing biomass significantly higher under low-intensity & belowground biomass significantly lower under high-intensity
+
+@boavistaEffectsGrazingRegimes2019
+- AIM: 6-years experiment between constant vs rotational cattle grazing in Brazil
+- Distinct community composition between continuous and rotational grazing -> increase of prostrate species biomass under rotational grazing and a decrease of species dominance
+- Significant increase of total biomass, including forage grasses
+- Species richness, Shannon diversity & evenness increased under rotational grazing
+
+@lezamaVariationGrazinginducedVegetation2014
+- AIM: Survey on grazing impact on plant composition, species richness, betadiv & life-form abundance between a low and a high productivity groups with paired grazed/ungrazed sites
+- Changes in species composition between grazed and ungrazed plots increased with site productivity -> relationship significant between the two productivity groups and within the high productivity group
+- On average grazing had positive effect on species richness across the gradient, but magnitude of impact strongly associated with site productivity: high productivity plots clearly above equality line (x ungrazed vs y grazed) while low productivity mostly along or even slightly below the equality line
+- On average grazing had negative effect on beta-div, with stronger impact on sites with high betadiv. High productivity group was more affected than low productivity group
+- Grazing reduced cover of dominant species, with a stronger effect in high productivity group
+- Positive effect on richness no clearly linked to shrub or graminoid richness
+- No clear effect of grazing on graminoid cover, whichever productivity group
+
+### ANIMAL COMPARISON
+
+@wangDiversifyingLivestockPromotes2019
+- AIM: (multi)diversity & (multi)functionality under single & mixed sheep & cattle grazing 5-years experiments
+- Aboveground diversity (plant & insects) higher in mixed grazing, but no difference between sheep & cattle
+- Belowground diversity (soil bacteria, fungi & nematodes) not affected by any treatment
+- “Multidiversity” & “multifunctionality” higher in mixed treatment & strongly correlated with each other (r^2^=0.5)
+- Relationship between biodiversity & EF more positive & significant to lower rate with more functions & trophic levels considered
+- Belowground soil bacterial richness with strongest positive effects on most individual functions measured.
+
+@jerrentrupDiverseSwardsMixedGrazing2020
+- AIM: comparison livestock traits and phytodiversity between mono (cattle or sheep) & mixed grazing with experiment
+- No effect of sward type on primary productivity (not in line with previous findings)
+- Sward diversity (with dicotyledons) increases herbage quality
+- No effect of mixed-grazing on plant composition, & no difference between cattle and sheep on plant biomass
+
+@seitherSwardCompositionGrazer2012
+- AIM: experimental comparison sward productivity & diversity under single (cattle or sheep) & mixed grazing - same experiment as @jerrentrupDiverseSwardsMixedGrazing2020
+- No consistent effects of grazing treatment on herbage consumption
+- Annual herbage accumulation unaffected by plant species richness
+- N yields in herbage mass higher in cattle-grazed yards
+- Higher nutritive value of herbage in more diverse swards
+
+@benthienLongtermEffectSheep2018
+- ! LOW RANGE JOURNAL
+- AIM: compared plant composition after grazing change from cows (20 years) to sheep and goats (15 years)
+- Change in plant community composition after switch to sheep/goat grazing, but no increase in plant diversity
+
+@tothLivestockTypeMore2018
+- AIM: compare sheep and cow grazing at different intensities in Hungarian steppes
+- Species richness sheep < cow, & lower with increasing intensity regardless of grazer type
+- Shannon diversity & also evenness lower in sheep-grazed
+- Lower cover of short-lived & perennial forbs, and legume in sheep-grazed
+- Higher multi-trait functional diversity (Rao’s quadratic entropy) in cattle-grazed
+
+@jerrentrupLittleGrazerSpecies2015
+- AIM: compare species composition between sheep & cattle grazed controlled field experiment, with different sward type
+- No effect of grazer type on species richness.
+- No livestock effect neither livestock X sward on species composition when sward only considered first
+- In diverse swards, higher increase of forb contents & species richness over years in cattle-grazed
+- No indication of complementarity between sheep & cattle on mixed-grazing
+
+
 ## FINE-SCALE ENVIRONMENT EFFECT
 
-ref (@klimekPlantSpeciesRichness2007a)
+@klimekPlantSpeciesRichness2007a
 - Nitrogen fertilization: grasslands with *Stellaria media*, *Poa annua* & *Poa trivialis* positively correlated, while *Ranunculus acris*, *Trifolium pratense* and *Rumex acetosa* negatively correlated
+
+@reitaluDeterminantsFinescalePlant2014
+- AIM: study vegetation gradients & fine-scale plant diversity in dry calcareous grasslands
+  -	Species richness and phylogenetic diversity negatively associated
+  -	Species richness positively affected by biogeographic richness and evenness
+  -	Local environmental variables: light, temperature, continentality & moisture unimodally associated with species richness
+  -	Local environmental variables & biogeographic composition accounted for largest fractions of variability in species richness
+
+@grimeCompetitiveExclusionHerbaceous1973
+- AIM: explore exclusion patterns within plant communities along different competitive potentials -> la base pour le concept competition vs stress & confirmation intermediate disturbance theory
+- Features of competitive species:
+    - Tall plants (light)
+    - Growth form made for extensive and intensive exploitation of the environment, such as dense rhizome or expanded tussock
+    - High maximum potential growth rate
+    - Tendency to deposit a dense layer of litter in the ground surface
+- Species density (number sp/m) decreases when species with high competitive index are dominant, but this trend depends on the habitat type
+- Factors which could mediate competition effects are environmental stresses (drought, poor soil) and human management (grazing, mowing, trampling)
+- Balance in the community between stress-tolerant species, less productive, which decrease in softer environments to the advantage of more competitive and productive species.
 
 # MEASURING BIODIVERSITY IN AGRICULTURAL LANDSCAPES
 
