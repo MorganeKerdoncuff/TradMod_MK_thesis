@@ -14,6 +14,47 @@ execute:
   echo: false
 ---
 
+# THESIS DRAFT
+
+## Chapter 1 - Norwegian small-scale agriculture
+
+### Small-scale farming in Western Norway
+
+- evolution of farming - 1. traditional pluriactivity, without incentives neither other aims than surviving - 2. post-war productivism, which led to increase farm size  - 3. new diversification with added cultural values, this time acknowledged & regulated by public authorities [@daugstadAgricultureUpholderCultural2006]
+- Collapse of agricultural holdings since the mid-20th century, from ~200,000 to ~50,000, with a decline of wholly owned holdings and an exponential increase of mainly rented holdings which represent bigger areas with more livestock [@forbordDriversChangeNorwegian2014; SSB]
+- small-scale arrangements make particular mutually beneficial relationship between farmer and land-owner in Norway [@forbordDriversChangeNorwegian2014]
+- decline of the "traditional" small-scale farming system in Norway with a combined use of livestock and hay-meadows [@wehnAdaptiveBiodiversityManagement2018]
+- traditional practices, such as different hay-cutting dates across farms, could enhance heterogeneity between meadows [@wehnAdaptiveBiodiversityManagement2018]
+- decrease of livestock leads to biodiversity loss in highly-diversified hay meadows of Western Norway, as it represented the direct economic use of hay & also controlled trampling and fertilisation [@wehnAdaptiveBiodiversityManagement2018]
+- Land use history in Western Norway - [@bakkaEarlyFarmingHordaland1971; @hamreLandcoverStructuralChanges2007; @hjelleHesitantHuntersReview2006]
+- How grazing systems in Western Norway respond to traditional land use principles [@plieningerTraditionalLanduseNature2006]:
+    - Multiple use: farmers usually have a mixed system, with livestock, forest & crop (can rely on some examples from gårdskart)
+    - Rotational use: inmark/utmark, also rotations between fields in the same area & between animals
+    - Recycling: low nutrient inputs, again inmark/utmark process
+    - Low-energy economy: small-scale farming, not much mechanical interference
+    - Spatial fuzziness: interactions between different land use structures (e.g. grassland & forest) and processes
+- Here I should develop more about heathlands & the utmark system, with literature from Vigdis & Inger & Kari Hjelle
+- infield-outfield system provided an exceptionally high level of biodiversity of habitat, species, genetics & landscape [@olssonAgroecosystemsNeolithicTime1991]
+
+### The spectrum traditional - alternative - low-intensive - small-scale farming
+
+Traditional small-scale or low-intensive farming systems represent an alternative to conventional agriculture. According to @plieningerTraditionalLanduseNature2006, traditional farming relies on the following principles: 1. the multiple use of the land, through polyculture and interactions between private, common and public stakeholders; 2. the rotational use of the land, with both spatial and temporal changes; 3. the recycling of outputs into inputs; 4. the energy and resource scarcity of the whole system, including externalities; 5. the spatial fuzziness resulting from intertwined land use structures and processes.
+
+- Traditional agroecosystems, often mixed or agroforestry (+ ref to concrete examples in the South), as learning models for sustainable food production [@altieriEcologicalRoleBiodiversity1999; @altieriLinkingEcologistsTraditional2004]
+- Relationship between land use intensity and biodiversity loss not always straightforward - some productive land use can also support relatively high biodiversity [@cunninghamCloseYieldgapSaving2013]
+- "Traditional" grazing should not be characterized per se as low-intensity, especially in highly populated areas, though high biodiversity can still be hosted thanks to many nutrient & input gradients at local & regional scales [@plieningerTraditionalLanduseNature2006]
+- Low-intensity farmlands are characterized by low nutrient inputs & low output per hectare [@bignalLowIntensityFarmingSystems1996]
+- Traditional farming has shaped the landscape through involution [@vosTrendsEuropeanCultural1999], by adapting management practices to natural environment [@bignalLowIntensityFarmingSystems1996], in opposition to conventional agriculture which "replace" existing landscapes thanks to technological advances which give control over natural conditions
+- Even in small-scale systems, changes in management with the use of fertilizers and seed mixtures, which can still affect species diversity [@beckmannConventionalLandUse2019]. In our case, only 4 of our infields were without any sort of treatment apart from grazing.
+
+### Cultural landscapes and traditional agriculture
+
+- Categorisation of cultural landscape by the World Heritage Convention [see  @phillipsNatureCulturalLandscapes1998]
+- With time, the primary role of agricultural areas, which represented the main labour supplier for food production, has declined at the same time as new demands have raised, such as recreation & nature conservation [@vosTrendsEuropeanCultural1999]
+- the concept cultural landscape used to be closely related to agricultural lands, including both infields and outfields, and only more recently that the term expanded to include urban areas. Ministry of Environment still has the tendency to associate traditional/historic farming to cultural landscape [@daugstadAgricultureUpholderCultural2006]
+
+
+
 # FOOD PRODUCTION
 
 ## GLOBAL AGRICULTURE & FOOD DEMAND
@@ -82,6 +123,8 @@ FAO DATA 2020
 - Half of the 30% total cropland requirement increase between 1963 & 2005 is due to growing land demand for animal products
 - Population growth as the major driver of growing land demand, but large heterogeneity according to regions (North vs South)
 
+@zabelGlobalImpactsFuture2019
+
 ## SUSTAINABLE INTENSIFICATION
 
 @egliWinnersLosersNational2018
@@ -89,6 +132,72 @@ FAO DATA 2020
 - Same trends of agriculture intensification by 2040 would lead to a decrease of 11% of global biodiversity for a global production gain of 20%
 - However, 60% of biodiversity loss projection would be avoided under national optimization scenario, and 88% would be avoided under global optimization scenario
 - In global scenario production gains negatively correlated with national economic reliance on agriculture
+
+@prettySustainableIntensificationAgricultural2014
+
+@rockstromSustainableIntensificationAgriculture2017
+
+@garnettSustainableIntensificationAgriculture2013
+
+@tilmanGlobalFoodDemand2011
+
+@godfrayFoodSecuritySustainable2014
+
+@wezelBlurredBoundariesEcological2015
+
+@bommarcoEcologicalIntensificationHarnessing2013
+
+@tscharntkeGlobalFoodSecurity2012
+
+@matsonAgriculturalIntensificationWill2006
+
+@fischerMindSustainabilityGap2007
+
+@ewersIncreasesAgriculturalYield2009
+
+## GLOBAL LIVESTOCK TRENDS
+
+@steinfeldLivestockProductionGlobal2010
+- AIM: commentary on global impact of livestock production & explore solutions to limit these impacts in the future
+- Take-home: there are opportunities for limiting livestock ecological impact, by "responsible" intensification (increased efficiency in regards to the use of natural resources and methane emissions), change and convergence of diets and targeted policies on both production and consumption ends
+
+@wirseniusHowMuchLand2010
+- AIM: to propose model-based scenarii of global agricultural land use in 2030 to investigate potential for limitate land use - complement of the FAO 2030 projection which did not include yields related to pastures & livestock feed
+- Most common advanced option to close the yield gap is the intensification of already existing agricultural lands, but this strategy is limited both by the environmental impact and by closing of genetic gap.
+- Scenarii explored:
+  - increase efficiency of food chain (from "field-to-work")
+  - change diets towards food commodities consuming less land
+  - increasing yields & nutritive quality of permanent pastures which globally account to 3.5 billion ha
+- For all scenari, global area covered by permanent grassland decreases, while it was projected to increase under FAO scenario.
+  - Europe particularly impacted
+      - 1997/1999 - 182 million hectares
+      - FAO reference - 109 million hectares
+      - increased livestock productivity - 108 million hectares
+      - ruminant meat substitution - 84 million hectares
+      - limitation food waste & diet change - 73 million hectares
+  -> intensification livestock production
+- Conclusions very "technocratic" like - make it more productive, replace ~20% ruminant by pig & poultry (like if pig & poultry does not have environmental impact?)
+
+@naylorLosingLinksLivestock2005
+- AIM: commentary on environmental issues related to the industrial livestock sector
+- Disconnection from the "base" -> production increase of external feeds with high environmental impacts
+  - Impact in the feed production (e.g. soybean in Brazil)
+  - Impact with the industrial farming (e.g. poultry in China)
+- increase of meat consumption in developing countries
+- if the whole world was the follow Westerners diet, there would be the need for 2/3 more agricultural land (2.5 billions ha)
+- Take-home: need ro recouple crop and livestock systems, if not physically at least by regulation and/or market to control negative environmental externalities
+- Very economy focused, does not put in question at all globalisation -> "In a global economy with no global society, it may well be up to consumers to set a sustainable course" TRES REDUCTEUR
+
+@omaraRoleGrasslandsFood2012
+- AIM: review on how grasslands contributes to global food supply and climate mitigation
+- Global state of grasslands not very good, due to the abandonment of traditional transhumance practices in favour to more intensive, continuous and extended farming
+- from FAO (2009), trends over the last 50 years, but since 1991 quite static
+  - 9.6% increase of the world's agricultural area
+  - 9.6% increase of arable lands and permanent crops
+  - 8.7% increase permanent meadows and pastures
+- less carbon emission in EU countries where livestock is mostly fed with grass (ref to the cirad report Leip2010)
+- Grasslands in warmer regions will be likely to be impacted by climate change
+- Take-home: perspectives for grasslands to not only feed growing populations (ruminants efficient converters of forages & poor-quality feeds into humanly edible energy & proteins) but also act as a carbon storage, but which will be geographically variable according to climate change trend (less productive in South, more productive in North)
 
 ## AGRICULTURE IN EUROPE
 
@@ -98,7 +207,168 @@ FAO DATA 2020
 - Question the objective of +10% food production increase by FAO -> not even possible for some countries even if total conversion into arable land (Germany, Italy, Austria).
 - Importance of semi-natural habitats to biodiversity of agricultural landscape & increase of conversion would sacrifice lots of it for only a limited gain in production.
 
-## AGRICULTURE INTENSIFICATION
+@stoateEcologicalImpactsEarly2009
+- AIM: literature review on the ecological impacts of agricultural change since 2000 in EU (EU focused so limited relevance)
+
+## FOOD SOVEREIGNTY & LOCAL FOOD SYSTEMS
+
+@holt-gimenezAgroecologyFoodSovereignty2012
+- AIM: to point out flaws of the neoliberal/corporative agriculture and explore alternatives of peasant/small-scale farming systems
+- smallholders both a mean and barrier to expansion of capitalist agriculture
+  - mean: smallholders subsidies with cheap labor & factor market
+  - barrier: diversified farming & knowledge systems, smallholder's pluriactive livelihood help to preserve peasant systems
+- take-home message: crisis will not be solved by what created the problem, recentralising food systems to self-sufficient smallholdings is critical
+- big political emphasis (engaged)
+
+@cunninghamCloseYieldgapSaving2013
+- AIM: review of local-based solutions to address food demand challenge
+- Off-site & broad scale effect of intensive farming
+  - pesticides and chemical spillover, nutrient leaking
+  - environmental cost of input production -> shift from pasture-based to grain-fed animals (e.g. New Zealand) -> "exported" intensification & environmental damages
+- Externalising targets
+  - Relationship between land use intensity and biodiversity loss not always straightforward - some productive land use can also support relatively high biodiversity
+  - impact should not be only assessed by area, but through the whole production system
+- Adapt to landscape
+  - Biodiversity value and production potential vary across the globe
+  - Different land use history also affect potential outcomes
+    - heavily transformed land (e.g. cereal plain in Australia) will be hard to change
+    - agroforestry with cacao and coffee which ressemble native habitats
+  - Trade-offs depend on the type of agro-ecological systems -> no global magical solution
+- Smallholdings: intensification would be harmful not only for biodiversity but also for local population
+- Take-home: 
+  - strategy to close the yield gaps should be rooted within people's cultural values and be adapted to local environment and historical land use
+  - "techniques for improved yield are only appropriate if they can be implemented in the smallholder context and avoid homogenisation of the diverse landscape"
+
+@menconiRevisitingGlobalFood2022
+- AIM: use Food Self-Sufficiency Index to assess food system resilience at local scale for different communities
+- Index created from ecological footprint (consumption of a community) and biocapacity indices (production potential of an area) -> ecological balance between production and consumption in an area
+- 4 steps
+  - Community - evaluation of food demand of the local community
+  - Land - calculation of agro-climatic maps of the study area
+  - Crops - evaluation of crop suitability
+  - FSSI - evaluation of the percentage of achievable food self-sufficiency in study area
+- Main learnings:
+  - involving local community, participatory approach
+  - increasing agrobiodiversity & heterogeneity to improve resilience in changing environment
+
+@herreroSmartInvestmentsSustainable2010
+- AIM: perspective to revolve future investments in food security towards smallholders and mixed crop-livestock systems
+- Focus on Southern hemisphere and mixed crop-livestock more than "smallholdings" in general
+- Take-home: "to reduce poverty while increasing food supplies and maintaining functional ecosystems will require well-regulated and differential growth in crop and livestock production"
+
+@douwevanderploegPeasantriesTwentyfirstCentury2010
+- AIM: to comment and investigate the trend of peasantry re-emergence and discuss continuities and disruptions between old and modern peasantry
+- Drawback of the current conventional system: not only it excluded farmers from the get go, but in the end it also destroys farmers who decided to follow the trend and convert themselves
+- Evolution of peasantry through time with a good share of transformation -> high adaptability capacity, can take very diverse forms
+- From land to ecological capital
+  - Conventional: Transformation farming into conversion of commodities, maybe from somewhere else, to other commodities, which can go somewhere else
+  - "The more farming is grounded on ecological capital, the lower the monetary coasts of production will be"
+  - Continuity but disruption in the way that now it is a conscious choice, while before it was self-evident, no other way to go
+  - Centrality of ecological capital both requires and contributes to relative autonomy which develops local network and knowledge
+- From subsistence to self-provisioning
+**to continue later, very long**
+
+@altieriLinkingEcologistsTraditional2004
+- AIM: review on traditional farming systems and linked agroecosystems that could feed ecological theories -> transdisciplinary research
+- Smallholder knowledge and skill has developed by centuries of experience, without research, a way to self-sustain their communities while keeping high-biodiversity agroecosystem
+- This farming could be used as models in this race for sustainable use of land -> need translation of principles into practical strategies for natural resource management
+- Agricultural landscapes developing from indigenous knowledge are managed for different usages, so they are multifunctional by nature and allow local food self-sufficiency
+- place-specific, co-evolution with nature and culture
+- Similarities for most traditional agroecosystems:
+  - high species number
+  - high structural diversity in time and space
+  - exploitation of the full range of local microenvironments
+  - maintenance of closed cycles of materials and waste through efectice recycling practices
+  - complex biological interdependencies, resulting in a high degree of natural pest suppression
+  - dependence on local resources and human and animal energy, thereby using low levels of input technology and resulting in positive energy efficiency ratios
+  - use of local varieties of crops, wild plants, and animals
+- "Most farmers have an intimate knowledge of their surroundings, especially within a small geographical and cultural radius. This local expertise cannot be matched by the generalized knowledge of the ecologist, yet the ecologist's sophisticated training cannot be matched by the experiential knowledge of local farmers.
+- What can ecologists lean from farmers
+  - traditional farming systems usually mixed-systems with complex interactions between different ecological and human compartments -> great playground to understand processes of natural fertilisation, pest control (services)
+  - higher productivity, stability and resilience of polyculture systems thanks to the mechanism of facilitation
+
+# AGRICULTURE, BIODIVERSITY, HABITAT
+
+## CHARACTERISATION AGRICULTURE
+
+@sumbergWhatConventionalAgriculture2022
+- AIM: to discuss the meaning and use of the adjective "conventional" when characterising agriculture
+- three observed uses of the word "conventional"
+  - in experiment/analytical context, as reference or control against alternative practices
+  - in conceptualisation of alternative agricultural practices, with inherent assumptions (destructive, mechanised, large-scale, controlled by corporations...)
+  - in promotion of new forms of agriculture in the modern sense, in that case conventional will be old-fashioned and conservative
+- evolution of meaning through time
+  - 50s-60s - reference to everyday agriculture, ordinary, common place
+  - 70s-80s - increased use to characterise practices to be compared to organic farming
+  - afterwards, increasing use of conventional as opposed to specific alternative systems without proper definition
+- "The recognition of the need for local adaptation is both important and pragmatic, but it complicates any attempt to investigate the performance or potential advantages of these alternatives"
+- Take-home message: not denying current challenges for agriculture or the need for characterising farming practices, but warning to use inconsiderately the dichotomy conventional-alternative (parallel with modern-traditional), while the reality is a complex gradient that depends on local environmental conditions, historical management...
+- MISSING POINT ACCORDING TO ME - how about education? At least at the national scale (and I argue now transnational, with globalisation and international market), there are norms, practices promoted by institutions and organisms who trained the future farmers, and also agriculture lobbies (in opposite with the 'old days' where it was direct knowledge transmission from expert).
+
+## AGRICULTURE & BIODIVERSITY
+
+@altieriEcologicalRoleBiodiversity1999
+- AIM: review the effect of biodiversity in securing crop protection & soil fertility
+- Genetic vulnerability of current crop system
+- Characterisation traditional agroecosystems
+  - promotion diversity of diet and income
+  - stability of production
+  - minimisation of risk
+  - reduced insect & disease incidence
+  - efficient use of labor
+  - intensification of production with limited resources
+  - maximisation of returns under low levels of technology
+- traditional multiple cropping system estimated to provide ~15-20% world food supply
+- Traditional systems mimic natural processes, thus inherently sustainable -> models of efficiency which are important to study for understanding mechanisms
+- Different categories of biodiversity according to its role in the agroecosystem [@swiftBiodiversityAgroecosystemFunction1996] + planned vs associated biodiv (Vandermeer & Perfecto 1995 - not access)
+- Importance to identify desirable biodiversity not only for direct functions (e.g. pest control) but also indirect function (e.g. nutrient & water cycling) -> complementarity & synergisms from mixed crop-livestock systems & agroforestry
+
+@swiftBiodiversityAgroecosystemFunction1996
+- AIM: to describe ecological functions linked to biodiversity in agricultural systems (NOT FULL ACCESS, interpretation from @altieriEcologicalRoleBiodiversity1999)
+- Three categories of biodiversity
+  - productive biota, which is chosen by the farmer and play a determining role in diversity & complexity of agroecosystem
+  - resource biota, which contributes to productivity through pollination, biological control...
+  - destructive biota, which alters productivity and that farmers aim at reducing through cultural management
+
+@middletonRediscoveringTraditionalVegetation2013
+- AIM: review how the loss of human induced management/disturbance in preserves affects biodiversity
+- Importance of disturbance to maintain habitat heterogeneity + seed dispersal by livestock which used to be bigger (transhumance)
+- Take-home: conservation focused towards preserved areas (so not so directly linked to cultural landscapes), but basically reintroducing cattle/bison grazing along with fire within these preserved areas which were cut from any form of disturbance could enhance biodiversity, at the condition to have control of the disturbance and to adapt if habitats are particularly sensitive
+
+@asnerGrazingSystemsEcosystem2004
+- AIM: review on the major processes related to grazing at global scale & assess environmental footprint
+- Soil: in boreal biomes, grazing preferentially takes place on alfisols & spodosols
+- Woody encroachment as one of the big three global syndromes of grazing
+
+## AGRICULTURE INTENSIFICATION & CHANGES
+
+@foleyGlobalConsequencesLand2005
+- AIM: review on global environmental consequences of land use changes
+- "Modern land use practices, while increasing the short-term supplies of material goods, may undermine many ecosystem services in the long run, even on regional and global scales"
+- Confronting the problem:
+  - trade-offs between short-term needs and sustain quality of goods and services on the long-term
+  - assess resilience of human-nature systems
+  - cross-scale and trans-nations policy and decision-making
+- Take-home: cross-disciplinary research + increase collaboration between scientists and practitioners
+
+@flynnLossFunctionalDiversity2009
+- AIM: meta-analysis on the impact of agricultural intensification on functional diversity on different temperate & tropical environments
+- 4 scenarii
+  - Low functional redundancy - FD decline due to species decline
+  - High functional redundancy - FD stable despite decline of species
+  - Functionally redundant species lost first - FD decline more slowly than richness, system becomes low redundancy
+  - Functionally unique species lost first - FD declines faster than richness, system greatly affected even if only a few species lost
+- FD & richness trends
+  - both FD & richness of mammals & birds decreased with intensification
+  - no pattern for plants
+- Expected FD pattern compared to a random assemblage from local species pool
+  - for birds & mammals, agricultural and semi-natural landscapes more likely to have lower than expected FD compared with natural landscapes
+  - overall studies, natural landscapes more likely to have higher than expected FD
+  - no strong trends for plants
+- patterns of lost functional traits under intensification
+  - birds: body size, food type & foraging habitat - large predators more affected
+  - mammals: agricultural areas lacked species with small litter size & some specialists (fish, fruit, seed, nuts)
+  - plants: height most important trait (large plants affected)
 
 @beckmannConventionalLandUse2019
 - AIM: meta-analysis on the effect intensification on both productivity and species richness for different land uses (forestry, crops, green fodder)
@@ -120,12 +390,255 @@ knitr::include_graphics("illustrations/Beckmann.etal2019_IntensityTable.png")
 - Estimated loss of 13.6% of terrestrial within-sample species richness from past land use change
 - Worst scenario 2100: reduction 77% within-sample species richness
 
+@kleijnRelationshipFarmlandBiodiversity2009
+- AIM: to assess plant species richness across nitrogen (intensity) gradient across grasslands in croplands in Europe & to evaluate conservation costs/benefits
+- N inputs significantly negatively affected plant species richness, rare & subdominant species
+- Best model fit between N inputs and species richness is exponential for both grasslands & crops
+- Best model fit for subdominant grassland & arable plants is linear with N and critical exponential with species richness
+- Interpretation: effect of land use changes more important in species-rich extensively managed agricultural areas, while not much in species-poor intensively managed areas
+
 @bentonFarmlandBiodiversityHabitat2003
 - AIM: Review of causes and consequences of farmland biodiversity decline
 - ISSUE: focus on cropland and bird diversity
 - Habitat heterogeneity across scales (landscape, between-fields, within-fields)
 
-# LOW INTENSITY FARMING & CULTURAL LANDSCAPE
+<!-- @bentonLinkingAgriculturalPractice2002 -->
+<!-- - AIM: long-term ecological study on bird and insect abundance in agricultural areas in the UK -->
+<!-- - Analysis a bit messy - hard to read -->
+<!-- - Overall link between organism abundance and agriculture -->
+
+@billeterIndicatorsBiodiversityAgricultural2007
+- AIM: ecological study on species richness vs land use and landscape in different European regions + investigation for indicator taxa
+- No taxon being good predictor for all others
+  - Spiders good indicators for birds & carabids
+  - Carabids good indicators for hoverflies
+  - Bees good indicators for herbs
+- For all taxa, variables describing land use intensity & landscape structure significant drivers of species richness variation
+  - Total vascular species increased with area of semi-natural habitats & decreased with heavily fertilized area -> driven by herbaceous species
+  - Same for birds
+  - Combined richness of arthropods increased with area of semi-natural habitats & with crop diversity
+  - Only bee richness increased with diversity of semi-natural habitat types
+  
+## NORWEGIAN AGRICULTURE
+
+@hetlandPluriactivityStrategyEmployment1986
+- AIM: characterise pluriactivity as Norwegian farmer lifestyle and its evolution
+- Pluriactivity as "traditional employment adaptation in rural Norway" which shifted from "fishermen farmers" to "white collar farmers" -> at first politics thought this traditional way of living was obsolete and would disappear with modernity, but more recently they changed their minds and are rather thinking of how to stimulate this pluriactivity
+- Def pluriactivity = "the diversification of activities carried out by one household on and off the holding in order to secure the household's economy and welfare."
+- Evolution
+  - before WWII - nearly all farmers pluriactive, including fishing & forestry
+  - after WWII - incentives towards "family farms" (without activity off the farm), supported by agricultural policies, but still 2/3 farms pluriactive -> particularly true for our study area with ~75% pluriactive farms
+  - However pluriactive farms do not decline more rapidly than family farms, as latter drop from 39% in 1949 to 31% in 1979
+- Typology of various forms of pluriactivity & trends 1969-1979
+  - *Family* farms without activity outside the farm, but which include forestry, fur farming & farm tourism as long as it is on the same holding -> slight decrease from 33% to 31%
+  - *Traditional division* of labour when husband works off the farm and wife at home, responsible of farm work when alone -> strong decrease from 37% to 26%
+  - *Complex division* of labour when both spouses employed off the farm & both share in farm work -> strong increase from 4% to 15%
+  - *Modern division* of labour when wife works off the farm & husband at home with farm responsibility -> slight increase from 1% to 3%
+  - *Single* farmers working both on and off the farm -> relatively stable from 7% to 8%
+  - Farmers with *pension* -> stable from 17% to 17%
+- Policy support towards pluriactivity to tackle overproduction, unemployment & marginal areas depletion
+  - 57% percent all farms provide less than one annual work unit -> defined as pluriactive by the State Bank of Agriculture
+  - in 1980, only 6.3% of the farms which received subsidies for loans & grant-in-aid were pluriactive
+- Change of pluriactive model during investment phase
+  - traditional from 63% to 36%
+  - complex from 29% to 10%
+  - modern from 9% to 26%
+  - family from - to 28%
+- Historical evolution of pluriactivity over 3 overlapping periods
+  - *subsistence economy* - main motive to secure household's economy & welfare
+  - *commercialization and specialization* - specialization risks reduced by technology & welfare payments, & many farmers work off the farm to secure investments in farming
+  - *social foothold* - focus on social values connected to farms. Many farmers with full-time work off the farm, & investments not towards farm activity but rather property & place to live
+-> from agriculture as central to decide which activities were possible off the farm to the other way around
+
+```{r HetlandPluriactivity}
+#| label: fig-hetlandpluriactivity
+#| out-width: "491px"
+#| fig-cap: "From Hetland (1986) - Pluriactivity in Norwegian households"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Hetland1986_PluriactivityModel.png")
+```  
+
+@jonesLandtenureLandscapeChange1988
+- AIM: to characterise changes of holdings and landscape in fishing communities on outer coast of Central Norway from 1880 to the present
+- Fisher-farmer livelihood cultural landscape - "small farm with modest dwelling-house and simple outhouse for animals, small plot of cultivated land for potatoes and hay, boathouse down by the shore & fishing boat periodically anchored offshore"
+- Processes of change from end of 19th century
+  - Dissolution of large proprietary system: transition to owner-occupancy from 1875 to 1950 & collapse of proprietors' local trading monopolies
+  - Industrialisation & rationalisation of primary occupations, with evolution of fishing industry at the same time as agricultural transformation -> "transition from many-sided, labour-intensive and household-oriented production to a specialised, capital-intensive & market-oriented production"
+- Traditional landscape in replacement by other landscapes:
+  - landscapes of depopulation
+  - landscapes of recreation
+  - specialized fishing landscapes
+  - urban landscapes
+  - conservation landscapes
+
+@dramstadTenancyNorwegianAgriculture2010
+- AIM: to analyse trends of agricultural tenancy in Norway from 1999 to 2003
+- Average farm size in 1949 ~4.8 ha
+- Issues to explore:
+  - the extent of tenancy in different regions and how this changes
+  - trends in the number of tenancies farmers manage
+  - whether tenancy acts as an alternative to abandonment
+  - whether landscapes of particular cultural, tourist or ecological significance are being extensively managed via tenancy
+- Changes in agriculture from 1999 to 2003
+  - number farmers: from 70,740 to 58,231 -> ~18% decline
+  - total agricultural area: from 1,038,246 ha to 1,040,385 ha -> ~2000 ha increase
+  - average farm size: from 14.7 ha to 17.9 ha -> ~18% increase, smallest change in Hordaland
+  - decrease (-45%) in the amount of area managed by smaller farms (<5 ha)
+  - increase (+50%) in the amount of area managed by larger farms (>50 ha)
+- Occurrence of tenancy
+  - from 53.9% to 58.3% farmers who applied for subsidies who rented at least partially -> +7.5%
+  - from 46.1% to 38.2% farmers who only manage the land they own -> -17%
+  -> decline of traditional owner occupancy as management method in Norway
+  - increase of average number of tenancies, maximum number of tenancies per farmer & average area of rented land per farmer -> increase complexity of management arrangements
+  - decrease of owner-occupier across all Norway -> more drastic for municipalities which had originally high number and almost negligible for municipalities with the lowest 1999 number (-> sort of low plateau?)
+  - areas in orange in 1999 (20-35% OO) likely to have moved to red (0-20% OO)
+  - Western Norway (our study area) relatively preserved compared to the rest of the country
+  - Most municipalities in Nordhordland with ~50% of tenancy, but with generally low number of tenancies per farmer. Overall areas with most tenancies on the coast, as well as Modalen
+- Take-home: 
+  - tenancy common & widely used in Norway. represents a large proportion of total agricultural area
+  - farmer "survival" strategies
+    - quite farming & rent land
+    - growth farm business & acquisition additional land mainly through tenancy arrangements
+    - manage own land & secure survival through additional income
+  
+```{r DramstadNorway}
+#| label: fig-dramstadnorway
+#| out-width: "491px"
+#| fig-cap: "From Dramstad et al. (2010) - Tenancy in Norway"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Dramstad.etal2010_TenancyNorway.png")
+```
+
+```{r DramstadVestland}
+#| label: fig-dramstadvestland
+#| out-width: "491px"
+#| fig-cap: "From Dramstad et al. (2010) - Tenancy around Bergen"
+#| message: true
+#| warning: true
+knitr::include_graphics("illustrations/Dramstad.etal2010_TenancyVestland.png")
+```
+
+@daugstadAgricultureUpholderCultural2006
+- AIM: exploring interactions between agriculture and cultural heritage in Norway by analyzing explicit and implicit value appreciations
+- dilemma as agriculture both a threat & a caretaker of cultural heritage depending on the practices & the environment
+- knowledge linking agriculture & cultural heritage mainly related to the multifunctionality concept, either from external perspective (e.g. tourism) or from internal perspective (e.g. farmers)
+  - outsiders will be attached to the aesthetics of the old traditional landscape
+  - insiders will tend towards productivity and "active" management
+- Main concepts explored come from:
+  - "Commodification" of cultural heritage = "extension of the commodity form to goods and services that were not previously commodified" (e.g. tourism industry developed around agriculture)
+  - authenticity, which can be defined as "being actually and precisely what is claimed", thus opposed to commodification
+- chosen concepts: cultural heritage, active agriculture, added value
+  - Cultural heritage - individual locality to which there is a historical or prehistoric dimension, event, belief or tradition, with cultural environment being larger contexts of cultural heritage sties representing time-depth or functional relations in the landscape [ref to Miljøverndepartementet]
+  - Active farming in relation with cultural heritage (positive/negative) - no clear or obvious difference between active & passive farming
+  - Added value in relation to the contribution cultural heritage provide to human, whether monetary or not
+- Cultural landscape in Nordic context
+  - term has been used as synonymously for agriculturally influenced landscape, especially for traditional/historical agriculture when coming from the Ministry of Environment
+  - Ministry Environment, Directorate Cultural Heritage, Directorate Nature Management - cultural heritage sites & environments as expressions of our common memory that communicate knowledge about human life, activity and capacity through time -> help understand relationship between past & present, nature & man, and different cultures
+  - Documents from agricultural sector - concept only recently used, focusing on areas of agricultural use associating the practice, the buildings & other cultural elements
+  - Norwegian farmers' union - states as major aim to "secure agriculture and maintain rural areas' economic, social and cultural interests".
+  - OECD relates to multifunctional as the fact that agriculture may be shaping the landscape & creating environmental goods & contributing to socio-economic sustainability in rural areas
+- Active agriculture & cultural heritage
+  - Directorate for cultural heritage - "If the dominant cultural heritage values are to be maintained, this requires a sustainable agriculture capable of running, managing, & maintaining values. At the same time this practice must not destroy or diminish the cultural heritage values." -> protection through use
+  - Agricultural sector - "living" agriculture as argument for agriculture based on food & fibre production
+  - Norwegian farmers' union - farmer as supporter of cultural values
+  - Norwegian Smallholders' association - more focus on social degradation of rural areas - no mention of cultural heritage per se, but positive effects on settlement, employment & cultural landscapes as arguments towards small-scale farming
+- Added value
+  - From environmental sector - cultural heritage as a resource to be used, especially for local communities not only for economic value but also for knowledge, historical insight & sustainable development
+  - From agricultural sector - economic potential of cultural heritage seen to add legitimacy for economic sector & lifestyle
+- Changing perspectives & policies: change in agricultural policies towards farmer as independent entrepreneur in post-productivist context -> diversification of agriculture in activities beyond conventional farming
+
+@forbordDriversChangeNorwegian2014
+- AIM: to investigate what have been the changes of farmland control in Norway for the past 50 years
+- Collapse of agricultural holdings [statNorwaySSB], from ~200,000 in 1959 to ~50,000 50 years after, while number of properties stable -> increase size of working farms & shift from owner occupation to renting
+- post-WWII social contract emphasized productivity, self-sufficiency, efficiency & maintaining farmer income ~ urban worker
+- notion of "ownership" in agricultural land management - "land tenure governs the relationship between people and the environment by setting restrictions and rights on physical interaction and consequently defining permissible cultural engagement"
+- prior to 1900s, ownership/rental relationship heavily in favour of land owner, but in recent decades return of land leasing but with more complex network of stakeholders
+- Comparative areas: Eastern Norway (cereal), Central-West (intensive livestock), Western Norway (extensive livestock, with fruit/berry production)
+- Agricultural policy & legal & economic instruments
+  - legal vs economic: direct impact of legal with transfer of land rights through state, while economic influences production by defining desirable land use options
+  - policy encouraging deregulation & market-oriented decisions started in the 1990s, with cut of subsidies for grain (became cheaper food for livestock), subsequent increase of maximum legal size of animal production systems
+  - Concession Act - obligation of residency on property 5 years after take-over & regulation purchase by legal persons
+- Change in farmland control in Norway (SSB)
+  - wholly owned holdings from ~170,000 (87%) in 1959 to ~16,000 (35%) in 2010
+  - mainly owned from ~10,000 (5%) in 1959 to ~16,000 (35%) in 2010
+  - mainly rented from ~2500 (1%) in 1959 to ~10,000 (23%) in 2010 -> exponential increase, with largest total farm size & average number livestock
+  - wholly rented from ~14,000 (7%) in 1959 to ~3,700 (8%) in 2010
+- Ownership & renting from farmer perspective
+  - cheap rent compared to buying cost -> rental agreement generally mutually beneficial
+  - uncertainty linked to the lacking perspectives of succession
+  - however whole-rent not encouraging for young farmers -> e.g. 10 years engagement without ownership perspective is not interesting
+  - increase of rented farms leads to land fragmentation -> farmers dealing with pieces of land scattered, which increase travel time & cost
+- Take-home: three main factors affecting farmland control in Norway are techno-economic (e.g. machinery), agricultural policies (legislation, economic instruments) & social norms (e.g. managing isolated land for relatives)
+
+@fjellstadPatternsChangeTwo1999
+- AIM: to compare trends between an intensively cultivated area & a traditional mountain-farm landscape during second half of 20th century to illustrate opposed drivers intensification vs abandonment
+- Difference in Norway compared with Europe - environmental constraints (topography & climate) technically limiting intensification + economic & social incentives from regional politics to maintain marginal farming -> not so much replacement, but co-existence of small-scale "traditional" farming systems with mechanised, high-input agriculture
+- HYP: trends of landscape change regarding both land cover & landscape heterogeneity are different in the two categories and are similar to what can be observed elsewhere in Europe
+- National statistics
+  - Decline of both number of agricultural holdings (61%) & labour input (70%) from 1949 to 1995
+  - Decline of small holdings (<10 ha) representing 90% of holdings in 1949 against 53% in 1995 -> -41%
+  - Increase of larger holdings (>20 ha) representing 2% in 1949 against 16% in 1995 -> +87.5%
+  - Decline of total agricultural area by 8% since 1939, but heterogeneous depending of regions & management type
+    - "intensive" - collapse of permanent grassland & superficially cultivated land by 91% and meadows & pastures by 80% while surface grain & oil seeds tripled from 1939 to 1989
+    - "traditional" - meadows & pastures ~stable but decline of permanent grassland & superficially cultivated land
+- Land cover between 1953 and 1992
+  - "intensive" - increase cultivated land & decrease pasture -> intensification
+  - "traditional" - increase deciduous tree & decrease pasture -> encroachment
+  - landscape heterogeneity: "traditional" 1955 ~ "traditional" 1993 > "intensive" 1953 > "intensive" 1992
+- Norway vs Europe
+  - Less marked decline of agricultural land in Norway (5%) compared with Europe (8%) between 1965 & 1983
+  - common trends with increased mechanisation, decline in labour input, reductions in numbers of holdings & increasing size of individual farms, though average farm size still stay quite small in Norway (13 ha in 1996) compared with other countries
+- Take-home: landscape "polarisation" with two extremes being large-scale intensively managed & homogeneous open landscapes on one side & small-scale, heterogeneous wooded agricultural landscapes on the other side
+
+@blekesauneAgricultureImportanceViability1999
+- AIM: report to propose targets following launching of research projects on agriculture multifunctionality by the Ministry of Agriculture
+- Our study area considered as "semi-rural" according to following criteria: population density, distance from larger centres, proportion of agriculture worker, proportion of self-employed
+- Farm household typology
+  - full-time farm households - full-time family farm or single full-time farmer, with more than 90% of income deriving from the farm
+  - part-time farm households - one full time + one off-farm, single, part-time, with between 10% and 90% of income from farm. Also spare-time farming with <10% income from farm
+  - other farm household - farm residence without agricultural production & retirement farming
+- Subsidies: 
+  - amount of direct payments increases faster with farm size in rural areas
+  - increase in direct payments through animal & cultural landscape support can stimulate production better in urban areas (1 NOK -> 1.6 NOK) than in semi-rural (1 NOK -> 1.01 NOK) or rural (1 NOK -> 1.04 NOK) areas
+  
+@olssonAgroecosystemsNeolithicTime1991
+- AIM: to describe the characteristics & evolution of Scandinavian agro-ecosystems from the example of Ystad, Sweden
+- energy & matter exchanges of pre-industrial agro-ecosystems mainly with neighbouring systems & with internal feedback processes
+- Genealogy agro-ecosystems
+  - 1. Initiating factor by woodland clearing: spontaneous/intentional fires, pest/diseases, climate change, clear-cutting
+  - 2. Maintaining factors
+    - livestock grazing - 4 components as type of livestock, single/mixed grazing, grazing pressure, time of the year/duration grazing periods
+    - fodder collection - 3 components as tree leaf/twig harvest, coppice management, hay harvest
+    - cultivation - many components such as crop species, seed-bed preparation, tilling, seeding, fertilizer/manure, draining, harvest, cropping systems...
+- infield-outfield system established during Iron Age along with manure fertilisation of permanent arable lands, winter stalling of livestock, fodder from haymaking -> flow of nutrient from grazing outfields to infields
+- Middle Ages - stronger differenciation of cultural landscape by expansion of infield-outfield system across areas with local & regional differences in topography, soils, micro-climate...
+- mixed crop systems + infield-outfield provoked a "burst" in habitat, species, genetic & landscape diversity -> "The diversity - on all levels - has probably never been as high as during the existence of the infield-outfield system"
+- nitrogen fertilisation of semi-natural grasslands created a disruption of nutrient flow which caused the decrease of average plant species richness
+
+@mehlCulturalLandscapeDevelopment2015a
+
+@bakkaEarlyFarmingHordaland1971
+- AIM: to determine time & criteria of agriculture introduction in Western Norway
+
+@hjelleHesitantHuntersReview2006
+- AIM: determine start of agricultural activity in Western Norway from pollen records
+- Some hints suggesting that domestic livestock herding has already started in the Early Neolithic (4000-3400 BC)
+- Middle Neolithic (3400-2600 BC): 
+  - expansion/increase grazing activity, & further towards north & east including mountain areas. However installation in fjord area not that clear. Also increased occurrence of heather.
+  - MNA & more through MNB - farmer-fisher livestyle which evolved from hunter-fisher
+- Late Neolithic (2200-1700 BC) & Early Bronze Age (1700-1000): 
+  - clear establishment of agriculture in the whole region with settlements along fjords areas on top of coastal, and clear utilisation of mountains
+  - mixed systems with cereals, open pastures & leaf used fo fodder on climatically favourable sites
+- Bones domesticated animals - some of oldest from the Middle Neolithic B (2600-2200 BC) including sheep, goats & cattle. Once agriculture settled (LN), about 5-9 sheep/goats for 1 cattle
+
+@hamreLandcoverStructuralChanges2007a
+
+@olssonEnvironmentalValuesNorwegian
+- AIM
+
+## LOW INTENSITY FARMING & CULTURAL LANDSCAPE
 
 @jongmanHomogenisationFragmentationEuropean2002
 - AIM: review causes & solutions to homogenisation and fragmentation in Europe
@@ -160,8 +673,8 @@ knitr::include_graphics("illustrations/Beckmann.etal2019_IntensityTable.png")
 - European cultural landscape: complex mosaics from multi-layered historical use
 - Historical stages:
   -	Natural/prehistoric landscape, from Palaeolithic till ancient Greeks
-  -	Antique landscape, from ancient Greeks till Mediaeval
-  -	Mediaeval landscape, from early Mediaeval till Renaissance
+  -	Antique landscape, from ancient Greeks till Medieval
+  -	Medieval landscape, from early Medieval till Renaissance
   -	Traditional agricultural landscape, from Renaissance till 19th century (up to today)
   -	Industrial landscape, from mid-18th till mid-20th century (up to today)
   -	Postmodern landscapes, nowadays: 
@@ -203,10 +716,100 @@ Principles of traditional systems:
 - Importance of spatio-temporal variation in grazing intensities
 - Main limitation of keeping traditional grazing systems is economic outcomes -> importance of relocalizing the economy for sustainable farmer business
 
-
 # LANDSCAPE MULTIFUNCTIONALITY
 
+@dramstadIntegratingLandscapebasedValues2001
+- AIM: explore relationship between landscape and associated values such as biodiversity, cultural heritage & human appreciation through appropriate indicators, based on case-study from Norway
+- 3Q programm - initiated by the Norwegian Ministries of Agriculture and Environment in order the monitor changes in the agricultural landscape and to identify effects of policy and measures pertaining to this landscape -> multidisciplinary approach
+- Biodiversity: breeding birds, vascular plants, butterflies & bumblebees -> both birds and plant species richness correlated with landscape heterogeneity, but no significant relationships for insects
+- Cultural heritage: linked to landscape structure through farm buildings, historical boundaries between farm ownership, fields systems & cultivated & wooded areas (likely to be affected by farming intensification) -> number of grave-fields/grave-mounds correlated with landscape heterogeneity
+- Visual appreciation: important elements of landscape are openness (grain size), complexity, topography & presence of anthropogenic structures
+- Issues encountered: 
+  - common conceptual definition of heterogeneity across disciplines
+  - very demanding process, with high level of commitment from participants
+- Limitation of land-cover based maps: only 2D, missing vertical structure and temporal dimension
+- Take-home: landscape-based ecological analysis could be used for cultural and aesthetic analyses, with shared indicators and methodology
+
+@bjorkhaugMultifunctionalAgriculturePolicy2008
+- AIM: to transcend productivism & post-productivist duality and propose multifunctionality concept to compare the two extremes market-oriented liberalistic Australian against market-protected small-scale Norwegian
+- Productivism 
+  - refers to both agricultural policy & practice which are input intensive & maximise production of commodities
+  - existed previous to WWII but ideology exploded after -> closely tight to the level of support from authorities through subsidisation, price guarantees & protectionists policies
+  - always higher exploitation of natural resources & inputs -> high environmental impact to be expected
+- Post-productivism - less straightforward than productivism
+  - followed overproduction crisis of 1980s -> policies to reduce agricultural production, budgetary coasts & environmental externalities
+  - social issue: shift farmers from knowledgeable architects of land to destroyers as consequence of intensive agriculture -> increasing gap between rural & agriculture with new groups & interests/lobbies gaining influence
+  - agricultural production moved into free, liberalised, marked, with emphasis on consumer demands + incentives towards environmental-friendly practices rather than general support for agricultural production
+- Multifunctional agriculture
+  - paradox of enhancement of local planning control & conservation practices on one side, & further intensification & conservation of food chain through global & deregulated market
+  - multifunctional concept encompasses complexity of production modes across different spatial & temporal scales
+  - OECD "working definition" - "key elements of multifunctionality are the existence of multiple commodity and non-commodity outputs that are joinly produced by agriculture - and the fact that some of the non-commodity outputs exhibit the characteristics of externalities or public goods when markets for these goods do not exist or function poorly"
+  - but term mostly used on the scope of liberalism and conflict at the "bureaucratic" level as considered to interfere with global market -> should transcend this to use this concept to build rural & environmental sustainability
+- Agricultural policies in Norway - global market & trade influence got stronger in the 1990s, with subsequent deregulation & capitalism
+- Multifunctionality concept in Norwegian policies
+  - first mention in research in 1998, with focus on food preparedness, rural policy, environmental issues, production of food and fibre -> multifunctionality referred to additional outputs/functions of viable "traditional" agriculture, including long-term food security, viability of rural areas, cultural heritage, land conservation and maintenance of agri-biodiversity
+  - some protections on Norway's side compared to EU, with some limitations on the free trade for agriculture and fishery products within the European Economic Area
+- Multifunctional agriculture in Norway
+  - assumed at the policy level, with public incentives & still strong regulations compared with neighbours
+  - though in practice, government encourages for effectiveness & rationalisation to be more competitive for international trade and demand for cheaper food (so rather specialisation), but at the same time support organic farming & added value -> intensification of productivist lands & multifunctional land use extensive farming systems (hay-making, grazing)
+  - farmers in favour of multifunctional goals but fear cuts in financial support
+  - 80% Norwegian population wants to keep agriculture at present level to preserve rural communities, Norwegian food production & cultural landscapes
+  - most Norwegian farmers believe competition with non-regulated market unsustainable
+
+# FARMING & HETEROGENEITY
+
+@dunningEcologicalProcessesThat1992
+- AIM: description/conceptualisation of two main landscape features (composition & spatial arrangement) through 4 basic ecological processes (landscape complementation, landscape supplementation, source-sink dynamics, neighbourhood effect)
+- Definitions
+  - Landscape physiognomy - features associated with the physical layout of elements within the landscape (patch isolation, contagion) -> spatial/structural arrangement
+  - Landscape composition - relative amount of each habitat (dominance, relative richness, diversity)
+- Landscape complementation - how far apart are patch types providing necessary **non-substitutable** resources within the landscape (e.g. foraging, winter roost, breeding)
+- Landscape supplementation - how far apart are patch types providing necessary **substitutable** resources with the landscape -> population could be sustained on a "too small" patch if similar are close-by
+- Source/sink relationships - productive patches as sources of emigrants for less productive patches -> increase of total population with new sinks, but the more sinks the fewer sources are found
+- Neighbourhood effects - influence of contiguous patches higher than more distant patches & edge effects
+
+@concepcionEffectsLandscapeComplexity2008
+- AIM: to suggest conceptual model for relationship between landscape complexity & ecological effectiveness of Agri-Environment Schemes (AES)
+- Theoretical response of biodiversity to complexity: "S" shape, with a minimum threshold before increase and a plateau reached at a "saturating" level of complexity
+- HYP: landscape complexity either does not affect (1), decreases (2), increases (3), increases for in-between complexity extremes but decreases for too simple or too complex landscape (4) effectiveness of AES
+- METHOD: species density (number species per field) & abundance of 5 target groups - vascular plants, birds, bees, spiders, grasshoppers/crickets
+- RESULTS:
+  - main gradients - amount of natural habitats (PC1); connectivity & corridor availability (PC2); shape complexity focal field (PC3)
+  - effect of landscape complexity on AES efficiency mostly NS
+  - positive effect - PC3 x spider diversity
+  - negative effect - PC2 x grasshopper + bird diversity + plant abundance
+- TAKE-HOME: effectiveness of AES seems high at intermediate levels of landscape complexity
+
+@cloughFieldSizesFuture2020
+- AIM: review around trade-offs between farmer income & biodiversity mediated by field size at local and landscape scales
+  - links between field size and biodiversity, including underlying processes
+  - historical background of differences in field size
+  - farm economic effects of field size, including through ES to crops
+  - trends in agricultural practices & policy with likely impacts on field size
+  - recommendations for conserving and restoring fine-grained agricultural landscapes to restore biodiversity
+- Consistent negative influence of increasing field size on biodiversity -> but should be careful not to over generalise as some species thrive on large open habitats
+  - decrease density field edges
+  - decrease crop diversity at finer scale
+  - sampling effect -> absence of crops from the landscape in certain year
+- "landscape-wide patterns of field size are linked to patterns of land ownership & to land management"
+
+
 # DIVERSITY AND FUNCTIONALITY ACROSS SCALE
+
+@lundholmPlantSpeciesDiversity2009
+- AIM: review to investigate plant species diversity in relation to environmental heterogeneity across different scales from both observational & experimental studies
+- 3 assumptions required for positive heterogeneity-diversity relationships (HDR)
+  - factors defining species niches must be heterogeneous at scales that could alter individual plant responses and community-level patterns
+  - interspecific variation in dispersal abilities does not interfere - all fitted species can reach available microsites
+  - each individual occupies a patch perceived as homogeneous -> difference between coarse-grained (bigger scale than individual spatial extent) which promotes diversity, and fine-grained (smaller than individual spatial extent) heterogeneity which can provoke different responses
+- most observational studies (34/41) reported positive HDR -> only species richness as a measure of diversity except for 4 studies
+- common predictors of diversity - heterogeneity of topography, substrate & soil type
+  - response to soil nutrient heterogeneity either positive or neutral
+  - response to topographic heterogeneity under 200 m^2^ either negative or NS, more often positive above 600 m^2^
+- no evidence of spatial scale "threshold" above which HDR become positive
+- no noticeable relationship between focal scale & shape/magnitude of HDR across experimental studies
+- competing hypothesis - available energy hypothesis
+- TAKE-HOME: most studies support positive HDR, confirming niche importance & strength compared with neutral distribution patterns, but relationship not universal nor homogeneous
 
 @habelEuropeanGrasslandEcosystems2013
 - High-species richness in grassland explained by a combination of factors across scales. Respectively: large evolutionary species pool; intermediate position along environmental gradient; landscape heterogeneity/mass effect; continuity of habitat patches in space and time; reduction of competitive exclusion.
@@ -237,6 +840,23 @@ Principles of traditional systems:
   -	All species richness (specialists, all grassland, all species) negatively affected by increasing distance to next large grassland area
   -	All taxa combined, grassland specialists mostly driven by aboveground standing phytomass April, gravel content & area if short-grass dry grassland (landscape)
 
+@gonthierBiodiversityConservationAgriculture2014
+- AIM: quantitative review to compare impacts of localized management strategies against landscape complexity drivers on richness & abundance of plant, invertebrate & vertebrate species
+- Both local and landscape drivers affected species richness, but differed according to taxonomic group
+- Overall richness higher in low-intensity farming compared to high-intensity farming
+  - plant & invertebrate richness significantly higher in low-intensity, but vertebrates not affected
+  - plant richness responded more strongly to local management intensification than invertebrate & vertebrate
+- Landscape complexity x richness
+  - no significant mean correlation between plant richness
+  - both invertebrate & vertebrate richness with significantly mean correlation
+- Abundance
+  - overall abundance higher in low-intensity farming, but by group only invertebrate significant
+  - overall abundance also higher with landscape complexity, but by group again only invertebrate significant
+
+## CLIMATE EFFECT
+
+- temperature and precipitation will affect seasonal phenological dynamic of the plants, and thus response to hay-cutting management [@wehnAdaptiveBiodiversityManagement2018]
+
 
 ## GEOMORPHOLOGY EFFECT
 
@@ -262,6 +882,12 @@ Principles of traditional systems:
 - insect herbivores variance best explained by wider landscape (2000 m radius) while primary producers, omnivores & predators arthropods variances were best explained by smaller-scale landscape (500 m radius)
 - high land use intensity in surrounding landscape weakens the correlation between trophic groups -> disruption species interactions
 
+@dramstadIntegratingLandscapebasedValues2001
+- AIM: explore relationship between landscape and associated values such as biodiversity, cultural heritage & human appreciation through appropriate indicators, based on case-study from Norway
+- 3Q programm - initiated by the Norwegian Ministries of Agriculture and Environment in order the monitor changes in the agricultural landscape and to identify effects of policy and measures pertaining to this landscape -> multidisciplinary approach
+- biodiversity sampled: breeding birds, vascular plants, butterflies & bumblebees
+- Both birds and plant species richness correlated with landscape heterogeneity, but no significant relationships for insects
+
 @seiboldArthropodDeclineGrasslands2019
 - AIM: explore arthropod biodiversity loss across different land use and intensity in forests and grasslands over 10 years
 
@@ -278,9 +904,28 @@ Principles of traditional systems:
 
 ### GRAZING EFFECT
 
+@bakkerDoesResourceAvailability2003
+- AIM: investigate interaction between native grazer & plant species richness on long-term experiment (1990-98)
+  - H1 - bison grazing enhances levels resource availability (light, N) -> co-occurrences competitive species
+  - H2 - spatial heterogeneity in resource availability is enhanced by bison -> coexistence greater species number
+  - H3 - increased species turnover under grazing associated with higher species richness
+- METHOD 
+  - 4 treatments grazed/ungrazed x upland/lowland
+  - variables: plant species composition, soil nutrients, light
+- RESULTS
+  - grazing increased species richness & plant community heterogeneity
+  - H1 - higher light & N availability under grazing, no difference in mean soil water content
+  - H2 - resource heterogeneity greater for light & N under grazing, no difference for soil water content
+  - H3 - higher species turnover under grazing
+  - strong correlation species richness with light penetration to soil & to lesser extent soil N
+  - strong correlation species richness with light heterogeneity
+  - strong correlation light level & heterogeneity
+- TAKE-HOME: higher species richness under grazing, potentially driven by light availability and to a lesser extent N concentration (but not N distribution)
+
 @milchunasQuantitativeEffectsGrazing1993
 - AIM: meta-analysis of grazing effect on vegetation and soil
-- Main drivers of species composition (>50% variance): aboveground net primary production, evolutionary grazing history & consumption level.
+- Main drivers of species composition (>50% variance): aboveground net primary production, evolutionary grazing history & consumption level
+- Ecosystem-environmental variables (ANPP, evolutionary history) contributed more than grazing variables (consumption)
 - Contradicting responses of species dominance under grazing -> effect most sensitive to evolutionary history & grazing variables
 - Difference in ANPP between grazed vs ungrazed negatively related to increasing years of treatment, levels of consumption & site productivity
 ```{r MilchunasConcept}
@@ -368,9 +1013,6 @@ knitr::include_graphics("illustrations/Milchunas-Lauenroth1993_ConceptModel-Spec
 
 ## FINE-SCALE ENVIRONMENT EFFECT
 
-@klimekPlantSpeciesRichness2007a
-- Nitrogen fertilization: grasslands with *Stellaria media*, *Poa annua* & *Poa trivialis* positively correlated, while *Ranunculus acris*, *Trifolium pratense* and *Rumex acetosa* negatively correlated
-
 @reitaluDeterminantsFinescalePlant2014
 - AIM: study vegetation gradients & fine-scale plant diversity in dry calcareous grasslands
   -	Species richness and phylogenetic diversity negatively associated
@@ -389,16 +1031,161 @@ knitr::include_graphics("illustrations/Milchunas-Lauenroth1993_ConceptModel-Spec
 - Factors which could mediate competition effects are environmental stresses (drought, poor soil) and human management (grazing, mowing, trampling)
 - Balance in the community between stress-tolerant species, less productive, which decrease in softer environments to the advantage of more competitive and productive species.
 
+### SOIL
+
+@andersonRainfallSoilsModify2007
+- AIM: ecological study on plant community response to grazing exclusion and available N & P in grasslands grazed by native ungulates Tanzania
+- Plant biomass
+  - No relationship between rainfall, plant biomass & soil available N & P independently of grazing
+- Plant species richness
+  - Decreased with exclusion of herbivores
+    - Decrease was more important as exclusion provoked an increase of soil available P
+  - Unimodal response to rain, independently of grazing management
+- Plant composition
+  - Within-site composition similarity slightly decreased with grazer exclusion
+  - No observed effect of P and N
+  - Combined effect rain & grazing -> species turnover induced by grazing increased with rainfall
+  - higher sedge in grazed plots & higher forbs in exclosures
+
+@augustineFeedbacksSoilNutrients2003
+- AIM: to investigate relationships among soil N & P, primary production, grass nutrient content & grazing in savanna grazed by cattles -> very specific to savanna context, so limited scope
+- interaction rainfall x primary prod decreases with long-term abandonment
+- higher water-holding capacity, soil nutrients and organic matter content in managed habitats compared to abandoned
+- N:P ratio in herbaceous biomass
+  - increased with N fertilisation
+  - was not affected by P fertilisation
+- N redistribution
+  - in managed habitat, N deposition through dung & urine exceeded total N consumption in forage
+  - in bushland, N forage consumed exceeded N deposition
+
+@klimekPlantSpeciesRichness2007a
+- Nitrogen fertilization: grasslands with *Stellaria media*, *Poa annua* & *Poa trivialis* positively correlated, while *Ranunculus acris*, *Trifolium pratense* and *Rumex acetosa* negatively correlated
+
+@chanetonNitrogenPhosphorusCycling1996
+- AIM: to investigate pools and exchanges of N & P in grazed and ungrazed grasslands in Argentina
+- Nutrient concentration in vegetation
+  - [N] decreases in shoot & increases in roots along the growing season
+  - Higher [N] in graminoid shoot with grazing
+  - no apparent change of [P] of live shoot & roots over time and with/without grazing
+  - [N] and [P] in standing dead shoots decreased over time in grazed plot but increased in exclosure
+  - N:P ratio
+    - P-limited at the end of the growing season
+    - N-limited in late spring
+    - in early winter, graminoid more P-limited under grazing while forbs more P-limited without grazing
+- Nutrient distribution
+  - at peak standing biomass, ~95-98% tot N & P contained in soil organic matter
+  - N & P proportion always larger in belowground biomass independently of grazing management
+  - tot N & P in roots increased with grazing
+  - difference according to life form
+    - forb shoots with high nutrient content under grazing
+    - graminoid shoots with 3-5 times lower nutrient content under grazing
+- Nutrient flow
+  - N uptake 30% higher & twice the rate of root growth allocation under grazing
+  - P uptake 50% higher under grazing
+  - forage intake 62% tot N & 44% tot P translocated to live shoots
+  - nutrients recycled by grazing animals which entered soil mineral pool made 66% for N & 80% for P of totals excreted, and about 17% of total nutrient returned to soil
+  - net N & P mineralization rate 11% and 38% higher under grazing -> soil microbiota retains more nutrient without grazing
+  
+@hejcmanRengenGrasslandExperiment2010
+- AIM: 
+
+# FIRE EFFECT
+
+@bulanEffectsTwoAcute1971
+- AIM: to test arthropod response to burning & mowing in oat fields
+- Decrease of total arthropod density until after 6 months of the fire but beetle density not affected by mowing
+- total insect biomass remained lower after burn, beetle following trend
+- beetle species: some drastically reduced, and two others increased numbers after fire
+- species/area diversity: decrease species/2.5 m2 stable till 6 months
+- no change of equitability in beetle species
+- species diversity herbivores below unburnt treatment, while trends not that clear for carnivorous
+- Difference between burnt and unburnt treatments attributed to difference in energy supply and number of ecological niches
+
+@forcePostfireInsectSuccession1981 [BOF]
+- AIM: to assess postfire sucession of arthropods in Chaparral shrubland
+- Decline in insect family diversity up to 3 years after burn
+
+@pippinObservationsArthropodPopulations1996
+- AIM: to assess the effect of large-scale La Mesa wild forest fire on arthropod
+- More genera in the unburnt site
+- Recolonisation mostly driven by insects with high mobility
+
+@swengelLiteratureReviewInsect2001
+- AIM: to review insect response to fire
+- the Smaller plot and larger surrounding matrix of (longer) untreated habitat, the more the results of a management study relate to vegetative preferences rather than also reflecting direct effects during the treatment -> small-scale study would minimize direct fire impact
+
 # MEASURING BIODIVERSITY IN AGRICULTURAL LANDSCAPES
 
-ref (@leprovostContrastingResponsesBelowground2021)
+@leprovostContrastingResponsesBelowground2021
 - belowground diversity does not respond to land use intensity and change the same way as aboveground diversity. As conservative management decisions are taken in regard to aboveground diversity, it may not stimulate, if not even negatively affect belowground biota
+
+@duelliBiodiversityEvaluationAgricultural1997
+- AIM: to highlight challenge assessing local/regional biodiversity in agro-ecosystems & propose framework for standardised biodiversity estimates
+- 3 types of comparison to assess biodiversity of an area
+  - contribution to broader scale biodiversity - e.g. low-species rich mires but with high specialisation level which host rare red-listed species
+  - comparison in space - to neighbouring sites/areas
+  - comparison in time - long-term monitoring -> sensitive for sustainability
+- measures of site-specific biodiversity
+  - instead of more commonly used plant & birds, arthropods as surrogates -> contribute to 90% genetic variability
+  - though warning towards "specialist-conservationist" perspective, with intensive research for exhaustive inventory -> may be interesting for national-wide biodiversity (e.g. rare species), but to date no "best correlating arthropod group in comparison with overall biodiversity in agricultural field/area"
+  - widely used group is carabid beetles, but indicative value relatively weak as species number & distribution relatively similar across biotopes -> more accurate would be spiders & staphylinids
+  - limit data collection - in terms of efficiency, 3 weeks in spring & 2 weeks in summer optimal -> for 1st period, a good indicator is one week after onset of full flowering *Taraxacum officinale*
+- landscape mosaic pattern as surrogate for regional biodiversity -> equilibrium theory of island biogeography (biodiversity on inland positively correlated with island area & negatively correlated with distance to nearest continent)
+  - limit of this approach in agricultural landscape - fragmentation & isolation seemingly not most limiting factors, but habitat quality
+- mosaic concept for local/regional biodiversity, better suited than island biogeography
+  - habitat variability - number biotopes types per unit area -> the higher, the broader is spectrum of genetic pool
+  - habitat heterogeneity - number of habitat patches & ecotone length per unit area -> biodiversity increases with number & size variation of patches, which also increases ecotones & edges
+  - surface proportions natural, semi-natural & intensely cultivated areas
+- TAKE-HOME: assessment regional biodiversity should rely on mosaic concept including all parameters
+
+# RESEARCH PERSPECTIVES
+
+@ianniRevitalizingTraditionalEcological2015
+
+@wehnAdaptiveBiodiversityManagement2018
+- AIM: combining traditional ecological knowledge with scientific knowledge to assess the adaptative management approach of semi-natural hay meadows in Western Norway
+- Norway's Action Plan for Hay Meadows - monitoring of biodiversity targets & introducing sustainable management of the most biologically valuable semi-natural hay meadows across Norway -> subsidies for the farmers when HBV + voluntary 5-10 years management plan following authorities guidelines
+- Method
+  - Social survey - farmer interviews about historical, floristic & ecological knowledge linked to hay mowing with ecologist & social scientists
+  - Ecological survey 
+    - all plant species, classified as TEK indicators, semi-natural specialists or neither
+    - assessment of biodiversity conservation by management made on species assemblages & semi-natural grassland specialists
+    - assessment of pertinence mowing time - phenological stages of TEK indicators & semi-natural specialists the week before mowing date
+- objective 1 - Success of the APHM approach on the short-term
+  - successful to involve land owners and managers (collaboration perspective)
+  - but more limited in making farmer's point of view evolve -> farmers very attached to the "vision of a non-overgrown farm", which was the main reason of their collaboration, rather than the "diversification of the landscape"
+  - no obvious positive effect of scheme, but prevented managements with potential negative influence (what the farmers would have done without APHM alternative)
+- objective 2 - Revival of historical practices
+  - big issue of fragmentation and concentration of hay meadows, due to loss of summer farming practices
+  - most properties (10/14) without livestock, while combination of hay & livestock was typical of small-scale farming in Norway -> what the cut grass should be used for when there is no livestock anymore
+  - strong reliance on pluriactivity = diversified incomes, which has impacted the use of specific material/facility for hay-cutting
+- objective 3 - Long-term sustainability
+  - although high species richness within the meadows, low turnover between them (meadows rather homogeneous) -> problem might be linked to fixed cutting dates, which are not part of traditional practices
+  - ageing farming population, with not much potential for succession at all so even less for keeping traditional practices
+- objective 4 - role of TEK in meeting ADHM goals
+  - limited TEK (e.g. indicator species) of respondents, especially younger, though a 70y suggested the gap was already more than one generation ago
+  - in absence of such knowledge, more difficult to involve farmers in the making of the management plan. But some farmers did develop "endogenous" knowledge through the management process
+  - Still possible to use recorded TEK as indicators, but for biodiversity rather than agricultural production (historic use)
+- Take-home: during threat to hay-meadows diversity & integrity due to ageing population and loss of traditional practices (missing market for hay) -> practices still pertinent from an ecological perspective, but do not address current socio-ecological conditions even if farmers are overall willingful. APHM has helped in the short term, but long term much more challenging
+
+@cardosoSevenImpedimentsInvertebrate2011
+- AIM: conceptualize and list shortfalls in insect research
+
+
+@balmfordWhatConservationistsNeed2012
+- AIM: to encourage conservationists towards targeted issues related to agriculture to ensure limitation of impact - focus on broader scale, beyond the in-farm activity
+- Five main topics
+  - Understanding future demand -> even if a better control of waste & production efficiency was attained, agriculture is still likely to expand
+  - Targeting research to the farm products that matter most -> particularly difficult for livestock (assessment less straightforward than for crops), but lack of knowledge of agroindustry & livestock intensive farming impact on the big picture
+  - Quantifying trade-offs and synergies -> usual dichotomy land sharing vs land sparing, but need more wide-scale studies to decide what is best
+  - Assessing which farming methods have greatest potential -> explore all alternatives across dogmas, from GMO to organic farming
+  - Learning how to better integrate conservation and agricultural policy -> public regulation & planning
 
 # ECOLOGICAL METHODOLOGY
 
 ## SCALE
 
-ref (@denglerBiodiversityPalaearcticGrasslands2014)
+@denglerBiodiversityPalaearcticGrasslands2014
 - Extremely diverse grasslands (particularly central Europe) can be explained by five preconditions: 1) Large evolutionary species pool; 2) Intermediate position along environmental gradients; 3) Landscape heterogeneity/mass effect; 4) Continuity of habitat patches in space and time; 5) Reduction of competitive exclusion
 ```{r DenglerConcept}
 #| label: fig-denglerconcept
@@ -409,7 +1196,7 @@ ref (@denglerBiodiversityPalaearcticGrasslands2014)
 knitr::include_graphics("illustrations/Dengler.etal2014_ConceptScaleFiltersGrasslandFlora.jpg")
 ```
 
-ref (@siefertScaleDependenceVegetationenvironment2012)
+@siefertScaleDependenceVegetationenvironment2012
 - Between the effects of fine-scale (e.g. edaphic) and broad-scale (e.g. climatic) factors on community data, the variance explained will depend differently on the extent and the grain of the survey. Fine-scale variation will be very high at small extent but will stabilize quickly on bigger areas, while broad-scale variation will be very low at first at increase with bigger extent. Both will decrease with higher grain, but it will be sharp and fast for fine-scale and slow for broad-scale. The influence of the latter can then be expected to increase with bigger spatial grain. There would then be a spatial grain threshold from which broad-scale variables take over fine-scale variables to explain species composition variance.
 ```{r SiefertScale}
 #| label: fig-siefertscale
@@ -424,5 +1211,153 @@ knitr::include_graphics("illustrations/Siefert.etal2012_ScaleExtentGrain_VarExp.
 
 ## DIVERSITY VS COMMUNITY COMPOSITION
 
-ref (@klimekPlantSpeciesRichness2007a)
+@klimekPlantSpeciesRichness2007a
 - variation partitioning more explanatory for species diversity than for species composition -> can be due to statistical method or actual complexity of community responses compared to diversity
+
+## ECOLOGICAL PREFERENCES & TRAITS
+
+@wongTraitBasedEcology2019
+- AIM: to build an arthropod-related conceptual framework for ecological traits
+- Environmental properties such as habitat openness and moisture should not be considered as traits, as they are not measured on the organism, but rather defined as "ecological preferences"
+[NOT FINISHED]
+
+## INDICATOR SPECIES
+
+@tichyStatisticalDeterminationDiagnostic2006
+- AIM: to compare and optimise fidelity coefficient phi and indval
+- Phi correlation
+  - Unlike Indval, Phi correlation coefficient depends on the size of the group, and an equalization step can be needed in case of different group sizes
+  - Phi can be high for not very common species in target group if difference between relative frequency within and outside target group is large. On the other hand, if difference is small then even species with high frequencies in target group are given low phi values
+- IndVal
+  - Standard indval: very high weight to common species and lower weight to differences in relative frequency of species. But also possible to modify balance between fidelity and specificity
+  - Unlike phi, no zero (when species frequency in target = in non target) and not possible to distinguish positive from negative fidelity 
+- For small vegetation units of unequal size, equalized phi better characterised the vegetation units
+
+
+## PITFALL TRAPPING
+
+@shortEntomologicalCollectionsAge2018
+- AIM: to list and describe available methods for insect data collection and evolution of the field with new technological advances
+
+@bakerEvaluatingSpatialAutocorrelation2006
+- AIM: tested for spatial autocorrelation and depletion within 99 m transects when using pitfall trapping for ground-dwelling arthropods
+- Did not find spatial correlation within 99 m transects -> "beetle community dissimilarities were not consistently lower when traps were in closer proximity"
+- importance to test for spatial autocorrelation on control site to validate the study design
+
+ref @wardEffectsPitfallTrap2001
+- AIM: tested trap spacing effect between groups with 1 m, 5 m and 10 m distance on ground-dwelling arthropod (all orders)
+- No spatial depletion observed across treatments (no change in abundance)
+- Difference in morphospecies richness for beetle between 1 m space and the other treatment, with rare morphospecies more affected
+- No change in morphospecies composition. Change was explained by habitat factors and not trap spacing
+
+ref @mommertzComparisonDVacSuction1996
+- AIM: to compare sampling efficiency of D-vac, fenced and unfenced pitfall traps for beetles and spiders in agrosystem, with complementary lab experiment to compare activity and trapability of beetles from same genus
+- D-vac overall with lower taxa number and abundance. D-vac samples dominated by Staphylinidae
+- More individuals and higher biomass caught in unfenced compared with fenced traps -> bigger species more common in unfenced and smaller species most frequent in fenced. But overall result interpretation when comparing habitats no different
+- In lab experiment, *Poecilus cupreus* more active and was caught quicker than *Poecilus versicolor*.
+
+ref @schmidtCaptureEfficiencyPreservation2006
+- AIM: to compare different pitfall trap liquids in specimen capture and preservation of ground-dwelling arthropods
+- High evaporation rate of ethanol-based liquids
+- Preservation specimens: pure water and ethanol-based with more damaged spider parts compared to salted water and ethylene glycol
+- Catch numbers: overall arthropod abundance no different, but effect on spiders, springtails, dipterans & ground beetles. Number of ground beetle genera & spiders lower in salted water & ethanol-glycerin
+- Hypothesis for difference in capture: specific gravity higher in salted water (SG = 1.18-1.20) which makes arthropod floating at the surface, and thus makes easier the escape of newly trapped individuals than can rest on them.
+- Ethylene glycol recommended as non-volatile and preservative
+
+ref @sunderlandDensityEstimationInvertebrate1995
+- AIM: to review the different catching techniques to estimate the density of invertebrate predators in agroecosystems
+- The most accurate term to characterize pitfall trap catches is "activity-trappability-density"
+- Only "real" density estimation would be with a trapping web sampling design with concentric circles of traps at fixed distances from central point
+
+ref @pernerEstimatingDensityGrounddwelling2004
+
+ref @koivulaPitfallTrapEfficiency2003
+- AIM: to investigate the effect of trap size, collection fluid and vegetation structure on Carabidae collection
+- Fluid: ethylen-glycol more efficient
+- Trap size: large traps collected more individuals
+- Habitat type: difference in trappability of one species over four between clear-cut and forested stand, but no detected effect of surrounding field-layer vegetation
+
+ref @wallinMovementsCarabidBeetles1988
+- AIM: to study walking behaviour of different Carabidae species depending of the habitat and their feeding state
+- Species would follow a correlated random walk in their preferred habitat (e.g. forest for *Carabus nemoralis* and *Pterostichus melanarius*)
+- On the other hand, forest species would have a directed movement or burrowing activities in crop fields
+
+ref @greensladePitfallTrappingMethod1964
+- AIM: to test the efficiency of pitfall traps according to sampling setting and immediate surrounding in grass heath
+- Traps with vegetation clipped 30 cm around captured overall more individuals than without clipping, but seemed to vary according to species
+- Catching efficiency also could depend of litter depth, with catches of *Nebria brevicollis* diminishing with increasing litter depth (but not control experiment, so where is the trapping efficiency compared to the environmental preference?)
+
+ref @melbourneBiasEffectHabitat2009
+- AIM: experiment to test for vegetation structure effect within the immediate pitfall trap surrounding on ant catching
+- Experimental design: non-modified, clearing of litter within 80 cm radius, clearing of all vegetation within 80 cm radius.
+- Abundance: for 4 out of 5 common ant species, more specimens were caught when surrounding cleared, but some variations across species
+- Relative abundance: for 3 out of 5 common ant species, effect of habitat structure. But no common trends and high variability between species responses.
+- Occurrence frequency: overall 19 species, higher frequency with cleared habitat. 8 rare species over 10 (<10 occurrences) were only caught in cleared treatments.
+- Species richness: higher in cleared treatments
+- Community composition: clear and significant difference between non-modified and all-cleared treatments
+
+ref @buchholzCoversInfluenceCapture2009
+- AIM: to test whether the presence of roof affect the pitfall trap capture efficiency for different orders in grassland
+- METHOD: 3 replicates for each treatment (not covered, white cover, green cover, black cover) on 14 x 14 cm lids on 5 grassland sites for 1 year (emptied once a month)
+- No effect on species richness and abundance for both spiders & carabids
+- No effect of roof on Carabidae species distribution, and no visible trend according to species habitat preferences (open vs woodland) contrary to spiders
+
+ref @bellEffectsPitfallTrap2014
+- AIM: bulding on from @phillipsEffectsHabitatStructure2005, to test the effect of lid transparency and habitat structure on catches of Carabid beetles in grassland
+- METHOD: 3 treatments (opaque, semitransparent, transparent) on 15 x 15 cm lids + surrounding vegetation height effect (2.5 m radius) on 1 unique site
+- EXP 1: 3 replicates for each treatment (only?) for ~15 days trapping -> 435 beetles
+- EXP 2: 3 replicates for each treatment x surrounding vegetation height (0.5; 0.25; <0.1 m) for ~40 days trapping -> 1263 beetles
+- Overall higher catch with higher transparency, but seems to differ according to vegetation height and beetle species
+- Considering all species, trends are: no visible effect at low vegetation height, potentially lower efficiency of transparent at medium height, lower efficiency of opaque at high vegetation
+- Different species response: *Agonum cupreum* with significantly less catches under opaque lids, while *Amara obesa* less affected overall and seemingly with higher catches under opaque lids
+
+ref @phillipsEffectsHabitatStructure2005
+- AIM: to test the effect of lid transparency and habitat structure on catches of Carabid beetles in regenerating stand of formerly clear-cut and burnt mixed boreal forest (trembling aspen ~2m height)
+- METHOD: 3 treatments (opaque, semitransparent, transparent) on 15 x 15 cm lids + surrounding (2.5 m radius) vegetation height effect (2; 1; <0.1 m) on 1 unique site
+- EXP: 3 replicates for each treatment lid x vegetation height for ~73 days -> 1216 Carabidae
+- Temperature under roof significantly increased with lid transparency and with lower vegetation height
+- Trends of higher catches of Carabidae with opaque lids with low surrounding vegetation, but not significant
+- For two most abundant species, no effect either even if some trends of higher vegetation catch of *Sericoda quadripunctata* under opaque lids in low vegetation
+- Significant vegetation effect (more Carabidae caught in lower vegetation) but no significant lid x vegetation effect
+- Species composition affected by vegetation structure (high vs low & medium) but no effect detected of lid transparency
+
+ref @baarsCatchesPitfallTraps1979
+- AIM: to test pitfall trapping efficiency to capture beetle density on two model species & comparison square vs cup traps
+- Close linear relationship between beetle density and year-round sampling for both species
+
+ref @workPitfallTrapSize2002
+
+ref @schirmelCaptureEfficiencyPitfall2010
+- AIM: to determine how sampling interval (weekly, once every two weeks, monthly) affects efficiency of pitfall traps for different orders
+- Number of catches significantly decreased with increasing sampling interval for Apidae, Araneae, Carabidae, other Coleoptera and Isopoda
+
+ref @langeEffectPitfallTrap2011
+- AIM: to compare efficiency of funnel vs conventional cups and diameter size on catches of Carabidae and spiders
+- METHOD: 4.5 cm vs 9 cm diameter PVC traps, with and without funnel
+- Carabidae abundance increased with size of trap and with use of funnel, but the number of species was not affected by any of this factor.
+- Spider abundance (*) and species richness (NS) affected by trap size
+- Cost-efficiency: better lower number of more efficient (bigger + funnel) traps.
+
+ref @jansenHowManyVictims1979
+- AIM: to model mathematically the capture of pitfall traps
+- Model assumptions: 1) animals move independently (Brownian motions); 2) Boundary of pitfall act as absorbing or elastic barrier; 3) A fixed density of animals at t0 homogeneously distributed over finite area
+- Model free parameters: 1) animal mobility; 2) animal reaction to pitfall trap; 3) initial density
+
+ref @hohbeinPitfallTrapsReview2018
+- AIM: building from @brownReviewExtensiveVariation2016 but with more literature resources, to review pitfall trap methodology and list differences in trap characteristics and sampling design
+- Recommended standard design:
+  - Nested design (funnel)
+  - Diameter 9-11 cm
+  - Transparent cup and funnel
+  - Propylene glycol for preservation (non-toxic, contrary to ethylene glycol)
+  - Transparent cover, 2-5 cm aboveground
+  - Sampling intervals: 7 days or less
+  - Trap distance: transect, every 10 m
+
+ref @brownReviewExtensiveVariation2016
+- AIM: to compare how different pitfall trap coloring (brown, green, white, yellow) affects arthropod catches from different orders
+- Overall orders (NS): white > yellow > green > brown
+- Significant difference for Apidae, Araneae, Carabidae & Diptera with more captures with white and then yellow traps.
+
+
+ref @buchholzEffectColourPitfall2010

@@ -14,64 +14,79 @@ execute:
   echo: false
 ---
 
-# Introduction & context: Feeding the world in a more sustainable way - How traditional food systems in Northern countries fit into the bigger picture
+# Introduction - the role of Norwegian small-scale grazing systems within global food security challenge
 
-When facing the upcoming challenge regarding global food security [@kastnerGlobalChangesDiets2012; @vandijkMetaanalysisProjectedGlobal2021], with a food demand expected to increase between 30% and 62% by 2050 [@vandijkMetaanalysisProjectedGlobal2021], the temptation to dive into a "crop-mania" has already received some warnings [@foleySolutionsCultivatedPlanet2011, @hunterAgriculture2050Recalibrating2017]. Not only the core of the problem revolves more around optimizing food availability by reducing waste and changing diets rather than increasing food production [@cassidyRedefiningAgriculturalYields2013; @kastnerGlobalChangesDiets2012; @westLeveragePointsImproving2014], but conventional cropping systems have now reached spatial limitations. In Europe, land use changes during the past decades has already altered the agricultural landscape [@jongmanHomogenisationFragmentationEuropean2002], and keeping on the intensification track would sacrifice habitats of high conservation values [@bignalLowIntensityFarmingSystems1996; @haladaWhichHabitatsEuropean2011] without providing such a substantial increase in productivity or profitability for the farmer [@garibaldiFarmingApproachesGreater2017; @jeanneretIncreaseFoodProduction2021].
+When facing the upcoming challenge regarding global food security [@kastnerGlobalChangesDiets2012], with a food demand expected to increase between 30% and 62% by 2050 [@vandijkMetaanalysisProjectedGlobal2021], the temptation to dive into a "crop-mania" has already received some warnings [@foleySolutionsCultivatedPlanet2011; @hunterAgriculture2050Recalibrating2017]. Not only the core of the problem revolves more around food availability, through for instance waste control and diet changes, than strict food production [@cassidyRedefiningAgriculturalYields2013; @kastnerGlobalChangesDiets2012; @westLeveragePointsImproving2014], but there is only limited potential for both intensification and expansion of agricultural lands without conflicting with other land uses [**REF**], long-term preservation of natural capital [@foleyGlobalConsequencesLand2005] and/or biodiversity conservation [@beckmannConventionalLandUse2019; @flynnLossFunctionalDiversity2009; @newboldGlobalEffectsLand2015]. 
+<!-- There has been ongoing debate about land sharing vs land sparing (+ sustainable intensification)... -->
+<!-- sustainable intensification has been presented as a solution to be able to fulfill the food production objectives (should look at: Godfray and Garnett, 2014; Cassman and Grassini, 2020) + short description of what sustainable intensification is (optimisation production, crop-based, biotech...) - also @rockstromSustainableIntensificationAgriculture2017 and @pywellWildlifefriendlyFarmingIncreases2015 -->
+In that regard, the livestock sector plays a key role as animal products account for the largest land use [@kastnerGlobalChangesDiets2012], and demand is projected to increase even in Western countries [@alexandratosWorldAgriculture20302012]. With farming intensification, grain feed has become increasingly important in the animal feed mix to the detriment of pasture-based systems [**REF**]. Besides massive land surface cost [@kastnerGlobalChangesDiets2012] and food waste [@cassidyRedefiningAgriculturalYields2013], this increasing disconnection between feed and livestock has externalised environmental impacts to countries growing crops and producing feeds [@cunninghamCloseYieldgapSaving2013; @naylorLosingLinksLivestock2005]. Thus, relying on pasture-based husbandry in Western countries would not only benefit local biodiversity but would also lessen the crop production burden in the Southern hemisphere [@foleySolutionsCultivatedPlanet2011].
 
-<!-- - 2050 food demand projection including climate change uncertainty: increase between 30% and 62% (@vandijkMetaanalysisProjectedGlobal2021) -->
-- meat consumption is also projected to increase by 3% (per capita meat consumption) in Western countries even if the populations are already reaching a level which is harmful for their health (@alexandratosWorldAgriculture20302012)
-- sustainable intensification has been presented as a solution to be able to fulfill the food production objectives (should look at: Godfray and Garnett, 2014; Cassman and Grassini, 2020) + short description of what sustainable intensification is (optimisation production, crop-based, biotech...) - also @rockstromSustainableIntensificationAgriculture2017 and @pywellWildlifefriendlyFarmingIncreases2015
+In Europe, land use changes during the past decades have already altered the agricultural landscape [@jongmanHomogenisationFragmentationEuropean2002], and keeping on the intensification track would sacrifice habitats of high conservation values [@bignalLowIntensityFarmingSystems1996a; @haladaWhichHabitatsEuropean2011] without providing such a substantial increase in productivity or profitability for the farmer [@garibaldiFarmingApproachesGreater2017; @jeanneretIncreaseFoodProduction2021]. The areas under permanent meadows and pastures have drastically declined for the past 60 years [FAO DATA, 2020], and the trend is expected to continue whichever food production scenario [@wirseniusHowMuchLand2010]. Yet, semi-natural grazing systems not only ensure food sovereignty of local communities, but they have also shaped the biological and cultural diversity of landscapes [@jongmanHomogenisationFragmentationEuropean2002; @vosTrendsEuropeanCultural1999] and drawn a strong sense of belonging from people.
+
+
+- importance of choosing a "yield gap closing strategy" which is embedded within local communities' cultural values and adapted to local environment and historical land use in order to prevent landscape homogenisation [@cunninghamCloseYieldgapSaving2013]
+<!-- - However the areas under permanent meadows and pastures have declined during the past 60 years. The trends is particularly sharp in Europe, which suffered from a 56% decrease, from 402 000 ha in 1961 to 177 000 ha in 2020 (FAO DATA, 2020) -->
+<!-- - but area covered by permanent pastures in Europe projected to immutably decrease by 2030, from 182 million ha in 1999 to at best 109 million ha, at worst 73 million ha (land sparing strategy) [@wirseniusHowMuchLand2010] -->
+- benefits from grasslands not only food production, but other ecosystem services such as carbon storage/climate change mitigation [@omaraRoleGrasslandsFood2012]
+
+- negative impact of intensification on biodiversity in Europe [@kleijnRelationshipFarmlandBiodiversity2009]
+- European cultural landscape is a complex & intertwined network of mosaics resulting from a multi-layered historical use [@vosTrendsEuropeanCultural1999]
+<!-- - All remaining high nature conservation value grasslands across Europe associated with low-intensity livestock systems [@bignalLowintensityFarmingSystems1996] -->
+- Principal threats are agriculture intensification and land abandonment [@bignalLowintensityFarmingSystems1996], which lead to the homogenisation of the European agricultural landscape by the loss of regional biological and cultural diversity [@jongmanHomogenisationFragmentationEuropean2002]
+- Semi-natural habitats such as Northern meadows or Fennoscandian pastures are fully dependent on agricultural management [@haladaWhichHabitatsEuropean2011]
+<!-- - Agricultural habitats have on average a poorer conservation status compared to other habitats [@haladaWhichHabitatsEuropean2011] -->
 <!-- - however, increasing the food production in some European countries to the FAO objective (+ 10%) would not even be possible even if all the semi-natural habitats were converted into croplands, as for example in Germany, Italy and Austria (@jeanneretIncreaseFoodProduction2021) -->
+
 - there are also limits to the crop-based approach:
-    - from 1961 to 2009 (~50 years), the percentage of calories from crop production consumed as food decreased from 57% to 51% (@westLeveragePointsImproving2014)
-    - in Western countries, only 40% of crops are used for direct food production (@foleySolutionsCultivatedPlanet2011)
-    - on the other hand, animal product has become the food category which accounts for the largest land use (38% in 2005 against 35% in 1963) compared to cereals (31% in 2005 against 40% in 1963). Half of the total cropland requirement increase is due to growing land demand for animal products (@kastnerGlobalChangesDiets2012)
-    - there are unfortunately lots of waste in the process, as about 89% of the crop calories produced for animal feeds are lost, which makes that only 4% of the produced calories available to humans are in the form of animal products (@cassidyRedefiningAgriculturalYields2013)
-    - a production-based strategy will also have a high environmental impact, including land degradation and biodiversity loss (@hunterAgriculture2050Recalibrating2017 + some others)
-- It is therefore more a question of food availability than food production, especially in the Western countries: optimizing land use in the Northern hemisphere could reduce the impact in tropical zones on top of preserving local biodiversity  and cultural landscape, by switching from a grain-fed to pasture-fed animals (@foleySolutionsCultivatedPlanet2011)
-- To counteract the current trend where land use is driven by market and technology instead of local environmental conditions and population needs, there is need for multifunctional use of the land and landscape planning (@jongmanHomogenisationFragmentationEuropean2002)
-- This would need both regional and global collaboration, as 60% and 88% of biodiversity loss projection would be avoided under national and global optimisation scenarii respectively (@egliWinnersLosersNational2018)
+    <!-- - a production-based strategy will also have a high environmental impact, including land degradation and biodiversity loss [@hunterAgriculture2050Recalibrating2017] + some others) -->
+- To counteract the current trend where land use is driven by market and technology instead of local environmental conditions and population needs, there is need for multifunctional use of the land and landscape planning [@jongmanHomogenisationFragmentationEuropean2002]
+- This would need both regional and global collaboration, as 60% and 88% of biodiversity loss projection would be avoided under national and global optimisation scenarii respectively [@egliWinnersLosersNational2018]
 - UNESCO MAB - Biosphere Reserve network as a great playground to experiment regional landscape planning & develop international collaboration ;-)
 - maybe need to develop slightly on SDGs & 2030 Agenda
 - Some examples here + blabla on us
 
-# Small-scale grazing systems and cultural landscape
+# Chapter 1 - Small-scale grazing systems in Western Norway
 
-## Cultural landscapes and traditional agriculture
+Though Norway has followed the same intensification track as other European countries, leading to strong decline of the number of holdings as well as increase of average holding size [@dramstadTenancyNorwegianAgriculture2010; @forbordDriversChangeNorwegian2014], it ha been buffered by strong topographic and climatic constraints coupled with important support from public authorities towards the maintenance of farming practices and lifestyle [@fjellstadPatternsChangeTwo1999; @hetlandPluriactivityStrategyEmployment1986]. However, the trend was not even across the country, with flat, productive lands being heavily intensified while mechanisation and field improvement were limited in the fjords and the mountains [@dramstadTenancyNorwegianAgriculture2010; @fjellstadPatternsChangeTwo1999]. These more environmentally-constrained areas have on the other hand suffered from land abandonment caused by socio-economic decline and population ageing of rural areas [@forbordDriversChangeNorwegian2014]. The co-occurrence of farming intensification and land abandonment at two extreme ends of Norwegian agro-ecosystems has led to landscape homogenisation and loss of biological and cultural values [@fjellstadPatternsChangeTwo1999; @jonesLandtenureLandscapeChange1988].
 
-- Even in small-scale systems, changes in management with the use of fertilizers and seed mixtures, which can still affect species diversity (@beckmannConventionalLandUse2019). In our case, only 4 of our infields were without any sort of treatment apart from grazing.
-- European cultural landscape is a complex & intertwined network of mosaics resulting from a multi-layered historical use (@vosTrendsEuropeanCultural1999)
-- Categorisation of cultural landscape by the World Heritage Convention (see  @phillipsNatureCulturalLandscapes1998)
-- With time, the primary role of agricultural areas, which represented the main labour supplier for food production, has declined at the same time as new demands have raised, such as recreation & nature conservation (@vosTrendsEuropeanCultural1999)
-- "Traditional" grazing should not be characterized per se as low-intensity, especially in highly populated areas, though high biodiversity can still be hosted thanks to many nutrient & input gradients at local & regional scales (@plieningerTraditionalLanduseNature2006)
-- Low-intensity farmlands are characterized by low nutrient inputs & low output per hectare (@bignalLowIntensityFarmingSystems1996)
-- Traditional farming has shaped the landscape through involution (@vosTrendsEuropeanCultural1999), by adapting management practices to natural environment (@bignalLowIntensityFarmingSystems1996), in opposition to conventional agriculture which "replace" existing landscapes thanks to technological advances which give control over natural conditions
-- [Land use history in Western Norway - (@bakkaEarlyFarmingHordaland1971; @hamreLandcoverStructuralChanges2007; @hjelleHesitantHuntersReview2006)]
-- How grazing systems in Western Norway respond to traditional land use principles (@plieningerTraditionalLanduseNature2006):
-    - Multiple use: farmers usually have a mixed system, with livestock, forest & crop (can rely on some examples from gårdskart)
-    - Rotational use: inmark/utmark, also rotations between fields in the same area & between animals
-    - Recycling: low nutrient inputs, again inmark/utmark process
-    - Low-energy economy: small-scale farming, not much mechanical interference
-    - Spatial fuzziness: interactions between different land use structures (e.g. grassland & forest) and processes
-- [Here I should develop more about heathlands & the utmark system, with literature from Vigdis & Inger & Kari Hjelle]
+The highly touristic fjord region of Western Norway, where is located the Nordhordland Biosphere Reserve, still showcases the typical diversity of practices, land uses and landscapes of Norwegian small-scale farming systems [@dramstadTenancyNorwegianAgriculture2010; @kalandNordhordlandBiosphereReserve2018]. First signs of land management by humans in Western Norway draws back to early Neolithic, with vegetation burning, allowing the development of heathlands [@hjelleLongtermChangesRegional2018; @prosch-danielsenPalaeoecologicalInvestigationsReconstruction2000], and introduction of domestic grazers [@hjelleHesitantHuntersReview2006; @mehlCulturalLandscapeDevelopment2015a]. It is during the Iron Age that infield-outfield systems, which have shaped the agricultural landscape up to present days, started to develop [@olssonAgroecosystemsNeolithicTime1991; **needs Western Norway specific**]. Through grazing and heath-cutting, a flow of nutrients and energy is created from low-productive outfields, such as heathlands and shrublands, to more productive infields and arable lands. Thus outfields not only serve as winter forage for animals, but also provide manure and mulch to fertilise and protect the crops. The outfield-infield system had been at the heart of self-sustaining farms from traditional farmer-fisherman livelihood [@hetlandPluriactivityStrategyEmployment1986; @jonesLandtenureLandscapeChange1988], and still stands as the promoter of the highest level of biological and cultural diversity in agro-ecosystems [@olssonAgroecosystemsNeolithicTime1991].
 
-## Biodiversity associated with low-intensity grazing systems & current trends
+In present days, the tight synergy between outfield and infield managements has faded, along with the transition of farm structures [@dramstadTenancyNorwegianAgriculture2010; @hetlandPluriactivityStrategyEmployment1986; @wehnAdaptiveBiodiversityManagement2018]. Some practices have disappeared, such as heath scything [**REF**], but others are locally maintained, as for example prescribed burning in coastal heathlands which ensures conservation of rustic livestock breeds such as norskgammelsau ("Old Norwegian sheep") [**REF**]. Another declining trend, which is yet very important for maintaining biodiversity of high conservation value in mountain areas, is the use of summer farms [**REF**]. Like their coastal counterparts, subalpine heathlands [^1] are grazed all year round by rustic sheep breeds, but they also have been traditionally used for summer grazing of goats and local cheese production [**REF**]. [*sentence on trends summer farms*].
 
-- All remaining high nature conservation value grazzlands across Europe associated with low-intensity livestock systems (Bignal and McCracken, 1996)
-- [need some examples here, like threatened (or not) species associated with open landscape (e.g. birds, butterflies)]
-- However the areas under permanent meadows and pastures have declined during the past 60 years. The trends is particularly sharp in Europe, which suffered from a 56% decrease, from 402 000 ha in 1961 to 177 000 ha in 2020 (FAO DATA, 2020)
-- Principal threats are agriculture intensification and land abandonment (Bignal and McCracken, 1996), which lead to the homogenisation of the European agricultural landscape by the loss of regional biological and cultural diversity (Jongman, 2002)
-- Semi-natural habitats such as Northern meadows or Fennoscandian pastures are fully dependent on agricultural management (Halada et al., 2011)
-- Agricultural habitats have on average a poorer conservation status compared to other habitats (Halada et al., 2011)
-- Past land use changes have already led to an estimated loss of 13.6% terrestrial "within-sample" (?) species richness, and worst-case scenario would lead to a reduction of 77% by 2100 (Newbold et al., 2015)
+Reviewing traditional practices in Western Norway highlights the plurality of tasks held by former communities of farmer-fishermen, who combined the use of sea and land resources to feed the family and make a living [@jonesLandtenureLandscapeChange1988]. This *pluriactivity* has mostly been maintained up to nowadays, though it has evolved as the farm shifted from being the centre of subsistence strategy to hardly economically viable activity at the periphery of regular job at the closest urban area [@daugstadAgricultureUpholderCultural2006; @hetlandPluriactivityStrategyEmployment1986]. Thus, holdings and livestock flocks have mainly remained small, and farming has upgraded through the diversification of livestock and the incorporation of contemporary management tools and techniques for productivity improvements of infields.
 
-## Using UNESCO Biosphere Reserve areas as leading experiments
+::: {.callout-note icon=false}
+## What is traditional farming?
 
-[examples from other BRs + our objectives and survey design]
+Small discussion on traditional vs conventional farming dichotomy
+:::
 
-# Farmer as engineer and architect of the local environment
+[^1]: footnote max elevation to justify subalpine term
 
-## Biodiversity drivers across scales
+# Chapter 2 - The fjord, the farmer and the farm
+
+
+- The first striking element regarding Nordhordland agricultural landscape is heterogeneity, driven by both environmental and human features.
+- patterns of field size related to land ownership & policy reforms, not just topography/environment [@cloughFieldSizesFuture2020]
+
+## Why heterogeneity is important to conserve biological diversity
+
+## The constraining environment of the fjord system
+
+- role of the farmer in small-scale grazing system
+- adaptation to environment -> gradient of intensity & active modification of the habitat -> range of possible actions from the more passive (adaptation breed) to the more active (prescribed burning)
+- main characterisation of Norwegian small-scale grazing systems is heterogeneity across habitats, practices & scales
+
+## The role of the farmer within the fjord
+
+- action of farmer on the field
+- choice of the land use, animals, management practices
+- still range available despite environmental constraints
+- 
+
+### Prescribed burning on coastal heathland - PAPER I
+
+## Heterogeneity beyond the field - cross-scale influences
 
 ### Literature background
 
@@ -104,9 +119,12 @@ knitr::include_graphics("illustrations/NBR_FjordConcept.png")
 The fjords in Western Norway are characterized by undulating topography which grows sharper in the inner fjord area [STILL NEED TO DEFINE THESE AREAS AT SOME POINT?]. The following features can affect plant and beetle assemblages by filtering the *natural* species pool at wider scale:
 
 - the **elevation**: our study focused on grasslands in the "lowlands", thus the elevation gradient was limited with all of our sites located below 200 m. Yet, even at low level elevation can have an effect on local climate. including temperatures and precipitations [@zelnikPlantSpeciesDiversity2013].
-- the **annual precipitations**:
-- the **mean temperature of the warmer month**:
+-- the **annual precipitations**:
+- the **average maximal temperature of the warmer month**:
+- the **average minimal temperatue of the coldest month**:
 - the **distance to sea**: fjords are first and foremost defined by the sea arms which enter deeply into the land. These geological formations greatly affect the local climate by constraining wind currents and clouds [REF].
+
+- temperature and precipitation will affect seasonal phenological dynamic of the plants, and thus response to management [@wehnAdaptiveBiodiversityManagement2018]
 
 ### The landscape matrix
 
@@ -138,17 +156,38 @@ The last filters which apply to the plant and beetle assemblages would be the on
 - the **structural diversity**: available ecological niches for beetles are highly dependent of the heterogeneity of the aboveground biomass. It can be explained by feeding preferences (e.g. phytophagous) or strategies (e.g. hunters by sight) [REF]. Taller vegetation is usually associated with higher cover and more diverse niche potential [REF]. On the other hand, presence of very short vegetation patches or exposed ground will be important niches for some groups [REF].
 - the **soil moisture**: beetles are very sensitive to moisture gradients [REF] and some families such as Hydrophilidae and Ptilidae will be mainly hygrophilous [REF]. The bryophyte layer will help to maintain the ground humidity during the summer season [REF].
 
-
-## The desired mosaic effect
-
-### Literature background
-
-### Prescribed burning on coastal heathland - PAPER I
-
 # Trade-offs and synergies between ecosystem services provided by semi-natural grasslands
+
+## Links between biodiversity and functions
+
+- Categorisation of biodiversity according to their roles in the agroecosystem -> 
 
 ## PAPER IV ("SHEEP") - Within the field
 
 ## Field management choices maintain synergies between agronomic services - PAPER II
 
 ## Methodology point here
+
+- Many studies only rely on species richness as a proxy for diversity [@lundholmPlantSpeciesDiversity2009] despite its limitation
+
+# Perspectives for the Biosphere Reserve
+
+## Reconciliation human and nature
+
+- A lot of land sharing research is focused on the Southern hemisphere, less in the North (e.g. @ranganathanSustainingBiodiversityAncient2008; @steffan-dewenterTradeoffsIncomeBiodiversity2007)
+- smallholders emphasize the positive effects of small-scale farming on local communities, economy & cultural landscape -> different perspectives between the full-time "historical" farmer (National farmer organisation) and the part-time who includes broader perspectives (National smallholder association) [@daugstadAgricultureUpholderCultural2006]
+
+## Perspectives in ecological research
+
+- more focus on arthropods more relevant [@duelliBiodiversityEvaluationAgricultural1997]
+- a key asset of Nordhordland Biosphere Reserve agricultural landscape is its mosaic-like heterogeneity. Though we touched on the mosaic effect at the field-scale (ref ØY) and we considered landscape as a variable (ref fjord), we never actually analysed the landscape mosaic [@duelliBiodiversityEvaluationAgricultural1997]. Landscape-scale studies would be complementary to field-scale studies and would allow an interesting approach on farm multifunctionality beyond ecological perspectives only.
+
+## Transdisciplinary research
+
+- @altieriLinkingEcologistsTraditional2004 Traditional small-scale farming systems all around the world could serve as models for developing new sustainable pathways. Ecologists have a role here to dissect the processes and feedback between farmers and agroecosystems so they can be translated into practical guidelines and policies for sustainable food production and land management.
+- @altieriLinkingEcologistsTraditional2004 There is a complementarity between the long-term, empirical
+- Farmer knowledge is specialist to the area, but "trans-disciplinary" in the practice. Ecologist knowledge is generalist, theory-based, more comprehensive in terms of underlying processes, but the approach is more narrow, discipline-based
+- @foleyGlobalConsequencesLand2005 There is increasing need for both cross-disciplinary and trans-disciplinary research to develop and implement targeted policies for sustainable use of the land which would address short-term human needs, long-term preservation of ecosystem services and resilience of anthropogenic systems.
+- @wehnAdaptiveBiodiversityManagement2018 different visions of the farmer and the ecologists -> they can agree for a common management (e.g. APHM) but for different reasons -> failure of the scheme to bring farmers and scientists on the same perspectives. Also limited traditional ecological knowledge of farmers, which limits their participation/incentives in the making of a management plan, though such management plan can encourage the building of "endogenous knowledge" (**thus key to build endogenous knowledge**). Such schemes should engage actively farmers and be flexible (e.g. hay-cutting time) to encourage experimentation even if it looks like a "bad idea" from first glance
+- Increase of complexity of land management arrangements between farmers [@dramstadTenancyNorwegianAgriculture2010] which may challenge coordinate management measures according to common scheme.
+- interdisciplinary research -> needs common reference frame (common definition & understanding of concepts) [@dramstadIntegratingLandscapebasedValues2001]
