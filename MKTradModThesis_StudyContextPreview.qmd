@@ -1,0 +1,118 @@
+---
+title: "*Mark*ing the fjord - Ecological assessment of small-scale grazing system along the fjord gradient in the Nordhordland UNESCO Biosphere Reserve"
+format: html
+# output-file: "drafts/NBRTradModThesis_MainDraft.html"
+author:
+  - name: Morgane Kerdoncuff
+    orcid:
+    email: morgane.kerdoncuf@uib.no
+    affiliations:
+      - Department of Biological Sciences, University of Bergen, Norway
+      - Center for Sustainable Area Management (CeSAM), University of Bergen, Norway
+date: today
+bibliography: NBR_TRADMOD.bib
+execute: 
+  echo: false
+---
+
+# Study context - The fjord, the farmer and the farm
+
+## The landform and climate of the NBR fjord system
+
+Fjords are *"steep-sided, coastal erosional troughs which have been inundated by the sea"* [@howeFjordSystemsArchives2010] that originate from the ice retreat after the last glaciation [@mangerudIceflowPatternsPrecise2019] and interconnect into an intricate "fjord system" network which spatial cohesion decreases with the intensity of erosion processes towards the sea [@nesjeFjordsNorwayComplex2009]. The NBR, embedded between the Bergen municipality in the South and the longest and deepest Norwegian fjord, the Sognefjord, in the North, stretches from the North Sea to the eastern Stølsheimen mountains and thus offers a valuable insight of this coupled elevation and connectivity gradient (@fig-mapcontext), which can roughly be divided into three main zones [@kalandNordhordlandBiosphereReserve2018]:
+
+  (1) The **coastal area**, parceled into numerous and relatively flat islands and peninsulas. The warm and moist air masses brought by the Gulf stream buffer temperature annual variation and offer a mild oceanic regime, with average summer temperature between 13°C and 15°C and annual precipitation around 1300 mm.
+  (2) The **fjord area**, where land pieces progressively merge into coherent blocks made of narrow valleys and sharp mountain sides that dive into the fjord arms. Climate grows colder and wetter inland following the elevation gradient, with an increase of temperature range and a 3000 mm peak of average annual precipitation at mid-elevation on westerly exposed slopes.
+  (3) The **mountain area** above the tree line and made of plateaus ranging from 400 to 1300 masl. The highest elevations have a drier and colder subpolar climate, with a mean annual precipitation of 2000 mm and less than 3 months in a year where the average temperature exceeds 10°C.
+
+![Topography with main fjords labelled (A), landscape zonation (B), mean annual precipitations (C) and mean July temperature (D) in the Nordhordland UNESCO Biosphere Reserve, delimited in light green. Legend: (B) colours are for coastal (yellow), outer fjord (green), inner fjord (blue) and mountain (purple) areas; (C) and (D) gradients are from light shade for lower values to dark shades for higher values. Data sources: (A) Digital terrain model with 10 m^2^ resolution from the Norwegian Mapping Authority (@kartverketGeoNorgeKartkatalogen2023) (CC BY 4.0); (B) Landscape zonation from @uttakleivLandskapskartleggingNorgeLandscape2011, terminology from @kalandNordhordlandBiosphereReserve2018; (C) and (D) Mean values of daily projections with 1 km^2^ resolution for the period 2010-2020 from the Norwegian Centre for Climate Services (@wongGriddedKmClimate2016) (CC BY 3.0), with missing cells determined from neighbourhood average with the *terra* package (@hijmansTerraSpatialData2023) on R software (@rcoreteamLanguageEnvironmentStatistical2023). Credits: maps A, C and D created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org), with background ortophotography from @kartverketGeoNorgeKartkatalogen2023.](illustrations/NBR_BRMaps.png){#fig-mapcontext}
+
+These changes in landform and climate are associated with a hump-shaped productivity gradient that displays very different landscapes between the extremes, the outer coast and mountain area, essentially characterised by shrub-dominated communities and poor edaphic conditions with alternating exposed bedrock and mires (PI), and the more central inner coast and fjord area, which encompass arable lands, semi-natural grasslands and shrublands, as well as large forest cover on the mountain slopes (PIII) (@fig-landscape). The landscape is particularly diverse in the central region as the heterogeneity of fjord shape, direction, width and steepness creates complex local dynamics [@nesjeFjordsNorwayComplex2009]: for instance, the North-facing slope of a fjord arm can still be covered by snow while its South-facing counterpart has already entered spring bloom. These cross-scale environmental processes that are unique to the fjord region have constrained the development and evolution of agriculture over time, by limiting the use of machinery and the conversion of grazing lands into arable lands and thus preventing a too severe degradation of the agro-ecological system [@forbordDriversChangeNorwegian2014].
+
+![Landscape composition on the coast (A), in the fjord (B) and in the mountains (C). Pie charts represent average percent cover of habitat type in a 1 km^2^ area around visited sites. Credits pictures: (A) Øygarden municipality, M. Kerdoncuff; (B) Alver municipality, M. Demeaux; (C) Masfjorden municipality, A. E. Eycott](illustrations/NBR_LandscapeFieldTypes.png){#fig-landscape}
+
+<!-- - Coastal heathlands are made of *Calluna vulgaris*, thick moss layer *Rhytidiadelphus squarrosus*, *Hypnum jutlandicum* and *Hylocomium splendens*, few monocot with coexistence Poaceae (*Agrostis capillaris*, *Festuca rubra*), Cyperaceae (*Carex pilulifera*, *Trichophorum cespitosum*) and Juncaceae (*Juncus effusus*) -->
+
+## The Nordhordland farm through history
+
+The first signs of agricultural activity in Western Norway draw back to early Neolithic, with the introduction of burning [@hjelleLongtermChangesRegional2018; @prosch-danielsenPalaeoecologicalInvestigationsReconstruction2000] and domestic grazing [@hjelleHesitantHuntersReview2006; @mehlCulturalLandscapeDevelopment2015a] that drastically expanded the area of heathland on the coast (PI). By middle Neolithic grazing management had reached the fjord and mountain areas, and by late Neolithic cereal cultivation had also spread in the more fertile, inner regions [@hjelleHesitantHuntersReview2006]. The initial hunter-fishers had thus progressively settled into fisher-farmers (*fiskarbonde*), who still depended from both sea and land resources to ensure their livelihood. It is during the Iron Age that the "traditional" small-scale farming of Western Norway, which legacy has lasted till the present days, reached its maturity [@olssonAgroecosystemsNeolithicTime1991]. To overcome the high discrepancy in land productivity, fisher-farmers relied on a mixed crop-livestock system where low-productive outfields (*utmark*) were grazed and/or mowed and more productive infields (*innmark*) were cultivated, with manure and mulch transferred from the former to the latter for soil enrichment [@austadHumaninfluencedVegetationTypes1991; @indrelidFarmingSystemIts1988] (PIV). This complementary management shaped the agro-ecological landscape into a fine mosaic of small, pluriactive family farms [@hetlandPluriactivityStrategyEmployment1986; @jonesLandtenureLandscapeChange1988], which would typically encompass a few arable lands, several patches of more or less productive semi-natural grasslands for rotational grazing and/or hay-making and some forested areas for building and fire wood [@austadHumaninfluencedVegetationTypes1991; @haugeGaldaneLaerdalWestern1988]. The large remote areas of heathlands on the coast and in the mountains were used as outfields only, with year-round grazing combined with rotational prescribed burning for the former [@hjelleLongtermChangesRegional2018; @lundbergAustevollChangingCoastal1991] and summer sheep transhumance for the latter [@indrelidFarmingSystemIts1988; @potthoffChangeMountainSummer2004]. Fisher-farmers therefore used of the whole coast-to-mountain gradient to create a spatially and temporally dynamic system of energy flows from the outer areas to the inner areas that has durably imprinted the fjord landscape (@fig-succession) and had promoted the highest level of biological and cultural diversity still as of today [@olssonAgroecosystemsNeolithicTime1991].
+
+![Landscape succession on the coastal area, from the outermost heathlands (*lynghei*) to the innermost semi-natural grasslands (*innmark*). Source: @brekkeKulturhistoriskVegbokHordaland1993](illustrations/NBR_FieldSuccession.png){#fig-succession}
+
+After WWII, Norwegian agriculture went through a rationalisation process which transformed the farm structure and management, with a decline of the owner-occupier model in favour of land renting and the creation of public incentives towards specialisation [@dramstadTenancyNorwegianAgriculture2010; @forbordDriversChangeNorwegian2014; @jonesLandtenureLandscapeChange1988]. Livestock was shifted to more productive infields which were enlarged and improved with the introduction of artificial fertilisation (PIV) [@fjellstadPatternsChangeTwo1999], while more remote outfields were progressively abandoned [@hamreLandcoverStructuralChanges2007a] along with their associated management practices such as summer farming [@olssonLandscapeChangePatterns2000], rotational prescribed burning (PI) or heath scything [@lundbergAustevollChangingCoastal1991]. These concurring processes were further aggravated by the socio-economic decline and the population ageing of rural communities [@forbordDriversChangeNorwegian2014], and have led to a drastic decrease in farming activity: nationally, the number of holdings dropped from around 200,000 in the 1950s to less than 38,000 in 2023 [@StatisticsNorway2024], with a bigger impact on small structures (<10 ha) which represented 90% of total holdings in 1949 against 53% in 1995 [@fjellstadPatternsChangeTwo1999; @ovreasEndringarJordbruksarealOg2011]. In Western Norway, this change was reflected across the whole fjord system with the encroachment of coastal and mountain heathland [@brynImpactsLandUse2012; @olssonLandscapeChangePatterns2000] and the impoverishment and coarsening of the infield landscape matrix [@hamrePlantSpeciesRichness2010; @norderhaugBiotopePatternsAbundance2000]. In a comparative study between cadastral maps of 1865 and 2002 in a locality along the Sognefjorden, @hamreLandcoverStructuralChanges2007a showed a 87% decrease of open habitat patches in activity, with half of the semi-natural grasslands abandoned over time, and the concurring loss of four out of five original man-made structures (e.g. stone wall).
+
+To counteract this steady degradation of the countryside, policymakers have reflected on a new farming pathway that would not only be bound by market demand but would also consider food security, the preservation of the environment and the development of rural areas [@bjorkhaugMultifunctionalAgriculturePolicy2008; @romstadMultifunctionalAgricultureImplications1999; @ronningenLegitimacyMultifunctionalAgriculture2004] the same way as described by the multifunctionality concept promoted by the Organisation for Economic Co-operation and Development [@oecdMultifunctionalityAnalyticalFramework2001]. Western Norway holds high potential for experimenting such transition thanks to the diversity of farm models according to the different livestock types, with on one hand beef and dairy farming rather associated with bigger and more intensive structures while sheep and goat husbandry tends to rely on more extensive management [@asheimPolicyMeasuresPreserve2020]. If the economic viability of the former essentially depends on the meat and/or milk production, the latter benefits more from additional cultural values associated with "traditional" breeds, like the Norwegian old sheep (*Gammel Norsk Sau*), or practices, such as the small-scale goat cheese production in mountain summer farms [@daugstadAgricultureUpholderCultural2006]. Investigating these different production systems with trans-disciplinary research and optimising their distribution across the territory through the reorientation of public subsidies are crucial steps for the sustainable transition of agriculture in Western Norway [@asheimPolicyMeasuresPreserve2020].
+
+<!-- - If public subsidies have multiplied since the 1970s to support agriculture at the national, county and municipality levels, the most important ones (e.g. Area and Cultural Landscape support) tend to neglect the environmental component [@asheimPolicyMeasuresPreserve2020]. - In present days, family farming is poorly viable and many households combine agricultural activity with full-time jobs in closest urban areas [@hetlandPluriactivityStrategyEmployment1986]. -->
+<!-- - Changing perspectives & policies: change in agricultural policies towards farmer as independent entrepreneur in post-productivist context -> diversification of agriculture in activities beyond conventional farming [@daugstadAgricultureUpholderCultural2006] -->
+
+## Ecological survey in the Nordhordland UNESCO Biosphere Reserve
+
+The following survey design was used and adapted accordingly in papers II, III and IV, paper I relying on an independent methodology. It relied on three main factors that guided the distribution of our study sites in the NBR (@fig-sitemap):
+  (1) the environmental gradient, based on the landscape zonation from @uttakleivLandskapskartleggingNorgeLandscape2011 We defined three main regions: the coastal area, the fjord area which encompassed the outer fjord and inner fjord zones (@fig-mapcontext B), and the mountain area.
+  (2) the field type according to the infield/outfield terminology, that reflects habitat inherent productivity and associated managements. We relied on the "areal type" AR5 classification system developed by the Norwegian Institute for Bioeconomy (NIBIO) [@ahlstromAR5Klassifikasjonssystem2019] that describes infields (*innmarksbeite*) as "*agricultural lands that cannot be harvested mechanically* \[with\] *at least 50% of the area* \[...\] *covered with cultured grass or pasture-tolerant herbs*". Outfields were designated under the "open permanent lands" (*åpen fastmark*) category, briefly defined as "*areas that are neither a bog, agricultural, forest or infrastructure*" (PIV).
+  (3) the livestock type, namely sheep, cattle and goat, which relates to current farm models in infields. Preliminary information on the farm management was retrieved from a socio-economic survey conducted in the NBR in 2018 [@reiersenBaerekraftVestnorskLandbruk2019].
+
+![Location of the sampling sites in coastal (yellow), fjord (green) and mountain (purple) areas of the NBR. Shapes indicate field type (square: outfield; circle:infield) and colours indicate livestock type (white: sheep; grey: goat; black: cattle). Credits: map created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org); background orthophotography and topographic layer from the Norwegian Mapping Authority (https://www.kartverket.no) CC BY 4.0.](illustrations/NBR_SiteMap.png){#fig-sitemap}
+
+We visited a total of 44 sites (@tbl-siterepartition): outfields were sheep-grazed heathlands located in the outermost part of the coastal area (5), in former forest clearings in the fjord area (1) and in the mountain area (6); infields were grazed by either sheep (11), cattle (10) or goat (9), and were located only in the coastal (14) and fjord (16) areas. The sampling period ranged from mid-June to mid-August 2019 and 2020, with coastal sites visited in early season, fjord sites in mid-season and mountain sites in late season to account for the timing difference of the spring bloom.
+
+```{r SiteRepartition}
+#| label: tbl-siterepartition
+#| tbl-cap: "Distribution of the sampling sites of the ecological survey led in 2019 and 2020 according to landscape zone, field type and livestock type."
+#| message: false
+#| warning: false
+
+library(gt)
+library(tidyverse)
+
+site <- read.csv("data/NBR_SiteRepartition.csv")
+site <- subset(site, select = -c(SiteID))
+summary <- site |>
+  count(EcoZone, FieldType, Livestock1) |> 
+  pivot_wider(names_from = EcoZone, values_from = n)
+
+summary |>
+ gt(groupname_col = "FieldType", rowname_col = "Livestock1") |>
+  sub_missing(missing_text = "-") |> 
+  opt_stylize(style = 6, color = 'gray')
+```
+
+On each site we delimited a sampling area of 400 m^2^, preferably 20 x 20 m but otherwise 40 x 10 m, that was representative of the visited field and avoided exposed rocks, waterlogged ground, trees and field edges. We set a nested sampling design made of three plots of 3 x 3 m, separated from each other by at least 6 m and divided into nine quadrats of 1 m^2^, either dedicated to non-destructive (5) or destructive (4) sampling (@fig-sampling). In the non-destructive quadrats, we recorded the percent cover (0.01-100%) of vascular and bryophyte species (PII, PIII, PIV). In the destructive quadrats, we collected: plant aboveground biomass, within a 0.25 m^2^ subquadrat (PIV); a soil core of 10.5 cm diameter and 12 cm height for mesofauna extraction (PIV) and soil chemical analyses (PIII, PIV); three soil cores of 3.7 cm diameter and 10 cm height for bulk density (PIII); ground-dwelling beetles with a dung-baited pitfall trap of 10.5 diameter and 11.5 cm height left on site for a week (PIII); soil resistance to penetration by dropping a sharpened metal rod of 43.4 cm length, 2.2 cm diameter and 1.3 kg weight from 1 m above ground through a PVC tube to ensure vertical fall. The whole sampling process, except beetle trapping, was cleared within a day for each site.
+
+![Nested sampling design set on a representative area of each grazing field. The 400 m^2^ area was delimited by fences to prevent animals from entering. Credits: figure created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org)](illustrations/NBR_SamplingDesign.png){#fig-sampling}
+
+When relevant, this field collection was completed with publicly available data on plant traits (PII) or climate and land cover (PIII). We also conducted a farmer survey by phone interviews between October 2021 and January 2022 to retrieve more information on the livestock and field management (@tbl-fieldmanagement). Unfortunately these data were not included in the statistical analyses (except in PIII) because of missing respondents (six farmers did not reply to the survey) and uneven accuracy in the information provided (e.g. not all farmers could provide an amount per surface of fertiliser sprayed), but were nevertheless used for general context and posthoc verification of odd values (PIV).
+
+To the farmers' knowledge, which could go as far back as the 1920s, the large majority of our sites have been uninterruptedly grazed for the past decades and the few abandonment periods, when occurring, did not exceed 3 years. Infields were smaller areas, with half of the sites under 3 ha, while outfields could expand over more than 1000 ha in the mountain sites co-managed by several farmers. Half of the farms managed less than 25 animals, three-quarter less than 50, and only two outfields and three infields exceeded 80 head. The grazing period in infields was very variable, ranging from 2 to 12 months, while outfields were clearly split between mountain sites only grazed during summer and coastal sites grazed all year round. Almost all infields were enriched at least occasionally: 20 out of 27 respondents sprayed artificial fertiliser, among which 11, mostly cattle-grazed, also used manure and 5 compensated soil acidification with a mixture of shell with sand or lime. Mulching was not particularly common, and only two farmers used herbicides on their fields. Except for one site drained in 2010, the most impactful practices on soil (drainage, plowing) and vegetation (resowing) have not been used for at least the previous 20 years. Some outfields were managed to prevent encroachment by either rotational burning (3 coastal sites) or tree cutting (1 coastal and 1 mountain sites).
+
+```{r FieldManagement}
+#| label: tbl-fieldmanagement
+#| tbl-cap: "Farm management according to field type. For quantitative data: median followed by range in brackets; for qualitative data, number of sites using this management in brackets"
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+management <- read_xlsx("data/SummaryFarmManagement.xlsx")
+
+# Format cell as "median (min-max)"
+management <- management |> 
+  mutate(Value = case_when(
+    Mean > 0 ~ paste(Median, " (", Min, " - ", Max, ")", sep = ""),
+    TRUE ~ Value
+  ))
+
+# Wider table
+management <- subset(management, select = c(FieldType, Variable, Value))
+management <- management |>
+  group_by(FieldType) |>
+  pivot_wider(names_from = FieldType, values_from = Value)
+
+management |>
+  gt(rowname_col = "Variable") |>
+  opt_stylize(style = 6, color = 'gray')
+
+```
