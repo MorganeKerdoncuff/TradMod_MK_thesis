@@ -38,3 +38,6 @@ outputs/*
 *.json
 MKTradMod_LiteratureReview_files/*
 MKTradModThesis_files/*
+MKTradModThesis_IntroPreview_files/*
+MKTradModThesis_StudyContextPreview_files/*
+MKTradModThesis_ResultsPreview_files/*
