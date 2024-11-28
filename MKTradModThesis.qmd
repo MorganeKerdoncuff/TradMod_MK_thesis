@@ -1,6 +1,7 @@
 ---
-title: "TradMod thesis"
+title: "*Mark*ing the fjord - Ecological assessment of small-scale grazing in the fjord system of the Nordhordland UNESCO Biosphere Reserve"
 format: html
+# output-file: "drafts/NBRTradModThesis_MainDraft.html"
 author:
   - name: Morgane Kerdoncuff
     orcid:
@@ -14,176 +15,696 @@ execute:
   echo: false
 ---
 
-# Introduction - the role of Norwegian small-scale grazing systems within global food security challenge
+<!-- ```{r ScriptSource} -->
+<!-- #| include: false -->
+<!-- source("scripts/NBR_TradMod_DataCleaning.R", local = knitr::knit_global()) -->
+<!-- ``` -->
 
-When facing the upcoming challenge regarding global food security [@kastnerGlobalChangesDiets2012], with a food demand expected to increase between 30% and 62% by 2050 [@vandijkMetaanalysisProjectedGlobal2021], the temptation to dive into a "crop-mania" has already received some warnings [@foleySolutionsCultivatedPlanet2011; @hunterAgriculture2050Recalibrating2017]. Not only the core of the problem revolves more around food availability, through for instance waste control and diet changes, than strict food production [@cassidyRedefiningAgriculturalYields2013; @kastnerGlobalChangesDiets2012; @westLeveragePointsImproving2014], but there is only limited potential for both intensification and expansion of agricultural lands without conflicting with other land uses [**REF**], long-term preservation of natural capital [@foleyGlobalConsequencesLand2005] and/or biodiversity conservation [@beckmannConventionalLandUse2019; @flynnLossFunctionalDiversity2009; @newboldGlobalEffectsLand2015]. 
-<!-- There has been ongoing debate about land sharing vs land sparing (+ sustainable intensification)... -->
-<!-- sustainable intensification has been presented as a solution to be able to fulfill the food production objectives (should look at: Godfray and Garnett, 2014; Cassman and Grassini, 2020) + short description of what sustainable intensification is (optimisation production, crop-based, biotech...) - also @rockstromSustainableIntensificationAgriculture2017 and @pywellWildlifefriendlyFarmingIncreases2015 -->
-In that regard, the livestock sector plays a key role as animal products account for the largest land use [@kastnerGlobalChangesDiets2012], and demand is projected to increase even in Western countries [@alexandratosWorldAgriculture20302012]. With farming intensification, grain feed has become increasingly important in the animal feed mix to the detriment of pasture-based systems [**REF**]. Besides massive land surface cost [@kastnerGlobalChangesDiets2012] and food waste [@cassidyRedefiningAgriculturalYields2013], this increasing disconnection between feed and livestock has externalised environmental impacts to countries growing crops and producing feeds [@cunninghamCloseYieldgapSaving2013; @naylorLosingLinksLivestock2005]. Thus, relying on pasture-based husbandry in Western countries would not only benefit local biodiversity but would also lessen the crop production burden in the Southern hemisphere [@foleySolutionsCultivatedPlanet2011].
+# Scientific environment
 
-In Europe, land use changes during the past decades have already altered the agricultural landscape [@jongmanHomogenisationFragmentationEuropean2002], and keeping on the intensification track would sacrifice habitats of high conservation values [@bignalLowIntensityFarmingSystems1996a; @haladaWhichHabitatsEuropean2011] without providing such a substantial increase in productivity or profitability for the farmer [@garibaldiFarmingApproachesGreater2017; @jeanneretIncreaseFoodProduction2021]. The areas under permanent meadows and pastures have drastically declined for the past 60 years [FAO DATA, 2020], and the trend is expected to continue whichever food production scenario [@wirseniusHowMuchLand2010]. Yet, semi-natural grazing systems not only ensure food sovereignty of local communities, but they have also shaped the biological and cultural diversity of landscapes [@jongmanHomogenisationFragmentationEuropean2002; @vosTrendsEuropeanCultural1999] and drawn a strong sense of belonging from people.
+This thesis was conducted in the Department of Biological Sciences, Faculty of Mathematics and Sciences, University of Bergen (Norway). I was also affiliated with the Centre for Sustainable Area Management (CeSAM), University of Bergen. This work was part of the TradMod project *From traditional resource use to modern industrial production: holistic management in Western Norway* funded by the Research Council of Norway (grant #280299). Additional funding support was provided by a grant from *Olaf Grolle Olsens's Legat til Universitet I Bergen med tilførsel av arv ette Miranda Bødker*.
 
+# Acknowledgements
 
-- importance of choosing a "yield gap closing strategy" which is embedded within local communities' cultural values and adapted to local environment and historical land use in order to prevent landscape homogenisation [@cunninghamCloseYieldgapSaving2013]
-<!-- - However the areas under permanent meadows and pastures have declined during the past 60 years. The trends is particularly sharp in Europe, which suffered from a 56% decrease, from 402 000 ha in 1961 to 177 000 ha in 2020 (FAO DATA, 2020) -->
-<!-- - but area covered by permanent pastures in Europe projected to immutably decrease by 2030, from 182 million ha in 1999 to at best 109 million ha, at worst 73 million ha (land sparing strategy) [@wirseniusHowMuchLand2010] -->
-- benefits from grasslands not only food production, but other ecosystem services such as carbon storage/climate change mitigation [@omaraRoleGrasslandsFood2012]
+- Supervision: Inger, Amy
+- Team colleagues: Jarrod, Alicia, Ieva, Katja
+- Technician power quartermasters: Linn, Silje
+- Stat & R jokers: Richard, Michael
+- Office buddies: Mayke, Maaike, Joseph, Christian
+- PhD buddies: Ragnhild, Camilla, Arnaud
+- 1st season veterans: Micah, Astrid, Daiki
+- 1st season veterans + bee workers: Ingrid, Kristi
+- 2nd season veterans: Natalie, Christina, Anette
+- 2nd season veteran + master evolution: Morgane
+- 2nd season family time: Keith & Johan
+- farmer jokers: Laila, 
+- Nord family: Mie, Gabriel, Quentin
 
-- negative impact of intensification on biodiversity in Europe [@kleijnRelationshipFarmlandBiodiversity2009]
-- European cultural landscape is a complex & intertwined network of mosaics resulting from a multi-layered historical use [@vosTrendsEuropeanCultural1999]
-<!-- - All remaining high nature conservation value grasslands across Europe associated with low-intensity livestock systems [@bignalLowintensityFarmingSystems1996] -->
-- Principal threats are agriculture intensification and land abandonment [@bignalLowintensityFarmingSystems1996], which lead to the homogenisation of the European agricultural landscape by the loss of regional biological and cultural diversity [@jongmanHomogenisationFragmentationEuropean2002]
-- Semi-natural habitats such as Northern meadows or Fennoscandian pastures are fully dependent on agricultural management [@haladaWhichHabitatsEuropean2011]
-<!-- - Agricultural habitats have on average a poorer conservation status compared to other habitats [@haladaWhichHabitatsEuropean2011] -->
-<!-- - however, increasing the food production in some European countries to the FAO objective (+ 10%) would not even be possible even if all the semi-natural habitats were converted into croplands, as for example in Germany, Italy and Austria (@jeanneretIncreaseFoodProduction2021) -->
+# Abstract in English
 
-- there are also limits to the crop-based approach:
-    <!-- - a production-based strategy will also have a high environmental impact, including land degradation and biodiversity loss [@hunterAgriculture2050Recalibrating2017] + some others) -->
-- To counteract the current trend where land use is driven by market and technology instead of local environmental conditions and population needs, there is need for multifunctional use of the land and landscape planning [@jongmanHomogenisationFragmentationEuropean2002]
-- This would need both regional and global collaboration, as 60% and 88% of biodiversity loss projection would be avoided under national and global optimisation scenarii respectively [@egliWinnersLosersNational2018]
-- UNESCO MAB - Biosphere Reserve network as a great playground to experiment regional landscape planning & develop international collaboration ;-)
-- maybe need to develop slightly on SDGs & 2030 Agenda
-- Some examples here + blabla on us
+As scientific evidence demonstrates everyday the unprecedented environmental burden brought by agriculture worldwide, engaging research effort towards farming systems supporting agro-ecological diversity is an utmost priority. In Western Norway, agriculture is dominated by small-scale livestock production which has shaped semi-natural habitats of high ecological and cultural values across the whole fjord system. However the socio-economic decline of the countryside during past decades has led to concomitant trends of intensification on more fertile grasslands (infields) and abandonment of low-productive heathlands on the coast and in the mountains (outfields), increasing their vulnerability to environmental changes. In this context, the Nordhordland UNESCO Biosphere Reserve (NBR) aims to be a model area for sustainable land use that would stem from past management practices while ensuring the farmer livelihood and the resilience of the food production system.
 
-# Chapter 1 - Small-scale grazing systems in Western Norway
+In this thesis I relied on an exploratory ecological survey on the grazing fields of the NBR, across the whole coast-to-mountain gradient, to examine the potential of different managements for ensuring the delivery of multiple ecosystem services and enhancing local biodiversity. More specifically I attempted to assess both the influence of environmental variation driven by the fjord system geophysical context (PII, PIII, PIV) and the effects of land use including stocking density (PIII, PIV), livestock type (PII, PIII) and rotational prescribed burning (PI, PIV) on diversity, composition and associated ecosystem synergies and trade-offs in outfields (PI, PIV) and infields (PII, PIII, PIV).
 
-Though Norway has followed the same intensification track as other European countries, leading to strong decline of the number of holdings as well as increase of average holding size [@dramstadTenancyNorwegianAgriculture2010; @forbordDriversChangeNorwegian2014], it ha been buffered by strong topographic and climatic constraints coupled with important support from public authorities towards the maintenance of farming practices and lifestyle [@fjellstadPatternsChangeTwo1999; @hetlandPluriactivityStrategyEmployment1986]. However, the trend was not even across the country, with flat, productive lands being heavily intensified while mechanisation and field improvement were limited in the fjords and the mountains [@dramstadTenancyNorwegianAgriculture2010; @fjellstadPatternsChangeTwo1999]. These more environmentally-constrained areas have on the other hand suffered from land abandonment caused by socio-economic decline and population ageing of rural areas [@forbordDriversChangeNorwegian2014]. The co-occurrence of farming intensification and land abandonment at two extreme ends of Norwegian agro-ecosystems has led to landscape homogenisation and loss of biological and cultural values [@fjellstadPatternsChangeTwo1999; @jonesLandtenureLandscapeChange1988].
+I confirmed that the regional-scale environmental variation reflected a hump-shaped productivity gradient that affected the land use (PI, PIV) and the landscape (PIII). However when focusing on more productive infields I found no direct effect of landscape zone (PII, PIV) or climate variables (PIII) on grassland diversity (PII, PIV), assemblage composition (PIII) or ecosystem services (PII, PIV).
 
-The highly touristic fjord region of Western Norway, where is located the Nordhordland Biosphere Reserve, still showcases the typical diversity of practices, land uses and landscapes of Norwegian small-scale farming systems [@dramstadTenancyNorwegianAgriculture2010; @kalandNordhordlandBiosphereReserve2018]. First signs of land management by humans in Western Norway draws back to early Neolithic, with vegetation burning, allowing the development of heathlands [@hjelleLongtermChangesRegional2018; @prosch-danielsenPalaeoecologicalInvestigationsReconstruction2000], and introduction of domestic grazers [@hjelleHesitantHuntersReview2006; @mehlCulturalLandscapeDevelopment2015a]. It is during the Iron Age that infield-outfield systems, which have shaped the agricultural landscape up to present days, started to develop [@olssonAgroecosystemsNeolithicTime1991; **needs Western Norway specific**]. Through grazing and heath-cutting, a flow of nutrients and energy is created from low-productive outfields, such as heathlands and shrublands, to more productive infields and arable lands. Thus outfields not only serve as winter forage for animals, but also provide manure and mulch to fertilise and protect the crops. The outfield-infield system had been at the heart of self-sustaining farms from traditional farmer-fisherman livelihood [@hetlandPluriactivityStrategyEmployment1986; @jonesLandtenureLandscapeChange1988], and still stands as the promoter of the highest level of biological and cultural diversity in agro-ecosystems [@olssonAgroecosystemsNeolithicTime1991].
+Regarding field management, I emphasized the importance of maintaining low-intensive grazing on outfields that showed very high bryophyte diversity and better carbon sequestration potential compared with infields (PIV). On the coast, rotational prescribed burning was a valuable complementary practice to year-round sheep grazing as it favoured xerophilous and sun-loving beetles by locally creating new ecological niches (PI). In infields, livestock type affected plant functional group, with on average higher percent cover of grass when grazed by cattle (PII) and higher percent cover of bryophyte when grazed by sheep (PIII). On the other hand stocking density or fertilisation level did not seem to affect the current diversity, composition and structure of grassland assemblages (PIII, PIV), but the intensification trend may have led to infield homogenisation over time (PIV).
 
-In present days, the tight synergy between outfield and infield managements has faded, along with the transition of farm structures [@dramstadTenancyNorwegianAgriculture2010; @hetlandPluriactivityStrategyEmployment1986; @wehnAdaptiveBiodiversityManagement2018]. Some practices have disappeared, such as heath scything [**REF**], but others are locally maintained, as for example prescribed burning in coastal heathlands which ensures conservation of rustic livestock breeds such as norskgammelsau ("Old Norwegian sheep") [**REF**]. Another declining trend, which is yet very important for maintaining biodiversity of high conservation value in mountain areas, is the use of summer farms [**REF**]. Like their coastal counterparts, subalpine heathlands [^1] are grazed all year round by rustic sheep breeds, but they also have been traditionally used for summer grazing of goats and local cheese production [**REF**]. [*sentence on trends summer farms*].
+*to continue* 
 
-Reviewing traditional practices in Western Norway highlights the plurality of tasks held by former communities of farmer-fishermen, who combined the use of sea and land resources to feed the family and make a living [@jonesLandtenureLandscapeChange1988]. This *pluriactivity* has mostly been maintained up to nowadays, though it has evolved as the farm shifted from being the centre of subsistence strategy to hardly economically viable activity at the periphery of regular job at the closest urban area [@daugstadAgricultureUpholderCultural2006; @hetlandPluriactivityStrategyEmployment1986]. Thus, holdings and livestock flocks have mainly remained small, and farming has upgraded through the diversification of livestock and the incorporation of contemporary management tools and techniques for productivity improvements of infields.
+# Abstract in Norwegian
+
+# List of publications
+
+Publications included in the thesis:
+
+- Paper I - **Kerdoncuff, M.**, Måren, I.E. & Eycott, A.E. (2023). Traditional prescribed burning of coastal heathland provides niches for xerophilous and sun-loving beetles. Biodiversity Conservation 32, 4083–4109. https://doi.org/10.1007/s10531-023-02684-x
+
+- Paper II - Demeaux, M., **Kerdoncuff, M.**, Eycott, A. E., & Måren, I. E. (2024). Just graze it! Biodiversity, nectar and forage resources in cultural landscapes grazed by different livestock species. Ecosystems and People, 20(1). https://doi.org/10.1080/26395916.2024.2311176
+
+- Paper III - **Kerdoncuff, M.**, Eycott, A.E, Klimes, A. & Måren, I.E. The farmers against the fjord: cross-scale interactions of environmental gradients and management on grassland assemblages in small-scale grazing systems. *Planned submission to Agriculture, Ecosystems and Environment*
+
+- Paper IV - **Kerdoncuff, M.**, Eycott, A.E & Måren, I.E. Management of remote areas delivers complementary ecosystem services to more intensive grazing in semi-natural grasslands. *Planned submission to Journal of Applied Ecology*
+
+# Author contributions
+
+```{r AuthorContribution}
+#| label: tbl-authorcontribution
+#| tbl-cap: "Contributions to the individual papers in this thesis are categorised according to the CRediT (Contributor Roles Taxonomy) system."
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+authorsummary <- read_xlsx("data/SummaryAuthContr.xlsx")
+summary <- authorsummary |> 
+  # group_by(Role) |> 
+  pivot_wider(names_from = Paper, values_from = Contributor) |> 
+  mutate_if(is.character, ~replace(., is.na(.), ""))
+
+summary |>
+  gt() |> 
+  opt_stylize(style = 6, color = 'gray')
+```
+
+# Introduction - The role of Norwegian small-scale grazing systems in the current global food security challenge
+
+Should we produce more to sustain more people on the planet? When facing the upcoming global food security challenge [@kastnerGlobalChangesDiets2012; @moraExploringFutureLand2020; @vanmeijlModellingAlternativeFutures2020], with a food demand expected to increase between 30% and 62% by 2050 [@vandijkMetaanalysisProjectedGlobal2021], the initial temptation to dive into a "crop-mania" has raised some warnings [@foleySolutionsCultivatedPlanet2011; @hunterAgriculture2050Recalibrating2017]. First, the prevalent issue is less a matter of gross production capacity than severe North-South inequalities in its redistribution and availability [@cassidyRedefiningAgriculturalYields2013; @fischerLandSparingLand2014; @tscharntkeGlobalFoodSecurity2012; @westLeveragePointsImproving2014]. Second, there is only very limited potential for the expansion of agricultural lands without conflicting with other land uses [@kimMappingEnvironmentalLand2018; @liSpatialConflictIdentification2023; @zabelGlobalAgriculturalLand2014] or damaging to a critical extent the biodiversity and functionality of natural and semi-natural ecosystems [@beckmannConventionalLandUse2019; @foleyGlobalConsequencesLand2005; @newboldGlobalEffectsLand2015; @newboldHasLandUse2016]. The livestock sector bears high responsibilities for the latter, as globalised grain-feed systems have steadily replaced pasture-based husbandry following the Green Revolution [@kastnerGlobalChangesDiets2012; @ramankuttyTrendsGlobalAgricultural2018]. This transition provided overall relatively poor return in calorie supply [@cassidyRedefiningAgriculturalYields2013] and economic profitability for the farmers [@garibaldiFarmingApproachesGreater2017; @jeanneretIncreaseFoodProduction2021], but was at the cost of massive land appropriation and severe environmental externalities in the Global South [@cunninghamCloseYieldgapSaving2013; @hongGlobalRegionalDrivers2021; @naylorLosingLinksLivestock2005] and of widespread decrease and degradation of global grassland area [@bardgettCombattingGlobalGrassland2021; @liuAnnualDynamicsGlobal2020; @piipponenGlobalTrendsGrassland2022; @wirseniusHowMuchLand2010], particularly sharp in Europe [@auneLossSeminaturalGrassland2018; @schilsPermanentGrasslandsEurope2022].
+
+To shift away from this trajectory dramatically pressurising the Earth limits [@pelletierForecastingPotentialGlobal2010; @richardsonEarthSixNine2023], a new dominant paradigm has emerged during the past decade that acknowledges the synergy between food security, ecosystem integrity and people well-being and thus defends the potentiality of win-win alternatives [@fischerReframingFoodBiodiversity2017; @hanspachTradeoffsSynergiesFood2017; @wittmanSocialEcologicalPerspective2017]. These approaches have been declined across different concepts - e.g. agroecology [@holt-gimenezAgroecologyFoodSovereignty2012; @wezelAgroecologicalPrinciplesElements2020], diversified farming [@kremenDiversifiedFarmingSystems2012; @rosa-schleichEcologicaleconomicTradeoffsDiversified2019] or sustainable intensification [@prettySustainableIntensificationAgricultural2014; @rockstromSustainableIntensificationAgriculture2017] - that explore a wide range of management practices but share the consensus that food production should be diversified [@billenReshapingEuropeanAgrofood2021; @petersen-rockneyNarrowBrittleBroad2021] and tailored to the territorial context [@cunninghamCloseYieldgapSaving2013; @prettySustainableIntensificationAgricultural2014] to support self-sufficient and resilient socio-ecological systems [@chappellFoodSecurityBiodiversity2011; @gardnerAgriculturalResiliencePerspectives2019]. The realisation of this new agricultural pathway thus requires an extensive effort of trans-disciplinary and policy-oriented research experiments, that would explore ecological interactions and trade-offs under different farming systems [@egliWinnersLosersNational2018; @rockstromSustainableIntensificationAgriculture2017; @runhaarFourCriticalConditions2021].
+
+In Western Norway, such opportunity has been offered through the UNESCO World Network of Biosphere Reserve [@unescoNewRoadmapMan2017], which supports the regional implementation of the Sustainable Development Goals by relying on wide-scale collaboration and knowledge-sharing between model areas disseminated all around the world [@barracloughGlobalKnowledgeAction2023]. As such, the Nordhordland UNESCO Biosphere Reserve (NBR) was designated to "be based on the best from the past and [...] pave the way for a future-oriented societal development that ensures the sustainable use of all types of resources for the benefit and pleasure of both the present inhabitants and future generations" [@kalandNordhordlandBiosphereReserve2018]. Agriculture in the NBR indeed carries a strong legacy of low-intensive rotational grazing that have shaped a typical mosaic-like landscape hosting a remarkable biodiversity still unparalleled as of today [@austadHumaninfluencedVegetationTypes1991; @haugeGaldaneLaerdalWestern1988; @olssonAgroecosystemsNeolithicTime1991]. If the limiting landform and climate of the fjord system has prevented a too radical transformation of the countryside in comparison with the Eastern plains [@fjellstadPatternsChangeTwo1999], the rural communities still went through a lasting socio-economic decline leading to the intensification of fertile fields on one hand and the abandonment of remote, low-productive areas on the other [@forbordDriversChangeNorwegian2014; @hamreLandcoverStructuralChanges2007a]. As per the NBR objective, land planning for sustainable agriculture should therefore aim to 1) preserve the inherited ecological diversity associated with small-scale grazing and low-intensive management [@hamrePlantSpeciesRichness2010; @losvikHayMeadowCommunities1993] and 2) ensure the resilience and functionality of the agro-ecological system in face of upcoming global challenges such as climate change [@liuAssessingEffectsClimate2019; @meuwissenFrameworkAssessResilience2019]. However, despite its preponderance in the fjord landscape agriculture has so far received relatively low academic interest except when embedded in conservation research (but see for instance @wehnAdaptiveBiodiversityManagement2018), and extensive studies on grazed meadows particularly tend to be outdated (e.g. @losvikHayMeadowCommunities1993). The first stepping stone for coherent decision-making in the NBR management should thus be a comprehensive assessment of both the current ecological states of the NBR semi-natural habitats [@soliveresBiodiversityMultipleTrophic2016] and the direct and indirect benefits provided by the farmers activity [@bommarcoExploitingEcosystemServices2018; @goldsteinIntegratingEcosystemserviceTradeoffs2012].
+
+<!-- The livestock sector holds key responsibilities as it accounts for the largest land use [@kastnerGlobalChangesDiets2012], global demand for animal products is still predicted to increase, even in the Global North [@alexandratosWorldAgriculture20302012], leading to further pressure over planetary boundaries [@newboldHasLandUse2016; @pelletierForecastingPotentialGlobal2010; @richardsonEarthSixNine2023]. Globalised grain-feed based systems have been growing relentlessly for the past 50 years following market demand, despite poor return in calorie and nutritional needs [@cassidyRedefiningAgriculturalYields2013; @ramankuttyTrendsGlobalAgricultural2018] and at the expense of severe environmental externalities mostly shouldered by the Global South [@cunninghamCloseYieldgapSaving2013; @hongGlobalRegionalDrivers2021; @jonesNutrientStrippingGlobal2013; @naylorLosingLinksLivestock2005]. In parallel pasture-based husbandry has either intensified or declined, leading to the decrease and degradation of global grassland area [@liNewGlobalLanduse2017; @liuAnnualDynamicsGlobal2020; @wirseniusHowMuchLand2010] and subsequent loss in productivity [@kwonGlobalEstimatesImpacts2016; @liuAssessingEffectsClimate2019; @piipponenGlobalTrendsGrassland2022], multifunctionality [@bardgettCombattingGlobalGrassland2021; @steffan-dewenterTradeoffsIncomeBiodiversity2007] and biodiversity [@newboldGlobalEffectsLand2015; @newboldHasLandUse2016]. -->
+<!-- - such conversions sacrifice habitats of high conservation values [@bignalLowintensityFarmingSystems1996; @haladaWhichHabitatsEuropean2011]. As such, promoting pasture-based husbandry in the Global North would serve the complementary purposes of benefiting regional biodiversity while alleviating the crop burden of the Global South hotspots [@foleySolutionsCultivatedPlanet2011; @haberlQuantifyingMappingHuman2007; @kehoeGlobalPatternsAgricultural2015; @zabelGlobalImpactsFuture2019]. -->
+
 
 ::: {.callout-note icon=false}
-## What is traditional farming?
+## On labelling farming systems...
 
-Small discussion on traditional vs conventional farming dichotomy
+Characterising farming systems in an accurate and reproducible way is an everlasting challenge but nevertheless necessary to identify trade-offs brought by existing models in order to sort the wheat from the chaff. Since the environmental footprint of agricultural production became a burning topic, many different terms have been used usually to draw opposition between the intensive, industrialised model that became predominant in the Global North, usually branded as "conventional", and the more ecology-friendly farming qualified as "organic", "alternative" or "traditional" for the most famous [@sumbergWhatConventionalAgriculture2022]. However, most of them lack of meaningful conceptual definition: if organic farming is usually associated to regulated labels that allow a clear dichotomy based on well-defined parameters such as fertilisation or stocking density thresholds, "conventional" refers to what is common or generally in use in a certain place and at a certain time. Thus by essence "conventional" farming can vary a lot depending on countries and epochs, as for instance what can be currently described as "traditional" used to be "conventional" practices. Similarly, "traditional" farming is a very fuzzy concept that mostly refers to a socio-cultural context usually dated from before the Green Revolution and more or less arbitrarily associated with low-intensive management [@plieningerTraditionalLanduseNature2006]. 
+
+In this thesis, "traditional" was used only when describing formerly common practices that have either severely declined or disappeared over time and are thus nowadays associated with the cultural heritage [@daugstadAgricultureUpholderCultural2006]. Instead I decided to characterise the NBR grazing system as "small-scale", which does not relate to specific production principles but to either spatial extent (up to 10 ha according to the @faoSmallholdersFamilyFarmers2013) or socio-economic status [@jouziOrganicFarmingSmallscale2017], and can therefore be more pertinent for comparative studies and wide-scale assessments [@ricciardiHowMuchWorlds2018]. 
+
+- has been used in Norwegian policymaking [@asheimPolicyMeasuresPreserve2020]
+
+I acknowledge that the terminology "small-scale" grazing is still lacking in the sense that it can encompass many different models and thus may not reflect as accurately the evolution of agriculture in the NBR. I therefore encourage further discussion as part of the NBR management plan to determine specific terminology for the past, current and predicted stages of farming in Western Norway that will facilitate policy-making in the future [@gillerFutureFarmingWho2021; @huberFarmTypologiesUnderstanding2024].
 :::
 
-[^1]: footnote max elevation to justify subalpine term
+# Aim of the thesis
 
-# Chapter 2 - The fjord, the farmer and the farm
+This PhD thesis aimed to investigate how management practices and fjord environmental context affected the diversity, functionality and associated ecosystem services of the NBR grazing fields. As we wanted to provide a preliminary base of scientific knowledge that would guide and support decision-making in the NBR, we relied extensively on the ecosystem service framework that has grown familiar among the population and has been widely used for policy-oriented concepts (e.g. multifunctionality, see @bjorkhaugMultifunctionalAgriculturePolicy2008 and @wilsonWeakStrongMultifunctionality2008). Considering the limited scope of our ecological survey and the inherently high variability associated with the fjord geophysical context and the NBR small-scale grazing system, we took an explicit exploratory approach that relied on multiple indicators of ecological diversity and functioning (@tbl-papersummary).
+
+Following the coast-to-mountain gradient, we investigated:
+
+- the effect of rotational prescribed burning on beetle diversity and ecological preferences by comparing active assemblages on pioneer and mature heath in a coastal heathland grazed all year round by Old Norse sheep (PI);
+- the influence of livestock type (sheep, cow, goat) and landscape zone (coast, fjord) on the delivery of agronomic services in semi-natural grasslands by using indicators of nectar and forage resource based on plant functional traits (PII);
+- the cross-scale interactions affecting the composition of these same semi-natural grasslands by testing correlations between sets of variables characterising fjord climate, landscape composition, grazing management, fine-scale environment and dominant grass, forb and beetle assemblages (PIII);
+- the ecosystem services trade-offs and synergies provided by different land uses (infield, outfield) by assessing the aboveground and belowground productivity, the biodiversity and the carbon sequestration potential of grazing fields along the whole coast-to-mountain gradient (PIV).
+
+```{r PaperSummary}
+#| label: tbl-papersummary
+#| tbl-cap: "Summary of explanatory (management and environment) and response (taxa and ecosystem attributes) variables directly -X- or  indirectly -(X)- used in the papers of the thesis."
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+papersummary <- read_xlsx("data/SummaryTablePapers.xlsx")
+papersummary <- subset(papersummary, select = -c(Group))
+summary <- papersummary |> 
+  group_by(Subgroup) |> 
+  pivot_wider(names_from = Paper, values_from = Included) |> 
+  mutate_if(is.character, ~replace(., is.na(.), ""))
+
+summary |>
+  gt(groupname_col = "Subgroup") |> 
+  cols_label(
+    Variables = ""
+    ) |> 
+  opt_stylize(style = 6, color = 'gray')
+```
 
 
-- The first striking element regarding Nordhordland agricultural landscape is heterogeneity, driven by both environmental and human features.
-- patterns of field size related to land ownership & policy reforms, not just topography/environment [@cloughFieldSizesFuture2020]
+# Study context - The fjord, the farmer and the farm
 
-## Why heterogeneity is important to conserve biological diversity
+## The landform and climate of the NBR fjord system
 
-## The constraining environment of the fjord system
+Fjords are *"steep-sided, coastal erosional troughs which have been inundated by the sea"* [@howeFjordSystemsArchives2010] that originate from the ice retreat after the last glaciation [@mangerudIceflowPatternsPrecise2019] and interconnect into an intricate "fjord system" network which spatial cohesion decreases with the intensity of erosion processes towards the sea [@nesjeFjordsNorwayComplex2009]. The NBR, embedded between the Bergen municipality in the South and the longest and deepest Norwegian fjord, the Sognefjord, in the North, stretches from the North Sea to the eastern Stølsheimen mountains and thus offers a valuable insight of this coupled elevation and connectivity gradient (@fig-mapcontext), which can roughly be divided into three main zones [@kalandNordhordlandBiosphereReserve2018]:
 
-- role of the farmer in small-scale grazing system
-- adaptation to environment -> gradient of intensity & active modification of the habitat -> range of possible actions from the more passive (adaptation breed) to the more active (prescribed burning)
-- main characterisation of Norwegian small-scale grazing systems is heterogeneity across habitats, practices & scales
+  (1) The **coastal area**, parceled into numerous and relatively flat islands and peninsulas. The warm and moist air masses brought by the Gulf stream buffer temperature annual variation and offer a mild oceanic regime, with average summer temperature between 13°C and 15°C and annual precipitation around 1300 mm.
+  (2) The **fjord area**, where land pieces progressively merge into coherent blocks made of narrow valleys and sharp mountain sides that dive into the fjord arms. Climate grows colder and wetter inland following the elevation gradient, with an increase of temperature range and a 3000 mm peak of average annual precipitation at mid-elevation on westerly exposed slopes.
+  (3) The **mountain area** above the tree line and made of plateaus ranging from 400 to 1300 masl. The highest elevations have a drier and colder subpolar climate, with a mean annual precipitation of 2000 mm and less than 3 months in a year where the average temperature exceeds 10°C.
 
-## The role of the farmer within the fjord
+![Topography with main fjords labelled (A), landscape zonation (B), mean annual precipitations (C) and mean July temperature (D) in the Nordhordland UNESCO Biosphere Reserve, delimited in light green. Legend: (B) colours are for coastal (yellow), outer fjord (green), inner fjord (blue) and mountain (purple) areas; (C) and (D) gradients are from light shade for lower values to dark shades for higher values. Data sources: (A) Digital terrain model with 10 m^2^ resolution from the Norwegian Mapping Authority (@kartverketGeoNorgeKartkatalogen2023) (CC BY 4.0); (B) Landscape zonation from @uttakleivLandskapskartleggingNorgeLandscape2011, terminology from @kalandNordhordlandBiosphereReserve2018; (C) and (D) Mean values of daily projections with 1 km^2^ resolution for the period 2010-2020 from the Norwegian Centre for Climate Services (@wongGriddedKmClimate2016) (CC BY 3.0), with missing cells determined from neighbourhood average with the *terra* package (@hijmansTerraSpatialData2023) on R software (@rcoreteamLanguageEnvironmentStatistical2023). Credits: maps A, C and D created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org), with background ortophotography from @kartverketGeoNorgeKartkatalogen2023.](illustrations/NBR_BRMaps.png){#fig-mapcontext}
 
-- action of farmer on the field
-- choice of the land use, animals, management practices
-- still range available despite environmental constraints
+These changes in landform and climate are associated with a hump-shaped productivity gradient that displays very different landscapes between the extremes, the outer coast and mountain area, essentially characterised by shrub-dominated communities and poor edaphic conditions with alternating exposed bedrock and mires (PI), and the more central inner coast and fjord area, which encompass arable lands, semi-natural grasslands and shrublands, as well as large forest cover on the mountain slopes (PIII) (@fig-landscape). The landscape is particularly diverse in the central region as the heterogeneity of fjord shape, direction, width and steepness creates complex local dynamics [@nesjeFjordsNorwayComplex2009]: for instance, the North-facing slope of a fjord arm can still be covered by snow while its South-facing counterpart has already entered spring bloom. These cross-scale environmental processes that are unique to the fjord region have constrained the development and evolution of agriculture over time, by limiting the use of machinery and the conversion of grazing lands into arable lands and thus preventing a too severe degradation of the agro-ecological system [@forbordDriversChangeNorwegian2014].
+
+![Landscape composition on the coast (A), in the fjord (B) and in the mountains (C). Pie charts represent average percent cover of habitat type in a 1 km^2^ area around visited sites. Credits pictures: (A) Øygarden municipality, M. Kerdoncuff; (B) Alver municipality, M. Demeaux; (C) Masfjorden municipality, A. E. Eycott](illustrations/NBR_LandscapeFieldTypes.png){#fig-landscape}
+
+<!-- - Coastal heathlands are made of *Calluna vulgaris*, thick moss layer *Rhytidiadelphus squarrosus*, *Hypnum jutlandicum* and *Hylocomium splendens*, few monocot with coexistence Poaceae (*Agrostis capillaris*, *Festuca rubra*), Cyperaceae (*Carex pilulifera*, *Trichophorum cespitosum*) and Juncaceae (*Juncus effusus*) -->
+
+## The Nordhordland farm through history
+
+The first signs of agricultural activity in Western Norway draw back to early Neolithic, with the introduction of burning [@hjelleLongtermChangesRegional2018; @prosch-danielsenPalaeoecologicalInvestigationsReconstruction2000] and domestic grazing [@hjelleHesitantHuntersReview2006; @mehlCulturalLandscapeDevelopment2015a] that drastically expanded the area of heathland on the coast (PI). By middle Neolithic grazing management had reached the fjord and mountain areas, and by late Neolithic cereal cultivation had also spread in the more fertile, inner regions [@hjelleHesitantHuntersReview2006]. The initial hunter-fishers had thus progressively settled into fisher-farmers (*fiskarbonde*), who still depended from both sea and land resources to ensure their livelihood. It is during the Iron Age that the "traditional" small-scale farming of Western Norway, which legacy has lasted till the present days, reached its maturity [@olssonAgroecosystemsNeolithicTime1991]. To overcome the high discrepancy in land productivity, fisher-farmers relied on a mixed crop-livestock system where low-productive outfields (*utmark*) were grazed and/or mowed and more productive infields (*innmark*) were cultivated, with manure and mulch transferred from the former to the latter for soil enrichment [@austadHumaninfluencedVegetationTypes1991; @indrelidFarmingSystemIts1988] (PIV). This complementary management shaped the agro-ecological landscape into a fine mosaic of small, pluriactive family farms [@hetlandPluriactivityStrategyEmployment1986; @jonesLandtenureLandscapeChange1988], which would typically encompass a few arable lands, several patches of more or less productive semi-natural grasslands for rotational grazing and/or hay-making and some forested areas for building and fire wood [@austadHumaninfluencedVegetationTypes1991; @haugeGaldaneLaerdalWestern1988]. The large remote areas of heathlands on the coast and in the mountains were used as outfields only, with year-round grazing combined with rotational prescribed burning for the former [@hjelleLongtermChangesRegional2018; @lundbergAustevollChangingCoastal1991] and summer sheep transhumance for the latter [@indrelidFarmingSystemIts1988; @potthoffChangeMountainSummer2004]. Fisher-farmers therefore used of the whole coast-to-mountain gradient to create a spatially and temporally dynamic system of energy flows from the outer areas to the inner areas that has durably imprinted the fjord landscape (@fig-succession) and had promoted the highest level of biological and cultural diversity still as of today [@olssonAgroecosystemsNeolithicTime1991].
+
+![Landscape succession on the coastal area, from the outermost heathlands (*lynghei*) to the innermost semi-natural grasslands (*innmark*). Source: @brekkeKulturhistoriskVegbokHordaland1993](illustrations/NBR_FieldSuccession.png){#fig-succession}
+
+After WWII, Norwegian agriculture went through a rationalisation process which transformed the farm structure and management, with a decline of the owner-occupier model in favour of land renting and the creation of public incentives towards specialisation [@dramstadTenancyNorwegianAgriculture2010; @forbordDriversChangeNorwegian2014; @jonesLandtenureLandscapeChange1988]. Livestock was shifted to more productive infields which were enlarged and improved with the introduction of artificial fertilisation (PIV) [@fjellstadPatternsChangeTwo1999], while more remote outfields were progressively abandoned [@hamreLandcoverStructuralChanges2007a] along with their associated management practices such as summer farming [@olssonLandscapeChangePatterns2000], rotational prescribed burning (PI) or heath scything [@lundbergAustevollChangingCoastal1991]. These concurring processes were further aggravated by the socio-economic decline and the population ageing of rural communities [@forbordDriversChangeNorwegian2014], and have led to a drastic decrease in farming activity: nationally, the number of holdings dropped from around 200,000 in the 1950s to less than 38,000 in 2023 [@StatisticsNorway2024], with a bigger impact on small structures (<10 ha) which represented 90% of total holdings in 1949 against 53% in 1995 [@fjellstadPatternsChangeTwo1999; @ovreasEndringarJordbruksarealOg2011]. In Western Norway, this change was reflected across the whole fjord system with the encroachment of coastal and mountain heathland [@brynImpactsLandUse2012; @olssonLandscapeChangePatterns2000] and the impoverishment and coarsening of the infield landscape matrix [@hamrePlantSpeciesRichness2010; @norderhaugBiotopePatternsAbundance2000]. In a comparative study between cadastral maps of 1865 and 2002 in a locality along the Sognefjorden, @hamreLandcoverStructuralChanges2007a showed a 87% decrease of open habitat patches in activity, with half of the semi-natural grasslands abandoned over time, and the concurring loss of four out of five original man-made structures (e.g. stone wall).
+
+To counteract this steady degradation of the countryside, policymakers have reflected on a new farming pathway that would not only be bound by market demand but would also consider food security, the preservation of the environment and the development of rural areas [@bjorkhaugMultifunctionalAgriculturePolicy2008; @romstadMultifunctionalAgricultureImplications1999; @ronningenLegitimacyMultifunctionalAgriculture2004] the same way as described by the multifunctionality concept promoted by the Organisation for Economic Co-operation and Development [@oecdMultifunctionalityAnalyticalFramework2001]. Western Norway holds high potential for experimenting such transition thanks to the diversity of farm models according to the different livestock types, with on one hand beef and dairy farming rather associated with bigger and more intensive structures while sheep and goat husbandry tends to rely on more extensive management [@asheimPolicyMeasuresPreserve2020]. If the economic viability of the former essentially depends on the meat and/or milk production, the latter benefits more from additional cultural values associated with "traditional" breeds, like the Norwegian old sheep (*Gammel Norsk Sau*), or practices, such as the small-scale goat cheese production in mountain summer farms [@daugstadAgricultureUpholderCultural2006]. Investigating these different production systems with trans-disciplinary research and optimising their distribution across the territory through the reorientation of public subsidies are crucial steps for the sustainable transition of agriculture in Western Norway [@asheimPolicyMeasuresPreserve2020].
+
+<!-- - If public subsidies have multiplied since the 1970s to support agriculture at the national, county and municipality levels, the most important ones (e.g. Area and Cultural Landscape support) tend to neglect the environmental component [@asheimPolicyMeasuresPreserve2020]. - In present days, family farming is poorly viable and many households combine agricultural activity with full-time jobs in closest urban areas [@hetlandPluriactivityStrategyEmployment1986]. -->
+<!-- - Changing perspectives & policies: change in agricultural policies towards farmer as independent entrepreneur in post-productivist context -> diversification of agriculture in activities beyond conventional farming [@daugstadAgricultureUpholderCultural2006] -->
+
+## Ecological survey in the Nordhordland UNESCO Biosphere Reserve
+
+The following survey design was used and adapted accordingly in papers II, III and IV, paper I relying on an independent methodology. It relied on three main factors that guided the distribution of our study sites in the NBR (@fig-sitemap):
+  (1) the environmental gradient, based on the landscape zonation from @uttakleivLandskapskartleggingNorgeLandscape2011 We defined three main regions: the coastal area, the fjord area which encompassed the outer fjord and inner fjord zones (@fig-mapcontext B), and the mountain area.
+  (2) the field type according to the infield/outfield terminology, that reflects habitat inherent productivity and associated managements. We relied on the "areal type" AR5 classification system developed by the Norwegian Institute for Bioeconomy (NIBIO) [@ahlstromAR5Klassifikasjonssystem2019] that describes infields (*innmarksbeite*) as "*agricultural lands that cannot be harvested mechanically* \[with\] *at least 50% of the area* \[...\] *covered with cultured grass or pasture-tolerant herbs*". Outfields were designated under the "open permanent lands" (*åpen fastmark*) category, briefly defined as "*areas that are neither a bog, agricultural, forest or infrastructure*" (PIV).
+  (3) the livestock type, namely sheep, cattle and goat, which relates to current farm models in infields. Preliminary information on the farm management was retrieved from a socio-economic survey conducted in the NBR in 2018 [@reiersenBaerekraftVestnorskLandbruk2019].
+
+![Location of the sampling sites in coastal (yellow), fjord (green) and mountain (purple) areas of the NBR. Shapes indicate field type (square: outfield; circle:infield) and colours indicate livestock type (white: sheep; grey: goat; black: cattle). Credits: map created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org); background orthophotography and topographic layer from the Norwegian Mapping Authority (https://www.kartverket.no) CC BY 4.0.](illustrations/NBR_SiteMap.png){#fig-sitemap}
+
+We visited a total of 44 sites (@tbl-siterepartition): outfields were sheep-grazed heathlands located in the outermost part of the coastal area (5), in former forest clearings in the fjord area (1) and in the mountain area (6); infields were grazed by either sheep (11), cattle (10) or goat (9), and were located only in the coastal (14) and fjord (16) areas. The sampling period ranged from mid-June to mid-August 2019 and 2020, with coastal sites visited in early season, fjord sites in mid-season and mountain sites in late season to account for the timing difference of the spring bloom.
+
+```{r SiteRepartition}
+#| label: tbl-siterepartition
+#| tbl-cap: "Distribution of the sampling sites of the ecological survey led in 2019 and 2020 according to landscape zone, field type and livestock type."
+#| message: false
+#| warning: false
+
+library(gt)
+library(tidyverse)
+
+site <- read.csv("data/NBR_SiteRepartition.csv")
+site <- subset(site, select = -c(SiteID))
+summary <- site |>
+  count(EcoZone, FieldType, Livestock1) |> 
+  pivot_wider(names_from = EcoZone, values_from = n)
+
+summary |>
+ gt(groupname_col = "FieldType", rowname_col = "Livestock1") |>
+  sub_missing(missing_text = "-") |> 
+  opt_stylize(style = 6, color = 'gray')
+```
+
+On each site we delimited a sampling area of 400 m^2^, preferably 20 x 20 m but otherwise 40 x 10 m, that was representative of the visited field and avoided exposed rocks, waterlogged ground, trees and field edges. We set a nested sampling design made of three plots of 3 x 3 m, separated from each other by at least 6 m and divided into nine quadrats of 1 m^2^, either dedicated to non-destructive (5) or destructive (4) sampling (@fig-sampling). In the non-destructive quadrats, we recorded the percent cover (0.01-100%) of vascular and bryophyte species (PII, PIII, PIV). In the destructive quadrats, we collected: plant aboveground biomass, within a 0.25 m^2^ subquadrat (PIV); a soil core of 10.5 cm diameter and 12 cm height for mesofauna extraction (PIV) and soil chemical analyses (PIII, PIV); three soil cores of 3.7 cm diameter and 10 cm height for bulk density (PIII); ground-dwelling beetles with a dung-baited pitfall trap of 10.5 diameter and 11.5 cm height left on site for a week (PIII); soil resistance to penetration by dropping a sharpened metal rod of 43.4 cm length, 2.2 cm diameter and 1.3 kg weight from 1 m above ground through a PVC tube to ensure vertical fall. The whole sampling process, except beetle trapping, was cleared within a day for each site.
+
+![Nested sampling design set on a representative area of each grazing field. The 400 m^2^ area was delimited by fences to prevent animals from entering. Credits: figure created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org)](illustrations/NBR_SamplingDesign.png){#fig-sampling}
+
+When relevant, this field collection was completed with publicly available data on plant traits (PII) or climate and land cover (PIII). We also conducted a farmer survey by phone interviews between October 2021 and January 2022 to retrieve more information on the livestock and field management (@tbl-fieldmanagement). Unfortunately these data were not included in the statistical analyses (except in PIII) because of missing respondents (six farmers did not reply to the survey) and uneven accuracy in the information provided (e.g. not all farmers could provide an amount per surface of fertiliser sprayed), but were nevertheless used for general context and posthoc verification of odd values (PIV).
+
+To the farmers' knowledge, which could go as far back as the 1920s, the large majority of our sites have been uninterruptedly grazed for the past decades and the few abandonment periods, when occurring, did not exceed 3 years. Infields were smaller areas, with half of the sites under 3 ha, while outfields could expand over more than 1000 ha in the mountain sites co-managed by several farmers. Half of the farms managed less than 25 animals, three-quarter less than 50, and only two outfields and three infields exceeded 80 head. The grazing period in infields was very variable, ranging from 2 to 12 months, while outfields were clearly split between mountain sites only grazed during summer and coastal sites grazed all year round. Almost all infields were enriched at least occasionally: 20 out of 27 respondents sprayed artificial fertiliser, among which 11, mostly cattle-grazed, also used manure and 5 compensated soil acidification with a mixture of shell with sand or lime. Mulching was not particularly common, and only two farmers used herbicides on their fields. Except for one site drained in 2010, the most impactful practices on soil (drainage, plowing) and vegetation (resowing) have not been used for at least the previous 20 years. Some outfields were managed to prevent encroachment by either rotational burning (3 coastal sites) or tree cutting (1 coastal and 1 mountain sites).
+
+```{r FieldManagement}
+#| label: tbl-fieldmanagement
+#| tbl-cap: "Farm management according to field type. For quantitative data: median followed by range in brackets; for qualitative data, number of sites using this management in brackets"
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+management <- read_xlsx("data/SummaryFarmManagement.xlsx")
+
+# Format cell as "median (min-max)"
+management <- management |> 
+  mutate(Value = case_when(
+    Mean > 0 ~ paste(Median, " (", Min, " - ", Max, ")", sep = ""),
+    TRUE ~ Value
+  ))
+
+# Wider table
+management <- subset(management, select = c(FieldType, Variable, Value))
+management <- management |>
+  group_by(FieldType) |>
+  pivot_wider(names_from = FieldType, values_from = Value)
+
+management |>
+  gt(rowname_col = "Variable") |>
+  opt_stylize(style = 6, color = 'gray')
+
+```
+
+# Main results - Comparing grazing managements under the fjord system umbrella
+
+<!-- Two major features stand out when describing small-scale grazing in the NBR [@kalandNordhordlandBiosphereReserve2018]: first the very unique context of strong West-East environmental gradient created by the fjord system [@ketzlerClimateNorway2021; @nesjeFjordsNorwayComplex2009], and second the diversity of farming practices between and within farms [**ref bouquins Inger**], both in a relatively limited geographical area. As such, the leading direction of our survey revolved around questioning the influence of the underlying regional gradient and of the different types of grazing management on the biodiversity, the functionality and the ecosystem services of the NBR grazing fields. -->
+<!-- - We originally did not aim to investigate environmental variability within the NBR agro-ecological landscape in our survey, and as such our methodological design was undoubtedly lacking to address this purpose [**ref book heterogeneity ch.2**]. -->
+<!-- - Nevertheless, such processes were expected to influence organism and ecosystem responses to grazing management and could not be overlooked [@habelEuropeanGrasslandEcosystems2013]. -->
+<!-- - This chapter reviews how we approached ecological gradients either as constraining (PI), underlying (PII, PIV) or structuring (PIII) at different spatial scales and resolution levels (@tbl-envsummary), and how they related to grazing management. -->
+
+## Accounting for the climate-landform gradient of the fjord system
+
+The combined climate-landform gradient of the NBR fjord system can be seen as an overarching umbrella of inherent regional patterns constraining (1) habitat productivity [@knappRainfallVariabilityCarbon2002; @ritterDistinctResponseGross2020; @sloatIncreasingImportancePrecipitation2018], (2) species distribution according to their phenology [@abarcaDirectIndirectEffects2021; @bykovaTemperatureDependenceReproduction2012; @loganTemperaturedependentPhenologyPredation2006; @michaletzDriversTerrestrialPlant2018] and biotic interactions [@klanderudImportanceBioticVs2015; @olsenFacilitationCompetitionTemperature2016], and (3) land use [@haugeGaldaneLaerdalWestern1988; @hjelleHesitantHuntersReview2006].
+
+(1) Site productivity was as expected a strong factor of variation of soil nutrient cycling [**ref**] and plant functional group diversity [@bakkerHerbivoreImpactGrassland2006; @debelloGrazingEffectsSpecies2007; @lezamaVariationGrazinginducedVegetation2014], but higher heterogeneity amongst outfields was seemingly not related to geographical location (PIV) despite sharp differences in temperature and precipitation between the coast and the moutains [@meteorologiskinstituttNorskKlimaservicesenter2023]. Climate effect could be buffered by the high in-field heterogeneity of outfields [@negronConsequencesIntensiveGrazing2019], with similar mosaic of ecological conditions met at both ends of the gradient through for instance topographic complexity [@graaeStayGoHow2018; @mysterudEffectsDensitySeason2007], grazing [@augustineFeedbacksSoilNutrients2003; @hopcraftHerbivoresResourcesRisks2010] or concurring management practices such as rotational prescribed burning on the coast (PI).
+
+(2) When only considering infields, we did not find any effect of the landscape zone on vascular plant species richness (PII), but the relationships with assemblage and functional trait composition were not as straightforward. If we found signs of potential influence of the regional gradient over plant (PII, PIII) and beetle (PIII) assemblages as well as forage indicator value (PII), there were either contradicted by complementary analyses (PIII) or dependent on the interaction with the livestock type (PII). Even though temperature and precipitation can affect both plant [@reitaluDeterminantsFinescalePlant2014; @turtureanuScaleTaxondependentBiodiversity2014; @zelnikPlantSpeciesDiversity2013] and animal [@dauberLocalVsLandscape2005; @filazzolaEffectsLivestockGrazing2020] diversity and assemblage composition in grazing fields, regional phenomena may have weaker influence over shorter geographical ranges compared with grazing management or edaphic variables [@siefertScaleDependenceVegetationenvironment2012; PIII]. Local weather and topography could still indirectly affect plant species composition [@andersonRainfallSoilsModify2007] by constraining livestock foraging behaviour [@hesterForagingBehaviourSheep1999; @mysterudEffectsDensitySeason2007] or nutrient and water distribution [**ref**], but it was not verified in our survey (PIII).
+
+(3) We found on the other hand a clear correlation between the climate-landform gradient and the land cover surrounding infields (PIII), supporting that the agro-ecological landscape matrix in the NBR fjord system is strongly environmentally constrained [@lundbergAustevollChangingCoastal1991; @nesjeFjordsNorwayComplex2009]. However, this change in landscape composition did not affect finer environmental gradients [**ref**] neither dominant plant [@cousinsModellingEffectsLandscape2003; @soderstromPlantsInsectsBirds2001] or beetle [@avironCarabidAssemblagesAgricultural2005; @bataryResponsesGrasslandSpecialist2007; @martelImpactFarmingSystems2019] assemblages (PIII). If the influence of landscape is not always verified compared with local variables [@dauberLandscapeStructureIndicator2003; @jeanneretQuantifyingImpactLandscape2003], other features than composition can be more significant such as connectivity [@concepcionEffectsLandscapeComplexity2008; @cousinsHotspotsAreGone2008; @schweigerQuantifyingImpactEnvironmental2005], heterogeneity [@burelDifferentialResponseSelected2004; @dramstadIntegratingLandscapebasedValues2001; @zulkaSpeciesRichnessDry2014], configuration [@lecoqLandscapeStructureInfluences2023] or complexity [@cloughFieldSizesFuture2020; @gonthierBiodiversityConservationAgriculture2014].
+
+- Undoubtedly, the regional climate-landform gradient of the NBR fjord system alters organism responses to grazing management by interacting with local factors (PII, PIV) [**ref**], but our ecological survey had a too narrow scope to offer a proper assessment of these relationships.
+
+- A major shortcoming comes from the overall poor understanding of the complex climate-landform gradient specific to fjord systems, regarding both its direction and scalability.
+- If temperature, precipitation and elevation broadly follow a linear West-East gradient, habitat productivity is constrained into a hump-shaped pattern by both the oceanic and alpine regimes, thus mismatching "conventional" climate-elevation models.
+- Most research emphasis on fjord systems has been on marine and aquatic biology, land-sea interface
+
+- constraining habitat productivity at both ends by oceanic and alpine regimes and thus mismatching with more conventional climate-elevation models in continental settings.
+
+- Main shortcomings: the unidirectionality, accurate characterisation of environmental gradients and the scale
+- Lacking research
+- Another layer of complexity is added by the fjord arms
+- At local scale, the geomorphological complexity also shapes a network of micro-climatic niches [@graaeStayGoHow2018] 
+
+Finally, paper III was our modest attempt to disentangle the effects of environment- and livestock-driven variation on plant and beetle assemblages across scales, which, unlike in other papers, were characterised by selected sets of measured variables. Even if we could only take an exploratory approach due to the limited scope and replication level of our study, this latter paper addressed the most explicitly the complexity of assessing grazing management effect within a highly heterogeneous system.
+
+- At local scale, the geomorphological complexity also shapes a network of micro-climatic niches [@graaeStayGoHow2018] 
+- threshold (proposed 45 km linear distance) beyond which plant distribution more likely to be explained by climatic factors than edaphic ones @siefertScaleDependenceVegetationenvironment2012
+-	Local environmental variables: light, temperature, continentality & moisture unimodally associated with species richness [@reitaluDeterminantsFinescalePlant2014]
+- Extent and grain are both important features which can alter final results.
+- @nogues-bravoScaleEffectsHuman2008 strong effect of spatial extent, but not spatial grain, on species richness distribution along elevation gradient
+
+```{r EnvSummary}
+#| label: tbl-envsummary
+#| tbl-cap: "Summary of environmental variation categorisation across papers"
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+envsummary <- read_xlsx("data/SummaryEnvVarPaper.xlsx")
+envsummary <- envsummary |> 
+  group_by(Group, Paper) |> 
+  pivot_wider(names_from = Paper, values_from = Variables)
+
+summary <- envsummary
+summary |>
+  gt(groupname_col = "Paper",  rowname_col = "Group") |> 
+  opt_stylize(style = 6, color = 'gray')
+```
+
+
+## Characterising grazing management in small-scale grazing systems
+
 - 
 
-### Prescribed burning on coastal heathland - PAPER I
+- If both papers suggested that grazing management had an influence on plant species composition, with different vascular plant species composition in sites grazed by cows (PII) and a significant correlation between grazing management and dominant grass communities in infields (PIII), it is difficult to assure that grazing itself is actually the direct driver.
+-  First of all, the relationship between dominant grass species and the set of grazing management variables in paper III was supported in the first step by the canonical correlation analysis, but not by the subsequent redundancy analysis.
+- Then, in paper II, if a different plant species composition was associated with cow-grazed infields, it does not mean that cows themselves were the driver of change.
+- Indeed, we recorded from the farmer interviews (data not available at the time of PII submission) that cow fields were more heavily fertilised than fields grazed by other animals.
+- Thus, on outfields which are less intensively managed, role of grazers maybe more prominent
+- [PIV findings, with outfields vs infields]
+- Habitat productivity is an important element [@milchunasQuantitativeEffectsGrazing1993], with potential interactions with grazers [@lezamaVariationGrazinginducedVegetation2014]
+- In paper II, coastal fields grazed by sheep had lower fodder productivity (PII)
+- on low-productive coastal heathland, combination of grazing and fire did influence beetle activity even at fine-scale, even if it did not seem to fundamentally modify the community
 
-## Heterogeneity beyond the field - cross-scale influences
 
-### Literature background
+#### Grazing
 
-[Includes the 'how to']
+Land use intensification
+- Belowground multidiversity less affected by land-use intensification or interannual variation [@allanInterannualVariationLanduse2014]
+- no effect of N & P on plant species composition in Tanzanian grasslands grazed by native ungulates [@andersonRainfallSoilsModify2007]
 
-```{r DenglerConcept}
-#| label: fig-denglerconcept
-#| out-width: "491px"
-#| fig-cap: "From Dengler et al. (2014) - Conceptual model of the drivers of species pool in grasslands across scales"
-#| message: true
-#| warning: true
-knitr::include_graphics("illustrations/Dengler.etal2014_ConceptScaleFiltersGrasslandFlora.jpg")
-```
+Grazing x no grazing
+- overall negative impact of grazing on beta-diversity, affecting more strongly highly productive sites [@lezamaVariationGrazinginducedVegetation2014]
+- no clear effect of grazing on graminoid cover, independently of site productivity [@lezamaVariationGrazinginducedVegetation2014]
+- decrease of plant species richness along with increase of soil available P with ungulate exclusion [@andersonRainfallSoilsModify2007]
+- grazing affect abiotic interactions soil x site & x flooding regime [@graceRelationshipSpeciesDensity1999]
 
-### Small-scale farming in a fjord system - PAPER III
+Grazing intensity
+- grazing intensity affected plant community in 15y experiment upland grassland but sensitivity depended on community type [@pakemanLongTermImpacts2019]
+- intensive cattle grazing increased legumes abundance & evenness & decreased grass abundance compared with extensive in 6y grassland experiments [@dumontPlantHerbivoreInteractions2011]
+- light to moderate grazing usually most productive, but even heavy grazing can be equally productive depending on the type of grassland [@pattonEffectsGrazingIntensity2007]
+- low-intensity sheep grazing in Mediterranean grasslands with higher plant species richness than moderate and high intensity [@skornikEffectGrazingPressure2010]
+- different plant species composition under heavy grazing, but not between light & moderate [@skornikEffectGrazingPressure2010]
+- no overall *effect of sheep grazing intensity on plant species richness & Shannon in meta-analysis of sheep-grazed grasslands [@scohierHowSheepAffect2012]
+- distribution of CSR strategies primarily affected by grazing intensity in Canadian marshes & wet meadows [@teuberLivestockGrazingIntermountain2013]
+- light to moderate grazing intensity (0.7-2.4 LSU/ha) affected bite rate but not forage selectivity in cattle-grazed mesotrophic & semi-natural grasslands [@dumontEffectsLivestockBreed2007]
+- light to moderate grazing intensity (0.7-2.4 LSU/ha) only very marginally affected plant species richness & cover of functional groups & dominant species in cattle-grazed mesotrophic & semi-natural grasslands [@scimoneEffectsLivestockBreed2007]
+- effect of light to moderate grazing intensity (0.7-2.4 LSU/ha) on ground-dwelling arthropod overall not consistent and mostly dependent from location and grassland type [@wallisdevriesEffectsLivestockBreed2007]
+- only very marginal effect of grazing intensity on ground beetle community composition & richness in upland grasslands [@pozsgaiGrazingImpactsGround2022]
 
-#### Conceptual framework
+Mixed vs single grazing
+- Belowground multidiversity (bacteria, fungi, nematodes) not affected by mixed cattle-sheep grazing against single, while aboveground & total multidiversity were [@wangDiversifyingLivestockPromotes2019]
+- higher total multidiversity & multifunctionality in mixed sheep & cattle grazing [@wangDiversifyingLivestockPromotes2019]
+- No effect of mixed-grazing on plant composition, & no difference between cattle and sheep on plant biomass
+[@jerrentrupDiverseSwardsMixedgrazing2020]
+- no consistent effect of mixed-grazing/single on herbage consumption in experiment [@seitherSwardCompositionGrazer2012]
+- No indication of complementarity between sheep & cattle on mixed-grazing [@jerrentrupLittleGrazerSpecies2015]
+- mixed grazing increased diversity, productivity & plant community dissimilarity compared with single sheep & cattle grazing in high-diversity steppe, but no clear effects in low-diversity steppe [@liuImpactsGrazingDifferent2015]
 
-```{r FjordConcept}
-#| label: fig-fjordconcept
-#| out-width: "800px"
-#| fig-cap: "Natural and anthropogenic categories of drivers of plant and beetle communities in a small-scale farming system within a fjord landscape"
-#| message: true
-#| warning: true
-knitr::include_graphics("illustrations/NBR_FjordConcept.png")
-```
+Livestock type
+- higher N yields in herbage mass in experimental cattle-grazed yards [@seitherSwardCompositionGrazer2012]
+- lower plant species richness, Shannon diversity & evenness under sheep grazing compared to cow grazing [@tothLivestockTypeMore2018]
+- Lower cover of short-lived & perennial forbs, and legume in sheep-grazed [@tothLivestockTypeMore2018]
+- Higher multi-trait functional diversity (Rao’s quadratic entropy) in cattle-grazed [@tothLivestockTypeMore2018]
+- no effect of grazer type on plant species richness on experiment [@jerrentrupLittleGrazerSpecies2015]
+- higher grass abundance & evenness in sheep grazing compared with cattle after 6y treatment in grassland experiment [@dumontPlantHerbivoreInteractions2011]
+- no clear effect livestock type (sheep vs cattle) on six common foraging species [@cuchillohilarioForageSelectivityCattle2018]
+- no effect of livestock type (sheep vs cattle) on plant main groups cover in a 7y experiment in *Molinia* grassland [@fraserImpactSwardComposition2011]
+-> farm model varies according to the livestock: usually mixed dairy-beef systems on full-time larger farms while sheep grazing on part-time, smaller farm [@asheimPolicyMeasuresPreserve2020]
 
-### The fjord system
+Seasonal x continuous
+- different plant species composition between cattle rotational and continuous grazing [@boavistaEffectsGrazingRegimes2019]
+- higher species richness & evenness under cattle rotational grazing [@boavistaEffectsGrazingRegimes2019]
+- no demonstrated benefits of rotational grazing compared with continuous grazing in rangeland experimental research [@briskeRotationalGrazingRangelands2008]
+- rotational cattle grazing system increased plant diversity, soil nutrient content & cover of N-poor high-elevation & meso-eutrophic species in sub-alpine & alpine meadows [@perottiYearRotationalGrazing2018]
+- no difference in beetle, ant & spider species richness but effect on beetle body size & ecological preferences (shade) & spider body size & hunting strategy (web vs runner) between continuous & late (mid-July) grazing in Nordic grasslands [@lenoirEffectsTimingGrazing2010]
+- no sign of better biomass recovery at the end of the season under late grazing compared with early grazing in mountain grasslands [@davisEffectsTimingGrazing2014]
+- late cattle grazing enhanced fruit production compared with all season in two grasslands [@lennartssonEffectTimingGrassland2012]
 
-The fjords in Western Norway are characterized by undulating topography which grows sharper in the inner fjord area [STILL NEED TO DEFINE THESE AREAS AT SOME POINT?]. The following features can affect plant and beetle assemblages by filtering the *natural* species pool at wider scale:
+Productivity
+- different effect of grazing intensity depending on nutrient status of the ecosystem, with plant species richness nutrient-poor habitats more sensitive to increase grazing [@proulxReversalGrazingImpact1998]
+- stronger responses of herbage production & plant community structure to grazing intensity in highly productive mesotrophic grasslands compared to more species-rich ones [@isselsteinEffectsLivestockBreed2007]
+- grazing effect on moisture preference & leaf-hopper activity-density habitat/productivity dependent in alkaline steppe & meadows [@tormaDifferencesArthropodCommunities2023]
+- low-intensity cattle grazing (1 ind/ha) effect on plant diversity & species composition depends on habitat type (dry, meso & wet) in alkali meadows [@torokTraditionalCattleGrazing2014]
+- negative effects of abandonment & fertilisation on wet meadow taxonomic diversity & functional evenness enhanced in more productive sites [@janecekEffectsLanduseChanges2013]
 
-- the **elevation**: our study focused on grasslands in the "lowlands", thus the elevation gradient was limited with all of our sites located below 200 m. Yet, even at low level elevation can have an effect on local climate. including temperatures and precipitations [@zelnikPlantSpeciesDiversity2013].
--- the **annual precipitations**:
-- the **average maximal temperature of the warmer month**:
-- the **average minimal temperatue of the coldest month**:
-- the **distance to sea**: fjords are first and foremost defined by the sea arms which enter deeply into the land. These geological formations greatly affect the local climate by constraining wind currents and clouds [REF].
+Fertilisation
+- N redistribution [@augustineFeedbacksSoilNutrients2003]: in managed habitat, N deposition through dung & urine exceeded total N consumption in forage while in bushland, N forage consumed exceeded N deposition
+- light availability & heterogeneity may be bigger drivers than N concentration [@bakkerDoesResourceAvailability2003]
+- N fertilisation affect plant species composition [@klimekPlantSpeciesRichness2007]
+- mites & to lesser extent collembola most abundant in acidic soils with low nitrate concentration [@birkhoferGeneralRelationshipsAbiotic2012]
 
-- temperature and precipitation will affect seasonal phenological dynamic of the plants, and thus response to management [@wehnAdaptiveBiodiversityManagement2018]
 
-### The landscape matrix
+#### Depends on biodiversity attribute
 
-Land use being greatly constrained by the fjord topography, the agricultural landscape is usually diverse with woodlands and semi-managed outfields mixing with the grazing fields. The different habitat types around the site will affect the species pools and flows [REF]:
+- 3 primary attributes of biodiversity are composition, structure & function @nossIndicatorsMonitoringBiodiversity1990
 
-- the **forest percent cover**: it is common for land owners in the fjord countryside to keep some forested areas for wood supply. The dominant assemblages should not be affected in case of limited forest surface cover, but a landscape mainly dominated by forest may affect the species pools of the fields.
-- the **wetland percent cover**: the fjords in Western Norway are well-irrigated thanks to a high precipitation level [REF]. Same as for the forest cover, it is likely that the common plant species pool will not be affected, but hygrophilous beetles (e.g. Hydrophilidae, Ptilidae) could be found in surrounding areas.
-- the **cultivated land percent cover**: small-scale farming involves a high variety of food production strategies to adapt to the productivity gradient, with a limited use of agricultural machinery [REF]. Cultivated land are usually represented by fodder crops and orchards, which could influence the dominant pool of forbs in the surrounding grazing fields.
-- the **outfield percent cover**: traditional grazing management in Western Norway revolved around the combined use of low productive outfields (usually heathlands or shrublands) and high productive infields, with biomass taken from the former in summer (e.g. heath mowing or summer grazing), to enrich the latter [REF]. There can be a fine line between outfields and infields, especially closer to the coast. A high cover of outfield would induce an overall lower productivity of the area.
-- the **infield percent cover**: infields correspond to more conventional grazing areas, such as meadows and pastures. In an infield-dominant landscape, we would expect the dominant plant and beetle pools to be relatively stable.
+species richness x community composition
+- in wet Moliniea meadows different drivers plant species richness (soil > climate > topography > management) & composition (elevation > pH > flooding frequency > temp > mowing date > humidity > precipitation > P > N) [@zelnikPlantSpeciesDiversity2013]
+- in Mediterranean grasslands, plant species diversity differed between low, moderate & high grazing intensity while community composition only differed in high intensity [@skornikEffectGrazingPressure2010]
+- variation partitioning more explanatory for species diversity than for species composition -> can be due to statistical method or actual complexity of community responses compared to diversity [@klimekPlantSpeciesRichness2007]
+- landscape elements more influential on community composition of ground & dung beetles than species diversity [@soderstromPlantsInsectsBirds2001]
+- contrary to species richness, most community structures (plants, beetles, butterflies) driven along infield tree cover gradient & % arable fields in landscape [@soderstromPlantsInsectsBirds2001]
+- Carabidae species diversity responded to sheep & goat grazing intensity while community composition primarily responded to elevation gradient (0-2200 m) in Mediterranean shrubland [@kaltsasGroundBeetlesRespond2013]
+- big shift in community composition may have only little effect on richnesss, evenness & diversity [@avolioChangesPlantCommunity2014]
+- beetle and spider community composition responded to fertilisation in subalpine meadow but not species richness [@lessard-therrienImpactsManagementIntensification2018]
 
-### The grazing management
+Diversity vs abundance
+- only ground beetle abundance clearly responded to sheep grazing intensity in upland grasslands [@pozsgaiGrazingImpactsGround2022]  
+- low grazing intensity decreased Shannon & Simpson diversity but increased abundance & biomass in comparison with 15y abandonment & moderate grazing [@tonelliEffectsProgressiveAbandonment2018]
 
-To accommodate the constraining topography and the limited resources, grazing like farming practices are very diverse. Grazing is a well-studied habitat pressure which can trigger contrasting responses depending on its intensity and the local context [REF]:
+Diversity indexes (alpha vs beta vs gamma)
+- alpha diversity of semi-natural grasslands increased with proportion & diversity of natural & semi-natural habitats in the neighbourhood, while beta & gamma diversity increased with proportion & diversity of non-natural habitats [@janisovaLandscapeEffectsDiversity2014]
 
-- the **type of livestock**: traditional grazing management in Western Norway used to rely on sheep breeding, but the livestock has been diversified with cow and goat flocks. Each type of livestock has distinct grazing patterns and diet preferences which can affect the plant community [REF]. The type of excretions, which differs a lot between ruminants and other herbivores, is also likely to influence the dung-beetle assemblage.
-- the **stocking density**: productivity being a major limiting factor in fjord areas, grazing systems in Western Norway can be qualified as extensive, even on the most productive infields. However, there will still be a gradient of intensity according to the type of grazer, the number of animals and the grazing area.
-- the **farm infield surface**: rotational grazing is an important component of small-scale farming. The farmer divides the area into smaller fields where the livestock stays on shorter periods and rotates regularly during the year. Higher rotational capacity in extensive management system entails a lower grazing intensity.
-- the **size of the field**: due to this rotational grazing system on a limiting topography, the size of each individual field can vary a lot between farms and within the same farm. A smaller field will be more sensitive to disturbances and to changes in species flows, and will be more subjected to edge effect [REF].
+Functional vs taxonomic diversity
+- functional diversity more temporally stable than taxonomic diversity under increasing grazing intensity, but still affected when intensity high in environments with limiter water availability @carmonaTaxonomicalFunctionalDiversity2012
+- grazing intensity directly influenced both taxonomical & functional richness in sub-alpine & alpine grasslands, but not functional dispersion or evenness [@komacFunctionalDiversityGrazing2015]
+- effect continuous vs late grazing mostly reflected in functional diversity of arthropods rather than species richness [@lenoirEffectsTimingGrazing2010]
+- distribution of CSR strategies primarily affected by grazing intensity in Canadian marshes & wet meadows [@teuberLivestockGrazingIntermountain2013]
+- area of historically preserved species-rich grasslands in the landscape affected arthropod species richness but did not filter specific traits [@woodcockHistoricalLocalLandscape2021]
+- morphological traits, particularly linked to dispersal, good indicators of species responses to management intensity at both local and landscape scales [@neffCrossscaleEffectsLand2019]
+- species & functional diversity highly (+) correlated in alpine Mediterranean grasslands [@catorciEffectsGrazingVs2014]
 
-### The fine-scale environment
+- species density & biomass in meadows do not respond to the same predictors [@graceRelationshipSpeciesDensity1999]
 
-The last filters which apply to the plant and beetle assemblages would be the ones to define their immediate ecological niches, from both above- and below-ground [REF]:
 
-- the **slope**: the fjord landscape alternates between hills and dips. The steepness of a slope affects the soil erosion potential as well as the water streaming: a sharp hill will suffer from regular soil renewal and nutrient depletion, while a flat area will store higher water and carbon  content [@klimekPlantSpeciesRichness2007a; @zelnikPlantSpeciesDiversity2013].
-- the **aspect**: South- and East-facing slopes will receive more, and more intensive sunlight than West- and North-facing ones. The combined aspect and angle determine the heat load received by the slope [REF].
-- the **soil compaction**: soil structure plays a major role in plant root development, and subsequent exchanges within the rhizosphere [REF], and arthropod movements and potential cover against disturbance [REF]. Soil compaction, assessed with the measure of bulk density, usually increases with grazing intensity [REF]. Thick grass root mats can also stiffen the soil [REF], thus an in-field penetration test can provide complementary information to the regular bulk density measurement.
-- the **soil chemical composition**: nitrogen and phosphorus are the most studied plant limiting factors in agronomy [REF]. As high concentrations favor competitive fodder species, we can expect a correlation between nutrient load and dominant grass communities. Soil pH will affect the availability of nutrients by altering their chemical forms, and can therefore influence the plant species composition [@zelnikPlantSpeciesDiversity2013].
-- the **structural diversity**: available ecological niches for beetles are highly dependent of the heterogeneity of the aboveground biomass. It can be explained by feeding preferences (e.g. phytophagous) or strategies (e.g. hunters by sight) [REF]. Taller vegetation is usually associated with higher cover and more diverse niche potential [REF]. On the other hand, presence of very short vegetation patches or exposed ground will be important niches for some groups [REF].
-- the **soil moisture**: beetles are very sensitive to moisture gradients [REF] and some families such as Hydrophilidae and Ptilidae will be mainly hygrophilous [REF]. The bryophyte layer will help to maintain the ground humidity during the summer season [REF].
+#### Depends on taxa
 
-# Trade-offs and synergies between ecosystem services provided by semi-natural grasslands
+Plant vs arthropod
+- plant richness more sensitive to local management intensification than invertebrates & vertebrates, while the latter significantly correlated with landscape complexity contrary to the former [@gonthierBiodiversityConservationAgriculture2014]
+- no correlation between species richness of ant, wild bee & vascular plant when assessing for influence landscape matrix on grassland diversity [@dauberLandscapeStructureIndicator2003]
+- no significant correlation between plant & ground beetle species richness in light cattle & sheep grazed calcareous grasslands [@lyonsImpactsContrastingConservation2017]
+- plant & ground beetle community response to grazing management significantly correlated but not strongly enough to be considered as proxy in light cattle & sheep grazed calcareous grasslands [@lyonsImpactsContrastingConservation2017]
+- different taxa (butterflies, carabids, plants) preferentially responded to different landscape features [@weibullSpeciesCompositionAgroecosystems2003]
+- some common driver of diversity (e.g. vol juniper shrubs for butterflies, bumblebees & dung beetles, or number tree species for plants & dung beetles) and community composition (e.g. % arable fields in landscape for vascular plants & dung beetle, tree cover for vascular plants, dung beetles & ground beetles) [@soderstromPlantsInsectsBirds2001]
+- landscape matrix effect NS for plants but had effect on ants through % forest & fallow lands, and on wild bees through % arable lands [@dauberLandscapeStructureIndicator2003]
+- plant & spider species richness showed opposite response to land use, nitrogen content & moisture, with spiders favoured by fallows & plants more diverse in meadow & pasture [@bucherBiodiversityLowintensityPastures2016]
 
-## Links between biodiversity and functions
+Arthropod vs arthropod
+- only Coleoptera abundance/richness showed positive to negative responses to grazing against no grazing or grazing intensity increase while Orthoptera, Lepidoptera, Hemiptera & Aranea abundance/richness only showed neutral to positive responses in sheep-grazed grassland meta-analysis [@scohierHowSheepAffect2012]
+- both spider & ground-beetle abundance & community composition responded to fertilisation on sub-alpine meadow but ground-beetle community more site-specific than spider [@lessard-therrienImpactsManagementIntensification2018]
+- epigeic & grounw-dwelling arthropod diversity responded differently to vegetation clipping but both assemblage composition were driven by light incidence & average humidity in sandy mixed-grass prairie [@pratherPlantsRegulateGrassland2019]
+- leaf-hopper more sensitive to low-intensive grazing vs no grazing than ground beetle or spider in alkaline meadows & steppe [@tormaDifferencesArthropodCommunities2023]
+- Auchenorrhyncha most sensitive taxa to local & landscape management compared with Heteroptera & Orthroptera [@neffCrossscaleEffectsLand2019]
 
-- Categorisation of biodiversity according to their roles in the agroecosystem -> 
+Aboveground vs belowground
+- Belowground multidiversity (bacteria, fungi, nematodes) not affected by mixed cattle-sheep grazing against single, while aboveground & total multidiversity were [@wangDiversifyingLivestockPromotes2019]
+- belowground diversity does not respond to land use intensity and change the same way as aboveground diversity. As conservative management decisions are taken in regard to aboveground diversity, it may not stimulate, if not even negatively affect belowground biota [@leprovostContrastingResponsesBelowground2021]
+- Belowground multidiversity less affected by land-use intensification or interannual variation [@allanInterannualVariationLanduse2014]
 
-## PAPER IV ("SHEEP") - Within the field
+Multidiversity
+- multidiversity response to increasing land use intensity differs according to taxonomic groups [@allanInterannualVariationLanduse2014]
+- only insect abundance showed significant responses to farming intensity & landscape complexity, while overall abundance following the same trends [@gonthierBiodiversityConservationAgriculture2014]
 
-## Field management choices maintain synergies between agronomic services - PAPER II
+Functional type
+- different responses of bryophyte & lichen richness to humus content, & vascular & lichen to micro-relief [@turtureanuScaleTaxondependentBiodiversity2014]
+- vascular & cryptogams responding differently to elevation and soil nutrient/LOI [@austrheimPlantDiversityPatterns2002]
+- change in plant species composition under rotational cattle grazing not detected when overall community considered but still significant for mesotrophic, oligotrophic & thermic groups in subalpine & alpine meadows [@perottiYearRotationalGrazing2018]
+- tall annual & perennial grasses decreased with cattle grazing intensity while annual thistles (chardons) & crucifers increased in Mediterranean meadows [@sternbergVegetationResponseGrazing2000]
+- all arthropod feeding guilds positively affected by % historically preserved species rich grassland in landscape either independently or with interaction [@woodcockHistoricalLocalLandscape2021]
 
-## Methodology point here
+
+## What has not been considered
+
+- the scale of influence - common issue between PI & PIII, that maybe the scale was not appropriate (too small) to understand the mosaic & heterogeneity patterns -> might have needed to level up to field (PI) or farm (PIII) level
+- the heterogeneity/patchiness within the field -> feeding behaviour depends on sward height [@wallisdevriesForagingStrategyCattle1994], size [@hesterForagingBehaviourSheep1999]
+- isolating grazing management from the rest might not be the most accurate, as farming practices of small-scale grazing systems are very diverse and complementary
+- the complexity of summarising broad-scale phenomenon by a few factors -> landscape only reduced to % cover, missing landscape complexity feature
+
+div-hetero relationship
+- heterogeneity as a response was not truly investigated
+- the relationship diversity-heterogeneity to be more considered because not straightforward -> @lundholmPlantSpeciesDiversity2009
+- at the field level, positive HDR represented by tree/shrub cover for plants & beetles [@soderstromPlantsInsectsBirds2001]
+
+
+### Literature
+
+#### Scale explanatory
+
+- in species-rich grasslands, biodiversity driven by combination of cross-scale factors: large evolutionary species pool; intermediate position along environmental gradient; landscape heterogeneity/mass effect; continuity of habitat patches in space and time; reduction of competitive exclusion [@habelEuropeanGrasslandEcosystems2013]
+- influence landscape drivers depends on scale of study, but this interaction also depends on taxa (influence factor grows/decreases with spatial scale) [@steffan-dewenterScaledependentEffectsLandscape2002]
+
+- predictor influence depends on scale, though land use found as most important from 0.1 to 100 m^2^ range [@turtureanuScaleTaxondependentBiodiversity2014]
+- different responses of alpha, beta, gamma diversity [@austrheimPlantDiversityPatterns2002], with mismatch between gamma and alpha diversity -> "area effect"
+- 2 main landscape features which affect fundamental ecological processes [@dunningEcologicalProcessesThat1992]: physiognomy (spatial arrangement) & composition
+- assessment regional biodiversity should rely on mosaic concept including habitat variability (number biotope types per unit area), habitat heterogeneity (number of habitat patches & ecotone length per unit area) & composition [@duelliBiodiversityEvaluationAgricultural1997]
+- Between the effects of fine-scale (e.g. edaphic) and broad-scale (e.g. climatic) factors on community data, the variance explained will depend differently on the extent and the grain of the survey. Fine-scale variation will be very high at small extent but will stabilize quickly on bigger areas, while broad-scale variation will be very low at first at increase with bigger extent. Both will decrease with higher grain, but it will be sharp and fast for fine-scale and slow for broad-scale. The influence of the latter can then be expected to increase with bigger spatial grain. There would then be a spatial grain threshold from which broad-scale variables take over fine-scale variables to explain species composition variance. [@siefertScaleDependenceVegetationenvironment2012]
+
+- Temporal variation of overall LUI better predictor of multidiversity than variation of individual LUI component [@allanInterannualVariationLanduse2014]
+
+@scherrerDisentanglingProcessesDriving2019
+
+#### Scale response
+
+- response of native plant species richness to grazing intensity consistent across scales, but response to lower vs upper slope was scale-dependent [@dorroughPlantNeighbourhoodLandscape2007]
+- better explained variance of plant diversity by experimental (grazing intensity, sward height) & soil (soil P & K) at patch scale compared with plot scale (0.5 x 0.5 m) [@tonnGrazingInducedPatchiness2019]
+- plant richness response to grazing along elevation gradient depends on scale of observation (species-area relationships) [@debelloGrazingEffectsSpecies2007]
+
+
+<!-- ![](illustrations/Dengler.etal2014_ConceptScaleFiltersGrasslandFlora.jpg) -->
+
+
+# Methodological perspectives - Considering heterogeneity and spatial scale in a complex feedback interactive system
+
+- The first feature standing out from the description of small-scale grazing systems in the NBR is the high level of both *inherent* and *induced* heterogeneity [@fynnManagingBrowsingGrazing2019].
+
+Finally, paper III was our modest attempt to disentangle the effects of environment- and livestock-driven variation on plant and beetle assemblages across scales, which, unlike in other papers, were characterised by selected sets of measured variables. Even if we could only take an exploratory approach due to the limited scope and replication level of our study, this latter paper addressed the most explicitly the complexity of assessing grazing management effect within a highly heterogeneous system.
+
+
+## The context
+
+- The absence of control can be debated whether our results 
+
+- gradient of intensity -> usually intermediate disturbance the most beneficial for biodiversity
+- though we saw variables respond differently 
+- studies on grazing, particularly in small-scale or low-intensive farming systems, very often conservation-focused -> diversity/richness, rare species. Less on community or production focused
+
+- grazing mitigating ecosystem functionality between aboveground and belowground compartments see @bardgettHerbivoremediatedLinkagesAboveground2003
+
+### Literature
+
+- grazing and spatial heterogeneity [@adlerEffectGrazingSpatial2001]
+- usually positive heterogeneity-diversity relationships [@lundholmPlantSpeciesDiversity2009]
+- sward diversity in experiment increases herbage quality [@jerrentrupDiverseSwardsMixedgrazing2020]
+- Annual herbage accumulation not affected by species richness [@seitherSwardCompositionGrazer2012]
+-	Species richness and phylogenetic diversity negatively associated in dry calcareous grasslands [@reitaluDeterminantsFinescalePlant2014]
+
+- @tonnGrazingInducedPatchiness2019 heterogeneity (patchiness) driven by low-intensity grazing more important in preserving plant species diversity than intensity itself
+- grazing by native grazers enhances plant species richness & heterogeneity of plant community on the long-term [@bakkerDoesResourceAvailability2003]
+- overall positive effect of grazing (against no grazing) on plant species richness, but more important at high-productivity [@lezamaVariationGrazinginducedVegetation2014]
+- grazing reduced cover of dominant species, particularly in high-productivity sites [@lezamaVariationGrazinginducedVegetation2014]
+- decrease species richness with native ungulate exclusion [@andersonRainfallSoilsModify2007]
+- higher water-holding capacity, soil nutrients and organic matter content in cattle-grazed savanna compared to abandoned [@augustineFeedbacksSoilNutrients2003]
+
+- landscape intensification did not obviously affected multidiversity (small mammals, birds, insects & plants) [@burelComparativeBiodiversityGradient1998]
+
+## What we did
+
+- Different response variables -> diversity (PI, PII), community (PI, PIII), functional types (PI, PII, PIII)
+- Different habitats -> outfields (PI, PIV), infields (PII, PIII)
+- adaptation to environment -> gradient of intensity & active modification of the habitat -> range of possible managements (PIII) from the more passive (PIII) to the more active (PI)
+
+
+## What we found
+
+- weak but significant synergy between plant species richness & nectar value, and between nectar & forage values in infields (PII)
+- hints of grazing effects on infields, but yet to show the exact mechanism
+  - no direct correlation with plant communities but potential influence through fine-scale environment (PIII)
+  - effect of animal partially supported with different vascular plant composition under cows (PII)
+  -> take-home - there is probably something but maybe not correct variables (PIII) or enough replicates (PII, PIII)
+
+
+### Literature
+
+Methodology x categorisation
+- landscape influence on plant, birds & arthropod richness depends on the features, metrics & resolution of the classification [@baileyInfluenceThematicResolution2007]
+
+Diversity x productivity
+- sward diversity in experiment increases herbage quality [@jerrentrupDiverseSwardsMixedgrazing2020]
+- higher nutritive value of herbage in more diverse swards in experiment [@seitherSwardCompositionGrazer2012] 
+- different nutrient uptake according to functional group [@chanetonNitrogenPhosphorusCycling1996]: forb shoots with high nutrient content under grazing while graminoid shoots with 3-5 times lower nutrient content under grazing
+- decline orgranic matter digestibility & crude protein over season in diverse-oriented system while stable in production-oriented system in mountain meadows [@farruggiaAnimalPerformancesPasture2014]
+- response of species richness to herbivory primarily affected by change in species dominance independently of productivity [@koernerChangeDominanceDetermines2018]
+- neutral to positive effect of herbivory on species richness even at low productivity, & positive effect increase with productivity [@koernerChangeDominanceDetermines2018]
+
+Soil
+- fine-scale effect depends on functional types [@austrheimPlantDiversityPatterns2002] -> e.g. vascular and cryptogams were inversely correlated to soil nutrients and LOI -> negative for former, positive for latter
+- light availability & heterogeneity may be bigger drivers than N concentration [@bakkerDoesResourceAvailability2003]
+- N fertilisation affect plant species composition [@klimekPlantSpeciesRichness2007]
+
+pH
+- mites & to lesser extent collembola most abundant in acidic soils with low nitrate concentration [@birkhoferGeneralRelationshipsAbiotic2012]
+- Norway as the country with lowest average soil pH in agricultural & grazing lands due to predominance acid crystalline rocks & absence carbonate rocks + cold climate [@fabianGEMASSpatialDistribution2014]
+- low pH decreases P mineralisation rate -> lower P availability for plants [@frankUngulateTopographicControl2008]
+
+
+## What has not been considered
+
+- fine-scale heterogeneity with its own temporal and spatial dynamic
+- in-field patchiness of vegetation structure with different grazing capacities created by cattle grazing [@gilhausCattleForagingHabits2014]
+- spatial heterogeneity from the bite to the landscape scale created by grazer at both individual and group levels [@parsonsSpatialHeterogeneityGrazing2003]
+- e.g. seasonal variability of soil moisture & inorganic N [@ryelTemporalDynamicsSoil1996]
+
+- temporal dynamic not really taken in account, especially to consider functionality of ecosystems -> e.g. only one-week sampling for beetles (PIII), one-day sampling for site productivity (PIV), agro-services calculated from databases (PII)
+- the diversity of practices (and land use history, which can be very influential), is what make ecological studies difficult -> contrary to more normative/regulated systems, there is no general rules for fertiliser use for example. Each farmer will do what he thinks is best without relying on particular guidelines
+- the difficulty of characterising functionality
+- Feedback - very difficult to take in account, but nevertheless omnipresent are the feedback between grazer/field/plants, farmer/grazer/field and plant/plant/community [@brownImportanceScaleEvaluating1989]
+- plant-plant & soil-plant interactions - complex organism-environment feedback hard to identify in ecological surveys but yet essential to understand ecosystem dynamics [@reynoldsSoilHeterogeneityPlant1997]
+
+- the pattern/behaviour of grazers -> we looked at effect of environment on temporally fixed variables & on plants, but we did not look at the grazing behaviour under different conditions [@brownImportanceScaleEvaluating1989]
+
+- different types of measurements -> we mostly considered taxonomic responses, and the only functional response (PII) was calculated from species & databases. Though grazing has much impact on plant phenology, morphology & physiology [@brownImportanceScaleEvaluating1989]
+
+- the overall & indirect effects of farmland practices (not just direct grazing effect), by using for example life cycle approach, especially when perspectives are socio-ecological [@kokEuropeanBiodiversityAssessments2020]
+
+### Literature
+
+Scale
+- primacy ecological processes into driving plant trait assembly varies across spatial scales: habitat filtering prominent at plot scale (2 x 2 m) but shift to limiting similarity at finer scale (20 x 20 cmm) independently of species richness and elevation gradient [@scherrerDisentanglingProcessesDriving2019]
+- land use & edaphic variables with considerably more explanatory power of plant species community variation at coarse grain (50 x 50 m) compared with fine grain (1 x 1 m) [@raatikainenImpactsLocalRegional2007]
+- discontinuity framework [@nashDiscontinuitiesCrossScale2014]
+- common issue in multi-scaled studies: arbitrary choice of scale [@dixonhamilCrossscaleContradictionsEcological2016; @nashDiscontinuitiesCrossScale2014]
+
+Historical imprint
+- semi-natural grassland species richness & density more affected by 100y landscape connectivity than present one [@lindborgHistoricalLandscapeConnectivity2004]
+- we did not take in account land use history @perringGlobalEnvironmentalChange2016 or past landscape connectivity
+- past land use can be more important than current land use at explaining variation in functional diversity of mutualists & herbivores as well as multi-taxa mobility traits - field age particularly increase multitrait diversity for all taxa & for herbivores [@leprovostLanduseHistoryImpacts2020]
+
+Forage quality
+- seasonal variations also impacts nutrient concentration within plant biomass [@kleinebeckerEffectsGrazingSeasonal2011]
+- year-round grazing can lower biomass nutrient concentration and thus fodder quality for livestock [@rupprechtEffectsYearroundGrazing2016]
+- forage quality of 6 common forage species affected by sward diversity & livestock type [@cuchillohilarioForageSelectivityCattle2018]
+
+Grazer driven heterogeneity
+- different utilisation of forage resources according to livestock type & density of animals [@grantControlledGrazingStudies1996]
+- importance of both individual determinism & social interactions within flocks for foraging strategies [@parsonsSpatialHeterogeneityGrazing2003]
+
+- multidiversity and multifunctionality highly correlated with each other, but correlation increase as number of functions & trophic levels do [@wangDiversifyingLivestockPromotes2019] -> but in the case of exhaustive inventory, which is not the norm
+- warning towards "specialist-conservationist" perspective, with intensive research for exhaustive inventory -> may be interesting for national-wide biodiversity (e.g. rare species), but to date no "best correlating arthropod group in comparison with overall biodiversity in agricultural field/area" [@duelliBiodiversityEvaluationAgricultural1997]
+- belowground soil bacteria richness with the strongest positive effect on most functions [@wangDiversifyingLivestockPromotes2019]
+- similar trends plant species diversity with functional trait diversity under different grazing animals [@tothLivestockTypeMore2018]
 
 - Many studies only rely on species richness as a proxy for diversity [@lundholmPlantSpeciesDiversity2009] despite its limitation
 
-# Perspectives for the Biosphere Reserve
+- effect of grazing & interaction with other disturbances on diversity will depend on the grain of observation & the level of dominance [@chanetonDisturbanceEffectsPlant1991]
 
-## Reconciliation human and nature
+
+# The take-home from the thesis - From the summary concept
+
+## What has not be taken in account enough
+
+- Scale & representativity - we considered mechanisms acting at very different scales, from nutrient cycling in the soil to big climatic gradients, with a single observational scale (field-level) and low number of replicates
+- Feedback - very difficult to take in account, but nevertheless omnipresent are the feedback between grazer/field/plants and farmer/grazer/field [@brownImportanceScaleEvaluating1989]
+
+## Perspectives for the Biosphere Reserve
+
+### Reconciliation human and nature
 
 - A lot of land sharing research is focused on the Southern hemisphere, less in the North (e.g. @ranganathanSustainingBiodiversityAncient2008; @steffan-dewenterTradeoffsIncomeBiodiversity2007)
 - smallholders emphasize the positive effects of small-scale farming on local communities, economy & cultural landscape -> different perspectives between the full-time "historical" farmer (National farmer organisation) and the part-time who includes broader perspectives (National smallholder association) [@daugstadAgricultureUpholderCultural2006]
+- Sustainable production systems -> "diverse, synergistic and tailored to their particular social-ecological contexts" [@prettySustainableIntensificationAgricultural2014]
+ 
 
-## Perspectives in ecological research
+### Perspectives for farmers
 
+- addressing the environmental & spatio-temporal variability not only pertinent for ecological perspectives in increasing understanding of agricultural systems, but also for farmers as it impacts the **functional resource heterogeneity**, which represent the *probability of meeting the specific nutritional needs of a grazing or browsing ungulate over time* [@fynnManagingBrowsingGrazing2019]
+- not only "alternative" systems aiming for a more sustainable agriculture are hard to classify due to the extensibility and malleability for farmer's own interpretation, but there is also a lack of knowledge regarding the extent of use of non-certified practices which make it even more difficult to assess their impact on biodiversity and system functioning [@milderAssessmentMultifunctionalityAgroecological2012]
+
+- not yet enough research on grazing systems ? At the end of the day, the end goal is to provide managers/farmers with concrete recommendations to ensure productivity, resilience and ecological preservation. The complexity of environmental variation coupled with management practices is already a lot, but coupled with farmer's commitment and freedom is even more challenging [@briskeRotationalGrazingRangelands2008]
+
+- mixed grazing (sheep with cattle) on improved pasture increased lamb live weight [@fraserAlternativeUplandGrazing2013]
+
+
+### Perspectives for conservation
+
+- heath habitats, particularly in uplands, very important for carabid diversity conservation [@eyreRelationshipBritishGround2003]
+- importance of maintaining ecological gradients even at fine scale to satisfy needs of different taxa -> e.g. soil humidity (+) vascular diversity but (-) wild bees diversity [@dauberLandscapeStructureIndicator2003]
+- mosaic-like landscape with well preserved vegetation patches best for biodiversity conservation [@konigGetLargerGrow2019]
+
+
+### Perspectives in ecological research
+
+- still much research to be done on the effect of grazing & its different parameters on agricultural habitats at different spatial scales [@rookMatchingTypeLivestock2004]
+
+- long-term changes in grazing and burning management at local scale may have broader consequences through how they affect carbon and nitrogen pool [@connellThreeDecadesDivergent2020]
+
+- warning with definitions of communities, with desirable or not species -> not anchored in space & time -> definition @allenConfusionScaledefinedLevels1990
 - more focus on arthropods more relevant [@duelliBiodiversityEvaluationAgricultural1997]
+- different species richness in beetle families according to land use type [@dauberLocalVsLandscape2005]
+- beetle families do not respond equally to environmental factors
+
 - a key asset of Nordhordland Biosphere Reserve agricultural landscape is its mosaic-like heterogeneity. Though we touched on the mosaic effect at the field-scale (ref ØY) and we considered landscape as a variable (ref fjord), we never actually analysed the landscape mosaic [@duelliBiodiversityEvaluationAgricultural1997]. Landscape-scale studies would be complementary to field-scale studies and would allow an interesting approach on farm multifunctionality beyond ecological perspectives only.
+- farm level as an interesting scale, as it encompasses socio-ecological processes, multifunctionality -> particularly difficult to isolate individual grazing practices from the rest of management
+
+### Literature
+
+- effectiveness of EU agri-environmental schemes (AES) dependent on landscape complexity [@concepcionEffectsLandscapeComplexity2008]
+- "landscape-wide patterns of field size are linked to patterns of land ownership & to land management" [@cloughFieldSizesFuture2020]
+
+Upscaling to farm level
+- "We suggest that agricultural landscapes are better understood and modelled when farm structure and functioning is the starting point of the research" @deffontainesAgriculturalSystemsLandscape1995
+
+Landscape research
+- importance of habitat connectivity in comparison with management intensity still overlooked, and relationship between the two not straightforward -> the NBR landscape as a "model" mosaic-like agro-ecological landscape would be a good resource to investigate & provide suitable base for modelling [@grashof-bokdamGreenVeiningLandscape2005]
 
 ## Transdisciplinary research
 
+@herreroFarmingGeographyNutrient2017
+
+- socio-ecological approaches to investigate synergies between food security and biodiversity conservation @bommarcoExploitingEcosystemServices2018; @fischerLandSparingLand2014; @geertsemaActionableKnowledgeEcological2016; @hanspachTradeoffsSynergiesFood2017
+- implementation of sustainable farming practices allowing long-term preservation of resources and ecosystem services requires broadening scale (landscape) @geertsemaActionableKnowledgeEcological2016
+- need to dig further into the context-specific effect of management practices on different aspect of farm sustainability to identify trade-offs & determine optimal strategies @germanRelationshipsMultipleAspects2017
+
+- trans-disciplinary approaches integrating livestock production & product valorisation (whole-chain) [@farruggiaAnimalPerformancesPasture2014]
+
+- participatory approach needed to assess and ensure resilience of food system of local communities @menconiRevisitingGlobalFood2022
+
+- @prettySustainableIntensificationAgricultural2014 Perspectives for concrete implementations of sustainable agriculture
+  - both scientific & farmer input into technologies & practices which combine crops & animals with appropriate agroecological & agronomic management
+  - creation of novel social infrastructure which both results in flows of information & builds trust amongst individuals & agencies
+  - improvement of farmer knowledge & capacity through the use of farmer field schools & communication technologies
+
+- @rockstromSustainableIntensificationAgriculture2017 livelihood-centered paradigm for sustainable intensification entails trans-disciplinarity & solution-oriented knowledge generation combining academic & practical knowledge through co-design & co-development of research
 - @altieriLinkingEcologistsTraditional2004 Traditional small-scale farming systems all around the world could serve as models for developing new sustainable pathways. Ecologists have a role here to dissect the processes and feedback between farmers and agroecosystems so they can be translated into practical guidelines and policies for sustainable food production and land management.
 - @altieriLinkingEcologistsTraditional2004 There is a complementarity between the long-term, empirical
 - Farmer knowledge is specialist to the area, but "trans-disciplinary" in the practice. Ecologist knowledge is generalist, theory-based, more comprehensive in terms of underlying processes, but the approach is more narrow, discipline-based
@@ -191,3 +712,13 @@ The last filters which apply to the plant and beetle assemblages would be the on
 - @wehnAdaptiveBiodiversityManagement2018 different visions of the farmer and the ecologists -> they can agree for a common management (e.g. APHM) but for different reasons -> failure of the scheme to bring farmers and scientists on the same perspectives. Also limited traditional ecological knowledge of farmers, which limits their participation/incentives in the making of a management plan, though such management plan can encourage the building of "endogenous knowledge" (**thus key to build endogenous knowledge**). Such schemes should engage actively farmers and be flexible (e.g. hay-cutting time) to encourage experimentation even if it looks like a "bad idea" from first glance
 - Increase of complexity of land management arrangements between farmers [@dramstadTenancyNorwegianAgriculture2010] which may challenge coordinate management measures according to common scheme.
 - interdisciplinary research -> needs common reference frame (common definition & understanding of concepts) [@dramstadIntegratingLandscapebasedValues2001]
+
+- "agriculture multifunctionality" has been widely used at the macro-scale of policy-making (national, EU), to the point where the meaning has been twisted to accommodate economic view of commoditisation, while exploring the pathways and interactions at the farm-scale would provide more direct and concrete insights by engaging concerned actors and tailoring to their needs and their environment [@wilsonWeakStrongMultifunctionality2008]
+
+# Conclusion
+
+- The aim of this survey was to provide an overview of the diversity offered by the grazing systems of the NBR.
+- Thus, we explored different aspects of managements and ecological responses.
+- Due to the limited scope of our ecological survey, and its subsequent lack of statistical power, the objective was not to accurately describe specific ecological interactions between livestock and fields, but rather to highlight directions to target for future work within the Biosphere Reserve
+- furthermore, beyond the pure ecological meaning/purpose of this thesis, one key aspect of this work was to ignite the communication between farmers, scientists and managers of the BR.
+- if this project did not strive for direct collaboration with the farmers, we hope it did build the first step towards a common understanding of the challenges and opportunities towards sustainable land use and food production within the BR.
