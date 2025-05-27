@@ -21,7 +21,13 @@
 data/*
 
 #illustrations
-illustrations/
+illustrations/*
+
+#extensions
+_extensions/*
+
+#Outdated files
+oldfiles/*
 
 #figures & output (excludes all figure files)
 outputs/*
@@ -32,6 +38,10 @@ outputs/*
 # Mardown outputs (exclude html or word docs)
 *.html
 *.docx
+
+# Literature review doc
+MKTradMod_LiteratureReview.qmd
+example.qmd
 
 # Bibliography (exclude all bibtex files)
 *.bib
