@@ -1,0 +1,331 @@
+---
+title: "ThesisTables"
+format: docx
+---
+
+# Author contribution
+
+
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Role                        | Paper I           | Paper II                         | Paper III                    | Paper IV                     |                       
++:============================+:==================+:=================================+:=============================+:=============================+
+| Conceptualisation           | **MK**            | AEE, MD, **MK**                  | **MK**, AEE                  | **MK**, AEE                  |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Data curation               | **MK**            | MD, **MK**                       | **MK**                       | **MK**                       |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Formal analysis             | **MK**, AEE       | AEE, MD, **MK**                  | **MK**, AK, AEE              | **MK**, AEE                  |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Funding acquisition         | IEM               | IEM                              | IEM                          | IEM, **MK**                  |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Investigation               | **MK**            | **MK**, AEE, IEM, MD, LHV, SAHO  | **MK**, AEE, IEM, LHV, SAHO  | **MK**, AEE, IEM, LHV, SAHO  | 
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Methodology                 | **MK**            | AEE, MD, **MK**                  | AEE, **MK**                  | AEE, **MK**                  |                                       
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Supervision                 | IEM, AEE          | IEM, AEE, **MK**                 | IEM, AEE                     | IEM, AEE                     |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Project administration      | IEM               | IEM                              | IEM                          | IEM                          |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Visualisation               | **MK**            | MD                               | **MK**                       | **MK**                       |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Writing - original draf     | **MK**            | MD                               | **MK**                       | **MK**                       |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Writing - review & editing  | IEM, AEE          | IEM, AEE, **MK**                 | IEM, AEE, AK                 | IEM, AEE                     |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+| Corresponding author        | **MK**            | MD                               | **MK**                       | **MK**                       |
++-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
+
+: Contributions to the individual papers in this thesis are categorised according to the CRediT (Contributor Roles Taxonomy) system.
+
+MK = Morgane Kerdoncuff^1,3^; IEM = Inger Elisabeth Måren^1,3^; AEE = Amy Elizabeth Eycott^2,3^; MD = Morgane Demeaux^1^; AK = Adam Klimes^4^; LHV = Linn Høeg Voldstad^5^; SAHO = Silje Andrea Hjortland Östman^5^.
+
+^1^ Department of Biological Sciences, University of Bergen, Norway
+
+^2^ Faculty of Biosciences and Aquaculture, Nord University, Norway
+
+^3^ Center for Sustainable Area Management (CeSAM), University of Bergen, Norway
+
+^4^ Department of Geoecology, Institute of Botany of the Czech Academy of Sciences, Czech Republic
+
+^5^ Linn Høeg Voldstad and Silje Andrea Hjortland Östman were not included as paper authors but their logistical support and technical contribution to the field and lab work were essential for the completion of this work.
+
+
+
+```{r AuthorContribution}
+#| label: tbl-authorcontribution
+#| tbl-cap: "Contributions to the individual papers in this thesis are categorised according to the CRediT (Contributor Roles Taxonomy) system."
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+authorsummary <- read_xlsx("data/SummaryAuthContr.xlsx")
+summary <- authorsummary |>
+  # group_by(Role) |>
+  pivot_wider(names_from = Paper, values_from = Contributor) |>
+  mutate_if(is.character, ~replace(., is.na(.), ""))
+
+summary |>
+  gt() |>
+  opt_stylize(style = 6, color = 'gray')
+```
+
+
+# Aim of the thesis - paper summary table
+
++---------------------------+---------+----------+-----------+----------+
+|                           | Paper I | Paper II | Paper III | Paper IV |
++:==========================+:=======:+:========:+:=========:+:========:+
+| **Management**            |         |          |           |          |
++---------------------------+---------+----------+-----------+----------+
+| outfield                  | X       |          |           | X        |      
++---------------------------+---------+----------+-----------+----------+
+| infield                   |         | X        | X         |          |
++---------------------------+---------+----------+-----------+----------+
+| livestock type            |         | X        | X         |          |
++---------------------------+---------+----------+-----------+----------+
+| stocking density          |         |          | X         | x        |
++---------------------------+---------+----------+-----------+----------+
+| prescribed burning        | X       |          |           | x        |
++---------------------------+---------+----------+-----------+----------+
++---------------------------+---------+----------+-----------+----------+
+| **Environment**           |         |          |           |          |
++---------------------------+---------+----------+-----------+----------+
+| fine-scale                | X       |          | X         |          |
++---------------------------+---------+----------+-----------+----------+
+| landscape-scale           |         |          | X         |          |
++---------------------------+---------+----------+-----------+----------+
+| regional-scale            |         | X        | X         | X        |
++---------------------------+---------+----------+-----------+----------+
++---------------------------+---------+----------+-----------+----------+
+| **Taxa**                  |         |          |           |          |
++---------------------------+---------+----------+-----------+----------+
+| plants                    |         | X        | X         | X        |
++---------------------------+---------+----------+-----------+----------+
+| beetles                   | X       |          | X         |          |
++---------------------------+---------+----------+-----------+----------+
+| mesofauna                 |         |          |           | X        |
++---------------------------+---------+----------+-----------+----------+
++---------------------------+---------+----------+-----------+----------+
+| **Ecosystem attributes**  |         |          |           |          |
++---------------------------+---------+----------+-----------+----------+
+| diversity                 | X       | X        |           | X        |
++---------------------------+---------+----------+-----------+----------+
+| community composition     | X       | X        | X         |          |
++---------------------------+---------+----------+-----------+----------+
+| functional traits/groups  | X       | X        |           | X        |
++---------------------------+---------+----------+-----------+----------+
+| ecosystem services        |         | X        |           | X        |
++---------------------------+---------+----------+-----------+----------+
+
+
+```{r PaperSummary}
+#| label: tbl-papersummary
+#| tbl-cap: "Summary of explanatory (management and environment) and response (taxa and ecosystem attributes) variables directly -X- or indirectly -(X)- considered in the papers of the thesis."
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+papersummary <- read_xlsx("data/SummaryTablePapers.xlsx")
+papersummary <- subset(papersummary, select = -c(Group))
+summary <- papersummary |>
+  group_by(Subgroup) |>
+  pivot_wider(names_from = Paper, values_from = Included) |>
+  mutate_if(is.character, ~replace(., is.na(.), ""))
+
+summary |>
+  gt(groupname_col = "Subgroup") |>
+  cols_label(
+    Variables = ""
+    ) |>
+  opt_stylize(style = 6, color = 'gray') |>
+      tab_options(
+    table.font.size = 11
+    )
+
+```
+
+
+
+# Distribution of the grazing fields in the NBR
+
+
++---------------------------+---------+----------+-----------+
+|                           | coastal | fjord    | mountain  |
++:==========================+:=======:+:========:+:=========:+
+| **infield**               |                                |
++---------------------------+---------+----------+-----------+
+| cattle                    | 5       |    5     |           |      
++---------------------------+---------+----------+-----------+
+| sheep                     |    5    | 6        |           |          
++---------------------------+---------+----------+-----------+
+| goat                      |    4    | 5        |           |          
++---------------------------+---------+----------+-----------+
+| **outfield**              |                                |          
++---------------------------+---------+----------+-----------+
+| sheep                     | 5       |     1    | 6         |          
++---------------------------+---------+----------+-----------+
+
+
+```{r SiteRepartition}
+#| label: tbl-siterepartition
+#| tbl-cap: "Distribution of the visited grazing fields in the Nordhordland UNESCO Biosphere Reserve according to landscape zone, field type and livestock type."
+#| message: false
+#| warning: false
+
+library(gt)
+library(tidyverse)
+
+site <- read.csv("data/NBR_SiteRepartition.csv")
+site <- subset(site, select = -c(SiteID))
+summary <- site |>
+  count(EcoZone, FieldType, Livestock) |> 
+  pivot_wider(names_from = EcoZone, values_from = n)
+
+summary |>
+ gt(groupname_col = "FieldType", rowname_col = "Livestock") |>
+  sub_missing(missing_text = "-") |> 
+  opt_stylize(style = 6, color = 'gray')
+```
+
+
+# Summary results fjord
+
+
++-----------------------------+-------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+|                             | Paper II                                        | Paper III                                          | Paper IV                                           |                        
++:============================+:================================================+:===================================================+:===================================================+
+| Range                       | Coastal & fjord areas                           | Coastal & fjord areas                              | Coastal, fjord & mountain areas                    |
++-----------------------------+-------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+| Factors                     | Landscape zonation                              | Climate & landform variables                       | Landscape zonation & field type                    |
++-----------------------------+-------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+| Outcomes                    | Higher cover of Poaceae in cattle-grazed        | Areas of cultivated fields and infields            | Field type as the first factor of site             |
+|                             | sites in the coastal area.                      | associated with higher precipitation levels.       | aggregation.                                       |
+|                             |                                                 |                                                    |                                                    |
+|                             | No effect on vascular plant diversity, forage   | No correlation with landscape matrix, field        | Higher shrub and cryptogam biomass on coastal      |
+|                             | indicator value or nectar indicator value.      | management or fine-scale environment.              | outfields compared with mountain outfields.        |
+|                             |                                                 |                                                    |                                                    |
+|                             |                                                 | Inconsistent results regarding the response of     | No difference between coastal and fjord infields.  |
+|                             |                                                 | dominant grass and beetle assemblages              |                                                    |
++-----------------------------+-------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+
+: Summary of the outcomes of **paper II**, **paper III** and **paper IV** regarding the influence of the climate-landform gradient of the fjord region on the agroecological landscape and the grazing fields of the Nordhordland UNESCO Biosphere Reserve. {#tbl-envsummary}
+
+
+```{r EnvSummary}
+#| label: tbl-envsummary
+#| tbl-cap: "Result summary of the influence of the regional climate-landform gradient on the environment and assemblages of the grazing fields visited in the Nordhordland UNESCO Biosphere Reserve."
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+envsummary <- read_xlsx("data/SummaryEnvVarPaper.xlsx")
+envsummary <- envsummary |> 
+  group_by(Group, Paper) |> 
+  pivot_wider(names_from = Paper, values_from = Cell)
+
+summary <- envsummary
+summary |>
+  gt(groupname_col = "Paper",  rowname_col = "Group") |> 
+  opt_stylize(style = 6, color = 'gray') |> 
+  tab_options(
+    ihtml.use_text_wrapping = TRUE
+  )
+```
+
+
+# Summary results grazing
+
+
++-----------------------------+-------------------------------------------------+----------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+|                             | Paper I                                         | Paper II                                           | Paper III                                          | Paper IV                                           |                     
++:============================+:================================================+:===================================================+:===================================================+:===================================================+
+| Field type                  | Outfield                                        | Infield                                            | Infield                                            | Outfield & infield                                 |
++-----------------------------+-------------------------------------------------+----------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+| Livestock type              | Sheep                                           | Sheep, goat & cattle                               | Sheep, goat & cattle                               | Sheep                                              |
++-----------------------------+-------------------------------------------------+----------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+| Outcomes                    | Prescribed burning created environmental        | Grasslands grazed by cattle had on average         | No consistent correlations between grazing         | Higher soil carbon content and bryophyte diversity |
+|                             | niches favouring the activity of xerophilous    | higher cover of Poaceae, but there was no effect   | management and dominant grass, forb and beetle     | in outfields, higher forb diversity in infields.   |
+|                             | of and sun-loving beetles.                      | of livestock type on vascular plant diversity,     | assemblages.                                       |                                                    |
+|                             |                                                 | nectar resource or forage resource.                |                                                    | Higher group dispersion between outfield sites     |
+|                             |                                                 |                                                    | Dominant grass and forb assemblages were           | compared with infields.                            |
+|                             |                                                 | Nectar resource was positively correlated with     | correlated with the fine-scale environment of the  |                                                    |
+|                             |                                                 | forage resource and vascular plant diversity.      | grazing fields.                                    |                                                    |
++-----------------------------+-------------------------------------------------+----------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+
+: Summary of the outcomes of **paper I**, **paper II**, **paper III** and **paper IV** regarding the effect of grazing management on the diversity and composition of plant and beetle assemblages of the grazing fields of the Nordhordland UNESCO Biosphere Reserve. {#tbl-grazingsummary}
+
+
+
+```{r GrazSummary}
+#| label: tbl-grazsummary
+#| tbl-cap: "Result summary of the effect of grazing management on the environment and assemblages of the grazing fields visited in the Nordhordland UNESCO Biosphere Reserve."
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+library(tidyverse)
+
+grazsummary <- read_xlsx("data/SummaryGrazingPaper.xlsx")
+grazsummary <- grazsummary |> 
+  group_by(Group, Paper) |> 
+  pivot_wider(names_from = Paper, values_from = Cell)
+
+summary <- grazsummary
+summary |>
+  gt(groupname_col = "Paper",  rowname_col = "Group") |> 
+  opt_stylize(style = 6, color = 'gray') |> 
+  tab_options(
+    ihtml.use_text_wrapping = TRUE
+  )
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
