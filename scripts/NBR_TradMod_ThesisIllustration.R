@@ -179,7 +179,7 @@ wratemplong_lm <- ggplot(
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4", "mountain" = "purple3")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         legend.title = element_blank(),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -198,7 +198,7 @@ sratemplong_lm <- ggplot(
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
         legend.title = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -216,7 +216,7 @@ wratempdifflong_lm <- ggplot(
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
         legend.title = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -233,7 +233,7 @@ sratempdifflong_lm <- ggplot(
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         legend.title = element_blank(),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -250,7 +250,7 @@ wraprecilong_lm <- ggplot(
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4", "mountain" = "purple3")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         legend.title = element_blank(),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -269,7 +269,7 @@ sraprecilong_lm <- ggplot(
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
         legend.title = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -286,7 +286,7 @@ wraelevlong_lm <- ggplot(
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
         legend.title = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -303,7 +303,7 @@ sraelevlong_lm <- ggplot(
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         legend.title = element_blank(),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -318,11 +318,12 @@ wratempelev_lm <- ggplot(
 ) +
   geom_point(aes(colour = EcoZone)) +
   xlab("") +
-  ylab("July temperature (°C)") +
+  ylab("") +
+  # ylab("July temperature (°C)") +
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4", "mountain" = "purple3")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         legend.title = element_blank(),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -340,7 +341,7 @@ sratempelev_lm <- ggplot(
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         legend.title = element_blank(),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -354,12 +355,13 @@ wratempdiffelev_lm <- ggplot(
   geom_point(aes(colour = EcoZone)
 ) +
   xlab("") +
-  ylab("Temperature range (°C)") +
+  ylab("") +
+  # ylab("Temperature range (°C)") +
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4", "mountain" = "purple3")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
         legend.title = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -378,7 +380,7 @@ sratempdiffelev_lm <- ggplot(
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
         legend.title = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -390,11 +392,12 @@ wraprecielev_lm <- ggplot(
 ) +
   geom_point(aes(colour = EcoZone)) +
   xlab("Elevation (m)") +
-  ylab("Annual precipitation (mm)") +
+  ylab("") +
+  # ylab("Annual precipitation (mm)") +
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4", "mountain" = "purple3")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         legend.title = element_blank(),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -412,7 +415,7 @@ sraprecielev_lm <- ggplot(
   scale_colour_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         legend.title = element_blank(),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -432,7 +435,15 @@ sraprecielev_lm
 
 # According to range
 
-gradientdistriwra <- ggarrange(wratemplong_lm, wratempelev_lm, wratempdifflong_lm, wratempdiffelev_lm, wraprecilong_lm, wraprecielev_lm, wraelevlong_lm, ncol = 2, nrow = 4, labels = c("A", "B", "C", "D", "E", "F", "G"), common.legend = TRUE, font.label = list(size = 12))
+gradientdistriwra <- ggarrange(
+  wratemplong_lm, wratempelev_lm, wratempdifflong_lm, wratempdiffelev_lm, wraprecilong_lm, wraprecielev_lm, wraelevlong_lm, 
+  ncol = 2, 
+  nrow = 4, 
+  # labels = c("A", "B", "C", "D", "E", "F", "G"), 
+  common.legend = TRUE 
+  # font.label = list(size = 12),
+  # hjust = 0.5
+  )
 ggsave(filename = "illustrations/NBR_DesignClimateDistri.png", plot = gradientdistriwra, width = 13, height = 18, units = "cm")
 
 # gradientdistrisra <- ggarrange(sratemplong_lm, sratempelev_lm, sratempdifflong_lm, sratempdiffelev_lm, sraprecilong_lm, sraprecielev_lm, sraelevlong_lm, ncol = 2, nrow = 4, labels = c("A", "B", "C", "D", "E", "F", "G"), common.legend = TRUE)
@@ -508,45 +519,45 @@ infield <- infield |>
   filter(Abundance > 5) |> 
   pivot_wider(names_from = SiteID, values_from = Abundance)
 
-# Description field management
-
-## Packages
-library(tidyverse)
-
-## Data loading
-siteinfo_full <- read.csv("data/cleandata/NBR_FullSiteInfo.csv")
-landuse_full <- read.csv("data/cleandata/NBR_FullLandUse.csv", sep=",")
-
-## Base dataset
-management <- left_join(
-  subset(siteinfo_full, select = c(SiteID, EcoZone)),
-  landuse_full
-)
-management <- filter(management, SiteID != "UC1" & SiteID != "UG1" & SiteID != "UG2")
-
-### Outfield
-outfield <- filter(management, FieldType == "outfield")
-
-### Coastal outfield
-coastal <- filter(management, EcoZone == "coastal" & FieldType == "outfield")
-
-### Fjord outfield
-fjord <- filter(management, EcoZone == "fjord" & FieldType == "outfield")
-
-### Mountain outfield
-mountain <- filter(management, EcoZone == "mountain" & FieldType == "outfield")
-
-### Infields
-infield <- filter(management, FieldType == "infield")
-
-### Cattle
-cattle <- filter(management, FieldType == "infield" & Livestock1 == "cattle")
-
-### Sheep
-sheep <- filter(management, FieldType == "infield" & Livestock1 == "sheep")
-
-### Goat
-goat <- filter(management, FieldType == "infield" & Livestock1 == "goat")
+# # Description field management
+# 
+# ## Packages
+# library(tidyverse)
+# 
+# ## Data loading
+# siteinfo_full <- read.csv("data/cleandata/NBR_FullSiteInfo.csv")
+# landuse_full <- read.csv("data/cleandata/NBR_FullLandUse.csv", sep=",")
+# 
+# ## Base dataset
+# management <- left_join(
+#   subset(siteinfo_full, select = c(SiteID, EcoZone)),
+#   landuse_full
+# )
+# management <- filter(management, SiteID != "UC1" & SiteID != "UG1" & SiteID != "UG2")
+# 
+# ### Outfield
+# outfield <- filter(management, FieldType == "outfield")
+# 
+# ### Coastal outfield
+# coastal <- filter(management, EcoZone == "coastal" & FieldType == "outfield")
+# 
+# ### Fjord outfield
+# fjord <- filter(management, EcoZone == "fjord" & FieldType == "outfield")
+# 
+# ### Mountain outfield
+# mountain <- filter(management, EcoZone == "mountain" & FieldType == "outfield")
+# 
+# ### Infields
+# infield <- filter(management, FieldType == "infield")
+# 
+# ### Cattle
+# cattle <- filter(management, FieldType == "infield" & Livestock1 == "cattle")
+# 
+# ### Sheep
+# sheep <- filter(management, FieldType == "infield" & Livestock1 == "sheep")
+# 
+# ### Goat
+# goat <- filter(management, FieldType == "infield" & Livestock1 == "goat")
 
 # Management graphs
 
@@ -572,7 +583,7 @@ flocksize_box <- livestock |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 10),
+        axis.title = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -588,28 +599,28 @@ month_box <- livestock |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 10),
+        axis.title = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
 month_box
 
-## Total infield area of the farm
-totinfield_box <- livestock |> 
-  ggplot(aes(x = as.factor(Livestock), y = FarmInfieldArea_ha, fill = Livestock)) +
+## Average stocking density
+stock_box <- livestock |> 
+  ggplot(aes(x = as.factor(Livestock), y = AvgStockDensity_perha, fill = Livestock)) +
   geom_boxplot() +
   xlab("") +
-  ylab("Total infield area in the farm (ha)") +
+  ylab("Average stocking density (LU/ha)") +
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 10),
+        axis.title = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
-totinfield_box
+stock_box
 
 ## Area of the selected grazing field
 fieldsize_box <- livestock |> 
@@ -620,14 +631,21 @@ fieldsize_box <- livestock |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 10),
+        axis.title = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
 fieldsize_box
 
-managementgraph <- ggarrange(flocksize_box, month_box, totinfield_box, fieldsize_box, ncol = 2, nrow = 2, labels = c("A", "B", "C", "D"))
+managementgraph <- ggarrange(
+  flocksize_box, stock_box, month_box, fieldsize_box,
+  ncol = 2, 
+  nrow = 2 
+  # labels = c("A", "B", "C", "D"),
+  # font.label = list(size = 12),
+  # hjust = 0.5
+  )
 ggsave(filename = "illustrations/NBR_DesignManagement.png", plot = managementgraph, width = 12, height = 12, units = "cm")
 
 
@@ -712,8 +730,8 @@ shrubgradient <- plant_enviR1 |>
   scale_colour_manual(values = c("outfield" = "#AA4499", "infield" = "#CC6677")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         axis.text.x = element_blank(),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
@@ -733,9 +751,9 @@ forbgradient <- plant_enviR1 |>
   scale_colour_manual(values = c("outfield" = "#AA4499", "infield" = "#CC6677")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         axis.text.x = element_blank(),
-        axis.text = element_text(size = 8),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -754,9 +772,9 @@ collgradient <- meso_enviR1 |>
   scale_colour_manual(values = c("outfield" = "#AA4499", "infield" = "#CC6677")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         axis.text.x = element_blank(),
-        axis.text = element_text(size = 8),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -775,9 +793,9 @@ acarigradient <- meso_enviR1 |>
   scale_colour_manual(values = c("outfield" = "#AA4499", "infield" = "#CC6677")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
+        axis.title = element_text(size = 9),
         axis.text.x = element_blank(),
-        axis.text = element_text(size = 8),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -869,9 +887,9 @@ plantcov_envibar <- plantbar_enviR2 |>
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 7),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        legend.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "bottom",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -892,9 +910,9 @@ beetle_envibar <- beetlebar_enviR2 |>
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 7),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        legend.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "bottom",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -933,8 +951,8 @@ grasscov_envibox <- plantbox_enviR2 |>
   scale_fill_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -952,8 +970,8 @@ forbcov_envibox <- plantbox_enviR2 |>
   scale_fill_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -971,8 +989,8 @@ staph_envibox <- beetlebox_enviR2 |>
   scale_fill_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -990,8 +1008,8 @@ hydro_envibox <- beetlebox_enviR2 |>
   scale_fill_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1009,8 +1027,8 @@ ptili_envibox <- beetlebox_enviR2 |>
   scale_fill_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1028,8 +1046,8 @@ carab_envibox <- beetlebox_enviR2 |>
   scale_fill_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1047,8 +1065,8 @@ scara_envibox <- beetlebox_enviR2 |>
   scale_fill_manual(values = c("coastal" = "yellow3", "fjord" = "green4")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1056,8 +1074,14 @@ scara_envibox <- beetlebox_enviR2 |>
 scara_envibox
 
 ## Plot arrange
-resultfjordR2 <- ggarrange(plantcov_envibar, grasscov_envibox, beetle_envibar, staph_envibox, ncol = 2, nrow = 2, labels = c("A", "B", "C", "D"), font.label = list(size = 12))
-ggsave(filename = "illustrations/NBR_ResultFjordR2.png", plot = resultfjordR2, width = 12, height = 12, units = "cm")
+fjordR2 <- ggarrange(
+  plantcov_envibar, grasscov_envibox, beetle_envibar, staph_envibox, 
+  ncol = 2, 
+  nrow = 2, 
+  labels = c("A", "B", "C", "D"),
+  font.label = list(size = 12)
+  )
+ggsave(filename = "illustrations/NBR_ResultFjordR2.png", plot = fjordR2, width = 12, height = 12, units = "cm")
 
 #### MAIN RESULTS GRAZING R1 - Diversity small-scale grazing systems ####
 
@@ -1122,10 +1146,10 @@ SR_histo <- ggplot(
 ) +
   geom_histogram(binwidth = 5, fill="#7b7b7b", color="#e9ecef") +
   xlab("Plant species richness") +
-  ylab("") +
+  ylab("Number grazing fields") +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 10),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1145,11 +1169,12 @@ synergynecfor <- value |>
     aes(x = forage, y = nectar)
 ) +
   geom_point() +
-  geom_smooth(method = "lm", color="navy", fill = "navy", se = TRUE) +
+  geom_smooth(method = "lm", color="#7b7b7b", fill = "#e9ecef", se = TRUE) +
   xlab("Forage resource value") +
   ylab("Nectar resource value") +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1164,6 +1189,7 @@ synergynecrich <- value |>
   geom_smooth(method = "lm", color="navy", fill = "navy", se = TRUE) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1178,6 +1204,7 @@ synergyforrich <- value |>
   geom_smooth(method = "lm", color="navy", fill = "navy", se = TRUE) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1374,9 +1401,9 @@ plantcov_grazingbar <- plantbar_grazingR3 |>
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 7),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        legend.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "bottom",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1401,8 +1428,8 @@ cryptocov_grazingbox <- plantbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1420,8 +1447,8 @@ grasscov_grazingbox <- plantbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1439,8 +1466,8 @@ forbcov_grazingbox <- plantbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1566,9 +1593,9 @@ forb_grazingbar <- filter(speciesbar_grazingR3, FunctionalGroup == "forbs") |>
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 7),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        legend.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "bottom",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1593,8 +1620,8 @@ agcap_grazingbox <- speciesbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1612,8 +1639,8 @@ desces_grazingbox <- speciesbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1631,8 +1658,8 @@ poatri_grazingbox <- speciesbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1650,8 +1677,8 @@ trirep_grazingbox <- speciesbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1669,8 +1696,8 @@ galsax_grazingbox <- speciesbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1688,8 +1715,8 @@ potere_grazingbox <- speciesbox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1760,9 +1787,9 @@ beetle_grazingbar <- beetlebar_grazingR3 |>
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 7),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        legend.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "bottom",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1787,8 +1814,8 @@ staph_grazingbox <- beetlebox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1806,8 +1833,8 @@ ptili_grazingbox <- beetlebox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1825,8 +1852,8 @@ hydro_grazingbox <- beetlebox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1844,8 +1871,8 @@ carab_grazingbox <- beetlebox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1863,8 +1890,8 @@ scara_grazingbox <- beetlebox_grazingR3 |>
   scale_fill_manual(values = c("cattle" = "black", "goat" = "white", "sheep" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "none",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
