@@ -39,9 +39,9 @@ outputs/*
 *.html
 *.docx
 
-# Literature review doc
-MKTradMod_LiteratureReview.qmd
+# Tests
 example.qmd
+pbreferences.qmd
 
 # Bibliography (exclude all bibtex files)
 *.bib
@@ -51,3 +51,4 @@ MKTradModThesis_files/*
 MKTradModThesis_IntroPreview_files/*
 MKTradModThesis_StudyContextPreview_files/*
 MKTradModThesis_ResultsPreview_files/*
+pbreferences_files/*
