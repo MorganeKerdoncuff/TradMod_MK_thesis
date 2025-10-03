@@ -965,26 +965,18 @@ Additional effect size was calculated from the Glass rank biserial correlation c
 In **paper IV**, field type (infield, outfield) was the primary factor of aggregation of grazing fields, independently of geographical area.
 As expected, this difference was explained by the negative correlation between forb biomass, higher in infields, and shrub biomass, higher in outfields.
 When plotted against longitude, we can see that forb biomass indeed follows a hump-shaped pattern (@fig-fjordR1 B), while shrub biomass shows the opposite trend (@fig-fjordR1 A).
-Our results thus support that the combination of topographic and climatic constraints in the Nordhordland UNESCO Biosphere Reserve limits plant growth in outer areas, while inner areas are more suitable for agronomic production [@diazGlobalSpectrumPlant2016; @ordonezGlobalStudyRelationships2009].
-We also observed additive effects of temperature in the subalpine area, where outfields showed on average four times less shrub biomass and three times less cryptogam biomass than on the coast (**paper IV**).
-This confirms that cold-stressed subalpine heathlands have slower biomass production and regenerative capacity compared with coastal heathlands [@huangAirTemperatureOptima2019].
-
-- Rotational prescribed burning was introduced on coastal heathlands 
-- a necessary complementary management on coastal heathland to 
-
-We observed that farmers adapted their management practices accordingly, with the use of rotational prescribed burning on coastal outfields to control the growth of *Calluna* stands into less palatable degenerated stages [@barclay-estrupDescriptionInterpretationCyclical1969; @thorvaldsenGammalnorskSauOg2017] (see Discussion in **paper IV**).
+Our results thus support the assumption that the combination of topographic and climatic constraints in the Nordhordland UNESCO Biosphere Reserve limits plant growth in outer areas, while inner areas are more suitable for agronomic production [@diazGlobalSpectrumPlant2016; @ordonezGlobalStudyRelationships2009].
+In **paper IV** still, we also observed additive effects of temperature in the subalpine area, where outfields showed on average four times less shrub biomass and three times less cryptogam biomass than on the coast.
+This result confirms that cold-stressed subalpine heathlands have slower biomass production and regenerative capacity compared with coastal heathlands [@huangAirTemperatureOptima2019].
+We observed that farmers adapted their management practices accordingly and used, for example, additional prescribed burning on coastal outfields to control the growth of *Calluna* stands into less palatable degenerated stages [@barclay-estrupDescriptionInterpretationCyclical1969; @thorvaldsenGammalnorskSauOg2017] (see Discussion in **paper IV**).
 
 <!-- , and limited grazing pressure in the mountain ranges to account for the slower regenerative ability of subalpine ecosystems [@austrheimSynergiesTradeoffsEcosystem2016] (see Discussion in **paper IV**). -->
 
-Regarding soil biological activity though, we observed that neither Acari or Collembola abundances showed consistent patterns related to field type or geographical area (**paper IV**; @fig-fjordR1 C-D).
-This result led us to question the relationship between soil mesofauna abundance and soil fertility, and by extension the suitability of soil fauna classes as indicators of habitat productivity (see Discussion in **paper IV**).
-In @georgeEvaluationMesofaunaCommunities2017 for instance, total mesofauna abundance showed a hump-shaped pattern along a productivity gradient ranging from crops to forests, but there was no difference between grasslands and heathlands.
-Only a finer analysis of trophic groups showed that fungivorous mites (Oribatida) were more abundant in heathlands and bogs compared with fertile grasslands [see also @arnottUplandGrasslandHabitats2021].
-
-- Considering the coarse taxonomic resolution 
-- Limited interpretation does not allow us to 
-
-A finer taxonomic resolution, at least to the order level, may thus have been necessary to detect mesofauna response within the tighter productivity range of the Nordhordland UNESCO Biosphere Reserve (see Discussion in **paper IV**).
+However, we observed that soil biological activity did not match aboveground biomass patterns, as neither Acari or Collembola abundances showed consistent trends related to field type or geographical area (**paper IV**; @fig-fjordR1 C-D).
+These findings led us to question the relationship between soil mesofauna abundance and soil fertility, and by extension habitat productivity (see Discussion in **paper IV**).
+In @georgeEvaluationMesofaunaCommunities2017, total mesofauna abundance showed a hump-shaped pattern along a productivity gradient ranging from crops to forests, but there was no difference between grasslands and heathlands.
+Only a more detailed analysis of trophic groups showed that fungivorous mites (Oribatida) were more abundant in heathlands and bogs compared with fertile grasslands [see also @arnottUplandGrasslandHabitats2021].
+In our study context, a finer taxonomic resolution may thus have been necessary to interpret patterns of soil mesofauna across field types and geographical areas (see Discussion in **paper IV**).
 
 <!-- Ultimately, the exploitation of the remote areas is still highly constrained by the environmental gradient of the fjord region. -->
 <!-- This nutrient limitation has ensured the diversity of the agroecological landscape and the continuity of the cultural heritage associated with traditional management practices in the Nordhordland UNESCO Biosphere Reserve [@indrelidFarmingSystemIts1988; @lillehammerPresentLandscapePerception2007]. -->
