@@ -1210,12 +1210,6 @@ synergyforrich <- value |>
         plot.background = element_blank())
 synergyforrich
 
-## Save file
-
-grazingR1 <- ggarrange(SR_histo, synergynecfor, labels = c("A", "B"), font.label = list(size = 12))
-ggsave(filename = "illustrations/NBR_ResultGrazingR1.png", plot = grazingR1, width = 12, height = 6, units = "cm")
-
-
 ## Outfield ES synergy
 
 ### Base dataset 
@@ -1238,8 +1232,8 @@ synergytotcry <- plantdivfunc_grazingR1 |>
   ggplot(aes(x = SRtot, y = DIV_cryptogams)
       ) +
   geom_point() +
-  geom_smooth(method = "lm", color="navy", fill = "navy", se = TRUE) +
-  xlab("Overall plant species richness") +
+  geom_smooth(method = "lm", color="#7b7b7b", fill = "#e9ecef", se = TRUE) +
+  xlab("Total plant species richness") +
   ylab("Cryptogam species richness") +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
@@ -1262,6 +1256,39 @@ synergytotloi <- plantdivfunc_grazingR1 |>
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
 synergytotloi
+
+## LOI trend
+
+loitrend_grazingR1 <- left_join(plantdiv_grazingR1, plantdivfunc_grazingR1)
+loibox_grazingR1 <- loitrend_grazingR1 %>% 
+  ggplot(
+    aes(x = as.factor(FieldType), y = LOI, fill = FieldType)
+  ) +
+  geom_boxplot() +
+  xlab("") +
+  ylab("Loss of ignition") +
+  scale_fill_manual(values = c("infield" = "white", "outfield" = "grey")) +
+  theme(panel.background = element_blank(),
+        legend.background = element_blank(),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
+        legend.position = "none",
+        panel.grid.major = element_blank(),  #remove major-grid labels
+        panel.grid.minor = element_blank(),  #remove minor-grid labels
+        plot.background = element_blank())
+loibox_grazingR1
+
+## Save file
+
+grazingR1 <- ggarrange(
+  SR_histo, 
+  synergytotcry,
+  loibox_grazingR1,
+  synergynecfor, 
+  labels = c("A", "B", "C", "D"), 
+  font.label = list(size = 12)
+  )
+ggsave(filename = "illustrations/NBR_ResultGrazingR1.png", plot = grazingR1, width = 12, height = 12, units = "cm")
 
 
 #### MAIN RESULTS GRAZING R2 - Postburn diversity ####
