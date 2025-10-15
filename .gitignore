@@ -38,6 +38,7 @@ outputs/*
 # Mardown outputs (exclude html or word docs)
 *.html
 *.docx
+*.tex
 
 # Tests
 example.qmd
