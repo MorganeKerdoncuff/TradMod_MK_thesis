@@ -1237,6 +1237,7 @@ synergytotcry <- plantdivfunc_grazingR1 |>
   ylab("Cryptogam species richness") +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
+        axis.title = element_text(size = 9),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
