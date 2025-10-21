@@ -1,0 +1,37 @@
+---
+title: "*Mark*ing the landscape"
+subtitle: "Ecological assessment of small-scale grazing systems in the fjord region of the Nordhordland UNESCO Biosphere Reserve"
+author:
+  - name: Morgane Kerdoncuff
+    orcid: https://orcid.org/0000-0003-2223-1857
+    email: morgane.kerdoncuf@uib.no
+    affiliations:
+      - name: University of Bergen
+        department: Department of Biological Sciences
+      - name: Center for Sustainable Area Management (CeSAM)
+date: today
+bibliography: NBR_TRADMOD.bib
+format:
+  titlepage-pdf:
+    keep-tex: true
+    toc: false
+    mainfont: "Times New Roman"
+    linestretch: 1.15
+    include-in-header:
+      text: |
+        \usepackage{pdfpages}
+    titlepage: academic
+    titlepage-logo: "illustrations/UIBlogo_Eng_gray_center.png"
+    titlepage-theme:
+      affiliation-style: "numbered-list-with-correspondence"
+      affiliation-sep: "newline"
+  # html:
+  #   embed-resources: true
+  #   toc: true
+  #   toc-title: Contents
+# number-sections: true
+execute: 
+  echo: false
+# callout-appearance: minimal
+# callout-icon: false
+---
