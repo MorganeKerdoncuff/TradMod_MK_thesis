@@ -1599,9 +1599,9 @@ grass_grazingbar <- filter(speciesbar_grazingR3, FunctionalGroup == "monocotyled
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 7),
-        axis.title = element_text(size = 8),
-        axis.text = element_text(size = 8),
+        legend.text = element_text(size = 9),
+        axis.title = element_text(size = 9),
+        axis.text = element_text(size = 9),
         legend.position = "bottom",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
@@ -1621,7 +1621,7 @@ forb_grazingbar <- filter(speciesbar_grazingR3, FunctionalGroup == "forbs") |>
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 8),
+        legend.text = element_text(size = 9),
         axis.title = element_text(size = 9),
         axis.text = element_text(size = 9),
         legend.position = "bottom",
