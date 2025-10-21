@@ -35,6 +35,9 @@ outputs/*
 *.pdf
 *.jpeg
 
+#Fonts
+*.otf
+
 # Mardown outputs (exclude html or word docs)
 *.html
 *.docx
