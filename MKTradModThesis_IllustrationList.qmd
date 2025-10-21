@@ -1,0 +1,201 @@
+---
+title: "MKTradModThesis_IllustrationList"
+format:
+  titlepage-pdf:
+    keep-tex: true
+    toc: false
+    mainfont: "Times New Roman"
+    linestretch: 1.15
+    include-in-header:
+      text: |
+        \usepackage{pdfpages}
+bibliography: NBR_TRADMOD.bib
+execute: 
+  echo: false
+---
+
+```{r ScriptSource}
+#| include: false
+source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
+```
+
+```{r setup, include=FALSE}
+op = function(x, d=1) sprintf(paste0("%1.",d,"f"), x)
+```
+
+\newpage
+
+::: {#fig-maptopo}
+![](illustrations/NBR_BRTopo.png){width=100%}
+
+Maps of the Nordhordland UNESCO Biosphere Reserve, Norway, showing (A) topography with the names of the main fjords and (B) landscape zonation, with colours for coastal (yellow), outer fjord (green), inner fjord (blue) and mountain (purple) areas. Data sources: (A) Digital terrain model with 10 m^2^ resolution from the Norwegian Mapping Authority [@kartverketGeoNorgeKartkatalogen2023, CC BY 4.0]; (B) Landscape zonation from @uttakleivLandskapskartleggingNorgeLandscape2011, terminology from @kalandNordhordlandBiosphereReserve2018. Credits: maps created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org), with background ortophotography from @kartverketGeoNorgeKartkatalogen2023.
+:::
+
+\newpage
+
+![Maps of the Nordhordland UNESCO Biosphere Reserve, Norway, showing (A) mean annual precipitations, (B) temperature range between maximum July and minimum January temperatures, (C) mean July temperature and (D) mean January temperature. Colour gradients are from light shades for lower values to dark shades for higher values. Data sources: Mean values of daily projections with 1 km^2^ resolution for the period 2010-2020 from the Norwegian Centre for Climate Services, see @wongGridded112016 (CC BY 3.0), with missing cells determined from neighbourhood average with the *terra* package (@hijmansTerraSpatialData2023) on R software (@rcoreteamLanguageEnvironmentStatistical2024). Credits: maps created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org), with background ortophotography from @kartverketGeoNorgeKartkatalogen2023.](illustrations/NBR_BRClimate.png){#fig-mapclimate width=100%}
+
+\newpage
+
+![Landscape composition around the grazing fields (A) on outer coastal strandflats (Øygarden municipality, © M. Kerdoncuff), (B) in the productive lowlands of the coastal and fjord zones (Alver municipality, © M. Demeaux) and (C) in the mountain ranges (Masfjorden municipality, © A. E. Eycott). Pie charts represent average percent land cover in a 1 km-radius area around the sampling location of the 42 sites visited in the Nordhorldand UNESCO Biosphere Reserve.](illustrations/NBR_LandscapeFieldTypes.png){width=100% #fig-landscape}
+
+\newpage
+
+![Diversity of management practices in semi-natural grasslands and heathlands in the Nordhordland UNESCO Biosphere Reserve: (A) Prescribed burning on coastal heathland (Alver municipality, © S. Östman); (B) Freshly burnt heath patch on Hopøyna coastal heathland (Øygarden municipality, © M. Kerdoncuff); (C) Goat-grazed semi-natural grassland in Morkenfjellet in the coastal area (Alver municipality, © A. E. Eycott); (D) Sheep-grazed semi-natural grassland in Eikemovegen in the fjord area (Alver municipality, © M. Demeaux).](illustrations/NBR_IntroGrazingPictures.png){width=100% #fig-nbrgrazing}
+
+\newpage
+
+![Map of the Nordhordland UNESCO Biosphere Reserve, Norway, including twelve municipalities. Credits: Lina Haggard and Peter E. Kaland, from @kalandNordhordlandBiosphereReserve2018.](illustrations/NBR_IntroBR.jpg){width=100% #fig-mapkommune}
+
+\newpage
+
+![Location of the 42 grazing fields visited in 2019 and 2020 in the coastal (yellow), fjord (green) and mountain (purple) areas of the Nordhordland UNESCO Biosphere Reserve. Shapes indicate field type (square: outfield; circle:infield) and colours indicate livestock type (white: sheep; grey: goat; black: cattle). The "HOP" label indicates the Hopøyna site where we performed an additional sampling protocol for **paper I**. Credits: map created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org); background orthophotography and topographic layer from the Norwegian Mapping Authority (https://www.kartverket.no) CC BY 4.0; miniature map from Wikimedia Commons CC BY 3.0.](illustrations/NBR_DesignMapNBR.png){width=100% #fig-sitemap}
+
+\newpage
+
+``` {r fig-climatedistri}
+#| fig-cap: "Distribution of climate data including mean July temperature (°C), range between minimum January temperature and maximum July temperature (°C) and annual precipitation (mm), along longitude, as a proxy for the oceanity gradient, and elevation, for the 42 grazing fields of the Nordhorldand UNESCO Biosphere Reserve visited during the ecological survey. The distribution of elevation along longitude is also shown. Climate data with 1 km^2^ resolution for the period 2010-2020 from the Norwegian Centre for Climate Services [@wongGridded112016] (CC BY 3.0), with missing cells determined from neighbourhood average with the *terra* package [@hijmansTerraSpatialData2023] on R software [@rcoreteamLanguageEnvironmentStatistical2024]."
+#| fig-width: 6
+#| fig-asp: 1.05
+#| message: false
+#| warning: false
+#| echo: false
+
+gradientdistriwra
+```
+
+\newpage
+
+``` {r fig-sitemanagement}
+#| fig-cap: "Summary of grazing management on the 30 infields visited in the Nordhordland UNESCO Biosphere Reserve, according to livestock type: (A) Number of adult heads in the flock; (B) Average stocking density (LU/ha); (C) Field occupation (months per year); (D) The area of the visited grazing field during the ecological survey (ha)."
+#| fig-width: 5.5
+#| fig-asp: 0.9
+#| message: false
+#| warning: false
+#| echo: false
+
+managementgraph
+```
+
+\newpage
+
+![Nested sampling design set on a representative 400 m^2^ area in each grazing field. Credits: figure created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org).](illustrations/NBR_SamplingDesign.png){width=100% #fig-sampling}
+
+\newpage
+
+![Sampling area of 20 m x 20 m set in (A) Krossøyna (Austrheim municipality, © A. E. Eycott), (B) Børshøyen (Alver municipality, © M. Demeaux) and (C) Risøyna, with the field team at work (Alver municipality, © J. Måren).](illustrations/NBR_DesignPicSamplingArea.png){width=100% #fig-pic20area}
+
+\newpage
+
+![(A) Plot of 3 m x 3 m set in Ostereidet (Alver municipality, © M. Demeaux); (B) Plant community recording in Nedre Vågenes (Alver municipality, © L. Voldstad); (C) Aboveground biomass collection in Hopøyna (Øygarden municipality, © I. Måren).](illustrations/NBR_DesignPicSamplingPlot.png){width=100% #fig-picplot}
+
+\newpage
+
+![(A) Soil resistance to penetration test in Hopøyna (Øygarden municipality, © I. E. Måren); (B) Bulk density core sampled in Nedre Vågenes (Alver municipality, © M. Kerdoncuff) ; (C) Soil collection for mesofauna and soil chemistry with a stainless-steel core in Risøyna (Alver municipality, © J. Måren); (D) Dung-baited pitfall trap set in Krossøyna (Austrheim municipality, © A. E. Eycott).](illustrations/NBR_DesignPicSamplingQuadrat.png){width=100% #fig-picquadrat}
+
+\newpage
+
+![(A) Zonation of prescribed burnings conducted in 2019 (yellow) and 2020 (red) by the farmer on Hopøyna, Øygarden; (B) Location of the burnt and control replicates for the study on postfire beetle activity (**paper I**). Black circles and triangles represent replicates of heath patches burnt in 2018 and 2019 respectively, and grey squares represent replicates of mature heath patches; (C) Pitfall trap covered with a metal roof set in a burnt replicate in Hopøyna (Øygarden municipality, © I. E. Måren). Map credits: (A) map created with Google Earth by Tormod Magnesen (earth.google.com/web/); (B) map created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org); background orthophotography from the Norwegian Mapping Authority (https://www.kartverket.no) CC BY 4.0; miniature map from Wikimedia Commons CC BY 3.0.](illustrations/NBR_DesignMapOY.png){width=100% #fig-oymap}
+
+\newpage
+
+``` {r fig-fjordR1}
+#| fig-cap: "Distribution of (A) average shrub percent cover, (B) average forb percent cover, (C) average Collembola density per m^2^ and (D) average Acari density per square meter, in sheep-grazed outfields (purple) and infields (pink) along the west-east gradient of the Nordhordland UNESCO Biosphere Reserve."
+#| fig-asp: 0.8
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+fjordR1
+```
+
+\newpage
+
+``` {r fig-fjordR2}
+#| fig-cap: "(A) Average proportions of main plant functional groups cover, (B) Distribution of monocotyledon percent cover, (c) Average proportions of main beetle families abundance per pitfall trap and (D) Distribution of average Staphylinidae abundance per pitfall trap in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve according to landscape zone."
+#| fig-asp: 0.8
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+fjordR2
+```
+
+\newpage
+
+
+``` {r fig-grazingR3s}
+#| fig-cap: "Plant functional group cover according to livestock type in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve: (A) Relative proportions of cryptogam, monocotyledon and forb cover in the sward; (B) Distribution of cryptogam percent cover; (C) Distribution of monocotyledon percent cover; (D) Distribution of forb percent cover."
+#| fig-asp: 0.8
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+plantR3
+```
+
+
+::: {#fig-grazingR3NS width=100%}
+<!-- ![](illustrations/NBR_ResultGrazingGrassR3small.png) -->
+<!-- ![](illustrations/NBR_ResultGrazingForbR3small.png) -->
+<!-- ![](illustrations/NBR_ResultGrazingBeetleR3small.png) -->
+
+``` {r fig-grazingR3grass}
+#| fig-asp: 0.4
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+grassR3
+```
+
+
+``` {r fig-grazingR3forb}
+#| fig-asp: 0.4
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+forbR3
+```
+
+
+``` {r fig-grazingR3beetle}
+#| fig-asp: 0.4
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+beetleR3
+```
+
+
+Structure of dominant plant and beetle assemblages according to livestock type in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve: (A) Relative cover of dominant grass species; (B) Distribution of the percent cover of *Agrostis capillaris*; (C) Relative cover of dominant forb species; (D) Distribution of the percent cover of *Trifolium repens*; (E) Relative abundance of main beetle families; (F) Distribution of the abundance of Scarabaeidae.
+:::
+
+\newpage
+
+![Rotational prescribed burning tends to enhance ecological heterogeneity within and between coastal outfields: (A) Constrained ordination (CCA) of the composition of beetle assemblages according to the year of burn in Hopøyna coastal heathland (Øygarden municipality), with pioneer patches on the left and mature patches on the right (from **paper I**) and (B) Hierarchical clustering of the sheep-grazed fields of the Nordhordland UNESCO Biosphere Reserve according to biomass, diversity and soil indicators, with coastal outfields (black circles) on the right (from **paper IV**).](illustrations/NBR_ResultGrazingR2.png){width=100% #fig-grazingR2}
+
+\newpage
+
+``` {r fig-grazingR1}
+#| fig-cap: "(A) Distribution of plant species richness across the 42 study sites of the Nordhordland UNESCO Biosphere Reserve and (B) Correlation between the forage resource value and the nectar resource value in the semi-natural grasslands."
+#| fig-asp: 0.8
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+grazingR1
+```
+
+\newpage
+
+![Complementary land uses (rotational grazing, prescribed burning, summer grazing) and mutual interactions between the environment, the farmer and the livestock in the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve. Credits: figure created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org).](illustrations/NBR_PerspectivesConcept.png){#fig-flowconcept width=100%}
