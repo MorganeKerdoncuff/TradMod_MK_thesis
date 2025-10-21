@@ -27,8 +27,7 @@ execute:
 
 ## EXTRA TABLE
 
-```{r FieldRegio}
-#| label: tbl-fieldregio
+```{r tbl-fieldregio}
 #| tbl-cap: "Statistical medians and ranges (in brackets) of climate and elevation data for the 42 visited grazing fields according to the landscape zonation. Climate data source: Mean values of daily projections with 1 km^2^ resolution for the period 2010-2020 from the Norwegian Centre for Climate Services (CC BY 3.0). Elevation data: collected on site."
 #| message: false
 #| warning: false
@@ -687,7 +686,7 @@ FAO DATA 2020
   - increase efficiency of food chain (from "field-to-work")
   - change diets towards food commodities consuming less land
   - increasing yields & nutritive quality of permanent pastures which globally account to 3.5 billion ha
-- For all scenari, global area covered by permanent grassland decreases, while it was projected to increase under FAO scenario.
+- For all scenarii, global area covered by permanent grassland decreases, while it was projected to increase under FAO scenario.
   - Europe particularly impacted
       - 1997/1999 - 182 million hectares
       - FAO reference - 109 million hectares
