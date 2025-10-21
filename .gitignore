@@ -19,6 +19,7 @@
 
 #data (excludes everything in the folder data)
 data/*
+*.csv
 
 #illustrations
 illustrations/*
