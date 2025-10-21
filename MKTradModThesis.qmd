@@ -117,21 +117,21 @@ As we celebrate the 10^th^ year anniversary of the United Nations' report introd
 In this context, research effort should focus on gathering knowledge and experience from farming systems which ensure the sustainable use of land resources and the ecological integrity of ecosystems. 
 In the fjord region of Western Norway, a long history of low-intensity grazing and diversified farming practices has shaped an agricultural landscape of high ecological diversity and cultural value.
 However, the post-WW2 rationalisation of livestock production led to concomitant processes of intensification on more fertile fields and abandonment of remote areas, resulting in a generalised decline of farming activity and area of grazed habitats.
-In 2018, the Nordhordland UNESCO Biosphere Reserve was designated as a model area for the regional implementation of the 2030 Agenda Sustainable Development Goals.
-This framework motivated research initiatives for the production of actionable knowledge for sustainable management, including the development of agricultural pathways which would ensure both the ecological integrity and the economic viability of the food production system in Western Norway.
+In 2019, the Nordhordland UNESCO Biosphere Reserve was designated as a model area for the regional implementation of the 2030 Agenda Sustainable Development Goals.
+This framework motivated research initiatives for the production of actionable knowledge for the sustainable management of land resources in Western Norway.
 
 In line with these perspectives, this thesis aims to assess the influence of environmental and management factors on biodiversity and ecosystem service delivery in grazing-dependent habitats in Western Norway.
 I led observational studies on 42 grazing fields distributed across the fjord region of the Nordhordland UNESCO Biosphere Reserve to investigate: 
-(1) the influence of the environmental gradient on habitat productivity and grassland communities at regional scale;
+(1) the influence of the environmental gradient on habitat productivity and the composition of grassland communities at regional scale;
 (2) the effect of field management, more specifically livestock type and prescribed burning, on the diversity and community composition of semi-natural grasslands and heathlands respectively;
 and (3) the synergies and trade-offs between indicators of biodiversity and ecosystem services in the agroecological landscape of the Nordhordland UNESCO Biosphere Reserve.
 
-I confirmed that the combination of topographic and climatic constraints of the fjord region generates a hump-shaped pattern of aboveground productivity from west to east, limiting land use on the outer coastal and mountain areas.
+I confirmed that the combination of topographic and climatic constraints of the fjord region generates a hump-shaped pattern of aboveground productivity from west to east, limiting forage availability on the outer coastal and mountain areas.
 However, I found no evidence that the regional environment influenced the taxonomic or functional composition of semi-natural grasslands as an independent factor.
-Regarding field management, I observed that livestock type affected the cover of plant functional groups, with higher grass cover in cattle-grazed fields, but showed no direct impact on vascular plant species richness or the composition of dominant grass, forb and beetle assemblages.
+Regarding field management, I observed that livestock type affected the cover of plant functional groups, with higher grass cover in cattle-grazed fields, but showed no direct effect on vascular plant species richness or the composition of dominant grass, forb and beetle assemblages.
 However, dominant plant assemblages were consistently correlated with the fine-scale environment of grazing fields, which itself was weakly correlated with field management.
 This finding may indicate an indirect link between grazing management and plant communities in semi-natural grasslands, but whose direction remains to be determined.
-In coastal heathlands, I found that xerophilous and sun-loving beetle species were more active on recently burnt patches, and I was able to determine new indicator species for both pioneer and mature heath stages.
+In coastal heathlands, I found that xerophilous and sun-loving beetle species were more active on recently burnt patches, and I was able to determine new indicator species for both pioneer and mature heath phases.
 I also added to the evidence that traditional prescribed burning contributed to the heterogeneity of heathland ecosystems at regional scale.
 Finally, I observed a productivity-diversity trade-off between semi-natural grasslands and heathlands across the agroecological landscape of the Nordhordland UNESCO Biosphere Reserve.
 Semi-natural heathlands were characterised by higher plant diversity, and semi-natural grasslands by greater forage availability.
@@ -150,7 +150,7 @@ In semi-natural grasslands, I observed a synergy between trait-based indicators 
 Overall, I demonstrated that semi-natural grasslands and heathlands in the Nordhorldand UNESCO Biosphere Reserve were characterised by high taxonomic and functional diversity and supported the delivery of complementary ecosystem services across the fjord landscape.
 I emphasized that further research is needed for deepening our understanding of the complex interactions between the farmer, the livestock and the environment in small-scale grazing systems.
 I recommend that methodological frameworks should be designed to capture the inherent variability of agroecological systems, by developing farm-scale assessments and transdisciplinary approaches.
-Collaborative knowledge-building and decision-making in the Nordhordland UNESCO Biosphere Reserve are necessary to lead Western Norway on the pathway of sustainable food production.
+Collaborative knowledge-building and inclusive policy-making in the Nordhordland UNESCO Biosphere Reserve are necessary to support sustainable food production and the conservation of ecosystems in Western Norway.
 
 <!-- From a methodological perspective, I discussed the limitation of our study design for capturing variability, which is inherent to the complex interactions between the farmer, the livestock and the environment in small-scale grazing systems. -->
 <!-- I recommend the development of farm-level assessments based on flexible and transdisciplinary methodological frameworks to facilitate the implementation of research outcomes. -->
@@ -510,7 +510,7 @@ In **paper II**, we tested the influence of livestock type (sheep, cattle, goat)
 In **paper III**, we explored the cross-scale interactions between the regional environment, the landscape matrix, field management and the fine-scale environment of semi-natural grasslands, and their influences on dominant grass, forb and dung-associated beetle assemblages.
 In **paper IV**, we assessed trade-offs and synergies between indicators of diversity, aboveground production, soil biological activity and soil carbon content, across different land uses (infield, outfield) and landscape zones (coastal, fjord, mountain).
 
-The findings from these field studies were used to address the following research questions:
+These field studies were used to address the following research questions:
 
 - **(Q1)** What is the influence of the regional environment on semi-natural grasslands and heathlands? More specifically:
   - **(Q1-1)** Can we confirm the hump-shaped productivity pattern along the coast-to-mountain gradient (**paper IV**)?
@@ -1012,7 +1012,7 @@ In **paper IV**, field type (infield, outfield) was the primary factor of hierar
 As expected, this difference was explained by the negative correlation between forb biomass, higher in infields, and shrub biomass, higher in outfields.
 When plotted against longitude, we can see that forb biomass indeed follows a hump-shaped pattern (@fig-fjordR1 B), while shrub biomass shows the opposite trend (@fig-fjordR1 A).
 Our results show how the combination of topographic and climatic constraints in the fjord region limits plant growth in outer areas, while inner areas are more suitable for agricultural production. 
-Such outer-inner gradient was found to be a major determinant for the historical development of land use in Western Norway [@mehlCulturalLandscapeDevelopment2015].
+This productivity gradient was found to be a major determinant for the historical development of land use in Western Norway [@mehlCulturalLandscapeDevelopment2015].
 In addition, we observed that mountain sites showed on average four times less shrub biomass and three times less cryptogam biomass than on the coast (**paper IV**).
 Plant productivity in mountainous regions is inhibited by the lower temperatures and subsequent shorter growing seasons [@michaletzDriversTerrestrialPlant2018].
 Our results for biomass may suggest lower productivity and thus lower regenerative capacity in the subalpine area compared with the coastal area, but we cannot confirm this without taking a more experimental approach.
@@ -1287,16 +1287,16 @@ Front and back sides of the generic version of the pamphlet summarising the outc
 # Conclusion {#sec-conclusion}
 
 The industrialised livestock production system inherited from the Green Revolution has failed to ensure global food security, while largely contributing to the current ecological crisis [@bardgettCombattingGlobalGrassland2021; @ramankuttyTrendsGlobalAgricultural2018].
-Exploring alternatives based on agroecological principles has thus become a priority to secure the livelihood of local communities, support the sustainable use of land resources and preserve the integrity of ecosystems [@altieriPerspectivesChallengesAgroecology2024; @ipbesThematicAssessmentReport2024].
+Exploring alternatives based on agroecological principles has thus become a priority to secure the livelihood of local communities, support the sustainable use of land resources and preserve the integrity of ecosystems [@altieriPerspectivesChallengesAgroecology2024; @ipbesThematicAssessmentReport2024; @kremenLandscapesThatWork2018].
 This thesis aimed to contribute to this objective by using the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve, Western Norway, as a case study.
 I assessed how semi-natural grasslands and heathlands supported to biodiversity and ecosystem services in the Nordhordland UNESCO Biosphere Reserve, by investigating 
-1) the effect of the regional environment on habitat productivity and grassland communities; 
+1) the effect of the regional environment on habitat productivity and the composition of grassland communities; 
 2) the impact of livestock type and prescribed burning on the diversity and composition of semi-natural grasslands and heathlands respectively; 
 and 3) synergies and trade-offs across the agroecological landscape of the fjord region.
 
-I confirmed that land use in the Nordhordland UNESCO Biosphere Reserve is still largely determined by the environment of the fjord region (**paper III**, **paper IV**).
-I demonstrated the biological and functional complementarity of semi-natural grasslands and heathlands inherited from the traditional infield-outfield system (**paper IV**), adding to the evidence that win-win strategies promoting biodiversity and multifunctionality in food production systems are already within our reach [@gardnerAgriculturalResiliencePerspectives2019; @kremenLandscapesThatWork2018].
-I particularly emphasized the conservation interest of semi-natural heathlands in 
+I confirmed that agricultural land use in the Nordhordland UNESCO Biosphere Reserve is still largely determined by the environment of the fjord region (**paper III**, **paper IV**).
+I demonstrated the biological and functional complementarity of semi-natural grasslands and heathlands (**paper IV**), adding to the evidence that win-win strategies promoting biodiversity and multifunctionality in food production systems are already within our reach [@gardnerAgriculturalResiliencePerspectives2019; @kremenLandscapesThatWork2018].
+I particularly emphasized the conservation benefits of semi-natural heathlands in 
 coastal and mountainous areas, which showed a remarkable diversity of cryptogam species and supported the delivery of carbon and water regulating services (**paper IV**).
 I highlighted the role of traditional prescribed burning in enhancing functional diversity locally (**paper I**) [@bargmannSpeciesTraitSelection2016] and supporting ecosystem heterogeneity regionally (**paper IV**) [@velleDoesPrescribedBurning2014].
 In semi-natural grasslands, I showed that field management did not override the variations of plant communities driven by the fine-scale environment (**paper III**).
@@ -1304,7 +1304,7 @@ I also demonstrated that, independently of livestock type, these grassland commu
 However, except for cattle grazing which was associated with higher Poaceae cover, independent effects of management factors on plant and beetle communities were at most marginal (**paper II**, **paper III**).
 Likewise, I was unable to detect a direct influence of the regional environment on the diversity and composition of semi-natural grasslands (**paper III**, **paper IV**).
 I therefore recommend to conduct further research to investigate more thoroughly the interactions between the farmer, the livestock and the environment in the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve.
-Understanding these relationships will have essential implication for the conservation of 
+Understanding these relationships will have essential implications for the conservation of 
 the agricultural landscape and the development of a sustainable food production pathway in Western Norway.
 
 <!-- In these perspectives, the lack of divergence between coastal and fjord grasslands should be verified with a broader and more thorough analysis of plant communities,  -->
@@ -1316,8 +1316,8 @@ the agricultural landscape and the development of a sustainable food production 
 I argue that the future of farming relies on diversified land uses and integrative agroecological models, which ensure the resilience of the food production systems by promoting biodiversity and synergies at local and regional scales [@altieriPerspectivesChallengesAgroecology2024; @rasmussenJointEnvironmentalSocial2024].
 <!-- Priorities are to support the viability and diversity of farming models by emphasizing the value of non-marketable commodities, for instance those associated with cultural heritage (e.g. rustic breeds, traditional farming practices) [@marenDiversifiedFarmingSystems2022; @wezelAgroecologicalPrinciplesElements2020]. -->
 <!-- by for instance emphasizing the value of the production of commodities associated with cultural heritage such as rustic breeds (e.g. *Gammel Norsk Sau*) or traditional summer farming (**paper IV**) [@asheimPolicyMeasuresPreserve2020; @kvakkestadNorwegianFarmersPerspectives2015; @potthoffNorwegianLowintensityOvine2023]. -->
-We encourage further research efforts for investigating already existing models of small-scale farming systems, which are indispensable sources of knowledge for understanding how adaptative management strategies interact with the local context [@bardgettCombattingGlobalGrassland2021; @sinclairOptionsContextApproach2019].
-To that end, ecological research must explore transdisciplinary approaches and involve local communities as part of knowledge co-production processes, which are the most suitable ways for realising sustainability and resilience in food production systems [@barracloughMappingStakeholderNetworks2022; @bohnetCocreatingCulturalNarratives2025; @jagerPathwaysImplementationEvidence2020].
+We encourage further research efforts to investigate already existing models of small-scale farming systems, which are indispensable sources of knowledge for understanding how adaptative management strategies interact with the local context [@bardgettCombattingGlobalGrassland2021; @sinclairOptionsContextApproach2019].
+To that end, ecological research must explore transdisciplinary approaches and involve local communities as part of the knowledge co-production processes [@barracloughMappingStakeholderNetworks2022; @bohnetCocreatingCulturalNarratives2025; @jagerPathwaysImplementationEvidence2020].
 
 \newpage
 
