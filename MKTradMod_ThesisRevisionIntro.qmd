@@ -1,0 +1,297 @@
+---
+title: "MKTradMod_ThesisRevisionIntro"
+format: docx
+  # titlepage-pdf:
+  #   keep-tex: true
+  #   toc: false
+  #   mainfont: "Times New Roman"
+  #   linestretch: 1.15
+  #   include-in-header:
+  #     text: |
+  #       \usepackage{pdfpages}
+  #   coverpage: true
+  # html:
+  #   embed-resources: true
+  #   toc: true
+  #   toc-title: Contents
+# number-sections: true
+author:
+  - name: Morgane Kerdoncuff
+    orcid: https://orcid.org/0000-0003-2223-1857
+    email: morgane.kerdoncuf@uib.no
+    affiliations:
+      - Department of Biological Sciences, University of Bergen, Norway
+      - Center for Sustainable Area Management (CeSAM), University of Bergen, Norway
+date: today
+bibliography: NBR_TRADMOD.bib
+execute: 
+  echo: false
+---
+
+# Introduction {#sec-introduction}
+
+<!-- ## The role of Norwegian small-scale grazing systems in the current global food security challenge -->
+## Livestock's part in the global food security challenge
+
+Should we produce more to sustain more people on the planet? 
+When facing the global food security challenge [@kastnerGlobalChangesDiets2012; @moraExploringFutureLand2020; @vanmeijlModellingAlternativeFutures2020], with food demand expected to increase between 30% and 62% by 2050 [@vandijkMetaanalysisProjectedGlobal2021], the initial temptation to dive into a crop-mania has raised some warnings [@foleySolutionsCultivatedPlanet2011; @hunterAgriculture2050Recalibrating2017]. 
+First, the prevalent issue is less a matter of gross production capacity than severe North-South inequalities in its redistribution and availability [@cassidyRedefiningAgriculturalYields2013; @fischerLandSparingLand2014; @tscharntkeGlobalFoodSecurity2012; @westLeveragePointsImproving2014]. 
+Second, there is only very limited potential for the expansion of agricultural lands without conflicting with other land uses [@kimMappingEnvironmentalLand2018; @zabelGlobalAgriculturalLand2014], or critically damaging the integrity of natural and semi-natural ecosystems [@beckmannConventionalLandUse2019; @foleyGlobalConsequencesLand2005; @newboldGlobalEffectsLand2015; @newboldHasLandUse2016]. 
+The livestock sector bears high responsibilities for the latter, as globalised grain-feed systems have steadily replaced pasture-based husbandry following the Green Revolution [@kastnerGlobalChangesDiets2012; @ramankuttyTrendsGlobalAgricultural2018]. 
+Contrary to initial claims, this transition provided relatively poor returns in calorie supply [@cassidyRedefiningAgriculturalYields2013] or economic profitability for the farmers [@garibaldiFarmingApproachesGreater2017; @jeanneretIncreaseFoodProduction2021].
+However it came at the cost of the decline and degradation of global grassland areas [@bardgettCombattingGlobalGrassland2021; @piipponenGlobalTrendsGrassland2022; @wirseniusHowMuchLand2010], as well as massive land appropriation and environmental externalities, particularly in the Global South [@cunninghamCloseYieldgapSaving2013; @hongGlobalRegionalDrivers2021; @naylorLosingLinksLivestock2005].
+
+<!-- particularly in Europe [@auneLossSeminaturalGrassland2018; @schilsPermanentGrasslandsEurope2022]. -->
+
+## From productivist agriculture to multifunctional agroecological systems
+
+To shift away from a trajectory which places dramatic pressure on the Earth limits [@pelletierForecastingPotentialGlobal2010; @richardsonEarthSixNine2023], livestock production systems must emancipate from the productivist doctrine [@altieriPerspectivesChallengesAgroecology2024; @ipbesThematicAssessmentReport2024].
+For the past decades, a new dominant paradigm has acknowledged the synergy between food security, ecosystem integrity and human well-being [@ipbesThematicAssessmentReport2024], thus defending the potential for win-win alternatives [@fischerReframingFoodBiodiversity2017; @hanspachTradeoffsSynergiesFood2017; @wittmanSocialEcologicalPerspective2017].
+These approaches have materialised through multiple concepts - e.g. agroecology [@holt-gimenezAgroecologyFoodSovereignty2012; @wezelAgroecologicalPrinciplesElements2020], diversified farming [@kremenDiversifiedFarmingSystems2012; @rosa-schleichEcologicaleconomicTradeoffsDiversified2019] or sustainable intensification [@prettySustainableIntensificationAgricultural2014; @rockstromSustainableIntensificationAgriculture2017] -, which share the consensus that food production should be diversified [@petersen-rockneyNarrowBrittleBroad2021; @rasmussenJointEnvironmentalSocial2024], and tailored to the local context [@cunninghamCloseYieldgapSaving2013; @prettySustainableIntensificationAgricultural2014], to support self-sufficient and resilient agricultural systems [@chappellFoodSecurityBiodiversity2011; @gardnerAgriculturalResiliencePerspectives2019].
+
+In this new paradigm, grazing systems are not only reduced to their capacity at sustaining livestock production, but also as a support of multiple benefits to human society [@kremenEcosystemServicesBiologically2012; @leprovostSupplyMultipleEcosystem2022].
+The assessment of such benefits largely rely on the ecosystem service framework [@costanzaTwentyYearsEcosystem2017; @haines-youngCommonInternationalClassification2018], which has been generalised in policy-making since the Millennium Ecosystem Assessment [@millenniumecosystemassessmentmeaEcosystemsHumanWellbeing2005].
+Ecosystem services are "ecological characteristics, functions or processes" [@costanzaTwentyYearsEcosystem2017] used as references for the economic valuation of all direct and indirect contributions of ecosystems to human well-being [@haines-youngCommonInternationalClassification2018].
+They can be classified into provisioning, i.e. direct provision of energy or material resources (e.g. crops, forage, wood), regulating, i.e. biotic-abiotic processes which support/bring the conditions for human development and prosperity (e.g. pollination, climate regulation) or cultural, i.e. non-material benefits to human mental and physical well-being (e.g. aesthetics, artistic inspiration) [@haines-youngCommonInternationalClassification2018].
+The capacity of agricultural systems to ensure the delivery of multiple ecosystem services has been translated in policy-making through the concept of "multifunctionality", formally defined and promoted by the Organisation for Economic Co-operation and Development (OECD) [@bjorkhaugMultifunctionalAgriculturePolicy2008; @oecdMultifunctionalityAnalyticalFramework2001].
+According to the OECD, multifunctionality relies on "1) the existence of multiple commodity and non-commodity outputs that are jointly produced by agriculture; and 2) the fact that some of the non-commodity outputs exhibit the characteristics of externalities or public goods when markets for these goods do not exist or function poorly" [@oecdMultifunctionalityAnalyticalFramework2001].
+The realisation of this multifunctionality pathway requires an extensive effort of policy-oriented research ([Box 1](#box-unescomab)), to investigate synergies and trade-offs under different farming models and across multiple ecosystems and socio-cultural backgrounds [@egliWinnersLosersNational2018; @rockstromSustainableIntensificationAgriculture2017; @runhaarFourCriticalConditions2021].
+\
+\
+::: {.callout-note #box-unescomab}
+### Box 1. The UNESCO's Man and the Biosphere Programme {#box-unescomab}
+Launched in 1971, the Man and the Biosphere (MAB) Programme, from the United Nations Educational, Scientific and Cultural Organisation (UNESCO), aims to engage transdisciplinary and action-based research to "improve human livelihoods, and the equitable sharing of benefits, and to safeguard natural and managed ecosystems, promoting innovative approaches to economic development that are socially and culturally appropriate and environmentally sustainable" [@unescoNewRoadmapMan2017; @unescoManBiosphereProgramme2025]. 
+This mission has been carried out since 1976 through the World Network of Biosphere Reserves (WNBR), which, as of January 2025, encompasses 759 sites distributed across 136 countries and a total population of about 275 million people [@unescoManBiosphereProgramme2025]. 
+Biosphere Reserves (BRs) are designated over a wide range of terrestrial and/or marine ecosystems as model areas for experimenting innovative pathways for sustainable development, with the successive strategies of the MAB Programme as references [@barracloughGlobalKnowledgeAction2023; @unescoNewRoadmapMan2017]. 
+The latest 2015-2025 MAB Strategy and the Lima Action Plan (2016-2025) are for instance in line with the Sustainable Development Goals (SDGs) from the United Nations' 2030 Agenda for Sustainable Development, in order to facilitate the integration of BRs practical learning into national policy-making and international collaboration [@unescoLimaActionPlan2016; @unitednationsTransformingOurWorld2015]. 
+Concretely, research in BRs has been particularly useful to identify synergies, conflicts and challenges over land use, in both current contexts [e.g. @cusensParticipatoryMappingReveals2022; @tamouPastoralistsChangingEnvironment2018] and future projections [e.g. @konigUNESCOBiosphereReserves2022; @ruiz-mallenParticipatoryScenariosExplore2015], and to monitor the efficiency of environmental measures and socioeconomic investments [e.g. @kratzerRuralInnovationsBiosphere2019].
+<!-- - to ensure human prosperity and equity through the sustainable use of natural resources and the conservation of ecosystems -->
+<!-- A suited framework for collecting and sharing practical knowledge on sustainable food production -->
+:::
+
+## Biodiversity and ecosystem service synergies and trade-offs
+
+There is a consensus that higher levels of biodiversity support of wider range of ecosystem services, because the underlying ecosystem processes are affected by different sets of species [@hectorBiodiversityEcosystemMultifunctionality2007; @soliveresBiodiversityMultipleTrophic2016].
+A good example of such synergistic relationship is the pollination service:
+plant taxonomic and functional richness supports a greater availability, stability and plurality of nectar resource, which favour in turn a more active, more abundant and more diverse community of pollinators [@balfourTradeoffPollinatorwildflowerDiversity2025; @goulnikFloralTraitFunctional2020; @heglandRelationshipsDensityDiversity2006].
+In general, biodiversity was shown to be consistently positively correlated with the delivery of regulating and cultural services [@soliveresBiodiversityMultipleTrophic2016; @yangSoilCarbonSequestration2019], but its relationship with provisioning services is more complex [@leprovostSupplyMultipleEcosystem2022].
+In semi-natural grasslands, diversity was shown to enhance biomass production and nutritional quality [@soliveresBiodiversityMultipleTrophic2016; @spehnEcosystemEffectsBiodiversity2005], but productivity-oriented management usually results into a loss of rare species [@brunProductivitybiodiversityRelationshipVaries2019; @schulzTradeoffsGrasslandPlant2024].
+In shrub-dominated communities, stress-tolerance strategies are favoured to adapt to limiting environmental conditions such as low nutrient availability, water-saturated soil or short growing seasons.
+Such strategies, including for instance belowground biomass allocation [@maGlobalDistributionEnvironmental2021], reduced leaf area [@scherrerDisentanglingProcessesDriving2019] or investments towards solidifying compounds (e.g. lignin) [@pierceLeafEconomicsSpectrum2007], limit the availability and quality of palatable biomass [@nelsonPlantFactorsAffecting1994].
+On the other hand, such habitats are usually characterised by high cryptogam diversity, which contributes to multiple regulating services such as water retention capacity or soil stability [@eldridgeGlobalContributionSoil2023; @huStructuralCharacteristicsMoss2023].
+The diversity of habitat types in agroecological landscapes thus determines their capacity in supporting the delivery of multiple ecosystem services [@bengtssonGrasslandsMoreImportant2019; @gardnerAgriculturalResiliencePerspectives2019; @tscharntkeOrganicFarmingHarnessing2021].
+
+<!-- - Negative impact of land use intensification on biodiversity and subsequently on ecosystem services/multifunctionality [@allanLandUseIntensification2015; @schilsPermanentGrasslandsEurope2022] -->
+<!-- Most studies investigating the relationship between biodiversity and ecosystem service delivery demonstrate the potential of a virtuous system under low-intensity farming, where higher levels of biodiversity support a wider range of ecosystem services [@leprovostSupplyMultipleEcosystem2022; @schilsPermanentGrasslandsEurope2022].  -->
+<!-- Forage production is determined by both the availability and nutritional quality of palatable biomass, which primarily depend on environmental conditions [@nelsonPlantFactorsAffecting1994]. -->
+<!-- Nutrient-poor and water-saturated conditions are limiting for forage production, but the reduced biological activity and the dominance of cryptogams contribute to multiple regulating services such as carbon sequestration [@liLongtermTemporalPatterns2023; @quinCallunaVulgarisdominatedUpland2015] or water regulation [@huStructuralCharacteristicsMoss2023]. -->
+<!-- However, limiting environmental conditions, including for instance low nutrient availability, water-saturated soil or short growing seasons, favour stress-tolerance strategies such as belowground biomass allocation [@maGlobalDistributionEnvironmental2021], reduced leaf area [@scherrerDisentanglingProcessesDriving2019] or investments towards solidifying compounds (e.g. lignin) [@pierceLeafEconomicsSpectrum2007]. -->
+
+## Productivity-dependent relationship between grazing and biodiversity
+
+In wet regions, the effect of grazing on biodiversity is usually assumed to follow the intermediate disturbance hypothesis [@gaoCanIntermediateDisturbance2020; @milchunasGeneralizedModelEffects1988].
+At moderate intensity, grazing pressure is expected strong enough to locally overcome the competition for light, but not as excessive as to homogenise the sward with grazing-tolerant species [@koernerChangeDominanceDetermines2018; @olffEffectsHerbivoresGrassland1998].
+This intermediate stage of highest spatial heterogeneity should result in a biodiversity optimum, by favouring the coexistence of multiple life strategies and ecological niches for both plants and animals [@ceraboliniWhyAreMany2016; @steinEnvironmentalHeterogeneityUniversal2014].
+Empirical evidence however shows that this relationship is not as straightforward, especially within the low-to-moderate intensity range [@herrero-jaureguiEffectsGrazingIntensity2018; @scohierHowSheepAffect2012; @wangGlobalMetaanalysesResponse2019], and is mitigated by habitat productivity [@lezamaVariationGrazinginducedVegetation2014; @pakemanLongTermImpacts2019].
+In nutrient-poor habitats, the prevalence of stress-tolerance strategies usually limits plant growth rate and reproductive capacities [@diazGlobalSpectrumPlant2016; @pierceLeafEconomicsSpectrum2007], increasing the vulnerability of communities to ruderal and fast-growing species [@pakemanConsistencyPlantSpecies2004; @teuberLivestockGrazingIntermountain2013].
+Still, grazing pressure is overall beneficial when temporally- or spatially-limited, through for instance free-ranging livestock [@schneiderEffectsExtensiveGrazing2024] or rotational management [@perottiYearRotationalGrazing2018; @ravettoenriBiodiversityfriendlyRotationalGrazing2017].
+Opening the sward facilitates the development of a diverse cryptogam layer [@aldayEffectsLongtermRemoval2021; @austrheimSynergiesTradeoffsEcosystem2016] and widens the range of ecological niches for arthropod communities by enhancing structural heterogeneity [@dennisResponseSpiderAraneae2015; @steinEnvironmentalHeterogeneityUniversal2014].
+The relationship between grazing and biodiversity thus depends on both the ecosystem capacity to sustain disturbance [@piipponenGlobalTrendsGrassland2022] and the management adaptability to abiotic constraints [@plieningerTraditionalLanduseNature2006; @torokGrazingEuropeanOpen2016].
+
+## Diversified management in grasslands: the example of livestock type
+
+<!-- The impact of livestock foraging on the structure and composition of the sward is determined by a combination of morphological (e.g. mouth parts), biological (e.g. dietary requirements) and social (e.g. group interactions) factors [@animutCograzingSheepGoats2008; @parsonsSpatialHeterogeneityGrazing2003; @rookMatchingTypeLivestock2004].  -->
+
+Depending on local cultural heritage or national production incentives, grazing systems can rely on different types of livestock [@rookMatchingTypeLivestock2004].
+The direct impact of livestock on the diversity, composition and functionality of semi-natural grasslands is determined by a combination of morphological (e.g. size, mouth parts), biological (e.g. dietary requirements, digestive system) and social (e.g. group interactions) factors, which differ between grazer types [@animutCograzingSheepGoats2008; @parsonsSpatialHeterogeneityGrazing2003; @rookMatchingTypeLivestock2004].
+For example, smaller animals such as sheep or goats are more efficient than cattle for reaching less accessible plants and selecting higher quality parts [@gaujourFactorsProcessesAffecting2012; @marrsReleaseSheepGrazing2020].
+This foraging efficiency increases their relative consumption of forbs and proteins [@mohammedGrazingBehaviorDietary2020] and allow a more thorough and even utilisation of the field [@tothLivestockTypeMore2016].
+On the other hand, cattle focus on the most easily accessible forage and avoid species with low leaf/stem ratio altogether [@grantControlledGrazingStudies1996; @rookMatchingTypeLivestock2004].
+This more opportunistic behaviour increases the structural heterogeneity of the vegetation cover [e.g. @ravettoenriBiodiversityfriendlyRotationalGrazing2017], which in turns enhances plant and animal diversity [@steinEnvironmentalHeterogeneityUniversal2014; @tonnGrazingInducedPatchiness2019].
+The size and weight of the animal also influence the trampling disturbance on soil and standing vegetation [@mayelHowDoesGrassland2021].
+Compaction reduces the structural heterogeneity of the soil and the volume of pores, subsequently affecting soil biological activity and the nutrient cycling process [@erktanPhysicalStructureSoil2020; @nawazSoilCompactionImpact2013].
+Trampling accentuates soil erosion on steep grounds [@hiltbrunnerCattleTramplingAlters2012; @zhangSoilPhysicalChemical2019] and deteriorates the cover and richness of the bryophyte layer, facilitating the colonisation of ruderal graminoids [@ludvikovaLongTermDefoliation2014].
+Finally, cattle's digestive system make them produce feces in greater amount and with different chemical composition compared with sheep or goats [@lumaretChangesResourcesConsequences1992].
+This variation in the availability and quality of dung resource affects the abundance and functional composition of the dung-associated beetle community [@finnExperimentalInvestigationsColonisation2002; @lumaretChangesResourcesConsequences1992].
+
+In agricultural systems, livestock's direct impact on the biotic and abiotic characteristics of semi-natural grasslands interacts with additional management practices, such as field enrichment [@socherInteractingEffectsFertilization2013].
+Soil nutrient enhancement favours competitive strategies, leading to an increase of the proportion of nitrophilous grass at the expense of rare species, and more particularly bryophytes [@bochDirectIndirectEffects2018; @gaujourFactorsProcessesAffecting2012].
+Inorganic fertilisation particularly was shown to have a detrimental effect on biodiversity [@degraaffEffectsAgriculturalIntensification2019; @kiddImpacts120Years2017], especially because it leads to soil acidification [@caiIntensifiedSoilAcidification2015; @mengGlobalSoilAcidification2019].
+The impact of livestock grazing on biodiversity and the delivery of ecosystem services in semi-natural grasslands thus results from complex interactions between grazer type, field management and environmental condtions, which are necessary to disentangle for optimising farming practices according to the local context [@buzhdyganDirectIndirectEffects2020].
+
+<!-- The strength and interaction of each process thus affect the functional structure of semi-natural grasslands, involving potential trade-offs between ecosystem services associated with grass, such as forage production, and the ones associated with forbs, such as pollination [@cutterCattleGrazingResults2022]. -->
+
+## Diversified management in heathlands: the example of prescribed burning
+
+Prescribed burning has been used as a management strategy for several thousand years for rejunevating vegetation in semi-natural heathlands [@kalandOriginManagementNorwegian1986].
+The strength of the fire is controlled to limit the disturbance on the soil upper layer [@hobbsStudiesFireScottish1984a] and allow the vegetation to regenerate quickly from both vegetative re-sprouting and the seedbank [@mallikEcologicalEffectsHeather1985; @marenPrescribedBurningRole2009]. 
+The germination of *Calluna vulgaris* seeds was shown to be stimulated by smoke, indicating the long-term adaptation of northern heathlands to fire [@marenPrescribedBurningNorthern2010; @vandvikManagementdrivenEvolutionDomesticated2014].
+The vegetation is the most palatable for the livestock during the pioneer phase of heath regeneration (0-5 years) [@thorvaldsenGammalnorskSauOg2017], which is dominated by grasses, sedges and fresh *Calluna* sprouts [@barclay-estrupDescriptionInterpretationCyclical1969].
+To maintain fresh forage resource, prescribed burning is usually done in rotations, with new heath patches burnt every year.
+This rotational dynamic creates a mosaic-like landscape of heath regeneration stages [@vandvikManagingHeterogeneityImportance2005], characterised by different environmental conditions and successional processes [@fonturbelEffectRepeatedPrescribed2021; @marenChangingContributionsStochastic2018].
+The immediate effect of prescribed burning on diversity is usually negative, as fire disturbance generates a niche simplification effect by clearing out standing vegetation and homogenising micro-environmental conditions [@bulanEffectsTwoAcute1971; @murdochDiversityPatternPlants1972].
+However, the heterogeneity resulting from rotational prescribed burning was shown to enhance the beta-diversity of plants, beetles and soil fauna [@bargmannEffectsPrescribedBurning2015; @milliganEffectsRotationalPrescribed2018; @rittlTraditionalNorwegianFarming2025].
+At regional scale, prescribed burning was shown increase divergence between heathland communities when adapted to local environmental conditions [@velleDoesPrescribedBurning2014; @velleSuccessionPrescribedBurning2014].
+Prescribed burning is therefore an important complementary practice to grazing management, as it enhances heathland diversity while preserving local cultural heritage [@smithResolvingHeatedDebate2023].
+
+<!-- - The regenerative cycle of *Calluna* heathland vegetation is comprised of three main phases [@barclay-estrupDescriptionInterpretationCyclical1969]: -->
+<!-- - the pioneer phase, from 0 to 5 years, dominated by grasses and sedges and where fresh buds of *Calluna* are re-sprouting; -->
+<!-- - the building phase, from 5 to 15 years, where the vegetation transitions into shrub-dominated stands as *Calluna* shrubs grow in their adult stage; -->
+<!-- - the mature phase, from 15 to 30 years, consisting in  -->
+<!-- - The young/fresh sprouts of heath and t -->
+
+## The Nordhordland UNESCO Biosphere Reserve as a case study
+
+In Western Norway, the Nordhordland UNESCO Biosphere Reserve was designated to "be based on the best from the past and [...] pave the way for a future-oriented societal development that ensures the sustainable use of all types of resources for the benefit and pleasure of both the present inhabitants and future generations" [@kalandNordhordlandBiosphereReserve2018]. 
+<!-- Agriculture in Western Norway carries a strong legacy of low-intensity grazing and diversified farming, which have shaped a mosaic-like landscape of remarkable ecological and functional diversity [@austadHumaninfluencedVegetationTypes1991; @olssonAgroecosystemsNeolithicTime1991]. -->
+<!-- Even if the constraining environment of the fjord region has limited mechanisation [@fjellstadPatternsChangeTwo1999], the second half of the XX^th^ century was still marked by a steady process of rationalisation of the livestock production [@jonesLandtenureLandscapeChange1988]. -->
+<!-- The change in farm structure led to a general reorganisation of the countryside, with on the one hand the enlargement and intensification of fertile fields, and on the other the abandonment of remote and nutrient-poor areas [@fjellstadPatternsChangeTwo1999; @hamreLandcoverStructuralChanges2007].  -->
+<!-- These concurring processes were aggravated by an overall decrease of farming activity, caused by the socioeconomic decline and the ageing population of rural communities [@forbordDriversChangeNorwegian2014; @potthoffNorwegianLowintensityOvine2023].  -->
+<!-- The smaller holdings (under 10 ha) were the most impacted, and dropped from representing 90% of total Norwegian farms in 1949 to 53% in 1995 [@fjellstadPatternsChangeTwo1999; @ovreasEndringarJordbruksarealOg2011]. -->
+<!-- This change was reflected across the whole fjord region, with a loss and degradation of semi-natural habitats due to woody encroachment [@brynImpactsLandUse2012; @olssonLandscapeChangePatterns2000] and the coarsening of the landscape matrix [@hamrePlantSpeciesRichness2010; @norderhaugBiotopePatternsAbundance2000]. -->
+In this context, the Nordhordland UNESCO Biosphere Reserve assumes a leading role for collecting practical knowledge and building partnerships in order to
+(1) preserve the inherited ecological diversity associated with small-scale grazing and low-intensity management [@hamrePlantSpeciesRichness2010; @norderhaugBiotopePatternsAbundance2000] ([Box 2](#box-farming)); 
+(2) ensure the resilience and functionality of the agroecological system in the face of upcoming global challenges such as climate change [@liuAssessingEffectsClimate2019; @meuwissenFrameworkAssessResilience2019]; and 
+(3) support decision-making towards multifunctional farming pathways integrating food security, conservation of the environment and the socioeconomic development of rural areas [@asheimPolicyMeasuresPreserve2020; @bjorkhaugMultifunctionalAgriculturePolicy2008]. 
+Concretely, the BR framework offers opportunities to assess the current ecological state of grazed habitats in Western Norway beyond the dominant conservationist perspective, by investigating the whole range of benefits provided by the farmers and their management [@bardgettCombattingGlobalGrassland2021; @goldsteinIntegratingEcosystemserviceTradeoffs2012; @wehnAdaptiveBiodiversityManagement2018].
+\
+\
+::: {.callout-note #box-farming}
+### Box 2. The taxonomy of farming systems {#box-farming}
+Considering the diversity of farming systems around the world, a consistent naming framework is necessary for ensuring accurate and reproducible comparisons between existing agricultural models [@huberFarmTypologiesUnderstanding2024].
+Many terms have been used to oppose intensive and industrialised agronomic production models, such as, among others, "diversified", "extensive", "organic", "alternative", "agroecological", "regenerative", "sustainable" or "traditional" [@sumbergWhatConventionalAgriculture2022]. 
+Even if these designations usually rely on explicit and practical principles [e.g. @wezelAgroecologicalPrinciplesElements2020], most of them still lack a consensual regulatory framework similar to the one developed for organic farming [@seufertWhatThisThing2017]. 
+This fuzziness has been the cause of deeply rooted biases, of which the very Western-centered "conventional" type of agriculture surely is the most representative [@sumbergWhatConventionalAgriculture2022].
+According to the literal meaning of "conventional", which only designates common practices in a certain geographical area and during a certain time period, there should be no inherent contradiction between "conventional" farming, and for example "traditional" farming, which is still predominant in many parts of the World [@altieriLinkingEcologistsTraditional2004].
+However, in the dominant narrative, "conventional" agriculture has been strongly linked to the industrialised model of the Global North, while in opposition "traditional" farming has been rather associated with low-intensity practices, more or less rightfully [@plieningerTraditionalLanduseNature2006].
+\
+In this thesis, I used "traditional" only to describe formerly common farming practices in Western Norway, which have either severely declined, or disappeared over time, and which are today associated with the regional cultural heritage [@daugstadAgricultureUpholderCultural2006]. 
+Regarding the current dominant livestock model, the most consistent feature of farms in Western Norway is their small production scale according to Global North standards [@klikockaCharacteristicsModelsFarms2021], both in terms of net income and flock size.
+The net income for an holding in 2023 was on average 164500 NOK (approx. 14400€) [@ssbFarmersIncomeDebt2025], and the average number of heads per holding in 2024 was 25.3 for dairy cows, 11.8 for beef cattle, 49.7 for sheep and 110.6 for dairy goats [@ssbHoldingsAgriculturalArea2025].
+In Norwegian, the terms "*småskala landbruk*" and "*småskala beitesystemer*" are used to designate small-scale farming systems and small-scale grazing systems respectively, which are also found in research literature for policy-making [e.g. @asheimPolicyMeasuresPreserve2020].
+For consistency, I therefore used the expression "small-scale grazing systems" to characterise domestic grazing in the Nordhordland UNESCO Biosphere Reserve independently of farm structure, livestock type or management practice.
+
+<!-- I acknowledge that this designation is still lacking in the sense that it can encompass many different models and thus may not reflect as accurately the evolution of agricultural practices in the NBR. I therefore encourage further discussion as part of the NBR management plan to determine specific terminology for the past, current and predicted stages of farming in Western Norway that will facilitate policy-making in the future [@gillerFutureFarmingWho2021; @huberFarmTypologiesUnderstanding2024]. -->
+<!-- - Considering the surface area of the farm is not relevant in this context because of extensive areal use especially with free-ranging -->
+<!-- - knowing that this "small-scale" does not have the same meaning between global North and global South [@jouziOrganicFarmingSmallscale2017] -->
+:::
+
+\newpage
+
+### Accounting for the landform-climate gradient of the fjord region
+
+<!-- ### Geophysical and climatic characteristics of the Nordhordland UNESCO Biosphere Reserve -->
+<!-- In the Nordhordland UNESCO Biosphere Reserve, the interconnection of fjords and fjord arms results into an intricate landform network (@fig-maptopo A). -->
+<!-- This complex landform is associated with strong temperature and precipitation patterns (@fig-mapclimate), resulting from the simultaneous influences of two overlapping gradients of oceanity and elevation [@ketzlerClimateNorway2021].  -->
+<!-- On the one hand, the warm and moist air masses brought by the Gulf stream maintain a generally mild and wet climate, which especially buffers temperature annual variations on the coast (@fig-mapclimate B).  -->
+<!-- On the other hand, the elevation gradient is associated with a strong increase of annual precipitation, particularly on westerly exposed slopes (@fig-mapclimate A), and a drop of average July temperature (@fig-mapclimate C and D). -->
+
+Fjords are defined as *"steep-sided, coastal erosional troughs which have been inundated by the sea"* after the retreat of the ice from the last glaciation [@howeFjordSystemsArchives2010; @mangerudIceflowPatternsPrecise2019].
+The Nordhordland UNESCO Biosphere Reserve encompasses 11 main fjords, associated with a multitude of fjord arms, which fragment the landscape and generate strong elevation gradients (@fig-maptopo A).
+The climate is largely influenced by the proximity of the Gulf stream, which carries warm and moist air masses and buffers temperature annual variations on the coast (@fig-mapclimate B).
+Annual precipitation is high overall, ranging from 1560 mm to 4820 mm, and shows a sharp increase along elevation (@fig-mapclimate A).
+On the other hand, both average July temperature and average January temperature decline with elevation, from 15.9°C to 8.2°C and from 3.2°C to -4.7°C (@fig-mapclimate C-D).
+
+::: {#fig-maptopo}
+![](illustrations/NBR_BRTopo.png){width=100%}
+
+Maps of the Nordhordland UNESCO Biosphere Reserve, Norway, showing (A) topography with the names of the main fjords and (B) landscape zonation, with colours for coastal (yellow), outer fjord (green), inner fjord (blue) and mountain (purple) areas. Data sources: (A) Digital terrain model with 10 m^2^ resolution from the Norwegian Mapping Authority [@kartverketGeoNorgeKartkatalogen2023, CC BY 4.0]; (B) Landscape zonation from @uttakleivLandskapskartleggingNorgeLandscape2011, terminology from @kalandNordhordlandBiosphereReserve2018. Credits: maps created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org), with background ortophotography from @kartverketGeoNorgeKartkatalogen2023.
+:::
+
+![Maps of the Nordhordland UNESCO Biosphere Reserve, Norway, showing (A) mean annual precipitations, (B) temperature range between maximum July and minimum January temperatures, (C) mean July temperature and (D) mean January temperature. Colour gradients are from light shades for lower values to dark shades for higher values. Data sources: Mean values of daily projections with 1 km^2^ resolution for the period 2010-2020 from the Norwegian Centre for Climate Services, see @wongGridded112016 (CC BY 3.0), with missing cells determined from neighbourhood average with the *terra* package (@hijmansTerraSpatialData2023) on R software (@rcoreteamLanguageEnvironmentStatistical2024). Credits: maps created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org), with background ortophotography from @kartverketGeoNorgeKartkatalogen2023.](illustrations/NBR_BRClimate.png){#fig-mapclimate width=100%}
+
+<!-- ### Primary productivity along the west-east gradient -->
+
+<!-- Both climate- and topography-related factors influence the production of aboveground biomass [@huangAirTemperatureOptima2019; @michaletzDriversTerrestrialPlant2018; @zhuNonlinearInteractingResponses2016], as well as for its quality as forage resource for livestock [@fridleyLongerGrowingSeasons2016; @sloatIncreasingImportancePrecipitation2018]. -->
+<!-- In subalpine areas, colder climate and a shorter growth season favour stress-tolerance strategies [@diazGlobalSpectrumPlant2016], such as belowground biomass allocation [@maGlobalDistributionEnvironmental2021], reduced leaf area [@scherrerDisentanglingProcessesDriving2019] or investments towards solidifying compounds (e.g. lignin) [@pierceLeafEconomicsSpectrum2007], limiting both the availability and nutritional composition of palatable species [@mladekPlantTraitAssembly2013; @nelsonPlantFactorsAffecting1994] (@fig-landscape C). -->
+
+<!-- which can be coarsely divided into three broad landscape zones, from west to east [@nesjeFjordsNorwayComplex2009] (@fig-maptopo B):  -->
+<!-- the highly fragmented **coastal zone**, showing a "strandflat" landscape typical to the Norwegian shoreline and consisting of partially submerged and gently undulating platforms [@norgesgeologiskeundersokelseNasjonalBerggrunnsdatabase2023];  -->
+<!-- the **fjord zone**, characterised by narrower fjords, larger land areas and stronger topography, with an increase of elevation from the outer fjord area to the the inner fjord area;  -->
+<!-- and the **mountain zone**, forming large plateaus above the tree line and up to 1300 masl [@kalandNordhordlandBiosphereReserve2018].  -->
+
+The combination of topographic and climatic factors has generated contrasted landscapes across the fjord region, which can be coarsely divided into three main zones (@fig-maptopo B).
+The coastal zone is characterised by a highly fragmented "strandflat" landscape, typical to the Norwegian shoreline.
+Strandflats are partially submerged and gently undulating platforms which result from the last ice retreat [@norgesgeologiskeundersokelseNasjonalBerggrunnsdatabase2023].
+On these exposed and rugged grounds, high rainfall intensity and frequency aggravate particle runoffs [@zhangNutrientLossSensitive2020].
+In the most extreme cases, these erosion processes create nutrient-depleted landscapes of bedrock ridges, shrub-dominated vegetation and mires, typical to the outermost coastal strandflats [@chapinNatureNutrientLimitation1986; @winnerResponsePlantsMultiple1991] (@fig-landscape A).
+The inner areas of the coastal zone and the fjord zone are characterised by an expansion of land area and sheltering reliefs, which creates more suitable conditions for agriculture.
+These more central lowlands shows the highest diversity of land uses in the landscape, including forests, shrublands, grasslands and crops (@fig-landscape B).
+Finally, the mountain zone encompasses large plateaus above the tree line and up to 1300 masl [@kalandNordhordlandBiosphereReserve2018].
+A short growing season, high precipitation rates and low nutrient availability create landscapes relatively similar to the ones of the outermost coastal strandflats, with high bedrock cover, a large proportion of wetlands and dwarf-shrub dominated vegetation (@fig-landscape C).
+The landscape composition of the fjord region from west to east thus reflects a coarsely hump-shaped pattern of primary production, determining the distribution of species and land uses at regional scale [@karlsenVariabilityStartGrowing2007; @siefertScaleDependenceVegetationenvironment2012].
+
+<!-- Contrary to temperature though, water availability is not expected to be a limiting factor in the Nordhordland UNESCO Biosphere Reserve, where average annual precipitation does not reach below 1500 mm (@fig-mapclimate A).  -->
+<!-- However, high rainfall intensity and frequency aggravate particle runoffs on exposed and rugged grounds [@zhangNutrientLossSensitive2020], and create, in the most extreme cases, nutrient-depleted landscapes of bedrock ridges, shrub-dominated vegetation and mires, typical to the outermost coastal strandflats [@chapinNatureNutrientLimitation1986; @winnerResponsePlantsMultiple1991] (@fig-landscape A).  -->
+<!-- The intensity of the erosion process decreases along with the decline of the oceanic influence and the expansion of land area and sheltering reliefs, increasing soil fertility and creating more suitable conditions for plant growth [@ordonezGlobalStudyRelationships2009] (@fig-landscape B).  -->
+<!-- The interactions between climate and landform in the fjord region thus generate a coarsely hump-shaped pattern of primary productivity from west to east, determining the distribution of species and land uses at regional scale [@karlsenVariabilityStartGrowing2007; @siefertScaleDependenceVegetationenvironment2012]. -->
+
+<!-- and lessen competitive interactions within communities [@klanderudImportanceBioticVs2015; @olsenFacilitationCompetitionTemperaturedriven2016] (@fig-landscape C).  -->
+<!-- - on the other hand, delay growing season [@karlsenVariabilityStartGrowing2007] -->
+<!-- The nutrient limitation resulting from the interaction between precipitation and topography thus mediates the influence of temperature on biomass production and species distribution at regional scale, by alleviating its positive effects on the coastline and accentuating its negative effects in subalpine areas [@maGlobalDistributionEnvironmental2021]. -->
+<!-- - from wider perspectives, Western Norway overall low-productive habitats [@piipponenGlobalTrendsGrassland2022] -->
+
+![Landscape composition around the grazing fields (A) on outer coastal strandflats (Øygarden municipality, © M. Kerdoncuff), (B) in the productive lowlands of the coastal and fjord zones (Alver municipality, © M. Demeaux) and (C) in the mountain ranges (Masfjorden municipality, © A. E. Eycott). Pie charts represent average percent land cover in a 1 km-radius area around the sampling location of the 42 sites visited in the Nordhorldand UNESCO Biosphere Reserve.](illustrations/NBR_LandscapeFieldTypes.png){width=100% #fig-landscape}
+
+\newpage
+
+### The small-scale grazing systems of Western Norway
+
+<!-- In Western Norway, farmers adapted to the limited carrying capacity of the fjord region by relying on infield-outfield systems, which prevailed until the post-WW2 agricultural transition [@christiansenInfieldoutfieldSystemsCharacteristics1978]. -->
+<!-- This model maximised the potential of the whole environmental gradient by relying on complementary management strategies between more fertile infields and nutrient-poor outfields ([Box 3](#box-history); @fig-succession). -->
+<!-- After WWII, Norwegian agriculture went through a rationalisation process, with a decline of the owner-occupier model in favour of land renting, and the creation of public incentives towards specialisation [@dramstadTenancyNorwegianAgriculture2010; @forbordDriversChangeNorwegian2014; @jonesLandtenureLandscapeChange1988].  -->
+<!-- Livestock was shifted to more productive infields, which were enlarged and improved with the introduction of artificial fertilisation [@fjellstadPatternsChangeTwo1999], while outfields and their associated traditional management practices were progressively abandoned [@lundbergAustevollChangingCoastal1991; @olssonLandscapeChangePatterns2000]. -->
+<!-- These concurring processes, further aggravated by the socioeconomic decline and the population ageing of rural communities [@forbordDriversChangeNorwegian2014], have led to a drastic decrease in farming activity.  -->
+<!-- Nationally, the number of holdings dropped from around 200,000 in the 1950s to less than 37,000 in 2023 [@ssbHoldingsAgriculturalArea2025]. -->
+<!-- The declined was strongest on small structures (<10 ha), which represented 90% of total holdings in 1949 against 53% in 1995 [@fjellstadPatternsChangeTwo1999; @ovreasEndringarJordbruksarealOg2011].  -->
+<!-- In Western Norway, this change led to the encroachment of coastal and mountain heathland [@brynImpactsLandUse2012; @olssonLandscapeChangePatterns2000] and the impoverishment and coarsening of the infield landscape matrix [@hamrePlantSpeciesRichness2010; @norderhaugBiotopePatternsAbundance2000].  -->
+<!-- In a comparative study between cadastral maps of 1865 and 2002, @hamreLandcoverStructuralChanges2007 showed a 87% decrease of open habitat patches in activity, with half of the semi-natural grasslands abandoned over time, and the concurring loss of four out of five original man-made structures (e.g. stone wall). -->
+
+Agriculture in Western Norway carries a strong legacy of low-intensity grazing and diversified farming, which have shaped a mosaic-like landscape of remarkable ecological and functional diversity [@austadHumaninfluencedVegetationTypes1991; @olssonAgroecosystemsNeolithicTime1991] ([Box 3](#box-history).
+Even if the constraining environment of the fjord region has limited mechanisation [@fjellstadPatternsChangeTwo1999], the second half of the XX^th^ century was still marked by a steady process of rationalisation of the livestock production [@jonesLandtenureLandscapeChange1988].
+The change in farm structure led to a general reorganisation of the countryside, with on the one hand the enlargement and intensification of fertile fields, and on the other the abandonment of remote and nutrient-poor areas [@fjellstadPatternsChangeTwo1999; @hamreLandcoverStructuralChanges2007].
+These concurring processes were aggravated by an overall decrease of farming activity, caused by the socioeconomic decline and the ageing population of rural communities [@forbordDriversChangeNorwegian2014; @potthoffNorwegianLowintensityOvine2023].
+The smaller holdings (under 10 ha) were the most impacted, and dropped from representing 90% of total Norwegian farms in 1949 to 53% in 1995 [@fjellstadPatternsChangeTwo1999; @ovreasEndringarJordbruksarealOg2011].
+This change was reflected across the whole fjord region, with a loss and degradation of semi-natural habitats due to woody encroachment [@brynImpactsLandUse2012; @olssonLandscapeChangePatterns2000] and the coarsening of the landscape matrix [@hamrePlantSpeciesRichness2010; @norderhaugBiotopePatternsAbundance2000].
+\
+\
+::: {.callout-note #box-history}
+### Box 3. The history of traditional farming in Nordhordland {#box-history}
+The first signs of agricultural activity in Western Norway can be traced back to the early Neolithic period, with the introduction of burning [@hjelleLongtermChangesRegional2018; @prosch-danielsenPalaeoecologicalInvestigationsReconstruction2000] and domestic grazing [@hjelleHesitantHuntersReview2006; @mehlCulturalLandscapeDevelopment2015] which expanded the area of heathland along the coast.
+By the time of the middle Neolithic, grazing management had reached the fjord and mountain areas, and by late Neolithic cereal cultivation had also spread in the more fertile, inner regions [@hjelleHesitantHuntersReview2006].
+The initial hunter-fishers had progressively settled into fisher-farmers (*fiskarbonde*), who still depended on both sea and land resources to ensure their livelihood [@olssonAgroecosystemsNeolithicTime1991].
+<!-- It is during the Iron Age that the traditional infield-outfield system of Western Norway, whose legacy has lasted till the present days, reached its maturity [@olssonAgroecosystemsNeolithicTime1991]. -->
+To overcome the low productivity of the fjord region, fisher-farmers relied on a mixed crop-livestock system, involving both nutrient-poor outfields (*utmark*), which were grazed and/or mowed, and more fertile infields (*innmark*), which were cultivated [@austadHumaninfluencedVegetationTypes1991; @indrelidFarmingSystemIts1988] (@fig-succession).
+The transfer of manure and mulch from the outfields to the infields created a flow of nutrients and energy which ensured the self-subsistence of farmer communities [@christiansenInfieldoutfieldSystemsCharacteristics1978].
+This complementary management shaped the agroecological landscape into a mosaic of pluriactive family farms [@hetlandPluriactivityStrategyEmployment1986; @jonesLandtenureLandscapeChange1988], typically encompassing a few arable fields, several patches of semi-natural grasslands for rotational grazing and/or hay-making, and some forested areas for timber and fire wood [@austadHumaninfluencedVegetationTypes1991; @haugeGaldaneLaerdalWestern1988].
+The heathland areas on the outer coast and in the mountains were used as outfields only.
+Coastal outfields were grazed all year round, and farmers used rotational prescribed burning to stimulate the growth of young and more palatable *Calluna* stems [@marenEffectsManagementHeathland2009; @thorvaldsenGammalnorskSauOg2017].
+Heath was also cut to provide winter forage for the animals [@lundbergAustevollChangingCoastal1991].
+The mountain outfields were used for summer transhumance of sheep, goat and cattle, to allow the recovery of hay-meadows in the lowlands [@indrelidFarmingSystemIts1988; @potthoffChangeMountainSummer2004].
+As such, the traditional infield-outfield system in Western Norway utilised the whole west-east gradient of the fjord region, durably imprinting the landscape with unprecedented diversity of semi-natural habitats [@olssonAgroecosystemsNeolithicTime1991].
+
+![Schematic representation of a coastal farm, with an ecological gradient from the innermost semi-natural grasslands and arable fields (*innmark*) to the outermost heathlands (*utmark*: *lynghei*, *myr*). Source: @brekkeKulturhistoriskVegbokHordaland1993.](illustrations/NBR_IntroHistoryBox.png){width=100% #fig-succession}
+:::
+\
+\
+<!-- To address both the ecological and economic degradation of rural areas, policymakers have reflected on a new farming pathway based on OECD's multifunctionality [@bjorkhaugMultifunctionalAgriculturePolicy2008; @romstadMultifunctionalAgricultureImplications1999; @ronningenLegitimacyMultifunctionalAgriculture2004]. -->
+Despite the post-WW2 agricultural transition, the small-scale grazing systems of Western Norway retain a high diversity of land uses and farm structures compared with the more productive Eastern plains [@dramstadTenancyNorwegianAgriculture2010; @forbordDriversChangeNorwegian2014].
+Semi-natural heathlands, formerly outfields, are still grazed by free-ranging sheep or goats.
+Livestock stays either all year round on the coastline [@lundbergAustevollChangingCoastal1991], or during the short summer season in the mountain ranges to allow pastures and hay-meadows to recover [@olssonLandscapeChangePatterns2000]. 
+On coastal heathlands, some farmers have maintained the traditional practice of rotational prescribed burning (@fig-nbrgrazing A-B), which requires specific skills and training as the intangible cultural heritage from previous generations has mostly disappeared over time [@lundbergAustevollChangingCoastal1991].
+On the more productive semi-natural grasslands, the agricultural transition has generated a socioeconomic gradient of farm structures, including full-time and more production-oriented farmers, often but not exclusively associated with mixed dairy-beef systems, and part-time farmers, who rather breed sheep or goats [@asheimPolicyMeasuresPreserve2020; @potthoffNorwegianLowintensityOvine2023] (@fig-nbrgrazing C-D).
+At the scale of the Nordhordland UNESCO Biosphere Reserve, these different production systems are expected to complement each others in shaping an ecologically diverse and multifunctional agroecological landscape [@kremenEcosystemServicesBiologically2012; @sollenbergerGrasslandManagementAffects2019].
+
+<!-- If the economic viability of the former essentially depends on the meat and/or milk production, the latter benefits more from additional cultural values associated with "traditional" breeds, like the Norwegian old sheep (*Gammel Norsk Sau*), or practices, such as the small-scale goat cheese production in mountain summer farms [@daugstadAgricultureUpholderCultural2006]. -->
+<!-- Atlantic heathlands are particularly vulnerable habitats as they depend on small-scale production systems which do not ensure the economic viability of the farms in the globalised and highly competitive agricultural context [@hernandez-morcilloPriorityQuestionsScience2017].  -->
+<!-- Norwegian farmers generally show willingness in preserving the cultural landscape, but there are practical limitations to maintain the management on remote areas [@forbordDriversChangeNorwegian2014; @kvakkestadNorwegianFarmersPerspectives2015]. -->
+<!-- The practice of prescribed burning, particularly, requires specific skills and training as the intangible cultural heritage from previous generations has mostly disappeared over time [@lundbergAustevollChangingCoastal1991]. -->
+
+![Diversity of management practices in semi-natural grasslands and heathlands in the Nordhordland UNESCO Biosphere Reserve: (A) Prescribed burning on coastal heathland (Alver municipality, © S. Östman); (B) Freshly burnt heath patch on Hopøyna coastal heathland (Øygarden municipality, © M. Kerdoncuff); (C) Goat-grazed semi-natural grassland in Morkenfjellet in the coastal area (Alver municipality, © A. E. Eycott); (D) Sheep-grazed semi-natural grassland in Eikemovegen in the fjord area (Alver municipality, © M. Demeaux).](illustrations/NBR_IntroGrazingPictures.png){width=100% #fig-nbrgrazing}
+
+
+<!-- - Fertilisation double-edged sword depending on type and amount [@degraaffEffectsAgriculturalIntensification2019] -->
+<!-- - which ensures nutrient cycling [@bradfordDiscontinuityResponsesEcosystem2014; @nicholsEcologicalFunctionsEcosystem2008]. -->
+
+\newpage
+
