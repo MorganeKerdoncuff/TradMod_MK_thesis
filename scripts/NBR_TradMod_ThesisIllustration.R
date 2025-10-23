@@ -1599,10 +1599,10 @@ grass_grazingbar <- filter(speciesbar_grazingR3, FunctionalGroup == "monocotyled
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 9),
+        legend.text = element_text(size = 8),
         axis.title = element_text(size = 9),
         axis.text = element_text(size = 9),
-        legend.position = "bottom",
+        legend.position = "right",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1621,10 +1621,10 @@ forb_grazingbar <- filter(speciesbar_grazingR3, FunctionalGroup == "forbs") |>
         legend.background = element_blank(),
         legend.title = element_blank(),
         legend.key.size = unit(0.7, "line"),
-        legend.text = element_text(size = 9),
+        legend.text = element_text(size = 8),
         axis.title = element_text(size = 9),
         axis.text = element_text(size = 9),
-        legend.position = "bottom",
+        legend.position = "right",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1752,13 +1752,13 @@ potere_grazingbox <- speciesbox_grazingR3 |>
 potere_grazingbox
 
 ## Grass plot arrange
-grassR3 <- ggarrange(grass_grazingbar, agcap_grazingbox, labels = c("A", "B"), font.label = list(size = 12), common.legend = TRUE)
+grassR3 <- ggarrange(grass_grazingbar, agcap_grazingbox, labels = c("A", "B"), font.label = list(size = 12))
 ggsave(filename = "illustrations/NBR_ResultGrazingGrassR3small.png", plot = grassR3, width = 12, height = 6, units = "cm")
 # grassR3 <- ggarrange(grass_grazingbar, agcap_grazingbox, desces_grazingbox, poatri_grazingbox, ncol = 2, nrow = 2, labels = c("A", "B", "C", "D"), font.label = list(size = 12), common.legend = TRUE)
 # ggsave(filename = "illustrations/NBR_ResultGrazingGrassR3.png", plot = grassR3, width = 12, height = 12, units = "cm")
 
 ## Forb plot arrange
-forbR3 <- ggarrange(forb_grazingbar, trirep_grazingbox, labels = c("C", "D"), font.label = list(size = 12), common.legend = TRUE)
+forbR3 <- ggarrange(forb_grazingbar, trirep_grazingbox, labels = c("C", "D"), font.label = list(size = 12))
 ggsave(filename = "illustrations/NBR_ResultGrazingForbR3small.png", plot = forbR3, width = 12, height = 6, units = "cm")
 # forbR3 <- ggarrange(forb_grazingbar, trirep_grazingbox, galsax_grazingbox, potere_grazingbox, ncol = 2, nrow = 2, labels = c("A", "B", "C", "D"), font.label = list(size = 12), common.legend = TRUE)
 # ggsave(filename = "illustrations/NBR_ResultGrazingForbR3.png", plot = forbR3, width = 12, height = 12, units = "cm")
@@ -1810,7 +1810,7 @@ beetle_grazingbar <- beetlebar_grazingR3 |>
   xlab("") +
   ylab("") +
   scale_fill_viridis_d() +
-  guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
+  # guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
         legend.title = element_blank(),
@@ -1818,7 +1818,7 @@ beetle_grazingbar <- beetlebar_grazingR3 |>
         legend.text = element_text(size = 8),
         axis.title = element_text(size = 9),
         axis.text = element_text(size = 9),
-        legend.position = "bottom",
+        legend.position = "right",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1927,7 +1927,7 @@ scara_grazingbox <- beetlebox_grazingR3 |>
 scara_grazingbox
 
 ## Plot arrange
-beetleR3 <- ggarrange(beetle_grazingbar, scara_grazingbox, labels = c("E", "F"), font.label = list(size = 12), common.legend = TRUE)
+beetleR3 <- ggarrange(beetle_grazingbar, scara_grazingbox, labels = c("E", "F"), font.label = list(size = 12))
 ggsave(filename = "illustrations/NBR_ResultGrazingBeetleR3small.png", plot = beetleR3, width = 12, height = 6, units = "cm")
 # beetleR3 <- ggarrange(beetle_grazingbar, staph_grazingbox, ptili_grazingbox, scara_grazingbox, ncol = 2, nrow = 2, labels = c("A", "B", "C", "D"), font.label = list(size = 12), common.legend = TRUE)
 # ggsave(filename = "illustrations/NBR_ResultGrazingBeetleR3.png", plot = beetleR3, width = 12, height = 12, units = "cm")
