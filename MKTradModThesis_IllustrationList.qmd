@@ -144,7 +144,7 @@ plantR3
 <!-- ![](illustrations/NBR_ResultGrazingBeetleR3small.png) -->
 
 ``` {r fig-grazingR3grass}
-#| fig-asp: 0.4
+#| fig-asp: 0.35
 #| fig-width: 6
 #| message: false
 #| warning: false
@@ -155,7 +155,7 @@ grassR3
 
 
 ``` {r fig-grazingR3forb}
-#| fig-asp: 0.4
+#| fig-asp: 0.35
 #| fig-width: 6
 #| message: false
 #| warning: false
@@ -166,7 +166,7 @@ forbR3
 
 
 ``` {r fig-grazingR3beetle}
-#| fig-asp: 0.4
+#| fig-asp: 0.35
 #| fig-width: 6
 #| message: false
 #| warning: false
