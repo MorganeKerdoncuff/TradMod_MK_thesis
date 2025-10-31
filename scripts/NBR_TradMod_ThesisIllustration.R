@@ -890,7 +890,7 @@ plantcov_envibar <- plantbar_enviR2 |>
         legend.text = element_text(size = 8),
         axis.title = element_text(size = 9),
         axis.text = element_text(size = 9),
-        legend.position = "bottom",
+        legend.position = "right",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -905,7 +905,7 @@ beetle_envibar <- beetlebar_enviR2 |>
   xlab("") +
   ylab("") +
   scale_fill_viridis_d() +
-  guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
+  # guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
         legend.title = element_blank(),
@@ -913,7 +913,7 @@ beetle_envibar <- beetlebar_enviR2 |>
         legend.text = element_text(size = 8),
         axis.title = element_text(size = 9),
         axis.text = element_text(size = 9),
-        legend.position = "bottom",
+        legend.position = "right",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1432,7 +1432,7 @@ plantcov_grazingbar <- plantbar_grazingR3 |>
         legend.text = element_text(size = 8),
         axis.title = element_text(size = 9),
         axis.text = element_text(size = 9),
-        legend.position = "bottom",
+        legend.position = "right",
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank())
@@ -1503,7 +1503,7 @@ forbcov_grazingbox <- plantbox_grazingR3 |>
 forbcov_grazingbox
 
 ## Plant plot arrange
-plantR3 <- ggarrange(plantcov_grazingbar, cryptocov_grazingbox, grasscov_grazingbox, forbcov_grazingbox, ncol = 2, nrow = 2, labels = c("A", "B", "C", "D"), font.label = list(size = 12), common.legend = TRUE)
+plantR3 <- ggarrange(plantcov_grazingbar, cryptocov_grazingbox, grasscov_grazingbox, forbcov_grazingbox, ncol = 2, nrow = 2, labels = c("A", "B", "C", "D"), font.label = list(size = 12))
 ggsave(filename = "illustrations/NBR_ResultGrazingPlantR3.png", plot = plantR3, width = 12, height = 12, units = "cm")
 
 #### MAIN RESULTS GRAZING R3 - Livestock effect x Plant species ####
