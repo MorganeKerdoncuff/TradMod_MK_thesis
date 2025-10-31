@@ -1,15 +1,14 @@
 ---
 title: "MKTradMod_ThesisRevisionIntro"
-format: docx
-  # titlepage-pdf:
-  #   keep-tex: true
-  #   toc: false
-  #   mainfont: "Times New Roman"
-  #   linestretch: 1.15
-  #   include-in-header:
-  #     text: |
-  #       \usepackage{pdfpages}
-  #   coverpage: true
+format:
+  pdf:
+    keep-tex: true
+    toc: false
+    mainfont: "Times New Roman"
+    linestretch: 1.15
+    include-in-header:
+      text: |
+        \usepackage{pdfpages}
   # html:
   #   embed-resources: true
   #   toc: true
@@ -56,8 +55,7 @@ They can be classified into provisioning, i.e. direct provision of energy or mat
 The capacity of agricultural systems to ensure the delivery of multiple ecosystem services has been translated in policy-making through the concept of "multifunctionality", formally defined and promoted by the Organisation for Economic Co-operation and Development (OECD) [@bjorkhaugMultifunctionalAgriculturePolicy2008; @oecdMultifunctionalityAnalyticalFramework2001].
 According to the OECD, multifunctionality relies on "1) the existence of multiple commodity and non-commodity outputs that are jointly produced by agriculture; and 2) the fact that some of the non-commodity outputs exhibit the characteristics of externalities or public goods when markets for these goods do not exist or function poorly" [@oecdMultifunctionalityAnalyticalFramework2001].
 The realisation of this multifunctionality pathway requires an extensive effort of policy-oriented research ([Box 1](#box-unescomab)), to investigate synergies and trade-offs under different farming models and across multiple ecosystems and socio-cultural backgrounds [@egliWinnersLosersNational2018; @rockstromSustainableIntensificationAgriculture2017; @runhaarFourCriticalConditions2021].
-\
-\
+
 ::: {.callout-note #box-unescomab}
 ### Box 1. The UNESCO's Man and the Biosphere Programme {#box-unescomab}
 Launched in 1971, the Man and the Biosphere (MAB) Programme, from the United Nations Educational, Scientific and Cultural Organisation (UNESCO), aims to engage transdisciplinary and action-based research to "improve human livelihoods, and the equitable sharing of benefits, and to safeguard natural and managed ecosystems, promoting innovative approaches to economic development that are socially and culturally appropriate and environmentally sustainable" [@unescoNewRoadmapMan2017; @unescoManBiosphereProgramme2025]. 
@@ -154,8 +152,7 @@ In this context, the Nordhordland UNESCO Biosphere Reserve assumes a leading rol
 (2) ensure the resilience and functionality of the agroecological system in the face of upcoming global challenges such as climate change [@liuAssessingEffectsClimate2019; @meuwissenFrameworkAssessResilience2019]; and 
 (3) support decision-making towards multifunctional farming pathways integrating food security, conservation of the environment and the socioeconomic development of rural areas [@asheimPolicyMeasuresPreserve2020; @bjorkhaugMultifunctionalAgriculturePolicy2008]. 
 Concretely, the BR framework offers opportunities to assess the current ecological state of grazed habitats in Western Norway beyond the dominant conservationist perspective, by investigating the whole range of benefits provided by the farmers and their management [@bardgettCombattingGlobalGrassland2021; @goldsteinIntegratingEcosystemserviceTradeoffs2012; @wehnAdaptiveBiodiversityManagement2018].
-\
-\
+
 ::: {.callout-note #box-farming}
 ### Box 2. The taxonomy of farming systems {#box-farming}
 Considering the diversity of farming systems around the world, a consistent naming framework is necessary for ensuring accurate and reproducible comparisons between existing agricultural models [@huberFarmTypologiesUnderstanding2024].
@@ -253,8 +250,7 @@ The change in farm structure led to a general reorganisation of the countryside,
 These concurring processes were aggravated by an overall decrease of farming activity, caused by the socioeconomic decline and the ageing population of rural communities [@forbordDriversChangeNorwegian2014; @potthoffNorwegianLowintensityOvine2023].
 The smaller holdings (under 10 ha) were the most impacted, and dropped from representing 90% of total Norwegian farms in 1949 to 53% in 1995 [@fjellstadPatternsChangeTwo1999; @ovreasEndringarJordbruksarealOg2011].
 This change was reflected across the whole fjord region, with a loss and degradation of semi-natural habitats due to woody encroachment [@brynImpactsLandUse2012; @olssonLandscapeChangePatterns2000] and the coarsening of the landscape matrix [@hamrePlantSpeciesRichness2010; @norderhaugBiotopePatternsAbundance2000].
-\
-\
+
 ::: {.callout-note #box-history}
 ### Box 3. The history of traditional farming in Nordhordland {#box-history}
 The first signs of agricultural activity in Western Norway can be traced back to the early Neolithic period, with the introduction of burning [@hjelleLongtermChangesRegional2018; @prosch-danielsenPalaeoecologicalInvestigationsReconstruction2000] and domestic grazing [@hjelleHesitantHuntersReview2006; @mehlCulturalLandscapeDevelopment2015] which expanded the area of heathland along the coast.
@@ -272,8 +268,7 @@ As such, the traditional infield-outfield system in Western Norway utilised the 
 
 ![Schematic representation of a coastal farm, with an ecological gradient from the innermost semi-natural grasslands and arable fields (*innmark*) to the outermost heathlands (*utmark*: *lynghei*, *myr*). Source: @brekkeKulturhistoriskVegbokHordaland1993.](illustrations/NBR_IntroHistoryBox.png){width=100% #fig-succession}
 :::
-\
-\
+
 <!-- To address both the ecological and economic degradation of rural areas, policymakers have reflected on a new farming pathway based on OECD's multifunctionality [@bjorkhaugMultifunctionalAgriculturePolicy2008; @romstadMultifunctionalAgricultureImplications1999; @ronningenLegitimacyMultifunctionalAgriculture2004]. -->
 Despite the post-WW2 agricultural transition, the small-scale grazing systems of Western Norway retain a high diversity of land uses and farm structures compared with the more productive Eastern plains [@dramstadTenancyNorwegianAgriculture2010; @forbordDriversChangeNorwegian2014].
 Semi-natural heathlands, formerly outfields, are still grazed by free-ranging sheep or goats.
