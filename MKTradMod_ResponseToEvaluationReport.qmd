@@ -1,62 +1,77 @@
 ---
-title: "Response to the evaluation report of the PhD thesis"
 format: docx
 ---
 
-I thank the committee for providing valuable insights for the revision of my PhD thesis, and I deliver thereafter my response to their comments.
+# Response to the evaluation report of the PhD thesis
 
-**(1) Conclusions must be supported by the data presented in the thesis**
+I thank the committee for providing valuable insights for the revision of my PhD thesis. Please find thereafter my response to the specific revision points which were asked by the committee.
 
-- Example sentence in abstract: 
-*Overall, I demonstrated that domestic grazing and complementary land uses in the Nordhorldand UNESCO Biosphere Reserve promoted biodiversity and the delivery of multiple ecosystem services across the fjord agroecological landscape.*
-- Potential section in conclusion: 
-*We showed that grazing management adapted to the capacity of ecosystems allows the spontaneous expression of natural communities (**paper III**), favouring the functional complementarity between semi-natural habitats (**paper IV**)*.
-*As such, low-intensity domestic grazing supported plant diversity and synergies between forage and nectar resources in semi-natural grasslands, independently of the livestock type and the farm structure (**paper II**)*.
-- What I understand: as we did not test "grazing management" as a treatment against no grazing, I cannot assure that "grazing" did this or that.
-- What I should do instead: use as much as possible "grazed habitats" (what we actually investigated) and be as specific as possible on the actual papers' outcomes.
-- Abstract: "Overall, I demonstrated that semi-natural grasslands and heathlands in the NBR were species-rich habitats, which supported the delivery of multiple ecosystem services across the fjord landscape"
-- Conclusion: "We showed that the fine-scale environment was the most important factor influencing the composition of dominant plant assemblages in semi-natural grasslands (**paper III**), and that neither livestock type or stocking density showed clear effect on diversity or functional composition (**paper II**). This suggests that grazing pressure does not override inherent environmental variability of the ecosystem. We also showed synergies between forage and nectar resources in semi-natural grasslands (**paper II**), and that semi-natural grasslands and heathlands supported the delivery of complementary ecosystem services (**paper IV**). These findings add to the evidence that win-win strategies promoting biodiversity and multifunctionality in agroecological landscapes are already within our reach."
+## (1) Conclusions must be supported by the data presented in the thesis
 
-**(2) Key concepts must be introduced (e.g. ecosystem services, multifunctionality)**
+The committee highlighted specific claims in the Abstract and the Conclusion which were not supported by the data.
+The sentences in question affirmed that my results demonstrated a positive effect of grazing on biodiversity and ecosystem services, while I did not lead any study or experiment actually testing the effect of grazing (against no grazing for example) on biodiversity or the delivery of ecosystem services.
+The corresponding parts in the Abstract and Conclusion were entirely re-written to ensure that each assertion supported by the papers' findings.
+I also reviewed the Main findings section to address any similar issue.
+I thank the committee for pointing out these overstated claims, and I hope the newly written concluding remarks appropriately fit the findings of my papers.
 
-- New introductory section after *"A new paradigm to address the global food security challenge"* (renamed "Livestock's part in the global food security challenge")
-- *"From productivist agriculture to multifunctional agroecological systems"* (draft)
-- For the past decades, a new dominant paradigm has acknowledged the synergy between food security, ecosystem integrity and human well-being, from/including work based on the ecosystem service framework [@ipbesThematicAssessmentReport2024].
-- Ecosystem services are "the contributions that ecosystems (i.e. living systems) make to human well-being" [@haines-youngCommonInternationalClassification2018], which can take the form of "ecological characteristics, functions or processes" [@costanzaTwentyYearsEcosystem2017]
-- Present/Disseminate in policy-making since the Millennium Ecosystem Assessment [@millenniumecosystemassessmentmeaEcosystemsHumanWellbeing2005]
-- Used as a way to economically value all the direct and indirect contributions of ecosystems to human well-being, classified as provisioning (e.g. crops, forage, wood), regulating (e.g. pollination, climate regulation) or cultural (e.g. aesthetics, artistic inspiration) [@haines-youngCommonInternationalClassification2018].
-- Within the ecosystem service framework, grazing systems are not only reduced to their capacity at sustaining livestock production, but also as a support of multiple regulating and cultural services [@kremenEcosystemServicesBiologically2012; @leprovostSupplyMultipleEcosystem2022].
+## (2) Key concepts must be introduced (e.g. ecosystem services, multifunctionality)
 
-**(3) The synthesis chapter (abstract, conclusion) should focus in on the advances to understanding that can be drawn from the integration of the four data chapters**
+The committee mentioned that the synthesis lacked an introduction of key concepts, such as ecosystem services or multifunctionality, which were extensively used in the Main findings and Discussion.
+I revised the Introduction accordingly, by defining the ecosystem service framework and the multifunctionality concept in relation to agriculture.
+Please refer to the new Introduction subsection "From productivist agriculture to multifunctional agroecological systems" for reviewing the related changes.
+I also reviewed the whole synthesis to replace or clarify wording which may induce confusion for the reader.
+I thank the committee for highlighting these gaps and I hope that the newly written subsection provides a satisfactory description of the concepts.
 
-- New structure of the conclusion: 1) Reminder aim (15% space); 2) Findings (60%); Perspectives (25%)
-- Abstract: try to get findings/perspectives to 75%/25%
+## (3) The synthesis chapter should focus in on the advances to understanding that can be drawn from the integration of the four data chapters
 
-**(4) The synthesis chapter lacks a section presenting the overarching hypotheses of the study**
+The committee pointed out that the synthesis did not discuss thoroughly enough the findings of the papers, especially in the Abstract and Conclusion where the focus is more directed towards research perspectives.
+I revised accordingly the Main findings section, in which I describe more thoroughly the different findings of my papers and their implications for grazing research and the Nordhordland UNESCO Biosphere Reserve.
+I also re-wrote the corresponding parts in the Abstract and Conclusion to focus more explicitly on the paper findings.
+I thank the committee for this feedback and I hope that the revisions put the rightful emphasis on the papers' findings.
 
-- Overarching questions (instead of the initial paper list), with matching subsections in the Findings
-- Q1: What is the influence of the regional environment on semi-natural grasslands and heathlands (**paper II**, **paper III**, **paper IV**)?
-  - Q1-1: Can we confirm the hump-shaped productivity pattern along the coast-to-mountain gradient (**paper IV**)?
-  - Q1-2: Can we detect the influence of geographic or climatic factors on the taxonomic and functional composition of semi-natural grasslands (**paper II**, **paper III**, **paper IV**)?
-- Q2: What are the synergies and trade-offs between biodiversity and ecosystem services among semi-natural grasslands and heathlands (**paper II**, **paper III**, **paper IV**)?
-- Q3: Which management factor influence diversity and community composition in semi-natural grasslands and heathlands (**paper I**, **paper II**, **paper III**, **paper IV**)?
-  - Q3-1: Is there an effect of livestock type or grazing intensity on diversity and community composition in semi-natural grasslands (**paper II**, **paper III**)?
-  - Q3-2: What is the effect of prescribed burning on taxonomic and functional diversity in semi-natural heathlands (**paper I**, **paper IV**)?
+## (4) The synthesis chapter lacks a section presenting the overarching hypotheses of the study
 
-**(5) More details are needed in the description of some of the methods used for data collection, both in the synthesis chapter, in paper III and in paper IV**
+The committee emphasized the lack of overarching hypotheses in the synthesis.
+In the submitted version, the findings were organised according to underlying themes which were not explicitly linked with the main objectives of the thesis.
+I rephrased these topics into research questions presented in the Aim section, which directly relate to the thesis' aims and structure the Main findings section.
+Substantial parts of the Main findings section were re-arranged to fit the new overarching structure.
+I thank the committee for pointing out this weakness in the synthesis and I hope the new research questions provide a more fluent structure as required.
 
-- New sort of "Assessment approach" subsection before the Data collection subsection.
-- Mostly writing: description of indicators and taxa for different papers
+## (5) More details are needed in the description of some of the methods used for data collection
 
-**(6) The structure and order of presentation could be reworked**
+The committee highlighted the lack of description and justification for some research approaches, in both the synthesis and the non-published papers.
+In the synthesis, I wrote a new subsection describing in more details the general research approach of the studies and the different indicators used.
+Please refer to the new Research approach subsection "Study approach and indicators" for reviewing the related changes.
+In paper III and paper IV, I described more thoroughly the target groups and their relevance in the last paragraphs of the Introduction.
+I thank the committee for mentioning these gaps and I hope that the revised parts in the synthesis and the papers 
 
-- Found issue (both me and Amy): general ecological knowledge on grazing, biodiversity and ecosystem services in the last introductory section, which should be focused on the NBR context
-- Mostly moving around already existing paragraphs: new introductory section like "relationships between grazing management, biodiversity and ecosystem services" after section from Issue #2
-- Resulting Introduction structure
-  (1) Livestock's part in the global food security challenge
-  (2) From productivist agriculture to multifunctional agroecological systems
-  (3) Relationships between grazing management, biodiversity and ecosystem services
-  (4) UNESCO's MAB
-  (5) The NBR as case study
-  (6) Accounting for the landform-climate gradient of the fjord region
-  (7) Characteristics of the small-scale grazing systems of the NBR
+## The structure and order of presentation could be revised
+
+Additionally to the five points of revision addressed hereinabove, the committee expressed that the overall structure of the synthesis could be revised.
+In the submitted version, some parts introducing general ecological knowledge on grazing, biodiversity or ecosystem services were either in the Main Findings section or in the Introduction subsection describing the local context of the Nordhordland UNESCO Biosphere Reserve.
+All these parts were re-arranged in the Introduction as independent subsections: "Biodiversity and ecosystem service synergies and trade-offs"; "Productivity-dependent relationship between grazing and biodiversity"; "Diversified management in grasslands: the example of livestock type"; "Diversified management in heathlands: the example of prescribed burning".
+In the submitted version, the study context presenting the fjord environmental conditions was in the Introduction, prior to the description of the Nordhordland small-scale grazing systems.
+I shifted this part to the Study area subsection.
+I thank the committee for this feedback and I hope the new structure of the synthesis is more fluent and easy to read.
+
+## Additional comments on typos
+
+The committee mentioned a few inconsistencies and typos across the synthesis, including a mismatch between the papers' titles and the list of publications.
+I thank the committee for noticing these mistakes.
+I corrected the aforementioned issue and I thoroughly reviewed the whole synthesis to fix any remaining typos and formatting issues.
+
+## Revision of paper III
+
+Prior to the reception of the evaluation report, paper III had been substantially revised following co-authors' suggestions.
+Key changes include:
+the Introduction structure, which now has a clearer emphasis on the cross-scale approach;
+the naming of the explanatory sets, now consistently linked to spatial scales (regional, landscape, field, fine);
+a new variable in the regional explanatory set (annual temperature range, as a proxy for the oceanity gradient);
+the removal of a variable from the field explanatory set (total infield area in the farm, which is not a field-scale factor and was redundant with the landscape-scale factor infield relative area);
+the Discussion, whose structure now matches the Results and whose content was simplified.
+
+I hope the revisions will be received positively by the committee, and that the revised thesis will meet the requirements for an acceptance for defense.
+
+Sincerely,
+
+Morgane Kerdoncuff
