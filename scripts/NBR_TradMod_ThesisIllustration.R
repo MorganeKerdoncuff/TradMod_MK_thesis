@@ -1932,6 +1932,11 @@ ggsave(filename = "illustrations/NBR_ResultGrazingBeetleR3small.png", plot = bee
 # beetleR3 <- ggarrange(beetle_grazingbar, staph_grazingbox, ptili_grazingbox, scara_grazingbox, ncol = 2, nrow = 2, labels = c("A", "B", "C", "D"), font.label = list(size = 12), common.legend = TRUE)
 # ggsave(filename = "illustrations/NBR_ResultGrazingBeetleR3.png", plot = beetleR3, width = 12, height = 12, units = "cm")
 
+comR3 <- ggarrange(grass_grazingbar, agcap_grazingbox, 
+                   forb_grazingbar, trirep_grazingbox, 
+                   beetle_grazingbar, scara_grazingbox,
+                   labels = c("A", "B", "C", "D", "E", "F"), font.label = list(size = 12))
+comR3
 
 #### ON HOLD ####
 
