@@ -24,6 +24,7 @@ format:
         \usepackage{lscape}
         \newcommand{\blandscape}{\begin{landscape}}
         \newcommand{\elandscape}{\end{landscape}}
+        \usepackage{pifont}
     titlepage: academic
     titlepage-logo: "illustrations/UIBlogo_Eng_gray_center.png"
     titlepage-theme:
@@ -1243,11 +1244,11 @@ Our investigation of the small-scale grazing systems of the Nordhordland UNESCO 
 and 3) the farmer, who organises management at the field and farm scales (**paper I**, **paper III**).
 <!-- An example of co-dependent interactions between the environment, the livestock and the farmer could be described as follows: -->
 Our findings suggested that the independent influences of the environmental gradients and field management on the diversity and community composition of semi-natural grasslands were mediated by their mutual interactions at different spatial scales (**paper II**, **paper III**) (@fig-flowconcept).
-At the regional and landscape scales, the climate and topography determines the foraging capacity of ecosystems [@fridleyLongerGrowingSeasons2016] (@fig-flowconcept **1**).
-In response, the farmer adapts the type (e.g. grazing, fertilisation), intensity (e.g. stocking density) and spatiotemporal dynamic (e.g. field area, occupation period) of management, using for example rotational grazing in semi-natural grasslands, year-round grazing with prescribed burning in coastal heathlands or summer transhumance in mountain ranges [@austadHumaninfluencedVegetationTypes1991; @indrelidFarmingSystemIts1988] (@fig-flowconcept **2**).
-The coupled influences of the environmental gradients and farmer management (e.g. fertilisation) determine the distribution of nutrients and biomass at field scale, which in turns affects the livestock foraging behaviour [@hesterForagingBehaviourSheep1999] (@fig-flowconcept **3**).
-Within the field, the animal removes aboveground biomass and redistributes nutrients through urine and dung, leading a key role in the ecosystem's energy cycle [@mayelHowDoesGrassland2021; @sittersImpactsBrowsingGrazing2019] (@fig-flowconcept **4**).
-Over time, the farmer adapts management according to the livestock production and the fields' capacity to recover [@hylandFactorsInfluencingDairy2018; @robertProcessesAdaptationFarm2016], subsequently renewing the grazer-environment relationship at both the field and landscape scales (@fig-flowconcept **5**).
+At the regional and landscape scales, the climate and topography determines the foraging capacity of ecosystems [@fridleyLongerGrowingSeasons2016] (@fig-flowconcept \ding{172}).
+In response, the farmer adapts the type (e.g. grazing, fertilisation), intensity (e.g. stocking density) and spatiotemporal dynamic (e.g. field area, occupation period) of management, using for example rotational grazing in semi-natural grasslands, year-round grazing with prescribed burning in coastal heathlands or summer transhumance in mountain ranges [@austadHumaninfluencedVegetationTypes1991; @indrelidFarmingSystemIts1988] (@fig-flowconcept \ding{173}).
+The coupled influences of the environmental gradients and farmer management (e.g. fertilisation) determine the distribution of nutrients and biomass at field scale, which in turns affects the livestock foraging behaviour [@hesterForagingBehaviourSheep1999] (@fig-flowconcept \ding{174}).
+Within the field, the animal removes aboveground biomass and redistributes nutrients through urine and dung, leading a key role in the ecosystem's energy cycle [@mayelHowDoesGrassland2021; @sittersImpactsBrowsingGrazing2019] (@fig-flowconcept \ding{175}).
+Over time, the farmer adapts management according to the livestock production and the fields' capacity to recover [@hylandFactorsInfluencingDairy2018; @robertProcessesAdaptationFarm2016], subsequently renewing the grazer-environment relationship at both the field and landscape scales (@fig-flowconcept \ding{176}).
 Whilst predictable to some extent, these three-ways interactions still involve a high level of stochasticity due to the high environmental variability, the partial randomness in livestock foraging patterns, and the relative subjectivity in the farmer's decision-making [@nuthallIntuitiveWorldFarmers2012].
 This creates particularly high levels of variance, which were not explicitly accounted for in our study design and analytical approaches.
 
@@ -1277,14 +1278,17 @@ We can highlight four major limitations in our methodological approaches:
 **(1) Environmental heterogeneity.**
 We essentially approached the environmental context of the Nordhordland UNESCO Biosphere Reserve as a broad and unidirectional west-east gradient, while overlooking the spatial heterogeneity associated with fjord shape, direction, width and steepness [@bennieInfluenceSlopeAspect2006; @graaeStayGoHow2018; @steinEnvironmentalHeterogeneityUniversal2014].
 In **paper III** especially, it could have been relevant to include at least one measure of topographic complexity [e.g. variance of elevation or slope, see @yuMultiscaleComparisonTopographic2015] in the regional-scale explanatory set, which included site elevation as the only landform-related variable.
+
 **(2) Livestock-driven heterogeneity at the field scale.**
 Despite the nested sampling design of our ecological study, we did not attempt to investigate sward patchiness in response to livestock foraging [@tonnGrazingInducedPatchiness2019].
 In **paper II **, we could have compared the within-field variation of forage and nectar resource values according to grazer types [@duquetteSpatiallyDiscreteDisturbance2022].
 In **paper III**, including an indicator of sward heterogeneity may have increased the explanatory power of the correlation analyses between grazing management and the fine-scale environment [@ravettoenriBiodiversityfriendlyRotationalGrazing2017].
+
 **(3) Management-driven heterogeneity at the landscape scale.**
 The versatility of the rotational management caused practical limitations for quantifying individual field-scale factors such as stocking density (see Discussion in **paper III**).
 We therefore questioned the accuracy of field-level assessments in capturing the spatio-temporal dynamics driven by the rotations, similarly to how, in **paper I**, an investigation at patch level may not have been representative of the mosaic effect driven by rotational prescribed burning [@tammeEnvironmentalHeterogeneitySpecies2010; @steinEnvironmentalHeterogeneityUniversal2014] (see Discussion in **paper I**).
-**(4) Biological indicators accuracy.**
+
+**(4) Accuracy of biological indicators.**
 Greater indicator sensitivity may have been necessary to capture community responses to grazing management under low disturbance regimes.
 Arthropod taxa especially were investigated at rather coarse taxonomic resolution, only down to family-level for beetles in **paper III** and order-level for mesofauna in **paper IV** [@daoudiCompositionPhenologyBeetle2022].
 While morphological identification requires a considerable investment of time, resource and expertise, novel DNA methods show great potential for facilitating the investigating of soil fauna [@geisenMethodologicalFrameworkEmbrace2019; @sigsgaardEnvironmentalDNAMetabarcoding2021].
@@ -1311,9 +1315,9 @@ However, several principles should be respected to guarantee inclusive, open, tr
 First, farmer knowledge built from empirical, context-specific and community-based learning is as legitimate as and inherently complementary to the fundamental, generalised and discipline-based academic knowledge of scientists [@altieriLinkingEcologistsTraditional2004; @nuthallIntuitiveWorldFarmers2012; @shiSocialInteractionEffect2021].
 We ourselves directly witnessed the considerable capacity of the farmers, and more particularly the elders, to recollect details of management history not only for their own fields, but also for the surrounding agricultural landscape [@ianniRevitalizingTraditionalEcological2015].
 <!-- Transdisciplinary research is still a vast field to explore [@lacombeDesigningAgroecologicalFarming2018],  -->
-Second, research concepts should be discussed, adapted and validated over a common understanding between farmers and scientists [@dickStakeholdersPerspectivesOperationalisation2018; @dramstadIntegratingLandscapebasedValues2001], with priority given to the ones already assimilated in policy-making [@bjorkhaugMultifunctionalAgriculturePolicy2008; @kremenLandscapesThatWork2018].
-For instance, @lamarqueHowEcosystemServices2014 showed that, even though farmers were already able to integrate ecosystem services they were familiar with in their decision-making, they still gained from raised awareness on the least known regulating services (i.e. nitrogen leaching, carbon storage).
-Lastly, farmer values should be thoroughly identified and associated with the different social groups representing the rural community [@bernuesSeeingNorthernEuropean2016; @busckFarmersLandscapeDecisions2002; @cusensMappingConnectionsIntegrated2023].
+Second, research concepts should be discussed, adapted and validated through a common understanding between farmers and scientists [@dickStakeholdersPerspectivesOperationalisation2018; @dramstadIntegratingLandscapebasedValues2001], with priority given to the ones already assimilated in policy-making [@bjorkhaugMultifunctionalAgriculturePolicy2008; @kremenLandscapesThatWork2018].
+For instance, @lamarqueHowEcosystemServices2014 showed that, even though farmers were already able to integrate ecosystem services they were familiar with in their decision-making, they still gained from raised awareness of the least known regulating services (i.e. nitrogen leaching, carbon storage).
+Lastly, farmers' values should be thoroughly identified and associated with the different social groups representing the rural community [@bernuesSeeingNorthernEuropean2016; @busckFarmersLandscapeDecisions2002; @cusensMappingConnectionsIntegrated2023].
 The pragmatic approach of farmers driven by material considerations and socioeconomic constraints is essential for assessing the feasibility of scientific recommendations [@marenDiversifiedFarmingSystems2022; @wehnAdaptiveBiodiversityManagement2018].
 
 ## Perspectives for the Nordhordland UNESCO Biosphere Reserve
@@ -1340,20 +1344,20 @@ From the TradMod project as the first stepping stone [see @cusensParticipatoryMa
 
 <!-- The industrialised livestock production system inherited from the Green Revolution has failed to ensure global food security, while largely contributing to the current ecological crisis [@bardgettCombattingGlobalGrassland2021; @ramankuttyTrendsGlobalAgricultural2018]. -->
 Exploring farming alternatives based on agroecological principles has become a priority to ensure the livelihood of local communities, support the sustainable use of land resources and preserve the integrity of ecosystems [@altieriPerspectivesChallengesAgroecology2024; @ipbesThematicAssessmentReport2024; @kremenLandscapesThatWork2018].
-This thesis aimed to contribute to this objective by using the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve, Western Norway, as a case study.
+This thesis aimed to contribute to this objective by using the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve (Western Norway) as a case study.
 I assessed how semi-natural grasslands and heathlands supported biodiversity and ecosystem services delivery, by investigating
-1) the effect of the regional environment on habitat productivity and the composition of grassland communities;
+1) the influence of the regional environment on habitat productivity and the composition of grassland communities;
 2) the impact of livestock type and prescribed burning on the diversity and composition of semi-natural grasslands and heathlands respectively;
 and 3) synergies and trade-offs across the agroecological landscape of the fjord region.
 
 I confirmed that agricultural land use in the Nordhordland UNESCO Biosphere Reserve is still largely determined by the environment of the fjord region (**paper III**, **paper IV**).
-I demonstrated the biological and functional complementarity of semi-natural grasslands and heathlands (**paper IV**), adding to the evidence that win-win strategies promoting biodiversity and multifunctionality in food production systems are already within our reach [@gardnerAgriculturalResiliencePerspectives2019; @kremenLandscapesThatWork2018].
+I demonstrated the biological and functional complementarity of semi-natural grasslands and heathlands (**paper IV**).
 I particularly emphasized the conservation benefits of semi-natural heathlands in 
 coastal and mountainous areas, which showed a remarkable diversity of cryptogam species and supported the delivery of carbon and water regulating services (**paper IV**).
-I highlighted the role of traditional prescribed burning in enhancing functional diversity locally (**paper I**) [@bargmannSpeciesTraitSelection2016] and supporting ecosystem heterogeneity regionally (**paper IV**) [@velleDoesPrescribedBurning2014].
+I highlighted the role of traditional prescribed burning in enhancing functional diversity locally (**paper I**) and supporting ecosystem heterogeneity regionally (**paper IV**).
 In semi-natural grasslands, I showed that field management did not override the variations of plant communities driven by the fine-scale environment (**paper III**).
 I also demonstrated that, independently of livestock type, these grassland communities were characterised by synergies between vascular plant species richness and nectar resource, and between forage resource and nectar resource (**paper II**).
-However, except for cattle grazing which was associated with higher Poaceae cover, independent effects of management factors on plant and beetle communities were at most marginal (**paper II**, **paper III**).
+However, except for cattle grazing which was associated with higher Poaceae cover, independent effects of management factors on plant and dung-associated beetle communities were at most marginal (**paper II**, **paper III**).
 Likewise, I was unable to detect a direct influence of the regional environment on the diversity and composition of semi-natural grasslands (**paper III**, **paper IV**).
 I therefore recommend to conduct further research to investigate more thoroughly the interactions between the farmer, the livestock and the environment in the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve.
 Understanding these relationships will have essential implications for the conservation of 
@@ -1365,17 +1369,27 @@ the agricultural landscape and the development of a sustainable food production 
 <!-- As such, low-intensity domestic grazing supported plant diversity and synergies between forage and nectar resources in semi-natural grasslands, independently of the livestock type and the farm structure (**paper II**) [@bengtssonGrasslandsMoreImportant2019]. -->
 <!-- I also highlighted the crucial role of traditional management practices, such as prescribed burning, for the conservation of heathland ecosystems and their contributions to biodiversity and regulating services (**paper I**, **paper IV**) [@walmsleyEnsuringLongtermProvision2021]. -->
 
-Diversified management strategies ensure the resilience of the food production systems by promoting biodiversity and synergies at local and regional scales [@altieriPerspectivesChallengesAgroecology2024; @rasmussenJointEnvironmentalSocial2024].
+Overall, my thesis adds to the evidence that win-win strategies promoting biodiversity and multifunctionality are already within our reach [@altieriPerspectivesChallengesAgroecology2024; @gardnerAgriculturalResiliencePerspectives2019; @kremenLandscapesThatWork2018].
+<!-- Diversified management strategies ensure the resilience of the food production systems by promoting biodiversity and synergies at local and regional scales [@altieriPerspectivesChallengesAgroecology2024; @rasmussenJointEnvironmentalSocial2024]. -->
 <!-- Priorities are to support the viability and diversity of farming models by emphasizing the value of non-marketable commodities, for instance those associated with cultural heritage (e.g. rustic breeds, traditional farming practices) [@marenDiversifiedFarmingSystems2022; @wezelAgroecologicalPrinciplesElements2020]. -->
 <!-- by for instance emphasizing the value of the production of commodities associated with cultural heritage such as rustic breeds (e.g. *Gammel Norsk Sau*) or traditional summer farming (**paper IV**) [@asheimPolicyMeasuresPreserve2020; @kvakkestadNorwegianFarmersPerspectives2015; @potthoffNorwegianLowintensityOvine2023]. -->
-We encourage further research efforts to investigate already existing models of small-scale farming systems, which are indispensable sources of knowledge for understanding how adaptative management strategies interact with the local context [@bardgettCombattingGlobalGrassland2021; @sinclairOptionsContextApproach2019].
+I encourage further research efforts on already existing models of small-scale and diversified farming, to understand how adaptative management strategies interact with the local context [@bardgettCombattingGlobalGrassland2021; @sinclairOptionsContextApproach2019].
 To that end, ecological research must explore transdisciplinary approaches and involve local communities as part of the knowledge co-production processes [@barracloughMappingStakeholderNetworks2022; @bohnetCocreatingCulturalNarratives2025; @jagerPathwaysImplementationEvidence2020].
 
 \newpage
 
 # Appendix
 
-Front and back sides of the generic version of the pamphlet summarising the outcomes of the ecological study in the Nordhordland UNESCO Biosphere Reserve, including plant diversity, beetle abundance, ecosystem services associated with the most common plant species and beetle families, and soil chemical and physical parameters (in Norwegian). Credits: created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org).
+Outer and inner sides of the dissemination pamphlet version made available for the general public (in Norwegian).
+The outer side describes the aims of the ecological study (on the left) and the context of the Nordhordland UNESCO Biosphere Reserve (in the centre).
+The inner side describes the research background and outcomes of the ecological study.
+The left side shows a conceptual representation of the links between organisms and ecosystem functions in grazing systems and a map of the distribution of our study sites according to livestock type.
+The centre shows total plant species richness and beetle abundance,
+as well as the five more common plant species (from top to bottom: *Rhytidiadelphus squarrosus*, *Agrostis capillaris*, *Calluna vulgaris*, *Festuca rubra*, *Holcus lanatus*)
+and the four more common beetle families (from top to bottom: Staphylinidae, Ptiliidae, Hydrophilidae, Scarabaeidaea) found on the sites,
+linked to their contributions to ecosystem service delivery (water storage, forage provision, pollination, nutrient cycling).
+The right side shows the distribution of soil physicochemical parameters (from top to bottom: pH, total nitrogen, available phosphorus, available magnesium, humus content) and mean values in green. 
+Credits: created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org).
 
 \newpage
 
