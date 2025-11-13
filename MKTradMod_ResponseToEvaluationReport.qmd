@@ -1,5 +1,8 @@
 ---
-format: docx
+format:
+  pdf:
+    mainfont: "Times New Roman"
+    sansfont: "Times New Roman"
 ---
 
 # Response to the evaluation report of the PhD thesis
@@ -10,7 +13,7 @@ I thank the committee for providing valuable insights for the revision of my PhD
 
 The committee highlighted specific claims in the Abstract and the Conclusion which were not supported by the data.
 The sentences in question affirmed that my results demonstrated a positive effect of grazing on biodiversity and ecosystem services, while I did not lead any study or experiment actually testing the effect of grazing (against no grazing for example) on biodiversity or the delivery of ecosystem services.
-The corresponding parts in the Abstract and Conclusion were entirely re-written to ensure that each assertion supported by the papers' findings.
+The corresponding parts in the Abstract and Conclusion were entirely re-written to ensure that each assertion is supported by the papers' findings and that the observational nature of my study is clear.
 I also reviewed the Main findings section to address any similar issue.
 I thank the committee for pointing out these overstated claims, and I hope the newly written concluding remarks appropriately fit the findings of my papers.
 
@@ -32,8 +35,8 @@ I thank the committee for this feedback and I hope that the revisions put the ri
 ## (4) The synthesis chapter lacks a section presenting the overarching hypotheses of the study
 
 The committee emphasized the lack of overarching hypotheses in the synthesis.
-In the submitted version, the findings were organised according to underlying themes which were not explicitly linked with the main objectives of the thesis.
-I rephrased these topics into research questions presented in the Aim section, which directly relate to the thesis' aims and structure the Main findings section.
+In the original submitted version, the findings were organised according to underlying themes which were not explicitly linked with the main objectives of the thesis.
+I rephrased these topics into research questions presented in the Aim section, which directly relate to the thesis' aims and correspond directly with the structure of the Main findings section.
 Substantial parts of the Main findings section were re-arranged to fit the new overarching structure.
 I thank the committee for pointing out this weakness in the synthesis and I hope the new research questions provide a more fluent structure as required.
 
@@ -42,7 +45,10 @@ I thank the committee for pointing out this weakness in the synthesis and I hope
 The committee highlighted the lack of description and justification for some research approaches, in both the synthesis and the non-published papers.
 In the synthesis, I wrote a new subsection describing in more details the general research approach of the studies and the different indicators used.
 Please refer to the new Research approach subsection "Study approach and indicators" for reviewing the related changes.
-In paper III and paper IV, I described more thoroughly the target groups and their relevance in the last paragraphs of the Introduction.
+Regarding paper III, one of the co-authors mentioned the same issue regarding the lack of introduction of the dung beetle group.
+I addressed it by revising the structure and the focus of the Introduction towards plant and animal communities and their roles in supporting ecosystem functions.
+Additionally, I explicitly linked each selected assemblage (grass, forb, dung-associated beetles) to their respective contribution to forage provision.
+Similar revisions were done in paper IV, in which I linked more explicitly selected indicators to the ecosystem function they mainly support (diversity, aboveground production, soil biological activity, soil carbon storage).
 I thank the committee for mentioning these gaps and I hope that the revised parts in the synthesis and the papers 
 
 ## The structure and order of presentation could be revised
@@ -54,11 +60,12 @@ In the submitted version, the study context presenting the fjord environmental c
 I shifted this part to the Study area subsection.
 I thank the committee for this feedback and I hope the new structure of the synthesis is more fluent and easy to read.
 
-## Additional comments on typos
+## Additional comments on the synthesis
 
 The committee mentioned a few inconsistencies and typos across the synthesis, including a mismatch between the papers' titles and the list of publications.
 I thank the committee for noticing these mistakes.
 I corrected the aforementioned issue and I thoroughly reviewed the whole synthesis to fix any remaining typos and formatting issues.
+I also revised the Methodological considerations section to link it more clearly to my findings.
 
 ## Revision of paper III
 
@@ -68,10 +75,16 @@ the Introduction structure, which now has a clearer emphasis on the cross-scale 
 the naming of the explanatory sets, now consistently linked to spatial scales (regional, landscape, field, fine);
 a new variable in the regional explanatory set (annual temperature range, as a proxy for the oceanity gradient);
 the removal of a variable from the field explanatory set (total infield area in the farm, which is not a field-scale factor and was redundant with the landscape-scale factor infield relative area);
-the Discussion, whose structure now matches the Results and whose content was simplified.
-
+the Discussion, whose structure now matches the Results and whose content was simplified to focus more closely on the hypotheses and results.
+This new version of paper III is the one included in this revised version of the PhD thesis.
+\
+\
+\
+\
 I hope the revisions will be received positively by the committee, and that the revised thesis will meet the requirements for an acceptance for defense.
-
+\
+\
 Sincerely,
-
+\
+\
 Morgane Kerdoncuff
