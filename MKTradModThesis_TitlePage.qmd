@@ -11,6 +11,10 @@ author:
       - name: Center for Sustainable Area Management (CeSAM)
 date: today
 bibliography: NBR_TRADMOD.bib
+# format: 
+#   pdf:
+#     template-partials: 
+#       - before-body.tex
 format:
   titlepage-pdf:
     keep-tex: true
@@ -20,11 +24,11 @@ format:
     include-in-header:
       text: |
         \usepackage{pdfpages}
-    titlepage: academic
+    titlepage: classic-lined
     titlepage-logo: "illustrations/UIBlogo_Eng_gray_center.png"
-    titlepage-theme:
-      affiliation-style: "numbered-list-with-correspondence"
-      affiliation-sep: "newline"
+#     titlepage-theme:
+#       affiliation-style: "numbered-list-with-correspondence"
+#       affiliation-sep: "newline"
   # html:
   #   embed-resources: true
   #   toc: true
