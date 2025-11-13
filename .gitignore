@@ -43,6 +43,7 @@ outputs/*
 *.html
 *.docx
 *.tex
+*.log
 
 # Tests
 example.qmd
