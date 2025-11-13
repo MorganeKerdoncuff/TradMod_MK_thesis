@@ -1267,7 +1267,7 @@ loibox_grazingR1 <- loitrend_grazingR1 %>%
   ) +
   geom_boxplot() +
   xlab("") +
-  ylab("Loss of ignition") +
+  ylab("Loss on ignition") +
   scale_fill_manual(values = c("infield" = "white", "outfield" = "grey")) +
   theme(panel.background = element_blank(),
         legend.background = element_blank(),
@@ -1935,6 +1935,8 @@ ggsave(filename = "illustrations/NBR_ResultGrazingBeetleR3small.png", plot = bee
 comR3 <- ggarrange(grass_grazingbar, agcap_grazingbox, 
                    forb_grazingbar, trirep_grazingbox, 
                    beetle_grazingbar, scara_grazingbox,
+                   nrow = 3,
+                   ncol = 2,
                    labels = c("A", "B", "C", "D", "E", "F"), font.label = list(size = 12))
 comR3
 
