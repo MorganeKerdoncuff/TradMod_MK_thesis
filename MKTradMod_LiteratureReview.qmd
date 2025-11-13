@@ -2558,7 +2558,7 @@ Conventional and traditional agricultures rely on fundamentally different approa
 @wallisdevriesImportanceScalePatchiness1999
 - AIM: experiment to test the effect of patchiness on cattle movement & selectivity
 - fundamental differences between grazing ungulates & ruminants (from other literature resources)
-  - grazing ungulates focus on short, leafy swards with high nutrient concentration, which could be traded-off against lower intake rate [@]
+  - grazing ungulates focus on short, leafy swards with high nutrient concentration, which could be traded-off against lower intake rate
   - ruminants constrained by passage rate through their digestive track, so they would favour higher daily intake against immediate highly nutritive immediate intake
 - Take-home
   - patch selection aimed at patch type with highest daily digestible intake
