@@ -1,22 +1,23 @@
 ---
-title: "*Mark*ing the landscape"
-subtitle: "Ecological assessment of small-scale grazing systems in the fjord region of the Nordhordland UNESCO Biosphere Reserve"
-author:
-  - name: Morgane Kerdoncuff
-    orcid: https://orcid.org/0000-0003-2223-1857
-    email: morgane.kerdoncuf@uib.no
-    affiliations:
-      - name: University of Bergen
-        department: Department of Biological Sciences
-      - name: Center for Sustainable Area Management (CeSAM)
-date: today
+# title: "*Mark*ing the landscape"
+# subtitle: "Ecological assessment of small-scale grazing systems in the fjord region of the Nordhordland UNESCO Biosphere Reserve"
+# author:
+#   - name: Morgane Kerdoncuff
+#     orcid: https://orcid.org/0000-0003-2223-1857
+#     email: morgane.kerdoncuf@uib.no
+#     affiliations:
+#       - name: University of Bergen
+#         department: Department of Biological Sciences
+#       - name: Center for Sustainable Area Management (CeSAM)
+# date: today
 bibliography: NBR_TRADMOD.bib
 format:
-  titlepage-pdf:
+  pdf:
     keep-tex: true
     toc: false
     mainfont: "Times New Roman"
-    linestretch: 1.15
+    sansfont: "Times New Roman"
+    fontsize: 13pt
     fig-dpi: 800
     include-in-header:
       text: |
@@ -25,15 +26,13 @@ format:
         \newcommand{\blandscape}{\begin{landscape}}
         \newcommand{\elandscape}{\end{landscape}}
         \usepackage{pifont}
-    titlepage: classic-lined
-    titlepage-logo: "illustrations/UIBlogo_Eng_gray_center.png"
+        \input{preamble.tex}
+        \usepackage[font=small,labelfont=small]{caption}
+    # titlepage: classic-lined
+    # titlepage-logo: "illustrations/UIBlogo_Eng_gray_center.png"
     # titlepage-theme:
     #   affiliation-style: "numbered-list-with-correspondence"
     #   affiliation-sep: "newline"
-  # html:
-  #   embed-resources: true
-  #   toc: true
-  #   toc-title: Contents
 # number-sections: true
 execute: 
   echo: false
@@ -54,9 +53,9 @@ op = function(x, d=1) sprintf(paste0("%1.",d,"f"), x)
 theme_set(theme_bw(base_size = 18))
 ```
 
-
 \newpage
 \pagenumbering{Roman}
+\setlength{\parskip}{1pt}
 
 # Scientific environment
 
@@ -64,6 +63,7 @@ This thesis was conducted at the Department of Biological Sciences, Faculty of S
 I was also affiliated with the Centre for Sustainable Area Management (CeSAM), University of Bergen. 
 This work was part of the TradMod project *From traditional resource use to modern industrial production: holistic management in Western Norway* funded by the Research Council of Norway (grant #280299).
 Additional funding support was provided by a grant from *Olaf Grolle Olsens's Legat til Universitet i Bergen med tilførsel av arv ette Miranda Bødker*.
+\newpage
 
 # Acknowledgements
 
@@ -71,6 +71,7 @@ First and foremost, I would like to thank my two supervisors, Inger and Amy, who
 You two were fully dedicated to your supervision task, being available any day of the week and almost any hour of the day, always accessible and ready to provide as much help as you could despite your heavy workload.
 Being able to freely knock on the door of your office or send a quick one-line email for any small or big question was a privilege I am very grateful for.
 I have felt extremely lucky since day one for having you two by my side, and this feeling has not changed one bit over the whole PhD period.
+\setlength{\parskip}{10pt}
 
 Now if I get into the specifics, I particularly thank you Inger for your pragmatism and your straightforwardness, as you were the one to raise the red flag whenever we went overboard with our ambitions.
 I am also very grateful for your presence, kind and understanding, at the time when things got difficult.
@@ -120,17 +121,18 @@ I thank my one and only Bergen crew, my kendo crew, my GCBio crew, my Cucuff cre
 I also thank my family for supporting me over the years and putting their trust in my legendary stubbornness.
 
 Finally, I want to acknowledge all these fantastic bands without whom I could not have gone through these everlasting lab, marking and writing hours: Hell, Satan, Attic, Blind Guardian, Iron Maiden, Inferi, Obsidious, Evil Invaders, Enforcer, King Diamond, Angel Witch, Accept, and of course our French gems Catalyst, Sortilège, Malédiction, Darkenhöld and First Fragment.
-
+\setlength{\parskip}{1pt}
 \newpage
 
 # Abstract {#sec-abstract}
 
 As we celebrate the 10^th^ year anniversary of the United Nations' report introducing the 2030 Agenda for Sustainable Development, scientific evidence keeps on demonstrating the unprecedented environmental footprint of agriculture worldwide.
-In this context, research effort should focus on gathering knowledge and experience from farming systems which ensure the sustainable use of land resources and the ecological integrity of ecosystems. 
-In the fjord region of Western Norway, a long history of low-intensity grazing and diversified farming practices has shaped an agricultural landscape of high ecological diversity and cultural value.
-However, the post-WW2 rationalisation of livestock production led to concomitant processes of intensification on more fertile fields and abandonment of remote areas, resulting in a generalised decline of farming activity and grazing area.
+In this context, research effort should focus on gathering knowledge and experience from farming systems which support the sustainable use of land resources and the ecological integrity of ecosystems. 
+In the fjord region of Western Norway, a long history of low-intensity grazing and diversified farming has shaped an agricultural landscape of high ecological diversity and cultural value.
+However, the post-WW2 rationalisation of livestock production has led to concomitant processes of intensification on more fertile fields and abandonment of remote areas, resulting in a generalised decline of farming activity and grazing area.
 In 2019, the Nordhordland UNESCO Biosphere Reserve was designated as a model area for the regional implementation of the 2030 Agenda Sustainable Development Goals.
 This framework motivated research initiatives for the production of actionable knowledge for the sustainable management of land resources in Western Norway.
+\setlength{\parskip}{10pt}
 
 In line with these perspectives, this thesis aims to assess the influence of environmental and management factors on biodiversity and ecosystem service delivery in grazing-dependent habitats in Western Norway.
 I led observational studies on 42 grazing fields distributed across the fjord region of the Nordhordland UNESCO Biosphere Reserve to investigate: 
@@ -155,7 +157,7 @@ Overall, I demonstrated that semi-natural grasslands and heathlands in the Nordh
 I emphasized that further research is needed for deepening our understanding of the complex interactions between the farmer, the livestock and the environment in small-scale grazing systems.
 I recommend methodological frameworks to be designed according to the inherent variability of agroecological systems, by developing farm-scale assessments and transdisciplinary approaches.
 Collaborative knowledge-building and inclusive policy-making in the Nordhordland UNESCO Biosphere Reserve are necessary to support sustainable food production and the conservation of agroecosystems in Western Norway.
-
+\setlength{\parskip}{1pt}
 \newpage
 
 # Sammendrag
@@ -166,6 +168,7 @@ I fjordregionen på Vestlandet har en lang historie med lavintensiv beitebruk og
 Rasjonaliseringen av husdyrproduksjonen etter andre verdenskrig førte imidlertid til en intensivering av driften på mer fruktbare åkrer og en nedleggelse av fjerntliggende områder, noe som resulterte i en generell nedgang i jordbruksaktiviteten og arealet med beiteområder.
 I 2019 ble Nordhordland UNESCO Biosfæreområde utpekt som modellområde for regional implementering av bærekraftsmålene i Agenda 2030.
 Dette rammeverket motiverte til forskningsinitiativer for produksjon av handlingsrettet kunnskap for bærekraftig forvaltning av landressurser på Vestlandet.
+\setlength{\parskip}{10pt}
 
 I tråd med disse perspektivene har denne avhandlingen som mål å vurdere innflytelsen fra miljø- og forvaltningsfaktorer på biologisk mangfold og økosystemtjenester i beiteavhengige habitater på Vestlandet.
 Jeg ledet observasjonsstudier i 42 beiteområder fordelt over fjordregionen i Nordhordland UNESCO Biosfæreområde for å undersøke: 
@@ -190,12 +193,13 @@ Samlet sett viste jeg at semi-naturlige beitemarker og lyngheier i Nordhordland 
 Jeg understreket at det er behov for videre forskning for å utvide vår forståelse av de komplekse interaksjonene mellom bonden, husdyrene og miljøet i småskala beitesystemer.
 Jeg anbefaler at det utformes metodiske rammeverk for å fange opp den iboende variabiliteten i agroøkologiske systemer, ved å utvikle vurderinger på gårdsnivå ved hjelp av tverrfaglige tilnærminger.
 Samarbeid om kunnskapsbygging og inkluderende politikkutforming i Nordhordland UNESCO Biosfæreområde er nødvendig for å støtte bærekraftig matproduksjon og bevaring av agroøkosystemer på Vestlandet.
-
+\setlength{\parskip}{1pt}
 \newpage
 
 # List of publications
 
 Publications included in the thesis:
+\setlength{\parskip}{10pt}
 
 - Paper I - **Kerdoncuff, M.**, Måren, I.E. & Eycott, A.E. (2023). Traditional prescribed burning of coastal heathland provides niches for xerophilous and sun-loving beetles. Biodiversity Conservation 32, 4083–4109. https://doi.org/10.1007/s10531-023-02684-x
 
@@ -204,10 +208,12 @@ Publications included in the thesis:
 - Paper III - **Kerdoncuff, M.**, Eycott, A.E, Klimes, A. & Måren, I.E. Grazing the fjord landscape: Environmental and management interactions across scales. *Planned submission to Agriculture, Ecosystems and Environment*
 
 - Paper IV - **Kerdoncuff, M.**, Eycott, A.E & Måren, I.E. Adaptive grazing management along a productivity gradient supports ecosystem service complementarity. *Planned submission to Journal of Applied Ecology*
-
+\setlength{\parskip}{1pt}
 \newpage
 
 # Author contributions
+
+\small
 
 +-----------------------------+-------------------+----------------------------------+------------------------------+------------------------------+
 | Role                        | Paper I           | Paper II                         | Paper III                    | Paper IV                     |                       
@@ -239,7 +245,11 @@ Publications included in the thesis:
 
 : Contributions to the individual papers in this thesis are categorised according to the CRediT (Contributor Roles Taxonomy) system.
 
+\normalsize
 MK = Morgane Kerdoncuff^1,3^; IEM = Inger Elisabeth Måren^1,3^; AEE = Amy Elizabeth Eycott^2,3^; MD = Morgane Demeaux^1^; AK = Adam Klimes^4^; LHV = Linn Høeg Voldstad^5^; SAHO = Silje Andrea Hjortland Östman^5^.
+\
+\footnotesize
+\setlength{\parskip}{1pt}
 
 ^1^ Department of Biological Sciences, University of Bergen, Norway
 
@@ -251,6 +261,7 @@ MK = Morgane Kerdoncuff^1,3^; IEM = Inger Elisabeth Måren^1,3^; AEE = Amy Eliza
 
 ^5^ Linn Høeg Voldstad and Silje Andrea Hjortland Östman were not included as paper authors but their logistical support and technical contribution to the field and lab work were essential for the completion of this work.
 
+\normalsize
 \newpage
 
 \setcounter{tocdepth}{2}
@@ -276,6 +287,7 @@ However, it came at the cost of the decline and degradation of global grassland 
 To shift away from a trajectory which places dramatic pressure on the Earth limits [@pelletierForecastingPotentialGlobal2010; @richardsonEarthSixNine2023], livestock production systems must be emancipated from the productivist doctrine [@altieriPerspectivesChallengesAgroecology2024; @ipbesThematicAssessmentReport2024].
 For the past decades, a new dominant paradigm has acknowledged the synergy between food security, ecosystem integrity and human well-being [@ipbesThematicAssessmentReport2024], thus defending the potential for win-win alternatives [@fischerReframingFoodBiodiversity2017; @hanspachTradeoffsSynergiesFood2017; @wittmanSocialEcologicalPerspective2017].
 These approaches have materialised through multiple concepts - e.g. agroecology [@holt-gimenezAgroecologyFoodSovereignty2012; @wezelAgroecologicalPrinciplesElements2020], diversified farming [@kremenDiversifiedFarmingSystems2012; @rosa-schleichEcologicaleconomicTradeoffsDiversified2019] or sustainable intensification [@prettySustainableIntensificationAgricultural2014; @rockstromSustainableIntensificationAgriculture2017], which share the consensus that food production should be diversified [@petersen-rockneyNarrowBrittleBroad2021; @rasmussenJointEnvironmentalSocial2024], and tailored to the local context [@cunninghamCloseYieldgapSaving2013; @prettySustainableIntensificationAgricultural2014], to support self-sufficient and resilient agricultural systems [@chappellFoodSecurityBiodiversity2011; @gardnerAgriculturalResiliencePerspectives2019].
+\setlength{\parskip}{10pt}
 
 In this new paradigm, grazing systems are not reduced only to their capacity for sustaining livestock production, but also conceived as a support of multiple benefits to human society [@kremenEcosystemServicesBiologically2012; @leprovostSupplyMultipleEcosystem2022].
 The assessment of such benefits largely relies on the ecosystem service framework [@costanzaTwentyYearsEcosystem2017; @haines-youngCommonInternationalClassification2018], or also more recently defined as "nature's contribution to people" [@diazAssessingNatureContributions2018; @ellisEcosystemServicesNature2019], which has been generalised in policy-making since the Millennium Ecosystem Assessment [@millenniumecosystemassessmentmeaEcosystemsHumanWellbeing2005].
@@ -284,6 +296,7 @@ They can be classified into provisioning, i.e. direct supply of energy or materi
 The capacity of agricultural systems to ensure the delivery of multiple ecosystem services has been translated in policy-making through the concept of "multifunctionality", formally defined and promoted by the Organisation for Economic Co-operation and Development (OECD) [@bjorkhaugMultifunctionalAgriculturePolicy2008; @oecdMultifunctionalityAnalyticalFramework2001].
 According to the OECD, multifunctionality relies on "1) the existence of multiple commodity and non-commodity outputs that are jointly produced by agriculture; and 2) the fact that some of the non-commodity outputs exhibit the characteristics of externalities or public goods when markets for these goods do not exist or function poorly" [@oecdMultifunctionalityAnalyticalFramework2001].
 The realisation of this multifunctionality pathway requires an extensive effort of policy-oriented research, to investigate synergies and trade-offs under different farming models and across multiple ecosystems and sociocultural backgrounds [@egliWinnersLosersNational2018; @rockstromSustainableIntensificationAgriculture2017; @runhaarFourCriticalConditions2021].
+\setlength{\parskip}{1pt}
 
 ## Biodiversity and ecosystem service synergies and trade-offs
 
@@ -321,12 +334,14 @@ Compaction reduces the structural heterogeneity of the soil and the volume of po
 Trampling accentuates soil erosion on steep grounds [@hiltbrunnerCattleTramplingAlters2012] and deteriorates the cover and richness of the bryophyte layer, facilitating the colonisation of ruderal graminoids [@ludvikovaLongTermDefoliation2014].
 Finally, cattle's digestive system make them produce feces in greater amounts and with different chemical composition compared with sheep or goats [@lumaretChangesResourcesConsequences1992].
 This variation in the availability and quality of dung resource affects the abundance and functional composition of the dung-associated beetle community [@finnExperimentalInvestigationsColonisation2002; @lumaretChangesResourcesConsequences1992].
+\setlength{\parskip}{10pt}
 
 In agricultural systems, livestock's direct impact on the biotic and abiotic characteristics of semi-natural grasslands interacts with additional management practices, such as field enrichment [@socherInteractingEffectsFertilization2013].
 Soil nutrient enhancement favours competitive strategies, leading to an increase of the proportion of nitrophilous grass at the expense of rare species, and more particularly bryophytes [@bochDirectIndirectEffects2018; @gaujourFactorsProcessesAffecting2012].
 Inorganic fertilisation particularly was shown to have a detrimental effect on biodiversity [@degraaffEffectsAgriculturalIntensification2019; @kiddImpacts120Years2017], especially because of subsequent soil acidification [@caiIntensifiedSoilAcidification2015; @mengGlobalSoilAcidification2019].
 The impact of livestock grazing on biodiversity and the delivery of ecosystem services in semi-natural grasslands thus results from complex interactions between grazer type, field management and environmental conditions.
 It is necessary to disentangle these interactions for optimising farming practices according to the local context [@buzhdyganDirectIndirectEffects2020].
+\setlength{\parskip}{1pt}
 
 ## Diversified management in heathlands: the example of prescribed burning
 
@@ -371,6 +386,7 @@ This fuzziness has been the cause of deeply rooted biases, of which the Western-
 According to its literal meaning, "conventional" only designates common practices in a certain geographical area and during a certain time period.
 Therefore, there should be no inherent contradiction between "conventional" farming, and for example "traditional" farming, which is still predominant in many parts of the world [@altieriLinkingEcologistsTraditional2004].
 However, in the dominant narrative, "conventional" agriculture has been strongly linked to the industrialised model of the Global North, while in opposition "traditional" farming has been rather associated with low-intensity practices, more or less rightfully [@plieningerTraditionalLanduseNature2006].
+\setlength{\parskip}{10pt}
 \
 In this thesis, I used "traditional" only to describe formerly common farming practices in Western Norway, which have either severely declined, or disappeared over time, and which are today associated with the region's cultural heritage [@daugstadAgricultureUpholderCultural2006].
 Regarding the current dominant livestock model, the most consistent feature of farms in Western Norway is their small production scale according to Global North standards [@klikockaCharacteristicsModelsFarms2021], both in terms of net income and flock size.
@@ -378,6 +394,7 @@ The net income for a holding in 2024 was on average 164,500 NOK (approx. 14,400�
 In Norwegian, "*småskala landbruk*" and "*småskala beitesystemer*" are used to designate small-scale farming systems and small-scale grazing systems respectively, which are terms also found in research literature for policy-making [e.g. @asheimPolicyMeasuresPreserve2020].
 For consistency, I therefore used the expression "small-scale grazing systems" to characterise domestic grazing in the Nordhordland UNESCO Biosphere Reserve independently of farm structure, livestock type or management practice.
 :::
+\setlength{\parskip}{1pt}
 
 ### The small-scale grazing systems of Western Norway
 
@@ -387,6 +404,7 @@ The change in farm structure led to a general reorganisation of the countryside,
 These concurring processes were exacerbated by an overall decrease of farming activity, caused by the socioeconomic decline and the ageing population of rural communities [@forbordDriversChangeNorwegian2014; @potthoffNorwegianLowintensityOvine2023].
 Smaller holdings (under 10 ha) were the most impacted, and dropped from representing 90% of total Norwegian farms in 1949 to 53% in 1995 [@fjellstadPatternsChangeTwo1999; @ovreasEndringarJordbruksarealOg2011].
 This change was reflected across the whole fjord region, with a loss and degradation of semi-natural habitats due to woody encroachment [@brynImpactsLandUse2012; @olssonLandscapeChangePatterns2000] and the coarsening of the landscape matrix [@hamrePlantSpeciesRichness2010; @norderhaugBiotopePatternsAbundance2000].
+\setlength{\parskip}{10pt}
 
 ::: {.callout-note #box-history}
 ### Box 2. The history of traditional farming in Nordhordland {#box-history}
@@ -413,6 +431,7 @@ This management strategy requires specific skills and training, as the intangibl
 In the more productive semi-natural grasslands, the agricultural transition has generated a socioeconomic gradient of farm structures [@blekesauneAgricultureImportanceViability1999].
 It includes both full-time and more production-oriented farmers, often but not exclusively associated with mixed dairy-beef systems, and part-time farmers, who rather breed sheep or goats [@asheimPolicyMeasuresPreserve2020; @potthoffNorwegianLowintensityOvine2023] (@fig-nbrgrazing C-D).
 At the scale of the Nordhordland UNESCO Biosphere Reserve, these different production systems are expected to complement each others in maintaining an ecologically diverse and multifunctional agroecological landscape [@kremenEcosystemServicesBiologically2012; @sollenbergerGrasslandManagementAffects2019].
+\setlength{\parskip}{1pt}
 
 ![Diversity of management practices in semi-natural grasslands and heathlands in the Nordhordland UNESCO Biosphere Reserve: (A) prescribed burning in coastal heathland (Alver municipality, © S. Östman); (B) freshly burnt heath patch in Hopøyna coastal heathland (Øygarden municipality, © M. Kerdoncuff); (C) goat-grazed semi-natural grassland in Morkenfjellet in the coastal area (Alver municipality, © A. E. Eycott); (D) sheep-grazed semi-natural grassland in Eikemovegen in the fjord area (Alver municipality, © M. Demeaux).](illustrations/NBR_IntroGrazingPictures.png){width=100% #fig-nbrgrazing}
 
@@ -426,6 +445,7 @@ We used an exploratory approach to
 (a) capture the diversity of environments and grazing fields typical to the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve, by encompassing a large geographical area and a wide range of farm structures;
 (b) take management-oriented perspectives, with an emphasis on the benefits provided by farming activity, by relying on the ecosystem service framework;
 (c) provide a comprehensive data baseline including multiple taxa and ecological indicators, to guide future agroecological research in the Nordhordland UNESCO Biosphere Reserve.
+\setlength{\parskip}{10pt}
 
 Our work was based on observational studies of 42 semi-natural grasslands and heathlands, distributed across a west-east gradient in the Nordhordland UNESCO Biosphere Reserve.
 In **paper I**, we investigated the effect of rotational prescribed burning on beetle diversity and ecological preferences, by comparing active assemblages on patches of pioneer and mature heath in a sheep-grazed coastal heathland.
@@ -434,6 +454,7 @@ In **paper III**, we explored the cross-scale interactions between the regional 
 In **paper IV**, we assessed trade-offs and synergies between indicators of diversity, aboveground production, soil biological activity and soil carbon content, across different field types (infield, outfield) and landscape zones (coastal, fjord, mountain).
 
 These field studies were used to address the following research questions:
+\setlength{\parskip}{1pt}
 
 - **(Q1)** What is the influence of the regional environment on semi-natural grasslands and heathlands? More specifically:
   - **(Q1-1)** What are the productivity patterns along the coast-to-mountain gradient (**paper IV**)?
@@ -449,14 +470,14 @@ These field studies were used to address the following research questions:
 
 ## Study area
 
-The Nordhordland UNESCO Biosphere Reserve is an area of 6,698 km^2^ in Western Norway, delimited by the Bergen and Hardanger regions to the south, and the longest and deepest Norwegian fjord, the Sognefjord, to the north (@fig-maptopo A).
+The Nordhordland UNESCO Biosphere Reserve is an area of 6,698 km^2^ in Western Norway, delimited by the Bergen and Hardanger regions to the south, and the longest and deepest Norwegian fjord, the Sognefjord, to the north ([@fig-maptopo]A).
 The western border stretches up to approximately 23 km into the North Sea, for a marine surface representing 37% of the total area, and the northeastern border reaches beyond the Stølsheimen mountains, which include the highest relief of the Nordhordland UNESCO Biosphere Reserve at 1313 masl.
 Fjords are defined as *"steep-sided, coastal erosional troughs which have been inundated by the sea"* after the retreat of the ice from the last glaciation [@howeFjordSystemsArchives2010; @mangerudIceflowPatternsPrecise2019].
-The Nordhordland UNESCO Biosphere Reserve encompasses 11 main fjords, associated with a multitude of fjord arms, which fragment the landscape and generate strong elevation gradients (@fig-maptopo A).
+The Nordhordland UNESCO Biosphere Reserve encompasses 11 main fjords, associated with a multitude of fjord arms, which fragment the landscape and generate strong elevation gradients ([@fig-maptopo]A).
 <!-- Due to the Gulf stream's influence, the climate is characterised by generally mild temperatures, especially on the coast, and high precipitation. -->
 The climate is largely influenced by the warm and moist air masses carried by the Gulf stream, which buffer annual temperature variation on the coast.
-Annual precipitation is high overall, ranging from 1560 mm to 4820 mm, and shows a sharp increase along with increasing elevation (@fig-mapclimate A).
-Temperature shows the opposite trend, as both average July temperature and average January temperature decline from 15.9°C to 8.2°C and from 3.2°C to -4.7°C respectively from the lowest elevation to the highest (@fig-mapclimate C-D).
+Annual precipitation is high overall, ranging from 1560 mm to 4820 mm, and shows a sharp increase along with increasing elevation ([@fig-mapclimate]A).
+Temperature shows the opposite trend, as both average July temperature and average January temperature decline from 15.9°C to 8.2°C and from 3.2°C to -4.7°C respectively from the lowest elevation to the highest ([@fig-mapclimate]C-D).
 
 ::: {#fig-maptopo}
 ![](illustrations/NBR_BRTopo.png){width=100%}
@@ -469,16 +490,17 @@ Maps of the Nordhordland UNESCO Biosphere Reserve, Norway, showing (A) topograph
 
 Maps of the Nordhordland UNESCO Biosphere Reserve, Norway, showing (A) mean annual precipitation, (B) temperature range between maximum July and minimum January temperatures, (C) mean July temperature and (D) mean January temperature. Light shades represent lower values and dark shades represent higher values. Data sources: mean values of daily projections with 1 km^2^ resolution for the period 2010-2020 from the Norwegian Centre for Climate Services [@wongGridded112016, CC BY 3.0], with missing cells determined from neighbourhood average with the *terra* package [@hijmansTerraSpatialData2023] in R software [@rcoreteamLanguageEnvironmentStatistical2024]. Credits: maps created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org), with background ortophotography from @kartverketGeoNorgeKartkatalogen2023.
 :::
+\setlength{\parskip}{10pt}
 
-The combination of topographic and climatic factors has generated contrasting landscapes across the fjord region, which can be coarsely divided into three main zones (@fig-maptopo B).
+The combination of topographic and climatic factors has generated contrasting landscapes across the fjord region, which can be coarsely divided into three main zones ([@fig-maptopo]B).
 The coastal zone is characterised by a highly fragmented "strandflat" landscape, typical to the Norwegian outer coastline.
 Strandflats are partially submerged and gently undulating platforms which result from the last ice retreat [@norgesgeologiskeundersokelseNasjonalBerggrunnsdatabase2023].
 On these exposed and rugged grounds, high rainfall intensity and frequency increase particle runoff [@zhangNutrientLossSensitive2020].
-In the most extreme cases, erosion processes create nutrient-depleted landscapes of bedrock ridges, shrub-dominated vegetation and mires, typical of the outermost coastal strandflats [@chapinNatureNutrientLimitation1986; @winnerResponsePlantsMultiple1991] (@fig-landscape A).
+In the most extreme cases, erosion processes create nutrient-depleted landscapes of bedrock ridges, shrub-dominated vegetation and mires, typical of the outermost coastal strandflats [@chapinNatureNutrientLimitation1986; @winnerResponsePlantsMultiple1991] ([@fig-landscape]A).
 The inner areas of the coastal zone and the fjord zone are characterised by an expansion of land area and sheltering reliefs, which creates more suitable conditions for agriculture.
-These more central lowlands show the highest diversity of land use in the landscape, including forests, shrublands, grasslands and crops (@fig-landscape B).
+These more central lowlands show the highest diversity of land use in the landscape, including forests, shrublands, grasslands and crops ([@fig-landscape]B).
 Finally, the mountain zone encompasses large plateaus above the tree line and up to 1300 masl [@kalandNordhordlandBiosphereReserve2018].
-A short growing season, high precipitation and low nutrient availability create landscapes relatively similar to the ones of the outermost coastal strandflats, with high bedrock cover, a large proportion of wetlands and dwarf-shrub dominated vegetation (@fig-landscape C).
+A short growing season, high precipitation and low nutrient availability create landscapes relatively similar to the ones of the outermost coastal strandflats, with high bedrock cover, a large proportion of wetlands and dwarf-shrub dominated vegetation ([@fig-landscape]C).
 
 ![Landscape composition (A) on outer coastal strandflats (Øygarden municipality, © M. Kerdoncuff), (B) in the productive lowlands of the coastal and fjord zones (Alver municipality, © M. Demeaux) and (C) in the mountain ranges (Masfjorden municipality, © A. E. Eycott). Pie charts represent average percent land cover in a 1 km-radius area around the sampling location of the 42 sites visited in the Nordhordland UNESCO Biosphere Reserve.](illustrations/NBR_LandscapeFieldTypes.png){width=100% #fig-landscape}
 
@@ -487,24 +509,13 @@ Of the 1,650 farmers in the biosphere area who declared their activities in 2019
 Around 1100 farmers were keeping sheep for an average of 41.4 heads per holding, and a little over than 200 of them were keeping both sheep and cattle.
 Finally, only about 80 farmers were keeping goats for an average of 40 heads per holding.
 Farmers declared on average 6.8 ha of productive infields, ranging between 0.1 ha for the smallest field area and 92.3 ha for the biggest field area.
+\setlength{\parskip}{1pt}
 
 ![Map of the Nordhordland UNESCO Biosphere Reserve, Norway, including twelve municipalities. Credits: Lina Haggard and Peter E. Kaland, from @kalandNordhordlandBiosphereReserve2018.](illustrations/NBR_IntroBR.jpg){width=100% #fig-mapkommune}
 
-\newpage
+<!-- \newpage -->
 
 ### Ecological survey in the Nordhordland UNESCO Biosphere Reserve (paper II, paper III, paper IV)
-
-The study area for **paper II**, **paper III** and **paper IV** aimed to be as representative as possible of the agroecological landscape of the Nordhordland UNESCO Biosphere Reserve.
-Three main factors determined the distribution of the study sites:
-
-  (1) the **west-east environmental gradient**, which we separated into three main regions, i.e. the coastal area, the fjord area and the mountain area, based on the landscape zonation from @uttakleivLandskapskartleggingNorgeLandscape2011.
-  (2) the **field productivity**, classified as infields or outfields based on the land cover AR5 classification system of the Norwegian Institute for Bioeconomy (NIBIO) [@ahlstromAR5Klassifikasjonssystem2019]. Infields (*innmarksbeite*) were explicitly designated as "*agricultural lands that cannot be harvested mechanically* \[with\] *at least 50% of the area* \[...\] *covered with cultured grass or pasture-tolerant herbs*". Outfields were located in "open permanent lands" (*åpen fastmark*), briefly defined as "*areas that are neither a bog, agricultural, forest or infrastructure*".
-  (3) the **livestock type**, including cattle, sheep and goats, as registered in @reiersenBaerekraftVestnorskLandbruk2019.
-
-Additional criteria of site accessibility were also considered to facilitate field sampling, such as a maximum travel time of 1h from the University of Bergen (except for mountain sites).
-Before visiting the fields, we contacted the farmers to have their approval for sampling, to verify management information, and to receive, when provided, advice on most suitable options for study sites.
-
-![Location of the 42 grazing fields visited in 2019 and 2020 in the coastal (yellow), fjord (green) and mountain (purple) areas of the Nordhordland UNESCO Biosphere Reserve. Shapes indicate field type (square: outfield; circle:infield) and colours indicate livestock type (white: sheep, n = 17; grey: goat, n = 9; black: cattle, n = 10). The "HOP" label indicates the Hopøyna site where we performed an additional sampling protocol for **paper I**. Credits: map created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org); background orthophotography and topographic layer from the Norwegian Mapping Authority (https://www.kartverket.no) CC BY 4.0; miniature map from Wikimedia Commons CC BY 3.0.](illustrations/NBR_DesignMapNBR.png){width=100% #fig-sitemap}
 
 ```{r FieldMeanClimate}
 #| message: false
@@ -525,15 +536,31 @@ avgclim <- purrr::reduce(list(subset(ecozone, select = c(SiteID, EcoZone)), subs
 avgclim <- filter(avgclim, SiteID != "UC1" & SiteID != "UG1" & SiteID != "UG2")
 ```
 
+The study area for **paper II**, **paper III** and **paper IV** aimed to be as representative as possible of the agroecological landscape of the Nordhordland UNESCO Biosphere Reserve.
+Three main factors determined the distribution of the study sites:
+
+  (1) the **west-east environmental gradient**, which we separated into three main regions, i.e. the coastal area, the fjord area and the mountain area, based on the landscape zonation from @uttakleivLandskapskartleggingNorgeLandscape2011.
+  (2) the **field productivity**, classified as infields or outfields based on the land cover AR5 classification system of the Norwegian Institute for Bioeconomy (NIBIO) [@ahlstromAR5Klassifikasjonssystem2019]. Infields (*innmarksbeite*) were explicitly designated as "*agricultural lands that cannot be harvested mechanically* \[with\] *at least 50% of the area* \[...\] *covered with cultured grass or pasture-tolerant herbs*". Outfields were located in "open permanent lands" (*åpen fastmark*), briefly defined as "*areas that are neither a bog, agricultural, forest or infrastructure*".
+  (3) the **livestock type**, including cattle, sheep and goats, as registered in @reiersenBaerekraftVestnorskLandbruk2019.
+
+\newpage
+\setlength{\parskip}{10pt}
+
+Additional criteria of site accessibility were also considered to facilitate field sampling, such as a maximum travel time of 1h from the University of Bergen (except for mountain sites).
+Before visiting the fields, we contacted the farmers to have their approval for sampling, to verify management information, and to receive, when provided, advice on most suitable options for study sites.
+
 Over the summers of 2019 and 2020, we visited a total of 42 grazing fields distributed in the coastal (n = 19), fjord (n = 17) and mountain (n = 6) areas of the Nordhordland UNESCO Biosphere Reserve (@fig-sitemap).
 The field seasons ran from mid-June to mid-August, visiting coastal sites, fjord sites and mountain sites in chronological order to account for the timing difference of the spring bloom [@karlsenVariabilityStartGrowing2007].
 Sites in the coastal and fjord areas were all located below 250 masl and showed relatively similar climate conditions, with average July temperature around 14°C and average annual precipitation around 1900 mm, except for the annual temperature range which increased linearly with distance-to-sea (@fig-climatedistri).
 Mountain sites were located between 600 and 875 masl and were characterised by colder and especially wetter conditions (@fig-climatedistri), with an average July temperature of `r format(round(mean(filter(avgclim, EcoZone == "mountain")$avgtempJuly), 1), nsmall = 1)`°C, and half of the sites receiving more than 3500 mm precipitation annually.
+\setlength{\parskip}{1pt}
+
+![Location of the 42 grazing fields visited in 2019 and 2020 in the coastal (yellow), fjord (green) and mountain (purple) areas of the Nordhordland UNESCO Biosphere Reserve. Shapes indicate field type (square: outfield; circle:infield) and colours indicate livestock type (white: sheep, n = 17; grey: goat, n = 9; black: cattle, n = 10). The "HOP" label indicates the Hopøyna site where we performed an additional sampling protocol for **paper I**. Credits: map created in QGIS v. 3.12, CSR ETRS89 (QGIS Association, http://www.qgis.org); background orthophotography and topographic layer from the Norwegian Mapping Authority (https://www.kartverket.no) CC BY 4.0; miniature map from Wikimedia Commons CC BY 3.0.](illustrations/NBR_DesignMapNBR.png){width=100% #fig-sitemap}
 
 ``` {r fig-climatedistri}
 #| fig-cap: "Distribution of climate data including mean July temperature (°C), range between minimum January temperature and maximum July temperature (°C) and annual precipitation (mm), along longitude, as a proxy for the oceanity gradient, and elevation, for the 42 grazing fields of the Nordhorldand UNESCO Biosphere Reserve visited during the ecological survey. The distribution of elevation along longitude is also shown. Data source: mean values of daily projections with 1 km^2^ resolution for the period 2010-2020 from the Norwegian Centre for Climate Services [@wongGridded112016, CC BY 3.0], with missing cells determined from neighbourhood average with the *terra* package [@hijmansTerraSpatialData2023] in R software [@rcoreteamLanguageEnvironmentStatistical2024]."
 #| fig-width: 6
-#| fig-asp: 1.05
+#| fig-height: 7.5
 #| message: false
 #| warning: false
 #| echo: false
@@ -541,7 +568,7 @@ Mountain sites were located between 600 and 875 masl and were characterised by c
 gradientdistriwra
 ```
 
-\newpage
+<!-- \newpage -->
 
 #### Outfields (paper IV)
 
@@ -575,6 +602,7 @@ mountain <- filter(management, EcoZone == "mountain" & FieldType == "outfield")
 ```
 
 Outfields were sheep-grazed, shrub-dominated communities (n = 12), located in the outer part of the coastal area (n = 5), in a former forest clearing in the fjord area (n = 1), and in the mountain area (n = 6).
+\setlength{\parskip}{10pt}
 
 Coastal outfields were Northern Atlantic wet heaths dominated by *Calluna vulgaris*.
 The sites were grazed all year round by the Norwegian rustic breed, the Norwegian old sheep (*Gammel Norsk Sau*) [@norskinstituttforbiookonominibioSau2025], with an average of `r op(mean(coastal$FlockSize1_adults))` heads of adult sheep for areas ranging from `r op(min(coastal$SelectedFieldArea_ha), 0)` ha to `r op(max(coastal$SelectedFieldArea_ha), 0)` ha.
@@ -588,6 +616,7 @@ Mountain outfields were subalpine dwarf heaths, with mixed grass-shrub vegetatio
 Sites were grazed by free-ranging sheep, with an average of `r op(mean(mountain$FlockSize1_adults))` heads of adult sheep staying on site between 3 and `r op(max(mountain$YearlyGrazing1_month), 0)` months in the summer season.
 Common breeds were the conventional Norwegian white sheep (*Norsk Kvit Sau*), the Dala breed (*Dalasau*), which was one of the breeds upon which the Norwegian white sheep was founded, and the rustic English Suffolk breed (*Suffolksau*).
 All sites had been grazed uninterruptedly by sheep since at least 2010, and as far back as the 1940s for the oldest record, and three sites used to be grazed by cattle.
+\setlength{\parskip}{1pt}
 
 #### Infields (paper II, paper III, paper IV)
 
@@ -623,6 +652,7 @@ goat <- filter(management, FieldType == "infield" & Livestock1 == "goat")
 Infields were permanent pastures located in the coastal (n = 14) and fjord (n = 16) areas.
 Swards were dominated by either *Agrostis capillaris*-*Festuca rubra* or *Agrostis capillaris*-*Anthoxanthum odoratum* assemblages, with common occurrences of *Holcus lanatus* and *Poa pratensis*.
 Average stocking density ranged from `r op(min(infield$AvgStockDensity_perha), 2)` to `r op(max(infield$AvgStockDensity_perha), 2)` livestock unit per hectare (LU/ha) (@fig-sitemanagement).
+\setlength{\parskip}{10pt}
 
 Sites grazed by cattle (n = 10) (**paper II**, **paper III**) ranged from `r op(min(cattle$SelectedFieldArea_ha), 0)` ha to `r op(max(cattle$SelectedFieldArea_ha), 0)` ha, for an average of `r op(mean(cattle$FlockSize1_adults))` heads staying on field between 2 and `r op(max(cattle$YearlyGrazing1_month), 0)` months.
 The most common dairy cow breed was the Norwegian Red (*Norsk Rødt Fe*), but sites were also grazed by Limousin beef cattle, rustic Highland cattle or Aberdeen Angus beef cattle.
@@ -643,11 +673,12 @@ The most common breed was the Cashmere goat (*Kasjmir Geit*), but sites were als
 All sites had been grazed uninterruptedly by goats since at least 2015, and as far back as 2000 for the oldest record, and five of them were previously grazed by sheep for various periods between 1969 and 2014.
 Five farmers enriched their fields with artificial fertiliser, with one of them also using manure and another one using shellsand-lime mix, and one farmer treated the field with herbicide.
 There was no mention of resowing or plowing in the sites history, and to the farmers' knowledge only one site was drained in the 1920s.
+\setlength{\parskip}{1pt}
 
 ``` {r fig-sitemanagement}
 #| fig-cap: "Summary of grazing management led in the 30 semi-natural grasslands visited in the Nordhordland UNESCO Biosphere Reserve, according to livestock type: (A) number of adult heads in the flock; (B) average stocking density (LU/ha); (C) field occupation (months per year); (D) area of the study sites (ha)."
 #| fig-width: 6
-#| fig-height: 4.6
+#| fig-height: 5.3
 #| message: false
 #| warning: false
 #| echo: false
@@ -659,12 +690,10 @@ managementgraph
 
 The ecological survey for **paper I** was carried out at our most maritime coastal outfield, Hopøyna, in the Øygarden municipality (60°38′N, 4°49′E) (@fig-sitemap).
 The climatic conditions are greatly influenced by the oceanic regime, with an average July temperature of 13.8°C, an average January temperature of 3.0°C, and annual precipitation around 1900 mm.
-The site is located in a 115-hectare peninsula, which is typical of the most exposed coastal strandflats of the Nordhordland UNESCO Biosphere Reserve (@fig-oymap B).
+The site is located in a 115-hectare peninsula, which is typical of the most exposed coastal strandflats of the Nordhordland UNESCO Biosphere Reserve ([@fig-oymap]B).
 The landscape shows two contrasting habitat types, with on the one hand highly eroded ridges, essentially dominated by *Calluna vulgaris* stands, and on the other water-saturated depressions characterised by *Molinia caerulea* mires.
-The area used to be grazed by cattle until the 1970s, but was abandoned until 2018 when the current farmer initiated prescribed burning in the northeastern part of the peninsula (@fig-oymap A).
+The area used to be grazed by cattle until the 1970s, but was abandoned until 2018 when the current farmer initiated prescribed burning in the northeastern part of the peninsula ([@fig-oymap]A).
 He burnt new patches progressing southwards in 2019, and the same year he brought in 36 heads of Norwegian old sheep for year-round grazing (~0.4 sheep/ha).
-
-\newpage
 
 ## Study approach and indicators
 
@@ -677,6 +706,7 @@ For example, plant functional groups are characterised by different life strateg
 However, whilst plants, and more particularly vascular plants, are usually the main target groups in grazing studies [@kokEuropeanBiodiversityAssessments2020], they were found to be poor predictors of other taxa [@brunbjergVascularPlantSpecies2018].
 Arthropod communities, for instance, have shown contrasted responses to management or changes in vegetation structure compared with plant communities [e.g. @hacalaComparativeResponsesSpiders2020; @lyonsImpactsContrastingConservation2017; @wangGlobalMetaanalysesResponse2019].
 Similarly, soil organisms were found to be particularly sensitive to land use changes [@keithCrosstaxaCongruenceIndicators2012; @tsiafouliIntensiveAgricultureReduces2015], while providing both supporting and additional evidence to the responses of aboveground taxa [@birkhoferLandUseType2017; @leprovostContrastingResponsesBelowground2021].
+\setlength{\parskip}{10pt}
 
 Indicators were selected based on their roles in ecosystem functioning and subsequent contributions to ecosystem services in grazing contexts.
 We investigated standing vegetation in all papers, particularly analysing the cover (**paper II**), taxonomic composition (**paper III**) and aboveground biomass (**paper IV**) of plant functional groups.
@@ -687,6 +717,9 @@ Coprophilous beetles ensure a key role in the nutrient cycling process of grazin
 Instead of focusing on typical "dung beetle" groups (e.g. Scarabaeidae), we took a coarser family-level approach to encompass the functional diversity of the whole dung-associated beetle community [@sigsgaardEnvironmentalDNAMetabarcoding2021].
 Finally, in **paper IV**, we explored synergies and trade-offs among ecosystem services using indicators of both the aboveground and belowground systems.
 We used the abundances of Collembola and Acari as predictors of soil biological activity [@birkhoferSoilFaunaFeeding2011], which supports the nutrient cycling process and the production of aboveground biomass [@bardgettBelowgroundBiodiversityEcosystem2014].
+\setlength{\parskip}{1pt}
+
+\small
 
 +---------------------------+---------+----------+-----------+----------+
 |                           | Paper I | Paper II | Paper III | Paper IV |
@@ -733,7 +766,9 @@ We used the abundances of Collembola and Acari as predictors of soil biological 
 | ecosystem services        |         | X        |           | X        |
 +---------------------------+---------+----------+-----------+----------+
 
-: Summary of explanatory (management and environment) and response (taxa and ecosystem attributes) variables directly -X- or indirectly -x- considered in the papers of the thesis. {#tbl-papersummary tbl-colwidths=[25,10,10,10,10]}
+: Summary of explanatory (management and environment) and response (taxa and ecosystem attributes) variables directly -X- or indirectly -x- considered in the papers of the thesis. {#tbl-papersummary tbl-colwidths=[30,15,15,15,15]}
+
+\normalsize
 
 ### Study of post-fire beetle assemblages in a coastal heathland (paper I)
 
@@ -754,12 +789,15 @@ Each plot was divided into nine subplots of 1 m^2^, five allocated to non-destru
 The whole sampling process was elaborated to be completed within a day for each site.
 On site, we collected GPS coordinates, maximum elevation and slope angle between the highest and the lowest point of the sampling area (**paper III**).
 Slope aspect and climate data were obtained afterwards, from a digital elevation model of 10 m x 10 m cell size from the Norwegian Mapping Authority [@kartverketGeoNorgeKartkatalogen2023] and from 1 km^2^ daily projections for the period 2010-2020 from the Norwegian Centre for Climate Service [@meteorologiskinstituttNorskKlimaservicesenter2023; @wongGridded112016] respectively (**paper III**).
+\setlength{\parskip}{10pt}
 
 ![Nested sampling design set in a representative 400 m^2^ area in each grazing field. Credits: figure created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org).](illustrations/NBR_SamplingDesign.png){width=100% #fig-sampling}
 
+\newpage
+
 ![Sampling area of 20 m x 20 m set in (A) Krossøyna (Austrheim municipality, © A. E. Eycott), (B) Børshøyen (Alver municipality, © M. Demeaux) and (C) Risøyna (Alver municipality, © J. Måren), with the field team at work.](illustrations/NBR_DesignPicSamplingArea.png){width=100% #fig-pic20area}
 
-Non-destructive subplots (15 per site) (@fig-picplot B) were dedicated to the recording of sward composition and structure by the same two observers (Amy E. Eycott and myself) across both field seasons, including:
+Non-destructive subplots (15 per site) ([@fig-picplot]B) were dedicated to the recording of sward composition and structure by the same two observers (Amy E. Eycott and myself) across both field seasons, including:
 the identification of all vascular, bryophyte and lycophyte species and the estimation of their percent cover from 0.01 to 100% (**paper II**, **paper III**, **paper IV**);
 the estimation of the percent cover of bare ground, rock and litter from 0,01 to 100% (**paper III**); 
 the estimation of average vegetation height by random measurements (**paper III**).
@@ -769,15 +807,16 @@ Species that could not be identified in the field were collected for microscopic
 
 Destructive quadrats were dedicated to the collection of aboveground biomass, dung-associated beetle assemblages and soil biotic and abiotic parameters.
 Aboveground biomass was collected within a 0.5 m x 0.5 m quadrat in each plot (3 per site) (@fig-picplot C), and sorted in the lab into cryptogam, monocotyledon, forb and woody vegetation for dry weight measurements (**paper IV**).
-We performed two tests of soil resistance to penetration in each subplot (24 per site), by dropping a sharpened metal rod of 1.3 kg (length 43.4 cm; diameter 2.2 cm) from 1 m above the ground through a PVC tube to ensure vertical fall (@fig-picquadrat A) (**paper III**).
+We performed two tests of soil resistance to penetration in each subplot (24 per site), by dropping a sharpened metal rod of 1.3 kg (length 43.4 cm; diameter 2.2 cm) from 1 m above the ground through a PVC tube to ensure vertical fall ([@fig-picquadrat]A) (**paper III**).
 Soil was also collected with two types of cores in each 1 m^2^ subplot.
-First, three smaller PVC cores of 57.23 cm^3^ (3.7 cm diameter; 10 cm height) (@fig-picquadrat B) were used for the estimation of bulk density and gravimetric water content (36 per site) (**paper III**).
-Second, a bigger stainless steel cylindrical core of 200 cm^3^ (diameter 10.5 cm; height 12 cm) (@fig-picquadrat C) was used for mesofauna collection (**paper IV**), from one core out of four per plot (3 per site), and chemical analyses (**paper III**, **paper IV**), from the three remaining cores.
+First, three smaller PVC cores of 57.23 cm^3^ (3.7 cm diameter; 10 cm height) ([@fig-picquadrat]B) were used for the estimation of bulk density and gravimetric water content (36 per site) (**paper III**).
+Second, a bigger stainless steel cylindrical core of 200 cm^3^ (diameter 10.5 cm; height 12 cm) ([@fig-picquadrat]C) was used for mesofauna collection (**paper IV**), from one core out of four per plot (3 per site), and chemical analyses (**paper III**, **paper IV**), from the three remaining cores.
 Mesofauna was extracted with Berlese-Tullgren funnels [@tullgrenSehrEinfacherAusleseapparat1918], stored into 70% ethanol and sorted into Collembola and Acari.
 The soil for chemical analyses was sieved and merged at the plot level (3 per site).
 A subsample of 0.5 L was sent to a certified analysis laboratory for the determination of loss on ignition (LOI) [@schulteEstimationSoilOrganic1996], total nitrogen content with modified Kjeldahl method (NS-EN13654-1:2890) [@bremnerDeterminationNitrogenSoil1960] and available phosphorus concentration with ammonium lactate extraction method [@brayDeterminationTotalOrganic1945].
-We finally set dung-baited pitfall traps (diameter 10.5 cm; height 11.5 cm) in the holes left by the stainless steel core (12 per site) to collect dung-associated beetles for a full week (@fig-picquadrat D) (**paper III**).
+We finally set dung-baited pitfall traps (diameter 10.5 cm; height 11.5 cm) in the holes left by the stainless steel core (12 per site) to collect dung-associated beetles for a full week ([@fig-picquadrat]D) (**paper III**).
 Specimens were sorted at the family level using @duffBeetlesBritainIreland2012a and stored in 70% ethanol.
+\setlength{\parskip}{1pt}
 
 ![(A) Soil resistance to penetration test in Hopøyna (**paper III**) (Øygarden municipality, © I. E. Måren); (B) Bulk density core sampled in Nedre Vågenes (**paper III**) (Alver municipality, © M. Kerdoncuff) ; (C) Soil collection for mesofauna and soil chemistry with a stainless-steel core in Risøyna (**paper III**, **paper IV**) (Alver municipality, © J. Måren); (D) Dung-baited pitfall trap set in Krossøyna (**paper III**) (Austrheim municipality, © A. E. Eycott).](illustrations/NBR_DesignPicSamplingQuadrat.png){width=100% #fig-picquadrat}
 
@@ -810,7 +849,7 @@ We also relied on the open data from the Agricultural properties mapping service
 Due to incomplete and/or approximate information regarding field enrichment (e.g. fertiliser amount or frequency), these data were not included in the analyses.
 However, they proved very valuable for providing concrete context to the sites we visited and verifying the circumstances of odd values when necessary (e.g. Acari abundance in infields in **paper IV**).
 
-\newpage
+<!-- \newpage -->
 
 ## Analytical methods
 
@@ -879,23 +918,25 @@ Additional effect size was calculated from the Glass rank biserial correlation c
 
 In **paper IV**, field type (infield, outfield) was the primary factor of hierarchical aggregation of grazing fields, independently of geographical area.
 As expected, this difference was explained by the negative correlation between forb biomass, higher in infields, and shrub biomass, higher in outfields.
-We can see that forb biomass indeed follows a hump-shaped pattern when plotted against longitude (@fig-fjordR1 B), while shrub biomass follows the opposite trend (@fig-fjordR1 A).
+We can see that forb biomass indeed follows a hump-shaped pattern when plotted against longitude ([@fig-fjordR1]B), while shrub biomass follows the opposite trend ([@fig-fjordR1]A).
 Our results show how the combination of topographic and climatic constraints in the fjord region limits plant growth in outer areas, while inner lowland areas are more suitable for livestock production.
 This west-east productivity pattern was found to be a major determinant for the historical development of land use in Western Norway [@mehlCulturalLandscapeDevelopment2015].
 In addition, we observed that mountain sites showed on average four times less shrub biomass and three times less cryptogam biomass than on the coast (**paper IV**).
 Plant productivity in mountainous regions is inhibited by the lower temperatures and subsequent shorter growing seasons [@michaletzDriversTerrestrialPlant2018].
 Our results may suggest lower productivity and thus lower regenerative capacity in the subalpine area compared with the coastal area, but we cannot confirm this without taking a more experimental approach.
 Still, farm management practices may provide an indication, as only on the coast have farmers developed a tradition of managed burning to suppress aging in heather stands [@barclay-estrupDescriptionInterpretationCyclical1969; @thorvaldsenGammalnorskSauOg2017] (see Discussion in **paper IV**).
+\setlength{\parskip}{10pt}
 
-We found no evidence that soil biological activity followed a similar hump-shaped pattern along the west-east gradient, as neither Acari nor Collembola abundances showed consistent trends with field type or geographical area (**paper IV**; @fig-fjordR1 C-D).
+We found no evidence that soil biological activity followed a similar hump-shaped pattern along the west-east gradient, as neither Acari nor Collembola abundances showed consistent trends with field type or geographical area (**paper IV**; [@fig-fjordR1]C-D).
 This outcome questions the suitability of soil mesofauna abundance as an indicator of soil fertility in agroecological systems (see Discussion in **paper IV**).
 In @georgeEvaluationMesofaunaCommunities2017, total mesofauna abundance showed a hump-shaped pattern along a productivity gradient ranging from crops to forests, but there was no difference between grasslands and heathlands.
 Only their more detailed analysis of trophic groups showed that fungivorous mites (Oribatida) were more abundant in heathlands and bogs compared with fertile grasslands [see also @arnottUplandGrasslandHabitats2021].
 In our study context, a finer taxonomic resolution may thus have been necessary to interpret patterns of soil mesofauna across field types and geographical areas (see Discussion in **paper IV**).
+\setlength{\parskip}{1pt}
 
 ``` {r fig-fjordR1}
 #| fig-cap: "Distribution of (A) average shrub percent cover, (B) average forb percent cover, (C) average Collembola density per m^2^ and (D) average Acari density per m^2^ plotted against longitude, in sheep-grazed outfields (purple) and infields (pink) distributed along the west-east gradient of the Nordhordland UNESCO Biosphere Reserve."
-#| fig-height: 4.6
+#| fig-height: 5.3
 #| fig-width: 6
 #| message: false
 #| warning: false
@@ -907,12 +948,13 @@ fjordR1
 ### (Q1-2) Can we detect the influence of geographic or climatic factors on the taxonomic and functional composition of semi-natural grasslands (paper II, paper III, paper IV)?
 
 Our results showed no evidence of an independent effect of the regional environment in our grassland sites.
-Landscape zone (coastal, fjord) was neither a factor of aggregation of infields in **paper IV**, nor a significant predictor of plant functional group cover in **paper II**, contrary to what could be suggested by a visual observation of the community structure (e.g. @fig-fjordR2 A and B).
-In **paper III**, canonical correlations between the regional environment and dominant grass and dung-associated beetle assemblages were significant, as it could also be suggested by a visual observation of the community structure (e.g. @fig-fjordR2 C and D).
+Landscape zone (coastal, fjord) was neither a factor of aggregation of infields in **paper IV**, nor a significant predictor of plant functional group cover in **paper II**, contrary to what could be suggested by a visual observation of the community structure (e.g. [@fig-fjordR2] A and B).
+In **paper III**, canonical correlations between the regional environment and dominant grass and dung-associated beetle assemblages were significant, as it could also be suggested by a visual observation of the community structure (e.g. [@fig-fjordR2] C and D).
 However, this result was contradicted by the corresponding RDA models, which showed neither significant correlations nor noteworthy explanatory power (**paper III**).
 Within the central and more productive lowland area of the Nordhordland UNESCO Biosphere Reserve, we can assume that the gradient of abiotic pressure (oceanity, elevation) may be too limited to drive changes in the communities (see Discussion in **paper II**).
 Furthermore, for the spatial extent of our study area (approximately 900 km^2^), the influence of regional processes is more likely to be overridden by local climatic and topographic variables [@siefertScaleDependenceVegetationenvironment2012] (see Discussion in **paper III**).
 In comparison, ecological studies whose primary aim was to describe geographical effects on grassland species composition usually include stronger environmental gradients [e.g. @zelnikPlantSpeciesDiversity2013] and/or rely on broader areas [e.g. @raatikainenImpactsLocalRegional2007].
+\setlength{\parskip}{10pt}
 
 The inconsistent outcomes from **paper III** may also suggest that relationships between the underlying regional gradient and plant and dung-associated beetle communities are characterised by more complex interactions [@dixonhamilCrossscaleContradictionsEcological2016; @petersCrossScaleInteractions2007] (see Discussion in **paper III**).
 In **paper II** for example, we observed significant changes in plant functional group cover due to interactions between landscape zone and livestock type:
@@ -920,10 +962,11 @@ coastal sites grazed by cattle were characterised by the lowest forb cover, whil
 In an extensive study on meadow communities in Western Norway, @losvikHayMeadowCommunities1993 observed a divergence between coastal and boreal meadows linked to a fertilisation gradient, suggesting that grasslands further inland were, at the time, more productive and more intensively managed (see Discussion in **paper IV**).
 In our study area, we found no evidence of such interactions between the regional environment and field management (**paper III**), but we nevertheless recommend to lead further research with a more robust methodological framework [e.g. @redlichDisentanglingEffectsClimate2022] (see Discussion in **paper III**).
 It would be particularly relevant to replicate the survey from @losvikHayMeadowCommunities1993, in order to investigate the changes in plant communities and in their relationships with environmental and management factors over time (see Discussion in **paper IV**).
+\setlength{\parskip}{1pt}
 
 ``` {r fig-fjordR2}
 #| fig-cap: "Distribution of (A) relative cover of main plant functional groups in 1 m^2^ subplots, (B) monocotyledon percent cover in 1 m^2^ subplots, (C) relative abundance of main beetle families abundance in pitfall traps and (D) Staphylinidae abundance in pitfall traps according to landscape zone in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve."
-#| fig-height: 4.6
+#| fig-height: 5.3
 #| fig-width: 6
 #| message: false
 #| warning: false
@@ -938,12 +981,13 @@ fjordR2
 
 ### (Q2-1) Is there an effect of livestock type on the diversity and composition in semi-natural grasslands (paper II, paper III)?
 
-Livestock type affected plant functional group cover in our grassland sites (@fig-grazingR3s A), as we observed higher cover of Poaceae in cattle-grazed fields (**paper II**) (@fig-grazingR3s C) and a weak association between cryptogam cover and sheep-grazed fields (**paper III**) (@fig-grazingR3s B).
+Livestock type affected plant functional group cover in our grassland sites ([@fig-grazingR3s]A), as we observed higher cover of Poaceae in cattle-grazed fields (**paper II**) ([@fig-grazingR3s]C) and a weak association between cryptogam cover and sheep-grazed fields (**paper III**) ([@fig-grazingR3s]B).
 These findings may indicate a higher trampling disturbance and/or more intensive management in cattle-grazed sites, which would favour fast-growing graminoids over the more sensitive bryophyte layer [@kiddImpacts120Years2017; @ludvikovaLongTermDefoliation2014].
 However, neither of these hypotheses are supported by our correlation analysis between field management and the fine-scale environment, which showed instead a weak positive association between bulk density and sheep grazing and no link between livestock type and phosphorus availability (**paper III**).
+\setlength{\parskip}{10pt}
 
-Contrary to @tothLivestockTypeMore2016, we found no evidence of greater forage selectivity or lower vascular plant species richness in sites grazed by smaller livestock (**paper II**) (@fig-grazingR3s D).
-The visual observation of plant community structure could suggest a species-specific divergence between cattle grazing and sheep or goat grazing (@fig-grazingR3com A and C), showing for instance lower cover of *Agrostis capillaris* (@fig-grazingR3com B) and higher cover of *Trifolium repens* (@fig-grazingR3com D) in cattle-grazed fields, but our correlation analyses showed no significant links between field management and dominant grass and forb assemblages (**paper III**).
+Contrary to @tothLivestockTypeMore2016, we found no evidence of greater forage selectivity or lower vascular plant species richness in sites grazed by smaller livestock (**paper II**) ([@fig-grazingR3s]D).
+The visual observation of plant community structure could suggest a species-specific divergence between cattle grazing and sheep or goat grazing ([@fig-grazingR3com]A and C), showing for instance lower cover of *Agrostis capillaris* ([@fig-grazingR3com]B) and higher cover of *Trifolium repens* ([@fig-grazingR3com]D) in cattle-grazed fields, but our correlation analyses showed no significant links between field management and dominant grass and forb assemblages (**paper III**).
 These outcomes were predictable to some extent, as most studies fail to clearly capture a direct impact of livestock type on species richness [e.g. @jerrentrupLittleGrazerSpecies2015] or community composition [e.g. @cuchillohilarioForageSelectivityCattle2018; @fraserImpactSwardComposition2011] despite the evidence of different foraging behaviours and nutritional requirements between cattle, sheep and goats [@mohammedGrazingBehaviorDietary2020; @rookMatchingTypeLivestock2004].
 On the other hand, we observed that dominant grass and forb assemblages were consistently correlated with a gradient of vegetation structure, which itself showed a weak correlation with the field management (**paper III**).
 More specifically, species such as *Poa pratensis* and *Trifolium repens* were associated with fields with higher bryophyte cover and lower vegetation height, which themselves were marginally associated with sheep grazing and smaller grazing area.
@@ -954,12 +998,13 @@ This mutual interactivity between the livestock, the farmer and the environment 
 Independently of these considerations, our results show that field management does not override the community variations driven by the fine-scale environment, suggesting that grazing pressure is adapted to the inherent capacity of semi-natural grasslands in the Nordhordland UNESCO Biosphere Reserve (see Discusssion in **paper III**).
 
 Lastly, we found no evidence of a relationship between field management and dung-associated beetle assemblages (**paper III**), despite our expectation that the Scarabaeidae family would be more represented in sites with greater dung availability, i. e. more intensively managed cattle-grazed fields [@barberoDungBeetleConservation1999; @lumaretChangesResourcesConsequences1992].
-Not only did cattle-grazed fields show on average the lowest abundance of Scarabaeidae (@fig-grazingR3com F), but Scarabaeidae were only very marginally represented within the community at all (@fig-grazingR3com E).
+Not only did cattle-grazed fields show on average the lowest abundance of Scarabaeidae ([@fig-grazingR3com]F), but Scarabaeidae were only very marginally represented within the community at all ([@fig-grazingR3com]E).
 Our study thus highlights the importance of Staphylinidae, Ptiliidae and Hydrophilidae families within the coprophilous communities [see also @daoudiCompositionPhenologyBeetle2022], especially in the Nordic region where typical "dung beetle" taxa (i.e. Scarabaeinae, Aphodiinae) are poorly represented [@artsdatabankenArtsdatabankenKunnskapsbankNaturmangfold2023].
+\setlength{\parskip}{1pt}
 
 ``` {r fig-grazingR3s}
 #| fig-cap: "Distribution of (A) relative cover of cryptogams, monocotyledons and forbs, (B) cryptogam percent cover, (C) monocotyledon percent cover and (D) forb percent cover in 1 m^2^ subplots according to livestock type in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve."
-#| fig-height: 4.6
+#| fig-height: 5.3
 #| fig-width: 6
 #| message: false
 #| warning: false
@@ -971,7 +1016,7 @@ plantR3
 
 ``` {r fig-grazingR3com}
 #| fig-cap: "Distribution of (A) relative cover of dominant grass species, (B) *Agrostis capillaris* percent cover, (C) relative cover of dominant forb species and (D) *Trifolium repens* percent cover in 1 m^2^ subplots, and distribution of (E) relative abundance of main beetle families and (F) Scarabaeidae abundance in pitfall traps according to livestock type in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve."
-#| fig-height: 7
+#| fig-height: 8
 #| fig-width: 6
 #| message: false
 #| warning: false
@@ -988,39 +1033,45 @@ comR3
 In Hopøyna coastal outfield, prescribed burning reduced beetle alpha diversity at the patch level (**paper I**).
 This result was expected, as fire disturbance generates a simplification of the ecological niche by removing the vegetation cover and homogenising fine-scale conditions [@bulanEffectsTwoAcute1971].
 However, prescribed burning did not significantly increased patch beta-diversity, contrary to previous findings [@bargmannEffectsPrescribedBurning2015; @brunbjergDisturbanceDryCoastal2015].
-We observed a divergence in beetle active assemblage between pioneer and mature heath patches (@fig-grazingR2 A):
+We observed a divergence in beetle active assemblage between pioneer and mature heath patches ([@fig-grazingR2]A):
 recently burnt patches were associated with xerophilous and sun-loving species, while mature patches were associated with strict hygrophilous species.
 At the scale of our study site, our findings thus show that prescribed burning favours the activity of beetle specialists associated with dry and exposed micro-habitats (see Discussion in **paper I**).
 Similarly to @schirmelResponseCarabidBeetles2011 and @bargmannSpeciesTraitSelection2016, we added to the evidence that moisture and vegetation cover preferences are good ecological predictors of species occurrences after fire disturbance.
 We were also able to determine new indicator species of pioneer and mature heath stages, especially among non-Carabidae, addressing current knowledge gaps on the effect of fire on ground-dwelling arthropods (see Discussion in **paper I**) [@rittlTraditionalNorwegianFarming2025; @yekwayoOnlyMultitaxonStudies2018].
+\setlength{\parskip}{10pt}
 
-In **paper IV**, coastal heathlands showed the highest between-site divergence compared with subalpine heathlands and grasslands (@fig-grazingR2 B).
+In **paper IV**, coastal heathlands showed the highest between-site divergence compared with subalpine heathlands and grasslands ([@fig-grazingR2]B).
 As three sites out of five were managed with prescribed burning, this finding suggests that fire contributed to increase disparity between coastal heathlands.
 Our results add to the evidence that traditional prescribed burning enhances habitat heterogeneity at regional scale [@velleDoesPrescribedBurning2014], supporting the resilience of heathland ecosystems to changing conditions [@haugumCoastalHeathlandVegetation2021].
+\setlength{\parskip}{1pt}
 
 ![(A) Constrained ordination (CCA) of the composition of beetle assemblages according to the year of burn in Hopøyna coastal heathland (Øygarden municipality), with pioneer patches on the left and mature patches on the right (from **paper I**); (B) Hierarchical clustering of the sheep-grazed fields of the Nordhordland UNESCO Biosphere Reserve according to biomass, diversity and soil indicators, with coastal outfields (black circles) on the right (from **paper IV**).](illustrations/NBR_ResultGrazingR2.png){#fig-grazingR2 width=100%}
 
+\newpage
+
 ## (Q3) What are the synergies and trade-offs between indicators of biodiversity and ecosystem services among semi-natural grasslands and heathlands (paper II, paper IV)?
 
-Our sites showed a wide range of plant species richness across the agroecological landscape of the fjord region (@fig-grazingR1 A).
+Our sites showed a wide range of plant species richness across the agroecological landscape of the fjord region ([@fig-grazingR1]A).
 As expected, we observed a productivity-diversity trade-off between semi-natural grasslands and heathlands (**paper IV**).
-Semi-natural grasslands were characterised by better forage quality, which was represented by higher forb biomass, while semi-natural heathlands showed the highest plant species richness, which was essentially driven by cryptogam diversity (@fig-grazingR1 B).
+Semi-natural grasslands were characterised by better forage quality, which was represented by higher forb biomass, while semi-natural heathlands showed the highest plant species richness, which was essentially driven by cryptogam diversity ([@fig-grazingR1]B).
 This trade-off mostly reflects the life strategies associated with dominant selective pressures, i.e. competition for light in more fertile fields and stress-resistance in nutrient-poor habitats [@conradiResourceAvailabilityDetermines2017; @olffEffectsHerbivoresGrassland1998] (see Discussion in **paper IV**).
+\setlength{\parskip}{10pt}
 
-Independently of geographical location, semi-natural heathlands had significantly higher soil carbon content (@fig-grazingR1 C) and thus showed greater potential as carbon sinks than semi-natural grasslands [@quinCallunaVulgarisdominatedUpland2015] (**paper IV**).
+Independently of geographical location, semi-natural heathlands had significantly higher soil carbon content ([@fig-grazingR1]C) and thus showed greater potential as carbon sinks than semi-natural grasslands [@quinCallunaVulgarisdominatedUpland2015] (**paper IV**).
 Furthermore, high bryophyte diversity contributes to a wide range of regulating services [@eldridgeGlobalContributionSoil2023], including water retention capacity [@huStructuralCharacteristicsMoss2023; @michelSpeciesTraitsTheir2012] and soil stability [@silvaEffectMossCrusts2019].
 These findings emphasize the conservation benefits of nutrient-poor habitats, in which lower carrying capacity is compensated by higher contribution to regulating services [@huStructuralCharacteristicsMoss2023; @quinCallunaVulgarisdominatedUpland2015] (see Discussion in **paper IV**).
 Overall, our study in **paper IV** highlights that, at least to a certain extent, trade-offs are inherent between different field types, and thus shows the role of diversified land uses to ensure multifunctionality in agroecological landscapes [@kremenLandscapesThatWork2018; @schilsPermanentGrasslandsEurope2022].
 
 In **paper II**, we found that the nectar resource indicator was positively correlated with vascular plant species richness in semi-natural grasslands.
 Our finding adds to the evidence that plant diversity supports the delivery of the pollination service by ensuring the provision of pollinator food resource [@goulnikFloralTraitFunctional2020; @heglandRelationshipsDensityDiversity2006].
-We also observed a positive correlation between the nectar resource indicator and the forage resource indicator (@fig-grazingR1 D), even if the latter was not directly correlated with vascular plant species richness.
+We also observed a positive correlation between the nectar resource indicator and the forage resource indicator ([@fig-grazingR1]D), even if the latter was not directly correlated with vascular plant species richness.
 This synergy suggests that the biodiversity-productivity relationship in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve is currently maintained in a win-win space [@balfourTradeoffPollinatorwildflowerDiversity2025; @ravettoenriBiodiversityfriendlyRotationalGrazing2017].
 Our study in **paper II** thus adds to the evidence that small-scale grazing systems can promote biodiversity and support the delivery of regulating services without negatively affecting the provision of forage resource [@kremenDiversifiedFarmingSystems2012].
+\setlength{\parskip}{1pt}
 
 ``` {r fig-grazingR1}
 #| fig-cap: "(A) Distribution of plant species richness across the 42 study sites of the Nordhordland UNESCO Biosphere Reserve; (B) Correlation between total plant species richness and cryptogam species richess; (C) Distribution on loss of ignition according to field type; (D) Correlation between the forage resource value and the nectar resource value in the semi-natural grasslands."
-#| fig-height: 5
+#| fig-height: 5.3
 #| fig-width: 6
 #| message: false
 #| warning: false
@@ -1042,23 +1093,24 @@ Our investigation of the small-scale grazing systems of the Nordhordland UNESCO 
 2) the grazing animal, driving direct foraging and trampling pressures on the field (**paper II**, **paper III**);
 and 3) the farmer, who organises management at the field and farm scales (**paper I**, **paper III**).
 Our findings suggested that the independent influences of the environmental gradients and field management on the diversity and community composition of semi-natural grasslands were mediated by their mutual interactions at different spatial scales (**paper II**, **paper III**) (@fig-flowconcept).
-At the regional and landscape scales, the climate and topography determines the foraging capacity of ecosystems [@fridleyLongerGrowingSeasons2016] (@fig-flowconcept \ding{172}).
-In response, the farmer adapts the type (e.g. grazing, fertilisation), intensity (e.g. stocking density) and spatiotemporal dynamic (e.g. field area, occupation period) of management, using for example rotational grazing in semi-natural grasslands, year-round grazing with prescribed burning in coastal heathlands or summer transhumance in mountain ranges [@austadHumaninfluencedVegetationTypes1991; @indrelidFarmingSystemIts1988] (@fig-flowconcept \ding{173}).
-The coupled influences of the environmental gradients and farmer management (e.g. fertilisation) determine the distribution of nutrients and biomass at field scale, which in turns affects the livestock foraging behaviour [@hesterForagingBehaviourSheep1999] (@fig-flowconcept \ding{174}).
-Within the field, the animal removes aboveground biomass and redistributes nutrients through urine and dung, affecting the ecosystem's energy cycle [@mayelHowDoesGrassland2021; @sittersImpactsBrowsingGrazing2019] (@fig-flowconcept \ding{175}).
-Over time, the farmer adapts management according to the livestock production and the fields' capacity to recover [@hylandFactorsInfluencingDairy2018; @robertProcessesAdaptationFarm2016], subsequently renewing the grazer-environment relationship at both the field and landscape scales (@fig-flowconcept \ding{176}).
+At the regional and landscape scales, the climate and topography determines the foraging capacity of ecosystems [@fridleyLongerGrowingSeasons2016] ([@fig-flowconcept]\ding{172}).
+In response, the farmer adapts the type (e.g. grazing, fertilisation), intensity (e.g. stocking density) and spatiotemporal dynamic (e.g. field area, occupation period) of management, using for example rotational grazing in semi-natural grasslands, year-round grazing with prescribed burning in coastal heathlands or summer transhumance in mountain ranges [@austadHumaninfluencedVegetationTypes1991; @indrelidFarmingSystemIts1988] ([@fig-flowconcept]\ding{173}).
+The coupled influences of the environmental gradients and farmer management (e.g. fertilisation) determine the distribution of nutrients and biomass at field scale, which in turns affects the livestock foraging behaviour [@hesterForagingBehaviourSheep1999] ([@fig-flowconcept]\ding{174}).
+Within the field, the animal removes aboveground biomass and redistributes nutrients through urine and dung, affecting the ecosystem's energy cycle [@mayelHowDoesGrassland2021; @sittersImpactsBrowsingGrazing2019] ([@fig-flowconcept]\ding{175}).
+Over time, the farmer adapts management according to the livestock production and the fields' capacity to recover [@hylandFactorsInfluencingDairy2018; @robertProcessesAdaptationFarm2016], subsequently renewing the grazer-environment relationship at both the field and landscape scales ([@fig-flowconcept]\ding{176}).
 Whilst predictable to some extent, these three-ways interactions still involve stochasticity due to the high environmental variability, the partial randomness in livestock foraging patterns, and the relative subjectivity in the farmer's decision-making [@nuthallIntuitiveWorldFarmers2012; @parsonsSpatialHeterogeneityGrazing2003; @sinclairOptionsContextApproach2019].
 This creates particularly high levels of variance, which were not explicitly accounted for in our study design and analytical approaches.
 
 \blandscape
 
-![Mutual interactions between underlying environmental gradients, the livestock and the farmer in the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve. See in-text description for arrow numbers. Credits: figure created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org).](illustrations/NBR_PerspectivesConcept.png){#fig-flowconcept width=100%}
+![Mutual interactions between underlying environmental gradients, the livestock and the farmer in the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve. See in-text description for arrow numbers. Credits: figure created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org).](illustrations/NBR_PerspectivesConcept.png){#fig-flowconcept width=85%}
 
 \elandscape
 
 ## Limitations of our study design and analytical approaches
 
 We can highlight four main aspects for which our methodological design was lacking:
+\setlength{\parskip}{10pt}
 
 **(1) Environmental heterogeneity.**
 We essentially approached the environmental context of the Nordhordland UNESCO Biosphere Reserve as a broad and unidirectional west-east gradient, while overlooking the spatial heterogeneity associated with the fjords' shape, direction, width and steepness [@nesjeFjordsNorwayComplex2009].
@@ -1082,6 +1134,7 @@ In **paper III** and **paper IV**, we emphasized that the use of coarse taxonomi
 In **paper III**, even though the family-level approach allowed us to highlight the weak contribution of Scarabaeidae in the dung-associated beetle assemblages, it could not deliver a representative indication of the functional diversity associated with the dominant Staphylinidae family.
 In **paper IV**, the determination of Collembola and Acari into main trophic groups could have refined their responses to field type and geographical location [@georgeEvaluationMesofaunaCommunities2017].
 These limitations highlight the relevance of trait-based approaches and novel DNA methods, which facilitate the investigation of arthropod communities [@geisenMethodologicalFrameworkEmbrace2019; @sigsgaardEnvironmentalDNAMetabarcoding2021; @tonelliEffectsProgressiveAbandonment2018].
+\setlength{\parskip}{1pt}
 
 ## Optimising the study design towards transdisciplinary farm-level assessments of multifunctionality
 
@@ -1091,7 +1144,8 @@ Key methodological aspects should include:
 (1) spatially-explicit analyses, in order to identify the processes driving variance in agroecological systems [@petersCrossScaleInteractions2007] and to disentangle the respective influences of management and underlying environmental gradients [e.g. @wittmanSocialEcologicalPerspective2017; @redlichDisentanglingEffectsClimate2022];
 (2) farm- or landscape-scale approaches, to address environmental and management-driven variance not as a bias but as an inherent determinant of agroecological systems [@cloughFieldSizesFuture2020; @deffontainesAgriculturalSystemsLandscape1995; @sinclairOptionsContextApproach2019] (see Discussion in **paper III**);
 (3) high resolution indicators, with priority given to taxa contributing to key ecosystem functions such as soil fauna [@bardgettBelowgroundBiodiversityEcosystem2014; @degraaffEffectsAgriculturalIntensification2019.
-
+\setlength{\parskip}{10pt}
+\newpage
 Last but not least, ensuring the pertinence, applicability and accessibility of agroecological research requires the active involvement of the farmers as knowledge-holders, decision-makers and managers [@bennettLinkingBiodiversityEcosystem2015; @jagerPathwaysImplementationEvidence2020; @rockstromSustainableIntensificationAgriculture2017].
 Several principles should be respected to guarantee inclusive, open, transparent and equitable collaboration in the long-term [@stringerUnpackingParticipationAdaptive2006].
 First, farmer knowledge built from empirical, context-specific and community-based learning is inherently complementary to the fundamental, generalised and discipline-based academic knowledge of scientists [@altieriLinkingEcologistsTraditional2004; @nuthallIntuitiveWorldFarmers2012; @shiSocialInteractionEffect2021].
@@ -1100,6 +1154,7 @@ Second, research concepts should be discussed, adapted and validated for their a
 For instance, @lamarqueHowEcosystemServices2014 showed that, even though farmers were already able to integrate ecosystem services they were familiar with in their decision-making, they still gained from raised awareness of the least known regulating services (i.e. nitrogen leaching, carbon storage).
 Lastly, farmers' values should be thoroughly identified and associated with the different social groups representing the rural community [@bernuesSeeingNorthernEuropean2016; @busckFarmersLandscapeDecisions2002; @cusensMappingConnectionsIntegrated2023].
 The pragmatic approach of farmers driven by material considerations and socioeconomic constraints is essential for assessing the feasibility of scientific recommendations [@marenDiversifiedFarmingSystems2022; @wehnAdaptiveBiodiversityManagement2018].
+\setlength{\parskip}{1pt}
 
 ## Perspectives for the Nordhordland UNESCO Biosphere Reserve
 
@@ -1107,6 +1162,7 @@ The Nordhordland UNESCO Biosphere Reserve has a key role in initiating and media
 Even though our ecological study assumed a relatively standard, non-participatory research approach, we still aimed to bring a modest contribution to the development of trust and mutual understanding between farmers and scientists.
 As a token of gratitude for the farmers' involvement, we delivered, to each of them, a personalised pamphlet summarising the biological and environmental data collected on their fields.
 We also produced a generic version of the pamphlet (see Appendix), based on the whole dataset, for disseminating research achievements with the Biosphere Reserve framework to the general public and promoting our work to potential partners.
+\setlength{\parskip}{10pt}
 
 We recommend to deepen collaboration with local farmers to investigate more thoroughly the plant and animal communities of semi-natural grasslands and heathlands in relation to management.
 Further research could aim for:
@@ -1115,7 +1171,7 @@ leading farm-scale assessments of plant and animal communities, to gain a better
 addressing knowledge gaps regarding arthropods' response to management and environmental factors, which are considerable in Norway [@kalasEnvironmentalConditionsImpacts2010; @totlandStateKnowledgeInsect2013] (see Discussion in **paper I** and **paper IV**);
 integrating biodiversity assessments in the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve within the ecosystem service framework, in order to facilitate local and regional policy-making [@cusensParticipatoryMappingReveals2022; @cusensIntegrationMattersCombining2023].
 We hope for the TradMod project to be the first stepping stone for the team led by the UNESCO Chair on Sustainable Heritage and Environmental Management to expand agroecological research in the Nordhordland UNESCO Biosphere Reserve [@barracloughMappingStakeholderNetworks2022; @bohnetCocreatingCulturalNarratives2025].
-
+\setlength{\parskip}{1pt}
 \newpage
 
 # Conclusion {#sec-conclusion}
@@ -1126,6 +1182,7 @@ I assessed how semi-natural grasslands and heathlands supported biodiversity and
 1) the influence of the regional environment on habitat productivity and the composition of grassland communities;
 2) the impact of livestock type and prescribed burning on the diversity and composition of semi-natural grasslands and heathlands respectively;
 and 3) synergies and trade-offs across the agroecological landscape of the fjord region.
+\setlength{\parskip}{10pt}
 
 I confirmed that agricultural land use in the Nordhordland UNESCO Biosphere Reserve is still largely determined by the environment of the fjord region (**paper III**, **paper IV**).
 I demonstrated the biological and functional complementarity of semi-natural grasslands and heathlands (**paper IV**).
@@ -1143,7 +1200,7 @@ the agricultural landscape and the development of a sustainable food production 
 Overall, my thesis adds to the evidence that win-win strategies promoting biodiversity and multifunctionality are already within our reach [@altieriPerspectivesChallengesAgroecology2024; @gardnerAgriculturalResiliencePerspectives2019; @kremenLandscapesThatWork2018].
 I encourage further research efforts on already existing models of small-scale and diversified farming, to understand how adaptative management strategies interact with the local context [@bardgettCombattingGlobalGrassland2021; @sinclairOptionsContextApproach2019].
 To that end, ecological research must explore transdisciplinary approaches and involve local communities as part of the knowledge co-production processes [@barracloughMappingStakeholderNetworks2022; @bohnetCocreatingCulturalNarratives2025; @jagerPathwaysImplementationEvidence2020].
-
+\setlength{\parskip}{1pt}
 \newpage
 
 # Appendix
