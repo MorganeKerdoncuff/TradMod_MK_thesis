@@ -1,0 +1,70 @@
+---
+title: "PressRelease"
+format: docx
+---
+
+## Personalia (500 characters with space)
+
+### EN
+
+Morgane Kerdoncuff is a PhD student at the Department of Biological Sciences of the University of Bergen.
+She has worked under the supervision of professor Inger Elisabeth Måren and associate professor Amy Elizabeth Eycott.
+She has a master degree in Management and Conservation of Biodiversity from the University of Bretagne Occidentale of Brest, France.
+She is interested in plant and arthropod community responses to environmental gradients and management in semi-natural habitats.
+
+### NO
+
+Morgane Kerdoncuff er doktorgradsstudent ved Institutt for biologi ved Universitetet i Bergen.
+Hun har arbeidet under veiledning av professor Inger Elisabeth Måren og førsteamanuensis Amy Elizabeth Eycott.
+Hun har en mastergrad i forvaltning og bevaring av biologisk mangfold fra Université de Bretagne Occidentale i Brest, Frankrike.
+Hun er interessert i plante- og leddyrssamfunns respons på miljøgradienter og forvaltning i semi-naturlige habitater.
+
+## Title (60 characters with space)
+
+### EN
+
+Small-scale grazing systems provide multiple benefits to society
+
+### NO
+
+Småskala beitesystemer gir samfunnet mange fordeler
+
+## Main body (2000 characters with space)
+
+### EN
+
+Following the development of globalised grain-feed systems, livestock production has become the most impactful land use on nature.
+To ensure both food security and the preservation of ecosystems, it is necessary to develop farming models which support biodiversity and provide multiple benefits to human society.
+In Western Norway, a long-lasting tradition of small-scale grazing systems has shaped the fjord landscape.
+In her PhD, Morgane investigated how the fjord environment and different types of management influence plant and beetle communities and their associated ecosystem services in semi-natural grasslands and heathlands.
+She led observational studies of 42 grazing fields across the Nordhordland UNESCO Biosphere Reserve, which is a model area for the implementation of the Sustainable Development Goals in Western Norway.
+Morgane found that fjord climate and topography determined aboveground productivity at regional scale, but had little effect on the diversity and composition of grassland communities.
+In semi-natural grasslands, she showed that livestock type affected the cover of plant functional groups, but not vascular plant species richness or the composition of dominant grass, forb and beetle assemblages.
+In semi-natural heathlands, she found that prescribed burning favoured the activity of xerophilous and sun-loving beetles at local scale and contributed to ecosystem heterogeneity at regional scale.
+Both habitat types provided multiple benefits.
+In semi-natural grasslands, she found a synergy between nectar resource and forage resource indicators.
+In semi-natural heathlands, she observed higher soil carbon content and cryptogam diversity, indicating a greater contribution to climate regulation and water storage services.
+There was a productivity-diversity trade-off between semi-natural grasslands and semi-natural heathlands, showing that the fjord landscape ensures the delivery of complementary benefits.
+Overall, her thesis adds to the evidence that win-win strategies of livestock production are already within our reach.
+
+### NO
+
+Etter utviklingen av globaliserte kornfôringssystemer har husdyrproduksjon blitt den arealbruken som har størst innvirkning på naturen.
+For å sikre både matsikkerhet og bevaring av økosystemer er det nødvendig å utvikle jordbruksmodeller som støtter biologisk mangfold og gir flere fordeler for menneskesamfunnet.
+I Vest-Norge har en lang tradisjon for småskala beitesystemer formet fjordlandskapet.
+I sin doktorgradsavhandling undersøkte Morgane hvordan fjordmiljøet og ulike typer forvaltning påvirker plante- og billesamfunn og deres tilknyttede økosystemtjenester i seminaturlige gressletter og heier.
+Hun ledet observasjonsstudier av 42 beiteområder i Nordhordland UNESCO Biosfærereområde, som er et modellområde for implementering av bærekraftsmålene i Vestland.
+
+Morgane fant ut at fjordklimaet og topografien var avgjørende for produktiviteten over bakken på regionalt nivå, men hadde liten innvirkning på mangfoldet og sammensetningen av gressmarkssamfunnene.
+I semi-naturlige gressmarker viste hun at husdyrtypen påvirket dekningen av plantefunksjonelle grupper, men ikke rikdommen av karplanter eller sammensetningen av dominerende gress-, urte- og billesamfunn.
+I semi-naturlige heier fant hun at kontrollert brenning favoriserte aktiviteten til xerofile og solelskende biller på lokal skala og bidro til økosystemets heterogenitet på regional skala.
+Begge habitattyper ga flere fordeler.
+I semi-naturlige gressletter fant hun en synergi mellom indikatorer for nektarressurser og fôrressurser.
+I semi-naturlige heier observerte hun høyere karboninnhold i jorda og større mangfold av kryptogamer, noe som indikerer et større bidrag til klimastabilisering og vannlagring.
+Det var en avveining mellom produktivitet og mangfold mellom semi-naturlige gressletter og semi-naturlige heier, noe som viser at fjordlandskapet sikrer komplementære fordeler.
+Samlet sett bidrar hennes avhandling til bevisene for at vinn-vinn-strategier for husdyrproduksjon allerede er innenfor rekkevidde.
+
+
+
+
+
