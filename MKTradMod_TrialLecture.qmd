@@ -1,0 +1,8 @@
+---
+title: "Direct and indirect connections between cultural landscapes and biodiversity around the world"
+author: Morgane Kerdoncuff
+date: 22.01.2026 
+format: revealjs
+---
+
+
