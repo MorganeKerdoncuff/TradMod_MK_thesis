@@ -5,4 +5,70 @@ date: 22.01.2026
 format: revealjs
 ---
 
+## Pictures
+
+- Western Norway
+- South America terracces
+- Africa sylviculture
+- Asia rice production
+- corons/carriere de sable ?
+
+## What is the common point between these pictures?
+
+- All theses landscapes can be defined as cultural landscapes
+- when defining a landscape, usually we talk about composition, structure, open vs closed, wild vs anthropogenic
+- for cultural, rather the use: food, resources for housing
+
+## Generalities
+
+@phillipsNatureCulturalLandscapes1998
+- beyond the human vs pristine nature vision, dominant amongst conservationists in the XIX^th^ and XX^th^ centuries
+- nature shaped by humans: fire, exploitation of forest resources (Amazonia)
+- two-ways interactions between humans and the environment, inherently sustainable (have to be maintained over long time periods)
+- "[cultural landscapes] are the result of human intervention in the natural landscape and present a record of human activity and human values." Taylor 1993
+- "cultural landscapes reflect the interactions between people and their natural environment over space and time" Plachter & Rossler 1995
+
+@ellisPeopleHaveShaped2021
+
+## International action/recognition
+
+@phillipsNatureCulturalLandscapes1998
+- Convention for the Protection of the World Cultural and Natural Heritage (1972)
+- "Cultural landscapes often reflect specific techniques of sustainable land use, considering the characteristics and limits of the natural environment they are established in, and a specific spiritual relationship to nature.
+Protection of cultural landscapes can contribute to modern techniques of sustainable land use and can maintain or enhance natural values in the landscape.
+The continued existence of traditional forms of land use supports biological diversity in many regions of the world.
+The protection of traditional cultural landscapes is therefore helpful in maintaining biological diversity." UNESCO 1996
+- Comments (disagreement with UNESCO definition): "specific spiritual relationship to nature" -> no? big emphasis on "traditional" -> yes but not only
+
+- IUCN resolution 1988 recognising that landscapes materially altered by humans can be of great value for local biodiversity, socio-economic development and can provide the "basis for sustainable development over relatively large regions and thereby be of particular importance to many developing countries"
+- IUCN 1994 new categories system revising definition of protected landscape: "an area of land [...], where the interaction of people and nature over time has produced an area of distinct character with significant aesthetic, ecological and/or cultural value, and often with high biological diversity."
+
+## Level of human intervention
+
+- e.g. forest islands @lombardoEarlyHoloceneCrop2020
+- dark earth in Amazon @schmidtIntentionalCreationCarbonrich2023
+
+## Benefits from biodiversity
+
+- ecosystem services: pest control, e.g. synergies @xieEcologicalMechanismsUnderlying2011
+- cultural values: medicine, TEK @levisContributionsHumanCultures2024
+
+## Biodiversity associated with human intervention
+
+### Direct
+
+- crops & domesticated animals, adapted to the local context [@gandiniAnalysisCulturalValue2003]
+
+### Indirect
+
+- open landscapes
+- e.g. wild bees in sand mining [@lowickiNewModelPollination2021; @seitzConservingBeesDestroyed2019]
+
+## Norwegian context
+
+@daugstadAgricultureUpholderCultural2006
+- Cultural landscape in Nordic context
+  - term has been used as synonymously for agriculturally influenced landscape, especially for traditional/historical agriculture when coming from the Ministry of Environment
+  - Ministry Environment, Directorate Cultural Heritage, Directorate Nature Management - cultural heritage sites & environments as expressions of our common memory that communicate knowledge about human life, activity and capacity through time -> help understand relationship between past & present, nature & man, and different cultures
+
 
