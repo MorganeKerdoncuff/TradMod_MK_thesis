@@ -27,6 +27,9 @@ illustrations/*
 #extensions
 _extensions/*
 
+#style
+*.scss
+
 #Outdated files
 oldfiles/*
 
@@ -58,3 +61,4 @@ MKTradModThesis_IntroPreview_files/*
 MKTradModThesis_StudyContextPreview_files/*
 MKTradModThesis_ResultsPreview_files/*
 pbreferences_files/*
+MKTradMod_Defense_files/*
