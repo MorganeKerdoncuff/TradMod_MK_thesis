@@ -211,12 +211,14 @@ At the scale of the Nordhordland UNESCO Biosphere Reserve, these different produ
 
 # Methodology
 
-## Study area {.center}
+## Study area
 
 :::{.r-stack}
-![(A) Topography and (B) landscape zonation of the Nordhordland UNESCO Biosphere Reserve. Data: @kartverketGeoNorgeKartkatalogen2023; @uttakleivLandskapskartleggingNorgeLandscape2011](illustrations/NBR_BRTopo.png){.fragment #fig-maptopo}
 
-![(A) Annual precipitations, (B) annual temperature range, (C) mean July temperature and (D) mean January temperature. Data: Norwegian Centre for Climate Services.](illustrations/NBR_BRClimate.png){.fragment #fig-mapclimate}
+![(A) Topography and (B) landscape zonation of the Nordhordland UNESCO Biosphere Reserve. Data: @kartverketGeoNorgeKartkatalogen2023; @uttakleivLandskapskartleggingNorgeLandscape2011.](illustrations/NBR_BRTopo.png){#fig-maptopo}
+
+![(A) Annual precipitations and (B) annual temperature range. Data: Norwegian Centre for Climate Services.](illustrations/presentation/NBR_PreciTempRange.png){.fragment #fig-mapclimate}
+
 :::
 
 ## Selection study sites
@@ -235,7 +237,19 @@ At the scale of the Nordhordland UNESCO Biosphere Reserve, these different produ
 
 ## Study approach
 
-- table indicators
++----------------+--------------------------+---------------------------------+---------------------------------+
+| Organisms      | Indicators               | Ecosystem services              | Papers                          |
++:===============+:=========================+:================================+:================================+
+| plants         | grass                    | forage production               | paper II, paper III, paper IV   |
++----------------+--------------------------+---------------------------------+---------------------------------+
+|                | forbs                    | pollination, forage production  | paper II, paper III, paper IV   |
++----------------+--------------------------+---------------------------------+---------------------------------+
+|                | cryptogams               | water retention                 | paper IV                        |
++----------------+--------------------------+---------------------------------+---------------------------------+
+| arthropods     | dung-associated beetles  | nutrient cycling                | paper III                       |
++----------------+--------------------------+---------------------------------+---------------------------------+
+|                | soil mesofauna           | nutrient cycling                | paper IV                        |
++----------------+--------------------------+---------------------------------+---------------------------------+
 
 :::{.notes}
 - We relied on multiple taxonomic and functional indicators to obtain a comprehensive assessment of the impact of management on the diversity and community composition of semi-natural grasslands and heathlands.
@@ -253,7 +267,11 @@ At the scale of the Nordhordland UNESCO Biosphere Reserve, these different produ
 
 ##
 
-- bundle field pictures
+![](illustrations/presentation/SamplingTeam.jpg)
+
+##
+
+![](illustrations/presentation/NBR_SamplingQuadrat.png)
 
 ## Beetle collection
 
@@ -271,7 +289,17 @@ the type, frequency and intensity of additional management, e.g. fertilisation, 
 
 ## Analytical methods
 
-- table paper/methods
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+| Papers     | Response                                       | Explanatory                                 | Analyses                                              |
++:===========+:===============================================+:============================================+:======================================================+
+| paper I    | diversity, community, ecological preferences   | pioneer vs mature heath                     | Wilcoxon, CCA (ordination), indicator (IndVal, phi)   |
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+| paper II   | diversity, community, ES indicators            | livestock type, landscape zone              | LMM, Kendall, Pearson, Spearman, MCDP                 |
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+| paper III  | community                                      | scales (regional, landscape, field, fine)   | CCA (canonical correlation), RDA                      |
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+| paper IV   | diversity, biomass, abundance                  | field type, geographical location           | HAC, Spearman, effect size                            |
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
 
 # Main findings
 
@@ -283,10 +311,13 @@ the type, frequency and intensity of additional management, e.g. fertilisation, 
 - is site aggregation representative of the distribution of field types?
 - is site aggregation reflected in aboveground biomass and belowground activity?
 
-## Illustrations from papers
+## Paper IV results
 
-- image: hierarchical clustering
-- boxplot clusters A & B
+:::{.r-stack}
+![](illustrations/presentation/cluster_tree.png)
+
+![](illustrations/presentation/clusterplot_prim.png){.fragment}
+:::
 
 ##
 
@@ -300,6 +331,7 @@ the type, frequency and intensity of additional management, e.g. fertilisation, 
 
 fjordR1
 ```
+
 
 ## (Q1-1) What are the productivity patterns along the coast-to-mountain gradient?
 
@@ -423,10 +455,15 @@ On the other hand, we observed that dominant grass and forb assemblages were con
 
 ## Limitations of our study design
 
+- the scale, whether for capturing environmental heterogeneity (e.g. fjord topography) or management-driven heterogeneity (e.g. rotational management)
+- the biological indicators: especially arthropods
+
+:::{.notes}
 - Environmental heterogeneity
 - Livestock-driven heterogeneity at the field scale
 - Management-driven heterogeneity at the landscape scale
 - Selection of biological indicators
+:::
 
 ## Optimisation methodological approach
 
