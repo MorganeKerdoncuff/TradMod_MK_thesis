@@ -1,8 +1,12 @@
 ---
 title: "Direct and indirect connections between cultural landscapes and biodiversity around the world"
 author: Morgane Kerdoncuff
-date: 22.01.2026 
-format: revealjs
+date: 22/01/2026 
+format: 
+  revealjs:
+    theme: [default, defense.scss]
+slide-number: true
+bibliography: NBR_TRADMOD.bib
 ---
 
 ## Pictures
@@ -43,14 +47,56 @@ The protection of traditional cultural landscapes is therefore helpful in mainta
 - IUCN resolution 1988 recognising that landscapes materially altered by humans can be of great value for local biodiversity, socio-economic development and can provide the "basis for sustainable development over relatively large regions and thereby be of particular importance to many developing countries"
 - IUCN 1994 new categories system revising definition of protected landscape: "an area of land [...], where the interaction of people and nature over time has produced an area of distinct character with significant aesthetic, ecological and/or cultural value, and often with high biological diversity."
 
-## Level of human intervention
 
-- e.g. forest islands @lombardoEarlyHoloceneCrop2020
-- dark earth in Amazon @schmidtIntentionalCreationCarbonrich2023
+# Transforming nature {background-image="illustrations/trial.lecture/forest.island2.jpg" background-size="cover"}
+
+**The anthropic forest islands from Llanos de Moxos (southwestern Amazonia)**
+
+##
+
+![© U. Lombardo](illustrations/trial.lecture/forest.island1.jpg)
+
+:::{.notes}
+- for this example, I rely on the extensive work led by @lombardoEarlyHoloceneCrop2020 [see also @lombardoMidLateHoloceneFluvial2012; @lombardoEarlyMiddleHolocene2013; @lombardoHoloceneLandCover2019], from which pictures and illustrations are taken.
+- Remember this picture from the introduction slide? Well what you see at the center is artificial.
+:::
+
+##
+
+Shell middens: accumulation of organic deposition resulting from human foraging (burning evidence, omnivory markers) [@lombardoEarlyMiddleHolocene2013].
+
+![Cross-section transect of a shell midden, from @lombardoEarlyMiddleHolocene2013.](illustrations/trial.lecture/forest.island4.png){#fig-shellmidden}
+
+:::{.notes}
+- this is what is under the trees: stratified shell middens, resulting from the accumulation of fire residuals and organic deposition
+:::
+
+## Human use
+
+- Early to mid-Holocene period: region dominated by seasonally flooded savannahs [@lombardoHoloceneLandCover2019].
+- 10,350 BP: earliest signs of *Manihot* (wild ancestor of manioc) cultivation in forest islands [@lombardoEarlyHoloceneCrop2020].
+- 4,000 BP: agricultural transformation facilitated by the changes in hydrological conditions (Rio Grande shift) [@lombardoMidLateHoloceneFluvial2012].
+
+## Implications for biodiversity
+
+- Refuges for plants and animals during seasonal floods.
+- Fertility hotspots amid the generally poor savannah soil.
+- **Niche construction** [@smithNicheConstructionBehavioral2007; @smithGeneralPatternsNiche2011]: "organism-driven environmental modification" (environmental engineering).
+- Contribute to landscape heterogeneity and increase connectivity between forested areas.
+- Feeding and roosting sites for endemic and critically-endangered blue-throated macaw (*Ara glaucogularis*).
+
+## {.center}
+
+![Map of the forest islands and platform fields in a northwestern subset of the Llanos de Moxos, from @lombardoEarlyHoloceneCrop2020 ](illustrations/trial.lecture/forest.island3.jpg){#fig-fimap}
+
+## {.center}
+
+![](illustrations/trial.lecture/forest.island4.jpg)
+
+# Agroecological systems
 
 ## Benefits from biodiversity
 
-- ecosystem services: pest control, e.g. synergies @xieEcologicalMechanismsUnderlying2011
 - cultural values: medicine, TEK @levisContributionsHumanCultures2024
 
 ## Biodiversity associated with human intervention
@@ -59,9 +105,74 @@ The protection of traditional cultural landscapes is therefore helpful in mainta
 
 - crops & domesticated animals, adapted to the local context [@gandiniAnalysisCulturalValue2003]
 
-### Indirect
+# Exploiting synergies {background-image="illustrations/trial.lecture/rice.fish2.jpg" background-size="cover"}
 
-- open landscapes
+**Rice-fish farming systems in China**
+
+## Globally Important Agricultural Heritage Systems (GIAHS)
+
+- "GIAHS are the result of the gradual co-evolution of local communities and their environments. In response to local challenges, communities have developed sustainable farming systems by conserving and using traditional knowledge, biodiversity and landscapes, while supporting their livelihoods and food security" (https://www.fao.org/giahs/background/en).
+- Programme launched by the FAO at the World Summit for Sustainable Development in 2002, with the objective to "identify and safeguard GIAHS and their associated landscapes, agricultural biodiversity and knowledge systems".
+
+## History and underlying mechanisms
+
+- 6000-8000 BP: development irrigated rice cultivation [@luoBiodiversityConservationRice2014].
+- Han Dynasty (2000 BP): first archaeological evidence of rice-fish co-culture.
+- Rice-fish mutualistic relationships [@xieEcologicalMechanismsUnderlying2011]:
+  - fish reduces insect pests, diseases and weeds, and fertilises the water.
+  - rice provides shade, reduces ammonia concentration in water and hosts potential preys for the fish.
+- Provides essential complex of proteins
+
+## Domesticated fauna and flora
+
+- Domesticated organisms: conservation of local species of rice and fish [@liuAgriculturalLandscapesBiodiversity2013].
+
+## Biodiversity at the pond level
+
+- Diversification trophic network
+- Succession interdependent arthropod communities according to rice growth phases (pest, natural enemy, neutral) [@luoBiodiversityConservationRice2014]
+- reduced use of chemicals (pesticides, fertilisation): particularly important for natural pest enemies, which have the highest diversity [@luoBiodiversityConservationRice2014]
+- better water quality and higher plankton diversity [@liBiodiversitySustainabilityIntegrated2021].
+
+## 
+
+![© FAO/Luohui Liang](illustrations/trial.lecture/rice.fish4.jpg)
+
+## Biodiversity at the landscape level
+
+- landscape complexity enhances total diversity and more specifically amphibians, spiders & beetles [@cambero-conejeroEffectsLandscapeComplexity2026].
+- Ridge-ditch patterns enhance structural heterogeneity and support spider and wasp diversity [@liuAgriculturalLandscapesBiodiversity2013].
+- impact across scale, from the water ditch to the landscape [@burgiExploringLinksCulture2015].
+
+##
+
+![© FAO/Luohui Liang](illustrations/trial.lecture/rice.fish1.jpg)
+
+## Other examples
+
+- Agroforestry
+- Infield-outfield systems
+
+# Involving local communities
+
+**Indigenous pastoralist knowledge in Tanzanian rangelands**
+
+##
+
+@selemaniIndigenousKnowledgeRangelands2020
+
+# Summary
+
+- Human modification/alteration of the landscape for a anthropocentric purpose
+- Domesticated biodiversity
+- Heterogeneity
+- Adaptation
+
+# What about post-industrial landscapes?
+
+##
+
+- Arras
 - e.g. wild bees in sand mining [@lowickiNewModelPollination2021; @seitzConservingBeesDestroyed2019]
 
 ## Norwegian context
