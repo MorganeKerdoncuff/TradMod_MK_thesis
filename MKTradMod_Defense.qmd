@@ -2,7 +2,7 @@
 title: "*Mark*ing the landscape - Ecological assessment of small-scale grazing systems in the fjord region of the Nordhordland UNESCO Biosphere Reserve"
 subtitle: "Defense of PhD thesis"
 author: Morgane Kerdoncuff
-date: 23.01.2026
+date: 23/01/2026
 title-slide-attributes: 
   data-background-image: /illustrations/Farmers/OC4.jpg
 format: 
@@ -213,13 +213,11 @@ At the scale of the Nordhordland UNESCO Biosphere Reserve, these different produ
 
 ## Study area
 
-:::{.r-stack}
-
 ![(A) Topography and (B) landscape zonation of the Nordhordland UNESCO Biosphere Reserve. Data: @kartverketGeoNorgeKartkatalogen2023; @uttakleivLandskapskartleggingNorgeLandscape2011.](illustrations/NBR_BRTopo.png){#fig-maptopo}
 
-![(A) Annual precipitations and (B) annual temperature range. Data: Norwegian Centre for Climate Services.](illustrations/presentation/NBR_PreciTempRange.png){.fragment #fig-mapclimate}
+## Study area
 
-:::
+![(A) Annual precipitations and (B) annual temperature range. Data: Norwegian Centre for Climate Services.](illustrations/presentation/NBR_PreciTempRange.png){#fig-mapclimate}
 
 ## Selection study sites
 
@@ -305,7 +303,7 @@ the type, frequency and intensity of additional management, e.g. fertilisation, 
 
 ## (Q1) What is the influence of the regional environment on semi-natural grasslands and heathlands?
 
-## (Q1-1) What are the productivity patterns along the coast-to-mountain gradient?
+### (Q1-1) What are the productivity patterns along the coast-to-mountain gradient?
 
 - Paper IV:
 - is site aggregation representative of the distribution of field types?
@@ -313,13 +311,21 @@ the type, frequency and intensity of additional management, e.g. fertilisation, 
 
 ## Paper IV results
 
-:::{.r-stack}
+Primary site aggregation essentially matches with the infield/outfield classification.
+
 ![](illustrations/presentation/cluster_tree.png)
 
-![](illustrations/presentation/clusterplot_prim.png){.fragment}
-:::
+## Paper IV results
+
+Site aggregation driven by forb and woody biomass, but no observed pattern for soil biological activity.
+
+![](illustrations/presentation/clusterplot_prim.png)
 
 ##
+
+:::{.notes}
+- These results can be reflected when plotting plant biomass and mesofauna abundance along longitude.
+:::
 
 ``` {r fig-fjordR1}
 #| fig-cap: "Distribution of (A) average shrub percent cover, (B) average forb percent cover, (C) average Collembola density per m^2^ and (D) average Acari density per m^2^ plotted against longitude in sheep-grazed outfields (purple) and infields (pink)."
@@ -332,19 +338,51 @@ the type, frequency and intensity of additional management, e.g. fertilisation, 
 fjordR1
 ```
 
+## (Q1) What is the influence of the regional environment on semi-natural grasslands and heathlands?
 
-## (Q1-1) What are the productivity patterns along the coast-to-mountain gradient?
+### (Q1-2) Can we detect the influence of geographic or climatic factors on the taxonomic and functional composition of semi-natural grasslands?
 
-- Paper IV:
-- is site aggregation representative of the distribution of field types? YES
-- is site aggregation reflected in aboveground biomass? YES in belowground activity? NO
-
-
-## (Q1-2) Can we detect the influence of geographic or climatic factors on the taxonomic and functional composition of semi-natural grasslands?
-
+- Paper IV: is there an aggregation of infields according to geographical location (coastal, fjord)?
 - Paper II: is there an effect of landscape zonation (coastal, fjord) on plant functional group cover?
 - Paper III: is there a correlation between the regional environment and dominant grass, forb and beetle assemblages?
-- Paper IV: is there an aggregation of infields according to geographical location (coastal, fjord)?
+
+## Paper IV results
+
+No site aggregation according to geographical location.
+
+![](illustrations/presentation/cluster_NMDS.png)
+
+## Paper II results
+
+No independent effect of landscape zone on plant functional group cover...
+
+``` {r fig-fjordNS}
+#| fig-cap: "Distribution of (A) relative cover of main plant functional groups and (B) monocotyledon percent cover in 1 m^2^ subplots according to landscape zone in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve."
+#| fig-height: 2.7
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+fjordNS <- ggarrange(
+  plantcov_envibar, grasscov_envibox, 
+  ncol = 2, 
+  labels = c("A", "B"),
+  font.label = list(size = 12)
+  )
+
+fjordNS
+```
+
+## Paper II results
+
+...but significant interaction between landscape zone and livestock type.
+
+![Poaceae (a) and herb (b) cover plotted for each unique combination of grazing animal and landscape zone.](illustrations/presentation/boxplot.livland.jpg){#fig-p2livland}
+
+## Paper III results
+
+No clear evidence of direct correlations between the regional environment and dominant grass, forb and dung-associated beetle assemblages.
 
 ## Illustrations from papers
 
@@ -359,21 +397,24 @@ fjordR1
 fjordR2
 ```
 
-## (Q1-2) Can we detect the influence of geographic or climatic factors on the taxonomic and functional composition of semi-natural grasslands?
-
-- Paper II: is there an effect of landscape zonation (coastal, fjord) on plant functional group cover? NO
-- Paper III: is there a correlation between the regional environment and dominant grass, forb and beetle assemblages? NO
-- Paper IV: is there an aggregation of infields according to geographical location (coastal, fjord)? NO
-
-
 ## (Q2) How does management influence the diversity and composition of semi-natural grasslands and heathlands?
 
-## (Q2-1) Is there an effect of livestock type on the diversity and composition in semi-natural grasslands?
+### (Q2-1) Is there an effect of livestock type on the diversity and composition in semi-natural grasslands?
 
 - Paper II: is there an effect of livestock type on vascular plant diversity or plant functional groups?
 - Paper III: is there a direct or indirect correlation between field management and dominant grass, forb and beetle assemblages?
 
-## Illustrations
+## Plant functional groups - Paper II results
+
+Higher cover of Poaceae in cattle-grazed fields.
+
+![Principal component analysis (PCA) of the plant functional types depending on landscape zone and livestock type.](illustrations/presentation/pca.livfuncgroup.jpg){#fig-pca.livfuncgroup}
+
+## Plant functional groups - Paper III results
+
+Weak association between cryptogam cover and sheep-grazed fields.
+
+## 
 
 ``` {r fig-grazingR3s}
 #| fig-cap: "Distribution of (A) relative cover of cryptogams, monocotyledons and forbs, (B) cryptogam percent cover, (C) monocotyledon percent cover and (D) forb percent cover in 1 m^2^ subplots according to livestock type in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve."
@@ -386,56 +427,127 @@ fjordR2
 plantR3
 ```
 
-## From papers
+## Diversity - Paper II results
+
+No effect of livestock type on vascular plant diversity.
 
 ![](illustrations/presentation/NBR_p2Richness.png)
 
-- RDA field x fine + fine x grass
+## Community composition - Paper III results
 
-## (Q2-1) Is there an effect of livestock type on the diversity and composition in semi-natural grasslands?
+Potential indirect link between livestock type and dominant plant species through vegetation structure.
 
-- Paper II: is there an effect of livestock type on vascular plant diversity NO or plant functional groups? YES
-- Paper III: is there a direct or indirect correlation between field management and dominant grass, forb and beetle assemblages? NO
+## Dung-associated beetles - Paper III results
 
-## (Q2-2) What is the effect of prescribed burning on taxonomic and functional diversity in semi-natural heathlands?
+No evidence of a relationship between field management and dung-associated beetle assemblages.
 
-- Paper I: is there a difference in species richness, taxonomic composition and functional composition of beetle assemblages between pioneer and mature patches?
-- Paper IV: can we observe a difference of site aggregation between heathlands managed with prescribed burning and other heathlands?
-
-## Illustration
-
-![(A) Constrained ordination (CCA) of the composition of beetle assemblages according to the year of burn in Hopøyna coastal heathland (Øygarden municipality), with pioneer patches on the left and mature patches on the right (from **paper I**); (B) Hierarchical clustering of the sheep-grazed fields of the Nordhordland UNESCO Biosphere Reserve according to biomass, diversity and soil indicators, with coastal outfields (black circles) on the right (from **paper IV**).](illustrations/NBR_ResultGrazingR2.png){#fig-grazingR2 width=100%}
-
-- graph paper I - ecological preferences moisture & vegetation cover
-
-## (Q2-2) What is the effect of prescribed burning on taxonomic and functional diversity in semi-natural heathlands?
-
-- Paper I: is there a difference in species richness, taxonomic composition and functional composition of beetle assemblages between pioneer and mature patches? YES
-- Paper IV: can we observe a difference of site aggregation between heathlands managed with prescribed burning and other heathlands? YES
-
-
-## (Q3) What are the synergies and trade-offs between indicators of biodiversity and ecosystem services among semi-natural grasslands and heathlands (paper II, paper IV)?
-
-- Paper II: are there synergies or tradeoffs between vascular plant diversity, nectar resource indicator and forage resource indicator in semi-natural grasslands?
-- Paper IV: what are the synergies and tradeoffs between aboveground production, plant species richness, soil mesofauna activity and soil carbon content across the fjord landscape?
-
-## Illustrations
-
-``` {r fig-grazingR1}
-#| fig-cap: "(A) Distribution of plant species richness across the 42 study sites of the Nordhordland UNESCO Biosphere Reserve; (B) Correlation between total plant species richness and cryptogam species richess; (C) Distribution on loss of ignition according to field type; (D) Correlation between the forage resource value and the nectar resource value in the semi-natural grasslands."
-#| fig-height: 5.3
+``` {r fig-grazingR3beetle}
+#| fig-cap: "Distribution of (A) relative abundance of main beetle families and (B) Scarabaeidae abundance in pitfall traps according to livestock type in the semi-natural grasslands of the Nordhordland UNESCO Biosphere Reserve."
+#| fig-height: 2.7
 #| fig-width: 6
 #| message: false
 #| warning: false
 #| echo: false
 
-grazingR1
+beetleR3 <- ggarrange(beetle_grazingbar, scara_grazingbox,
+                   ncol = 2,
+                   labels = c("A", "B"), 
+                   font.label = list(size = 12))
+beetleR3
 ```
+
+## (Q2) How does management influence the diversity and composition of semi-natural grasslands and heathlands?
+
+### (Q2-2) What is the effect of prescribed burning on taxonomic and functional diversity in semi-natural heathlands?
+
+- Paper I: is there a difference in species richness, taxonomic composition and functional composition of beetle assemblages between pioneer and mature patches?
+- Paper IV: can we observe a difference of site aggregation between heathlands managed with prescribed burning and other heathlands?
+
+## Paper I results
+
+Lower alpha diversity and different community composition of beetles in pioneer patches compared with mature patches.
+
+![](illustrations/presentation/BC_OY2023_Figure3_CCA.png){#fig-oycca}
+
+## Paper I results
+
+Community divergence driven by moisture and vegetation cover preferences.
+
+## Paper IV results
+
+Highest between-site divergence in coastal heathlands (3/5 managed with burning) compared with subalpine heathlands.
+
+![](illustrations/presentation/cluster_NMDS.png)
 
 ## (Q3) What are the synergies and trade-offs between indicators of biodiversity and ecosystem services among semi-natural grasslands and heathlands (paper II, paper IV)?
 
-- Paper II: are there synergies or tradeoffs between vascular plant diversity, nectar resource indicator and forage resource indicator in semi-natural grasslands? NO TRADEOFFS, ONLY SYNERGIES
-- Paper IV: what are the synergies and tradeoffs between aboveground production, plant species richness, soil mesofauna activity and soil carbon content across the fjord landscape? INFIELDS BETTER FORAGE QUALITY, HIGHER FORB SPECIES RICHNESS VS OUTFIELDS HIGHER SPECIES RICHNESS (CRYPTOGAMS) & SOIL CARBON CONTENT
+- Paper IV: what are the synergies and tradeoffs between aboveground production, plant species richness, soil mesofauna activity and soil carbon content across the fjord landscape?
+- Paper II: are there synergies or tradeoffs between vascular plant diversity, nectar resource indicator and forage resource indicator in semi-natural grasslands?
+
+## Paper IV results
+
+Productivity-diversity trade-offs between infields and outfields.
+
+![](illustrations/presentation/clusterplot_prim.png)
+
+## Paper IV results
+
+Greater contributions to climate and water regulation services in outfields.
+
+``` {r fig-outfieldsES}
+#| fig-cap: "(A) Correlation between total plant species richness and cryptogam species richess and (B) Distribution on loss of ignition according to field type in the agroecological landscape of the Nordhordland UNESCO Biosphere Reserve."
+#| fig-height: 2.7
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+outfieldsES <- ggarrange(
+  synergytotcry,
+  loibox_grazingR1,
+  labels = c("A", "B"), 
+  font.label = list(size = 12)
+  )
+outfieldsES
+```
+
+## Paper II results
+
+Synergy between the nectar resource indicator and diversity and the forage resource indicator.
+
+``` {r fig-infieldsES}
+#| fig-cap: "(A) Correlation between the vascular plant species richness and the nectar resource value and (B) Correlation between the forage resource value and the nectar resource value in semi-natural grasslands."
+#| fig-height: 2.7
+#| fig-width: 6
+#| message: false
+#| warning: false
+#| echo: false
+
+infieldsES <- ggarrange(
+  synergynecrich,
+  synergynecfor,
+  labels = c("A", "B"), 
+  font.label = list(size = 12)
+  )
+infieldsES
+```
+
+# Result summary
+
+## (Q1) What is the influence of the regional environment on semi-natural grasslands and heathlands?
+
+### (Q1-1) What are the productivity patterns along the coast-to-mountain gradient?
+
+### (Q1-2) Can we detect the influence of geographic or climatic factors on the taxonomic and functional composition of semi-natural grasslands?
+
+## (Q2) How does management influence the diversity and community composition of semi-natural grasslands and heathlands?
+
+### (Q2-1) Is there an effect of livestock type on the diversity and community composition in semi-natural grasslands?
+
+### (Q2-2) What is the effect of prescribed burning on taxonomic and functional diversity in semi-natural heathlands?
+
+## (Q3) What are the synergies and trade-offs between indicators of biodiversity and ecosystem services among semi-natural grasslands and heathlands?
+
 
 # Methodological considerations
 
