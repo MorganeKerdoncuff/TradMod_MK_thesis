@@ -4,7 +4,7 @@ author: Morgane Kerdoncuff
 date: 22/01/2026 
 format: 
   revealjs:
-    theme: [default, defense.scss]
+    theme: [default, trial.lecture.scss]
 slide-number: true
 bibliography: NBR_TRADMOD.bib
 ---
@@ -23,38 +23,28 @@ bibliography: NBR_TRADMOD.bib
 - when defining a landscape, usually we talk about composition, structure, open vs closed, wild vs anthropogenic
 - for cultural, rather the use: food, resources for housing
 
-## Generalities
+## Beyond the nature vs culture paradigm
 
-@phillipsNatureCulturalLandscapes1998
-- beyond the human vs pristine nature vision, dominant amongst conservationists in the XIX^th^ and XX^th^ centuries
-- nature shaped by humans: fire, exploitation of forest resources (Amazonia)
-- two-ways interactions between humans and the environment, inherently sustainable (have to be maintained over long time periods)
-- "[cultural landscapes] are the result of human intervention in the natural landscape and present a record of human activity and human values." Taylor 1993
-- "cultural landscapes reflect the interactions between people and their natural environment over space and time" Plachter & Rossler 1995
+- Pristine nature: vision dominant amongst conservationists in the XIX^th^ and XX^th^ centuries [@phillipsNatureCulturalLandscapes1998].
+- Nature shaped by humans for millenia: fire, livestock grazing, exploitation of forest resources [@ellisPeopleHaveShaped2021].
+<!-- - two-ways interactions between humans and the environment, inherently sustainable (have to be maintained over long time periods) -->
+<!-- - "[cultural landscapes] are the result of human intervention in the natural landscape and present a record of human activity and human values" [@taylorAustralianPerspectivesThemes1993]. -->
+<!-- - "cultural landscapes reflect the interactions between people and their natural environment over space and time" [@plachterCulturalLandscapesReconnecting1995]. -->
+- Cultural landscapes represent the "**combined works of nature and of man**" and are "illustrative of the evolution of human society and settlement over time, under the influence of the **physical constraints and/or opportunities presented by their natural environment** and of successive **social, economic and cultural forces**" (https://whc.unesco.org).
 
-@ellisPeopleHaveShaped2021
+## International recognition
 
-## International action/recognition
-
-@phillipsNatureCulturalLandscapes1998
-- Convention for the Protection of the World Cultural and Natural Heritage (1972)
-- "Cultural landscapes often reflect specific techniques of sustainable land use, considering the characteristics and limits of the natural environment they are established in, and a specific spiritual relationship to nature.
-Protection of cultural landscapes can contribute to modern techniques of sustainable land use and can maintain or enhance natural values in the landscape.
-The continued existence of traditional forms of land use supports biological diversity in many regions of the world.
-The protection of traditional cultural landscapes is therefore helpful in maintaining biological diversity." UNESCO 1996
-- Comments (disagreement with UNESCO definition): "specific spiritual relationship to nature" -> no? big emphasis on "traditional" -> yes but not only
-
-- IUCN resolution 1988 recognising that landscapes materially altered by humans can be of great value for local biodiversity, socio-economic development and can provide the "basis for sustainable development over relatively large regions and thereby be of particular importance to many developing countries"
-- IUCN 1994 new categories system revising definition of protected landscape: "an area of land [...], where the interaction of people and nature over time has produced an area of distinct character with significant aesthetic, ecological and/or cultural value, and often with high biological diversity."
-
-
-# Transforming nature {background-image="illustrations/trial.lecture/forest.island2.jpg" background-size="cover"}
-
-**The anthropic forest islands from Llanos de Moxos (southwestern Amazonia)**
+- **IUCN resolution (1988)**: recognises that landscapes materially altered by humans can be of great value for local biodiversity and socio-economic development and "of particular importance to many developing countries".
+- **UNESCO World Heritage Convention (1992)**: first international legal instrument to recognise and protect cultural landscapes.
+- **IUCN definition of protected landscape (1994)**: "an area of land [...], where the interaction of people and nature over time has produced an area of distinct character with significant aesthetic, ecological and/or cultural value, and often with high biological diversity."
 
 ##
 
-![© U. Lombardo](illustrations/trial.lecture/forest.island1.jpg)
+![©Umberto Lombardo](illustrations/trial.lecture/forest.island1.jpg)
+
+# Transforming nature {background-image="illustrations/trial.lecture/forest.island2.jpg" background-size="cover"}
+
+**The forest islands of Llanos de Moxos, Bolivia**
 
 :::{.notes}
 - for this example, I rely on the extensive work led by @lombardoEarlyHoloceneCrop2020 [see also @lombardoMidLateHoloceneFluvial2012; @lombardoEarlyMiddleHolocene2013; @lombardoHoloceneLandCover2019], from which pictures and illustrations are taken.
@@ -65,108 +55,280 @@ The protection of traditional cultural landscapes is therefore helpful in mainta
 
 Shell middens: accumulation of organic deposition resulting from human foraging (burning evidence, omnivory markers) [@lombardoEarlyMiddleHolocene2013].
 
-![Cross-section transect of a shell midden, from @lombardoEarlyMiddleHolocene2013.](illustrations/trial.lecture/forest.island4.png){#fig-shellmidden}
+![Cross-section transect of a shell midden, from @lombardoEarlyMiddleHolocene2013.](illustrations/trial.lecture/forest.island4.png){#fig-forest.island4}
 
 :::{.notes}
 - this is what is under the trees: stratified shell middens, resulting from the accumulation of fire residuals and organic deposition
 :::
 
-## Human use
+## Environmental context and Human occupation history
 
 - Early to mid-Holocene period: region dominated by seasonally flooded savannahs [@lombardoHoloceneLandCover2019].
 - 10,350 BP: earliest signs of *Manihot* (wild ancestor of manioc) cultivation in forest islands [@lombardoEarlyHoloceneCrop2020].
 - 4,000 BP: agricultural transformation facilitated by the changes in hydrological conditions (Rio Grande shift) [@lombardoMidLateHoloceneFluvial2012].
+- 6,000 years of human utilisation of shell middens for foraging and cultivation.
 
 ## Implications for biodiversity
 
-- Refuges for plants and animals during seasonal floods.
-- Fertility hotspots amid the generally poor savannah soil.
 - **Niche construction** [@smithNicheConstructionBehavioral2007; @smithGeneralPatternsNiche2011]: "organism-driven environmental modification" (environmental engineering).
+- Refuges for plants and animals during seasonal floods.
+- Fertility hotspots amidst the generally poor savannah soil.
 - Contribute to landscape heterogeneity and increase connectivity between forested areas.
 - Feeding and roosting sites for endemic and critically-endangered blue-throated macaw (*Ara glaucogularis*).
 
-## {.center}
+##
 
-![Map of the forest islands and platform fields in a northwestern subset of the Llanos de Moxos, from @lombardoEarlyHoloceneCrop2020 ](illustrations/trial.lecture/forest.island3.jpg){#fig-fimap}
+::::{.columns}
 
-## {.center}
+:::{.column width=55%}
+![Map of the forest islands and platform fields in a northwestern subset of the Llanos de Moxos, from @lombardoEarlyHoloceneCrop2020 ](illustrations/trial.lecture/forest.island3.jpg){#fig-forest.island3}
+:::
 
-![](illustrations/trial.lecture/forest.island4.jpg)
+:::{.column width="40%"}
+![*Ara glaucogularis* ©Wikimedia Commons](illustrations/trial.lecture/forest.island5.jpg){#fig-forest.island5}
+:::
 
-# Agroecological systems
+::::
 
-## Benefits from biodiversity
+# Human use of nature for food production: Agroecological systems
 
-- cultural values: medicine, TEK @levisContributionsHumanCultures2024
+## Nature's Contribution to People
 
-## Biodiversity associated with human intervention
-
-### Direct
-
-- crops & domesticated animals, adapted to the local context [@gandiniAnalysisCulturalValue2003]
-
-# Exploiting synergies {background-image="illustrations/trial.lecture/rice.fish2.jpg" background-size="cover"}
-
-**Rice-fish farming systems in China**
+- **Ecosystem service framework**
+- Food production: provisioning service
+- Domestication: millenia ago
+- Agriculture represents such and such worldwide
+- Many forms of agriculture, adapted to local context [@gandiniAnalysisCulturalValue2003]
 
 ## Globally Important Agricultural Heritage Systems (GIAHS)
 
-- "GIAHS are the result of the gradual co-evolution of local communities and their environments. In response to local challenges, communities have developed sustainable farming systems by conserving and using traditional knowledge, biodiversity and landscapes, while supporting their livelihoods and food security" (https://www.fao.org/giahs/background/en).
+- "GIAHS are the result of the **gradual co-evolution of local communities and their environments**. In response to local challenges, communities have developed **sustainable farming systems** by conserving and using traditional knowledge, biodiversity and landscapes, while supporting their livelihoods and food security" (https://www.fao.org).
 - Programme launched by the FAO at the World Summit for Sustainable Development in 2002, with the objective to "identify and safeguard GIAHS and their associated landscapes, agricultural biodiversity and knowledge systems".
 
-## History and underlying mechanisms
+## Case studies
+
+:::{.notes}
+- three case studies, with different levels of human intervention, from which we will explore the links between cultural landscape and biodiversity.
+:::
+
+::::{.columns}
+
+:::{.column width=33%}
+![](illustrations/trial.lecture/rice.fish1.jpg)
+:::
+
+:::{.columns width=33%}
+![](illustrations/trial.lecture/chagga.home6.png)
+:::
+
+:::{.columns width=33%}
+![](illustrations/trial.lecture/puna.high1.webp)
+:::
+
+::::
+
+# Trophic system engineering {background-image="illustrations/trial.lecture/rice.fish2.jpg" background-size="cover"}
+
+**Rice-fish farming systems in Longxian village, China**
+
+## Environmental context and Human occupation history
 
 - 6000-8000 BP: development irrigated rice cultivation [@luoBiodiversityConservationRice2014].
-- Han Dynasty (2000 BP): first archaeological evidence of rice-fish co-culture.
+- 2000 BP (Han Dynasty): first archaeological evidence of rice-fish co-culture.
+
+## Underlying mechanisms and associated benefits
+
 - Rice-fish mutualistic relationships [@xieEcologicalMechanismsUnderlying2011]:
   - fish reduces insect pests, diseases and weeds, and fertilises the water.
   - rice provides shade, reduces ammonia concentration in water and hosts potential preys for the fish.
-- Provides essential complex of proteins
+- Provides essential complex of proteins for local communities.
 
-## Domesticated fauna and flora
+## Implications for biodiversity
 
-- Domesticated organisms: conservation of local species of rice and fish [@liuAgriculturalLandscapesBiodiversity2013].
-
-## Biodiversity at the pond level
-
-- Diversification trophic network
-- Succession interdependent arthropod communities according to rice growth phases (pest, natural enemy, neutral) [@luoBiodiversityConservationRice2014]
-- reduced use of chemicals (pesticides, fertilisation): particularly important for natural pest enemies, which have the highest diversity [@luoBiodiversityConservationRice2014]
-- better water quality and higher plankton diversity [@liBiodiversitySustainabilityIntegrated2021].
+- Conservation of local species of rice and fish [@liuAgriculturalLandscapesBiodiversity2013].
+- Domesticated species as **ecosystem architects**
+- Diversification trophic network: succession interdependent arthropod communities according to rice growth phases (pest, natural enemy, neutral) [@luoBiodiversityConservationRice2014].
+- Reduced use of chemicals (pesticides, fertilisation): enhances water quality and supports plankton and predatory arthropod diversity [@liBiodiversitySustainabilityIntegrated2021; @luoBiodiversityConservationRice2014].
 
 ## 
 
-![© FAO/Luohui Liang](illustrations/trial.lecture/rice.fish4.jpg)
+![Duck-rice-fish farming in Longxian ©FAO/Luohui Liang.](illustrations/trial.lecture/rice.fish4.jpg){#fig-rice.fish4}
 
-## Biodiversity at the landscape level
+## Implications for biodiversity
 
-- landscape complexity enhances total diversity and more specifically amphibians, spiders & beetles [@cambero-conejeroEffectsLandscapeComplexity2026].
-- Ridge-ditch patterns enhance structural heterogeneity and support spider and wasp diversity [@liuAgriculturalLandscapesBiodiversity2013].
-- impact across scale, from the water ditch to the landscape [@burgiExploringLinksCulture2015].
+- Ridge-ditch patterns: enhance structural heterogeneity and support spider and wasp diversity [@liuAgriculturalLandscapesBiodiversity2013].
+- Landscape complexity in rice cultivation systems: enhances total diversity and more specifically amphibians, spiders & beetles [@cambero-conejeroEffectsLandscapeComplexity2026].
 
-##
+<!-- ## Biodiversity at the landscape level -->
 
-![© FAO/Luohui Liang](illustrations/trial.lecture/rice.fish1.jpg)
-
-## Other examples
-
-- Agroforestry
-- Infield-outfield systems
-
-# Involving local communities
-
-**Indigenous pastoralist knowledge in Tanzanian rangelands**
+<!-- - landscape complexity enhances total diversity and more specifically amphibians, spiders & beetles [@cambero-conejeroEffectsLandscapeComplexity2026]. -->
+<!-- - Ridge-ditch patterns enhance structural heterogeneity and support spider and wasp diversity [@liuAgriculturalLandscapesBiodiversity2013]. -->
+<!-- - impact across scale, from the water ditch to the landscape [@burgiExploringLinksCulture2015]. -->
 
 ##
 
-@selemaniIndigenousKnowledgeRangelands2020
+![Rice-fish farming terraces in Longxian ©FAO/Luohui Liang](illustrations/trial.lecture/rice.fish1.jpg){#fig-rice.fish1}
 
-# Summary
+# Shaping structural heterogeneity {background-image="illustrations/trial.lecture/chagga.home6.png" background-size="cover"}
 
-- Human modification/alteration of the landscape for a anthropocentric purpose
+**Traditional agroforestry in Chagga Homegardens on Mt. Kilimanjaro, Tanzania**
+
+## Environmental context and Human occupation history
+
+- 2000 BP: permanent settlers on the slopes of Mt. Kilimanjaro [@hempChaggaHomegardensKilimanjaro2008].
+- XII^th^ century (estimation): first home gardens irrigated by water canals.
+
+## Underlying mechanisms and associated benefits
+
+- Multi-storied system: coffee and banana crops involving the integration of livestock and multi-purpose indigenous trees and shrubs [@hempBananaForestsKilimanjaro2006].
+- Multiple benefits [@fernandesChaggaHomeGardens1985]: 
+  - market-oriented coffee and banana production;
+  - provision of fruits, livestock forage, medicinal plants, timber and firewood.
+
+## Implications for biodiversity
+
+- **Structural heterogeneity**: diversification ecological niches.
+- Plants [@hempChaggaHomegardensKilimanjaro2008]:
+  - indigenous species account for over 70% of total species found in home gardens.
+  - diversity life forms: trees, shrubs, herbs, lianas (52 species), epiphytes.
+  
+##
+
+::::{.columns}
+
+:::{.column width="50%"}
+![Vegetation profile and ground plan of a typical Chagga homegarden at 1400 masl, from @hempBananaForestsKilimanjaro2006.](illustrations/trial.lecture/chagga.home1.png){#fig-chagga.home1}
+:::
+
+:::{.column width="50%"}
+![Floristic composition of the Chagga banana fields on Kilimanjaro, from @hempBananaForestsKilimanjaro2006.](illustrations/trial.lecture/chagga.home2.png){#fig-chagga.home2}
+:::
+
+::::
+
+##
+
+![Chagga homegarden in Kihamba ©Firmat Banzi and Diomedes Kalisa.](illustrations/trial.lecture/chagga.home6.png){#fig-chagga.home6}
+
+## Implications for biodiversity
+
+- Saltatoria fauna (grasshoppers and bush crickets) [@hempChaggaHomeGardens2005]:
+  - 52 species found in home gardens over 192 recorded for the whole Mt. Kilimanjaro;
+  - 70% associated with forest communities, 30% associated with open areas;
+  - 32% endemic species.
+  
+##
+
+::::{.columns}
+
+:::{.column width="45%"}
+![Saltatoria species associated with different vegetation layers, from @hempChaggaHomeGardens2005.](illustrations/trial.lecture/chagga.home3.jpg){#fig-chagga.home3}
+:::
+
+:::{.column width="55%"}
+![*Lophothericles kongoni* ©Thomas Becker](illustrations/trial.lecture/chagga.home4.jpeg){#fig-chagga.home4}
+
+:::
+
+::::
+
+# Adaptative spatio-temporal dynamics {background-image="illustrations/trial.lecture/puna.high1.webp" background-size="cover"}
+
+**Traditional Andean pastoralism systems in Dry Puna highlands (3,000-5,000 masl), Argentina**
+
+## Human occupation history
+
+- 10,000 BP: first evidence of human occupation in Andean Puna ecosystems, following a shift towards more humid climate [@baiedEvolutionHighAndean1993].
+- 7,000 BP: first signs of ungulate domestication leading to the appearance of two domestic species, the llama (*Lama glama*) and the alpaca (*Vicugna pacos*) [@yacobaccioModelLlamaLama2016].
+- 2,7000 BP: development of llama herding practices in the Dry Puna.
+- 1,000 BP: herding as predominant subsistence strategy, with the development of long-distance exchange networks using large size llamas as pack animals [@samecLateHoloceneCamelid2025].
+- Nowadays: supports 1 million pastoralists in the region [@arzamendiaPunaPastoralistSystem2021].
+
+## Underlying mechanisms and associated benefits
+
+- Adaptation to arid ecosystem: low and highly variable rainfall, low average temperatures and large thermal amplitude [@navarroRewildingLargeHerbivore2020].
+- Mobility of humans and livestock
+
+- Livestock transhumance: adaptation to generally arid ecosystem [@arzamendiaPunaPastoralistSystem2021].
+  - permanent and semi-permanent residence sites;
+  - seasonal management of fertile areas at different elevations;
+  - complementary use of sheep, llamas and goats.
+  
+@browmanPastoralismDevelopmentHigh1984
+- "Resilience strategy" flexible & co-operative
+- seasonal transhumance to take advantage of of locally occuring conditions
+- herd dispersion over wide areas to take advantage of local patch types
+- multi-species diversification
+  
+- Stability of peatland productivity [@navarroRewildingLargeHerbivore2020]: long-term human use, including low-intensity grazing, livestock rotation, transhumance between peatlands, irrigation and water management.
+- Long fallow periods: improve soil fertility
+
+- Cultural adaptation: Complementary use of altitudinal agroclimatic belts, crop & livestock rotation [@rolandoKeyEcosystemServices2017]
+
+- Benefits [@arzamendiaPunaPastoralistSystem2021]:
+- Fiber production
+- Medicinal plants
+- Cultural rites
+- Manure for crops
+
+<!-- - Seasonal movements (Peru): -->
+<!-- - rainy season December-March: January to the hills, with horizontal & vertical movements to access two types of rangelands: dry grasslands & *bofedales* (peatlands) -->
+<!-- - dry season April-November: April to main residence in pampa -->
+
+## Implications for biodiversity
+
+- Camel: biocultural heritage
+- **Landscape mosaic** [@rojoSpatialTemporalVariation2019]:
+  - Festuca chrysophylla grasslands (dry season grazing)
+  - peatlands
+  - shrubland communities: Parastrephia spp (tolares), and low-productivity Baccharis boliviensis, Fabiana densa, and Tetraglochin cristatum
+  - short grasslands
+  
+- Impact factors on communities: disturbance intensity, slope aspect, elevation % outcropping rocks, edaphic parameters [@catorciHowEnvironmentGrazing2014]
+- First partition with High grazing intensity: promotes avoidance strategies such as thorny dwarf shrubs, annual species or small/prostrate plants
+- Second partition is % outcropping rocks: two communities subjected to intermediate levels of disturbance
+- Fourth community: Festuca grassland with low grazing intensity & higher richness & internal variability
+
+- @velardez-fresiaLongtermInteractionsAvifauna2024
+- long-term interactions between local communities and birds: seasonal management & activities lead to variations in the distribution of animal & plant resources
+- stability bird population: proximity of wild birds to domestic spaces: human modifications (dams, cultivation, introduced vegetation) can provide feeding, roosting, breeding sites and refuges.
+
+- this spatiotemporal dynamics only sustainable practice to maintain agriculture in these arid regions.
+- Complementarity systems: livestock x crops
+
+@browmanPastoralismDevelopmentHigh1984
+- Intensification risks: erosion, compaction & increase undesirable species
+- Native alpacas & llamas with higher metabolization efficiency compared with sheep -> gain weight faster while less negative impact
+
+@navarroHerbivoreRewildingDoes2023
+- Rewilding vs livestock in peatland biodiversity
+- diversity best explained by elevation (decreases vegetation & aquatic macroinvertebrates) & peatland aera (increases plant, birds, aquatic macroinvertebrates)
+- diversity plant & macroinv negatively correlated with wilderness index
+- no association bird diversity x wilderness
+- water: both extraction for irrigation & redistribution to expand peatland area -> latter + regulation livestock load may increase peatland stability
+- overall, well adapted to herbivores
+- Potential explanations: (1) diversity of microhabitats generated by a more diverse herbivore's community associated with livestock (e.g., different trampling, browsing, and movement patterns, effects on water quality through feces), (2) management of hydrological regimes and stocking rates to provide stability, (3) herbivory dynamics that promote the dominance of certain plants
+
+##
+
+![Alpaca ©Greta Semplici.](illustrations/trial.lecture/puna.high2.jpg)
+
+## Other example
+
+![High-altitude pastoralism systems in the Trans-Himalaya, from @singhPastoralismSouthAsia2023](illustrations/trial.lecture/hap1.webp)
+
+# Key insights from the case studies
+
+## Insights from agroecological systems
+
+- Human modification/alteration of the ecosystem for a anthropocentric purpose
+- Benefits from nature: ecosystem services, synergies
 - Domesticated biodiversity
-- Heterogeneity
+- Niche creation at local scale
+- Environmental heterogeneity
 - Adaptation
+- cultural values: medicine, TEK @levisContributionsHumanCultures2024
+- strong role of traditional ecological knowledge [@selemaniIndigenousKnowledgeRangelands2020]
 
 # What about post-industrial landscapes?
 
@@ -174,12 +336,3 @@ Shell middens: accumulation of organic deposition resulting from human foraging 
 
 - Arras
 - e.g. wild bees in sand mining [@lowickiNewModelPollination2021; @seitzConservingBeesDestroyed2019]
-
-## Norwegian context
-
-@daugstadAgricultureUpholderCultural2006
-- Cultural landscape in Nordic context
-  - term has been used as synonymously for agriculturally influenced landscape, especially for traditional/historical agriculture when coming from the Ministry of Environment
-  - Ministry Environment, Directorate Cultural Heritage, Directorate Nature Management - cultural heritage sites & environments as expressions of our common memory that communicate knowledge about human life, activity and capacity through time -> help understand relationship between past & present, nature & man, and different cultures
-
-
