@@ -1,6 +1,5 @@
 ---
 title: "Direct and indirect connections between cultural landscapes and biodiversity around the world"
-subtitle: "Trial lecture for the evalution of PhD degree"
 author: 
   name: Morgane Kerdoncuff
   affiliation: University of Bergen
@@ -18,6 +17,8 @@ bibliography: NBR_TRADMOD.bib
 
 # Defining cultural landscapes {background-image="illustrations/trial.lecture/slidebg2.png" background-size="cover"}
 
+**Models of social-ecological systems**
+
 ::: footer
 ©Amy Elizabeth Eycott
 :::
@@ -25,19 +26,15 @@ bibliography: NBR_TRADMOD.bib
 ## Gradient of human intervention? {background-image="illustrations/trial.lecture/slidebg1.png" background-size="cover" footer=false}
 
 :::{.notes}
-- All theses landscapes can be defined as cultural landscapes
-- when defining a landscape, usually we talk about composition, structure, open vs closed, wild vs anthropogenic
-- for cultural, rather the use: food, resources for housing
+- questions: how would 
 :::
 
 ## Beyond the nature vs culture paradigm
 
 - Pristine nature: vision dominant amongst conservationists in the XIX^th^ and XX^th^ centuries [@phillipsNatureCulturalLandscapes1998].
 - Nature shaped by humans for millenia: fire, livestock grazing, exploitation of forest resources [@ellisPeopleHaveShaped2021].
-- **Cultural landscapes** (https://whc.unesco.org):
-  - represent the "**combined works of nature and of man**";
-  - are "illustrative of the evolution of human society and settlement over time, under the influence of the **physical constraints and/or opportunities presented by their natural environment** and of successive **social, economic and cultural forces**".
-- **Socioecological systems** [@herrero-jaureguiWhatWeTalk2018].
+- **Social-ecological systems**: result from the co-evolving interactions between human and nature [@herrero-jaureguiWhatWeTalk2018].
+- "**Cultural landscapes** are illustrative of the evolution of human society and settlement over time, under the influence of the **physical constraints and/or opportunities presented by their natural environment** and of successive **social, economic and cultural forces**" (https://whc.unesco.org).
 
 :::{.notes}
 - two-ways interactions between humans and the environment, inherently sustainable (have to be maintained over long time periods)
@@ -49,7 +46,7 @@ bibliography: NBR_TRADMOD.bib
 
 - **IUCN resolution (1988)**: recognises that landscapes materially altered by humans can be of great value for local biodiversity and socio-economic development and "of particular importance to many developing countries".
 - **UNESCO World Heritage Convention (1992)**: first international legal instrument to recognise and protect cultural landscapes.
-- **IUCN definition of protected landscape (1994)**: "an area of land [...], where the interaction of people and nature over time has produced an area of distinct character with significant aesthetic, ecological and/or cultural value, and often with high biological diversity."
+- **IUCN definition of protected landscape (1994)**: "an area of land [...], where the interaction of people and nature over time has produced an area of distinct character with significant aesthetic, ecological and/or cultural value, and often with high biological diversity".
 
 # Transforming nature {background-image="illustrations/trial.lecture/slidebg3.png" background-size="cover"}
 
@@ -65,7 +62,7 @@ bibliography: NBR_TRADMOD.bib
 
 ##
 
-![Anthropic forest island in the Llanos de Moxos, Bolivia ©Umberto Lombardo](illustrations/trial.lecture/forest.island1.jpg){#fig-forest.island1}
+![Anthropic forest island in the Llanos de Moxos, Bolivia ©Umberto Lombardo.](illustrations/trial.lecture/forest.island1.jpg){#fig-forest.island1}
 
 :::{.notes}
 - for this example, I rely on the extensive work led by @lombardoEarlyHoloceneCrop2020 [see also @lombardoMidLateHoloceneFluvial2012; @lombardoEarlyMiddleHolocene2013; @lombardoHoloceneLandCover2019], from which pictures and illustrations are taken.
@@ -110,11 +107,11 @@ bibliography: NBR_TRADMOD.bib
 ::::{.columns}
 
 :::{.column width=55%}
-![Map of the forest islands and platform fields in a northwestern subset of the Llanos de Moxos, from @lombardoEarlyHoloceneCrop2020 ](illustrations/trial.lecture/forest.island3.jpg){#fig-forest.island3}
+![Map of the forest islands and platform fields in a northwestern subset of the Llanos de Moxos, from @lombardoEarlyHoloceneCrop2020.](illustrations/trial.lecture/forest.island3.jpg){#fig-forest.island3}
 :::
 
 :::{.column width="40%"}
-![*Ara glaucogularis* ©Wikimedia Commons](illustrations/trial.lecture/forest.island5.jpg){#fig-forest.island5}
+![*Ara glaucogularis* ©Wikimedia Commons.](illustrations/trial.lecture/forest.island5.jpg){#fig-forest.island5}
 :::
 
 ::::
@@ -145,7 +142,7 @@ bibliography: NBR_TRADMOD.bib
 
 # Trophic system engineering {background-image="illustrations/trial.lecture/slidebg4.png" background-size="cover"}
 
-**Rice-fish farming systems in Longxian village, China**
+**Rice-fish farming systems in South China**
 
 ::: footer
 ©FAO/Luohui Liang
@@ -154,34 +151,42 @@ bibliography: NBR_TRADMOD.bib
 ## Human occupation history {footer=false}
 
 - 6000-8000 BP: development irrigated rice cultivation [@luoBiodiversityConservationRice2014].
-- 2000 BP (Han Dynasty): first archaeological evidence of rice-fish co-culture.
+- 2000 BP (Han Dynasty): first archaeological evidence of rice-fish co-culture [@luReviewRiceFish2006].
+- XX^^th century: large development of rice-fish farming systems, from 667.000 ha in 1959 to 1,532,000 ha in 2000.
+- Since 2002: steady decline of 30,000 ha annually.
+- 2005: listed as GIAHS (https://www.fao.org).
 
 ## Underlying mechanisms and associated benefits
 
-- Rice-fish mutualistic relationships [@xieEcologicalMechanismsUnderlying2011]:
+- Rice-fish mutualistic relationships [@luReviewRiceFish2006; @xieEcologicalMechanismsUnderlying2011]:
   - fish reduces insect pests, diseases and weeds, and fertilises the water.
   - rice provides shade, reduces ammonia concentration in water and hosts potential preys for the fish.
+- Possible coupling with duck, *Azolla*, turtle, crayfish [@geEcosystemSustainabilityRice2023; @luoBiodiversityConservationRice2014].
 - Provides essential complex of proteins for local communities.
+
+##
+
+![Rice-fish farming in Longxian village ©FAO/Luohui Liang.](illustrations/trial.lecture/rice.fish6.jpg){#fig-rice.fish4}
+
+
+## 
+
+![Duck-rice-fish farming in Longxian village ©FAO/Luohui Liang.](illustrations/trial.lecture/rice.fish4.jpg){#fig-rice.fish4}
 
 ## Implications for biodiversity
 
 ### Pond scale
 
-- Conservation of local species of rice and fish [@liuAgriculturalLandscapesBiodiversity2013].
-- Domesticated organisms as **engineering species**: 
+- Conservation of local species of rice and fish (e.g. Oujiang red carp) [@liuAgriculturalLandscapesBiodiversity2013].
 - Diversification trophic network: succession interdependent arthropod communities according to rice growth phases (pest, natural enemy, neutral) [@luoBiodiversityConservationRice2014].
 - Reduced use of chemicals (pesticides, fertilisation): enhances water quality and supports plankton and predatory arthropod diversity [@liBiodiversitySustainabilityIntegrated2021; @luoBiodiversityConservationRice2014].
-
-## 
-
-![Duck-rice-fish farming in Longxian ©FAO/Luohui Liang.](illustrations/trial.lecture/rice.fish4.jpg){#fig-rice.fish4}
 
 ## Implications for biodiversity
 
 ### Landscape scale
 
 - Ridge-ditch patterns: enhance structural heterogeneity and support spider and wasp diversity [@liuAgriculturalLandscapesBiodiversity2013].
-- Landscape complexity in rice cultivation systems: enhances total diversity and more specifically amphibians, spiders & beetles [@cambero-conejeroEffectsLandscapeComplexity2026].
+- Landscape complexity in rice cultivation systems: enhances total diversity and more specifically amphibians, spiders and beetles [@cambero-conejeroEffectsLandscapeComplexity2026].
 
 <!-- ## Biodiversity at the landscape level -->
 
@@ -191,7 +196,7 @@ bibliography: NBR_TRADMOD.bib
 
 ##
 
-![Rice-fish farming terraces in Longxian ©FAO/Luohui Liang](illustrations/trial.lecture/rice.fish1.jpg){#fig-rice.fish1}
+![Rice-fish farming terraces in Longxian ©FAO/Luohui Liang.](illustrations/trial.lecture/rice.fish1.jpg){#fig-rice.fish1}
 
 # Shaping structural heterogeneity {background-image="illustrations/trial.lecture/slidebg5.png" background-size="cover"}
 
@@ -204,7 +209,10 @@ bibliography: NBR_TRADMOD.bib
 ## Human occupation history {footer=false}
 
 - 2000 BP: permanent settlers on the slopes of Mt. Kilimanjaro [@hempChaggaHomegardensKilimanjaro2008].
-- XII^th^ century (estimation): first home gardens (*Kihamba*) irrigated by water canals.
+- XII^th^ century: first home gardens (*Kihamba*) irrigated by water canals.
+- XX^th^ century: dramatic population increase, from about 100,000 people in 1913 to 1,053,204 people in 2002.
+- XXI^th^: Chagga homegardens cover about 1 000 km^2^ in the southern and southeastern slopes of Mt. Kilimanjaro.
+- 2011: listed as GIAHS (https://www.fao.org).
 
 ## Underlying mechanisms and associated benefits
 
@@ -291,7 +299,7 @@ bibliography: NBR_TRADMOD.bib
 - Adaptation to arid ecosystem [@arzamendiaPunaPastoralistSystem2021; @browmanPastoralismDevelopmentHigh1984]:
   - **transhumance**: vertical livestock mobility to take advantage of seasonal productivity peaks (e.g. high elevations during rainy season);
   - **free-ranging**: horizontal livestock mobility to take advantage of high-productivity habitats (e.g. peatlands - *vegas*);
-  - **native breeds**: alpacas & llamas with higher metabolization efficiency compared with sheep;
+  - **native breeds**: alpacas & llamas with higher metabolization efficiency compared with sheep.
 
 ## Traditional Ecological Knowledge (TEK)
 
@@ -357,7 +365,7 @@ Sociocultural legacy of the cumulative body of knowledge, practices and beliefs 
 
 ## 
 
-![Artificial reed beds in Argales terril ©Morgane Kerdoncuff](illustrations/trial.lecture/arras1.jpg){#fig-arras1}
+![Artificial reed beds in Argales terril ©Morgane Kerdoncuff.](illustrations/trial.lecture/arras1.jpg){#fig-arras1}
 
 ## Implication for biodiversity
 
@@ -370,17 +378,21 @@ Sociocultural legacy of the cumulative body of knowledge, practices and beliefs 
 
 ##
 
-![Schematic cross section of a quarry site in Vendée, from @betardPatchScaleRelationshipsGeodiversity2013](illustrations/trial.lecture/arras4.webp){#fig-arras4}
+![Schematic cross section of a quarry site in Vendée, from @betardPatchScaleRelationshipsGeodiversity2013.](illustrations/trial.lecture/arras4.webp){#fig-arras4}
 
 ##
 
-![300 m-long sand bank hosting a population of 80,000 wild bees in Hammel sand mine ©Morgane Kerdoncuff](illustrations/trial.lecture/arras5.jpg){#fig-arras5}
+![300 m-long sand bank hosting a population of 80,000 wild bees in Hammel sand mine ©Morgane Kerdoncuff.](illustrations/trial.lecture/arras5.jpg){#fig-arras5}
 
 :::{.notes}
 cultural landscapes do not necessarily result from centuries or millenia of human-nature interactions, neither for cultural values nor biodiversity.
 :::
 
-## Global ravages of the mining industry
+##
+
+![Conical slag heap in Loos-en-Gohelle, ©Aymeric Dantreuille.](illustrations/trial.lecture/arras3.jpg)
+
+## This is NOT a cultural landscape
 
 ![The largest copper mine in the Democratic Republic of Congo ©Johnny Hogg / Reuters.](illustrations/trial.lecture/congo.jpg)
 
