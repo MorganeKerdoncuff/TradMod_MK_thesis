@@ -3,7 +3,7 @@ title: "Direct and indirect connections between cultural landscapes and biodiver
 author: 
   name: Morgane Kerdoncuff
   affiliation: University of Bergen
-date: 22/01/2026
+date: today
 title-slide-attributes:
   data-background-image: /illustrations/trial.lecture/titlebg1.png
 format:
