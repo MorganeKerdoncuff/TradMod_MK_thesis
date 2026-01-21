@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+
+// Fonts
+$presentation-font-size-root: 32px;
+$presentation-font-smaller: 0.7;
+$presentation-line-height: 1.2;
+
+// Headings
+$presentation-h1-font-size: 2.2em;
+$presentation-h2-font-size: 1.5em;
+$presentation-h3-font-size: 1.00em;
+$presentation-h4-font-size: 1.00em;
+
+/*-- scss:rules --*/
+
+.reveal {
+  .slides {
+    .slide {
+      img+p.caption {
+        font-size: 0.5em;
+      }
+    }
+  }
+}
