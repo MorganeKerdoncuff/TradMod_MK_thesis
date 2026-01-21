@@ -27,9 +27,6 @@ illustrations/*
 #extensions
 _extensions/*
 
-#style
-*.scss
-
 #Outdated files
 oldfiles/*
 
