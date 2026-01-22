@@ -36,18 +36,13 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 
 - Food demand is expected to increase between **30%** and **62%** by 2050 [@vandijkMetaanalysisProjectedGlobal2021].
 - Failure of the Green Revolution to address global food security [@cassidyRedefiningAgriculturalYields2013; @garibaldiFarmingApproachesGreater2017].
-- Decline and degradation of global grassland areas [@bardgettCombattingGlobalGrassland2021]
-- Large environmental externalities [@cunninghamCloseYieldgapSaving2013; @hongGlobalRegionalDrivers2021].
-
-:::{.notes}
-- food demand expected to increase between 30% and 62% by 2050 [@vandijkMetaanalysisProjectedGlobal2021]
-- food production vs food availability [@cassidyRedefiningAgriculturalYields2013; @fischerLandSparingLand2014; @tscharntkeGlobalFoodSecurity2012; @westLeveragePointsImproving2014]
-- land use conflicts [@kimMappingEnvironmentalLand2018; @zabelGlobalAgriculturalLand2014] & negative impacts on biodiversity and ecosystems [@beckmannConventionalLandUse2019; @foleyGlobalConsequencesLand2005; @newboldGlobalEffectsLand2015; @newboldHasLandUse2016]
-:::
+- Globalised grain-feed systems:
+  - decline and degradation of global grassland areas [@bardgettCombattingGlobalGrassland2021];
+  - large environmental externalities [@cunninghamCloseYieldgapSaving2013; @hongGlobalRegionalDrivers2021].
 
 ## {.center}
 
-![Extent of degraded grasslands worldwide, from @bardgettCombattingGlobalGrassland2021](illustrations/presentation/bardgettCombattingGlobalGrassland2021.png){#fig-bardgett}
+![Extent of degraded grasslands worldwide, from @bardgettCombattingGlobalGrassland2021.](illustrations/presentation/bardgettCombattingGlobalGrassland2021.png){#fig-bardgett}
 
 ## Beyond the productivist perspective
 
@@ -58,18 +53,11 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 - **Multifunctionality**: capacity of agricultural systems to ensure the delivery of multiple ecosystem services [@oecdMultifunctionalityAnalyticalFramework2001].
 :::
 
-<!-- - Main principles: diversified and locally-adapted farming practices for the provision of multiple benefits [@rasmussenJointEnvironmentalSocial2024]. -->
-<!-- - Examples: agroecology, diversified farming, sustainable intensification. -->
-
-:::{.r-stack}
-![](illustrations/presentation/kremenLandscapesThatWork2018A.png)
-
-![Ecosystem service trade-offs with land management, from @kremenLandscapesThatWork2018.](illustrations/presentation/kremenLandscapesThatWork2018B.png){.fragment #fig-kremen}
-:::
+![Ecosystem service trade-offs with land management, from @kremenLandscapesThatWork2018.](illustrations/presentation/kremenLandscapesThatWork2018A.png){#fig-kremen width="90%" style="margin:20px"}
 
 ## Biodiversity x ecosystem services
 
-![Positive relationship between the range of ecosystem processes and the number of species, from @hectorBiodiversityEcosystemMultifunctionality2007.](illustrations/presentation/hectorBiodiversityEcosystemMultifunctionality2007.webp){#fig-hector}
+![Positive relationship between the range of ecosystem processes and species richness, from @hectorBiodiversityEcosystemMultifunctionality2007.](illustrations/presentation/hectorBiodiversityEcosystemMultifunctionality2007.webp){#fig-hector}
 
 :::{.notes}
 - how biodiversity relates to these bundles ?
@@ -86,101 +74,63 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 - then we need policy-oriented research to investigate synergies and trade-offs under different farming models and across multiple ecosystems and sociocultural backgrounds [@egliWinnersLosersNational2018; @rockstromSustainableIntensificationAgriculture2017].
 :::
 
-## Research needs
-
-- Need for policy-oriented research to investigate synergies and trade-offs under different farming models and across multiple ecosystems and sociocultural backgrounds [@egliWinnersLosersNational2018; @rockstromSustainableIntensificationAgriculture2017].
-- Grazing management particularly challenging to assess [@scohierHowSheepAffect2012]: 
-  - complex interactions between the livestock and plant and animal communities;
-  - potential influence of multiple environmental (e.g. productivity, climate) and management (e.g. stocking density, fertilisation) factors.
-- It is necessary to disentangle these interactions for optimising farming practices according to the local context [@buzhdyganDirectIndirectEffects2020].
-
-# The small-scale grazing systems of Western Norway as a case study
-
-## The Nordhordland UNESCO Biosphere Reserve
-
-- **UNESCO's Man and the Biosphere Programme (MAB)**: aims to "improve human livelihoods, and the equitable sharing of benefits, and to safeguard natural and managed ecosystems, promoting innovative approaches to economic development that are socially and culturally appropriate and environmentally sustainable" [@unescoManBiosphereProgramme2025].
-- **Biosphere Reserves**: model areas for experimenting innovative pathways for sustainable development [@barracloughGlobalKnowledgeAction2023; @unescoNewRoadmapMan2017].
-- World Network of Biosphere Reserves: 784 sites across 142 countries for a total population of 300 million people [@unescoManBiosphereProgramme2025].
+# The small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve as a case study
 
 ##
 
-![Map of the Nordhordland UNESCO Biosphere Reserve (Norway). It was designated in 2019 for the regional implementation of the Sustainable Development Goals in Western Norway. Credits: Lina Haggard and Peter E. Kaland, from @kalandNordhordlandBiosphereReserve2018.](illustrations/NBR_IntroBR.jpg){#fig-nbrmap}
+![Map of the Nordhordland UNESCO Biosphere Reserve (Norway), from @kalandNordhordlandBiosphereReserve2018.](illustrations/NBR_IntroBR.jpg){#fig-nbrmap}
 
 :::{.notes}
+- **Biosphere Reserves**: model areas for experimenting innovative pathways for sustainable development [@barracloughGlobalKnowledgeAction2023; @unescoNewRoadmapMan2017].
 - In Western Norway, the Nordhordland UNESCO Biosphere Reserve Area was designated to "be based on the best from the past and [...] pave the way for a future-oriented societal development that ensures the sustainable use of all types of resources for the benefit and pleasure of both the present inhabitants and future generations" [@kalandNordhordlandBiosphereReserve2018].
 :::
 
-## Agriculture history in Western Norway
+## {background-image="illustrations/presentation/context0.png" background-size="contain"}
 
-- Early Neolithic: introduction of burning and domestic grazing [@hjelleHesitantHuntersReview2006; @prosch-danielsenPalaeoecologicalInvestigationsReconstruction2000].
-- **Traditional infield-outfield system**: mixed crop-livestock system, involving energy transfers from grazed outfields (*utmark*) to cultivated infields (*innmark*).
-- Post-WW2 rationalisation: livestock moved to the infields to address market demands, leading to enlargement and intensification of fertile fields and abandonment of remote and nutrient-poor areas [@jonesLandtenureLandscapeChange1988].
-- Smaller holdings (under 10 ha) most impacted: dropped from representing 90% of total Norwegian farms in 1949 to 53% in 1995 [@fjellstadPatternsChangeTwo1999].
+## {background-image="illustrations/presentation/context1.png" background-size="contain"}
 
-## The traditional infield-outfield systems
+## {background-image="illustrations/presentation/context2.png" background-size="contain"}
 
-![Schematic representation of a coastal farm, with an ecological gradient from the innermost semi-natural grasslands and arable fields (*innmark*) to the outermost heathlands (*utmark*: *lynghei*, *myr*). Source: @brekkeKulturhistoriskVegbokHordaland1993.](illustrations/NBR_IntroHistoryBox.png){#fig-succession}
+## {background-image="illustrations/presentation/context2.png" background-size="contain" background-opacity="0.5" .center}
 
-## Current stakes
+::: {.r-stack}
 
-- Small-scale grazing systems of Western retain high ecological diversity compared with Eastern plains and of habitats threatened at European scales
-- Need to develop agricultural pathways ensuring both the socioeconomic development of the countryside and the preservation of the ecological diversity.
-- Deepen our understanding of the ecological dynamics under current management to assess the impact of current management practices
+![](illustrations/Farmers/OC4.jpg){.fade-out width="800" fig-align="center"}
 
-## Agroecological context of the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve
-
-:::{.notes}
-- Low-intensity grazing, with high diversity of land uses and farm structures.
-- Semi-natural heathlands: free-ranging sheep or goats, year-round grazing on the coastline, summer farming in the mountains.
-- Semi-natural grasslands: mixed dairy-beef systems, extensive sheep and goat farming, rotational grazing.
-:::
-
-## 
-
-:::{.r-stack}
-
-![](illustrations/presentation/context0.png)
-
-![](illustrations/presentation/context1.png){.fragment}
-
-![](illustrations/presentation/context2.png){.fragment}
-
-![](illustrations/Farmers/OC4.jpg){.fragment .fade-in-then-out width="800"}
-
-![](illustrations/presentation/NBR_SheepGoatPictures.png){.fragment .fade-in-then-out}
-
-![](illustrations/presentation/context3.png){.fragment .fade-in}
-
-![](illustrations/Farmers/OV1.jpg){.fragment .fade-in-then-out width="800"}
-
-![](illustrations/presentation/NBR_BurningPictures.png){.fragment .fade-in-then-out}
-
-![](illustrations/presentation/context4.png){.fragment .fade-in}
-
-![](illustrations/Farmers/US4.jpg){.fragment .fade-in-then-out width="800"}
-
-![](illustrations/presentation/context4.png){.fragment}
+![](illustrations/presentation/NBR_SheepGoatPictures.png){.fragment fig-align="center"}
 
 :::
+
+## {background-image="illustrations/presentation/context3.png" background-size="contain"}
+
+## {background-image="illustrations/presentation/context3.png" background-size="contain" background-opacity="0.5" .center}
+
+::: {.r-stack}
+
+![](illustrations/Farmers/OV1.jpg){.fade-out width="800" fig-align="center"}
+
+![](illustrations/presentation/NBR_BurningPictures.png){.fragment fig-align="center"}
+
+:::
+
+## {background-image="illustrations/presentation/context4.png" background-size="contain"}
+
+## {background-image="illustrations/presentation/context4.png" background-size="contain" background-opacity="0.5" .center}
+
+![](illustrations/Farmers/US4.jpg){width="800" fig-align="center"}
+
+## {background-image="illustrations/presentation/context4.png" background-size="contain"}
 
 :::{.notes}
 At the scale of the Nordhordland UNESCO Biosphere Reserve, these different production systems are expected to complement each others in maintaining an ecologically diverse and multifunctional agroecological landscape [@kremenEcosystemServicesBiologically2012; @sollenbergerGrasslandManagementAffects2019].
 :::
-
-## Key aspects {visibility="hidden"}
-
-- (1) A constraining environment associated with the fjord landscape.
-- (2) Semi-natural grasslands (infields) & heathlands (outfields).
-- (3) Management in grasslands: rotational grazing, different livestock types
-- (4) Management in heathlands: free-ranging livestock, prescribed burning
-- Expectations: coupled influences of the environment and management supporting ecological diversity and landscape multifunctionality.
 
 # Ecological study in the Nordhordland UNESCO Biosphere Reserve
 
 ## Aim of the thesis
 
 - This PhD thesis aims to **explore how grazing-dependent habitats support biodiversity and ecosystem service delivery** in the agroecological landscape of the Nordhordland UNESCO Biosphere Reserve.
-- Our work was based on observational studies of **42 semi-natural grasslands and heathlands**, distributed across a west-east gradient in the Nordhordland UNESCO Biosphere Reserve.
+<!-- - Our work was based on observational studies of **42 semi-natural grasslands and heathlands**, distributed across a west-east gradient in the Nordhordland UNESCO Biosphere Reserve. -->
 
 ## Papers
 
@@ -776,6 +726,33 @@ On the other hand, we observed that dominant grass and forb assemblages were con
 - In nutrient-poor habitats, the prevalence of stress-tolerance strategies usually limits plant growth rate and reproductive capacities [@diazGlobalSpectrumPlant2016; @pierceLeafEconomicsSpectrum2007], increasing the vulnerability of communities to ruderal and fast-growing species [@pakemanConsistencyPlantSpecies2004; @teuberLivestockGrazingIntermountain2013].
 - The relationship between grazing and biodiversity thus depends on both the ecosystem capacity to tolerate disturbance [@piipponenGlobalTrendsGrassland2022] and the management adaptability to abiotic constraints [@plieningerTraditionalLanduseNature2006; @torokGrazingEuropeanOpen2016].
 :::
+
+## {visibility="uncounted"}
+
+![Ecosystem service trade-offs with land management, from @kremenLandscapesThatWork2018.](illustrations/presentation/kremenLandscapesThatWork2018B.png){.fragment #fig-kremen}
+
+## The Nordhordland UNESCO Biosphere Reserve {visibility="uncounted"}
+
+- **UNESCO's Man and the Biosphere Programme (MAB)**: aims to "improve human livelihoods, and the equitable sharing of benefits, and to safeguard natural and managed ecosystems, promoting innovative approaches to economic development that are socially and culturally appropriate and environmentally sustainable" [@unescoManBiosphereProgramme2025].
+- **Biosphere Reserves**: model areas for experimenting innovative pathways for sustainable development [@barracloughGlobalKnowledgeAction2023; @unescoNewRoadmapMan2017].
+- World Network of Biosphere Reserves: 784 sites across 142 countries for a total population of 300 million people [@unescoManBiosphereProgramme2025].
+
+## Agriculture history in Western Norway {visibility="uncounted"}
+
+- Early Neolithic: introduction of burning and domestic grazing [@hjelleHesitantHuntersReview2006; @prosch-danielsenPalaeoecologicalInvestigationsReconstruction2000].
+- **Traditional infield-outfield system**: mixed crop-livestock system, involving energy transfers from grazed outfields (*utmark*) to cultivated infields (*innmark*).
+- Post-WW2 rationalisation: livestock moved to the infields to address market demands, leading to enlargement and intensification of fertile fields and abandonment of remote and nutrient-poor areas [@jonesLandtenureLandscapeChange1988].
+- Smaller holdings (under 10 ha) most impacted: dropped from representing 90% of total Norwegian farms in 1949 to 53% in 1995 [@fjellstadPatternsChangeTwo1999].
+
+## The traditional infield-outfield systems {visibility="uncounted"}
+
+![Schematic representation of a coastal farm, with an ecological gradient from the innermost semi-natural grasslands and arable fields (*innmark*) to the outermost heathlands (*utmark*: *lynghei*, *myr*). Source: @brekkeKulturhistoriskVegbokHordaland1993.](illustrations/NBR_IntroHistoryBox.png){#fig-succession}
+
+## Current stakes {visibility="hidden"}
+
+- Small-scale grazing systems of Western retain high ecological diversity compared with Eastern plains and of habitats threatened at European scales
+- Need to develop agricultural pathways ensuring both the socioeconomic development of the countryside and the preservation of the ecological diversity.
+- Deepen our understanding of the ecological dynamics under current management to assess the impact of current management practices
 
 
 ## Bonus {visitbility="uncounted"}
