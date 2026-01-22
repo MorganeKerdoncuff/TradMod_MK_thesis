@@ -144,25 +144,6 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 | **paper IV**   | Trade-offs and synergies between ecosystem service indicators between semi-natural grasslands and heathlands                                                                    | ![](iconp4.png)                       |
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------+
 
-##
-
-```{=html}
-<table>
-  <thead>
-    <tr>
-      <th>Header 1</th>
-      <th>Header 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/220px-African_Bush_Elephant.jpg" alt="African Bush Elephant" /></td>
-      <td>Regular output</td>
-    </tr>
-  </tbody>
-</table>
-```
-
 ## Main questions
 
 **(Q1)** What is the influence of the regional environment on plant and animal communities?
@@ -174,35 +155,6 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 +-------------+------------------------------+--------------------------------------------------------+
 | **(Q1.2)**  | grasslands only              | ![](iconp234.png)                                      |
 +-------------+------------------------------+--------------------------------------------------------+
-
-##
-
-```{=html}
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th>Range</th>
-      <th>Papers</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>**(Q1.1)**</td>
-      <td>heathlands & grasslands</td>
-      <td><img src=iconp4.png /></td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td>**(Q1.2)**</td>
-      <td>grasslands only</td>
-      <td><img src=iconp234.png /></td>
-    </tr>
-  </tbody>
-</table>
-```
-
 
 ::: {.notes}
 - We expected the constraining environment of the fjord region to affect life strategies particularly on the most exposed sites.
@@ -322,47 +274,16 @@ No clear evidence of direct correlations between the regional environment and do
 +---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
 |                                       | Results                                            | Interpretation                                                              | 
 +:======================================+:===================================================+:============================================================================+
-| - **(Q1.1)** Heathlands & grasslands  | - clear infield-outfield divergence                | - plant growth limited by abiotic pressure in outer areas                   | 
+| **(Q1.1)** Heathlands & grasslands    | - clear infield-outfield divergence                | - plant growth limited by abiotic pressure in outer areas                   | 
 |                                       |                                                    | - inner areas more suitable for livestock production                        |
 +---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
-| - **(Q1.2)** Grasslands only          | - no evidence of direct effect                     | - gradient of abiotic pressure too limited                                  |
-|                                       | - significant interaction with livestock           | - more complex interactions between the environment and management          |
-+------------------------------------- -+----------------------------------------------------+-----------------------------------------------------------------------------+
+| **(Q1.2)** Grasslands only            | - no evidence of direct effect                     | - gradient of abiotic pressure too limited                                  |
+|                                       | - significant interaction with livestock           | - more complex interactions between the environment & management            |
++---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
 
 ::: {.notes}
 - limit of our study design
 :::
-
-## (Q1) Regional environment
-
-+----------------------------------------------------+-----------------------------------------------------------------------------+
-| Results                                            | Interpretation                                                              | 
-+:===================================================+:============================================================================+
-| - clear infield-outfield divergence                | - plant growth limited by abiotic pressure in outer areas                   | 
-|                                                    | - inner areas more suitable for livestock production                        |
-+----------------------------------------------------+-----------------------------------------------------------------------------+
-| - no evidence of direct effect                     | - gradient of abiotic pressure too limited                                  |
-| - significant interaction with livestock           | - more complex interactions between the environment and management          |
-+----------------------------------------------------+-----------------------------------------------------------------------------+
-
-##
-
-
-
-
-##
-
-+-----------+-----------+--------------------+
-| Fruit     | Price     | Advantages         |
-+===========+===========+====================+
-| Bananas   | $1.34     | - built-in wrapper |
-|           |           | - bright color     |
-+-----------+-----------+--------------------+
-| Oranges   | $2.10     | - cures scurvy     |
-|           |           | - tasty            |
-+-----------+-----------+--------------------+
-
-: Sample grid table.
 
 ## (Q2) Management {background-image="illustrations/presentation/p2bg.png" background-size="cover"}
 
@@ -404,36 +325,47 @@ no effect on beetle assemblage
 
 Higher activity of strict hygrophilous species on mature patches, higher activity of xerophilous and sun-loving species on pioneer patches.
 
-![](illustrations/presentation/p1.ecopref.png)
+![](illustrations/presentation/oyecopref.png)
 
 ## (Q2) Management {background-image="illustrations/presentation/p4bg.png" background-size="cover"}
 
 ### (Q2-2) Management: prescribed burning
 
-Highest between-site divergence in coastal heathlands (3/5 managed with burning) compared with subalpine heathlands.
+Higher between-site divergence in coastal heathlands (3/5 managed with burning) compared with subalpine heathlands.
 
 ![](illustrations/presentation/cluster_NMDS.png){fig-align="center"}
 
-## (Q2) Management
+## (Q2.1) Management: livestock type
 
-+---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
-|                                       | Results                                            | Interpretation                                                              | 
-+:======================================+:===================================================+:============================================================================+
-| **(Q2.1)** Livestock type             | - cattle-grazed fields with higher                | - plant growth limited by abiotic pressure in outer areas                   | 
-|                                       |                                                    | - inner areas more suitable for livestock production                        |
-+---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
-| **(Q2.2)** Prescribed burning         | - no evidence of direct effect                     | - gradient of abiotic pressure too limited                                  |
-|                                       | - significant interaction with livestock           | - more complex interactions between the environment and management          |
-+------------------------------------- -+----------------------------------------------------+-----------------------------------------------------------------------------+
++---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
+| Results                                                             | Interpretation                                                                                         | 
++:====================================================================+:=======================================================================================================+
+| - cattle-grazed fields with higher Poaceae cover                    | - may indicate higher trampling disturbance &/or more intensive management in cattle-grazed fields     | 
+| - weak association between sheep grazing & cryptogam cover          |                                                                                                        |
++---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
+| - no effect on plant diversity or dominant plant species            | - no evidence of greater forage selectivity by smaller livestock                                       |
+| - no direct effect on dominant dung-associated beetle families      | - no evidence of greater dung supply in cattle-grazed fields                                           |
++---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
+| - potential indirect link with dominant grass and forb species      | - can indicate top-down or bottom-up interactions                                                      |
++---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 
 
- 
+## (Q2.2) Management: prescribed burning
+
++---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
+| Results                                                             | Interpretation                                                                                         | 
++:====================================================================+:=======================================================================================================+
+| - lower alpha diversity on burnt patches                            | - no evidence of positive effect of burning on patch diversity                                         |
+| - community divergence according to moisture & vegetation cover     | - niche diversification favouring the activity of specialists                                          |
++---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
+| - higher between-site divergence in coastal sites                   | - burning contribute to heathland heterogeneity at regional scale                                      |
++---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 
 ## (Q3) Synergies and tradeoffs {background-image="illustrations/presentation/p4bg.png" background-size="cover"}
 
 ### (Q3-1) Synergies and tradeoffs: heathlands & grasslands
 
-Productivity-diversity tradeoff between semi-natural heathlands and grasslands.
+Higher diversity and soil carbon content in heathlands, higher forb biomass in grasslands.
 
 ``` {r}
 #| fig-height: 2.7
@@ -477,13 +409,15 @@ infieldsES
 
 ## (Q3) Synergies and tradeoffs
 
-+-------------+------------------------------+--------------------------------------------------------+
-|             | Range                        | Papers                                                 | 
-+:============+:=============================+:=======================================================+
-| **(Q3.1)**  | heathlands & grasslands      | paper IV                                               | 
-+-------------+------------------------------+--------------------------------------------------------+
-| **(Q3.2)**  | grasslands only              | paper II                                               |
-+-------------+------------------------------+--------------------------------------------------------+
++---------------------------------------+----------------------------------------------------------------------+-----------------------------------------------------------------------------+
+|                                       | Results                                                              | Interpretation                                                              | 
++:======================================+:=====================================================================+:============================================================================+
+| **(Q3.1)** Heathlands & grasslands    | - higher diversity in heathlands, higher forb biomass in grasslands  | - diversity-productivity tradeoff between grasslands & heathlands           | 
+|                                       | - higher soil carbon content & bryophyte diversity in outfields      | - greater contribution of heathlands to climate & water regulation          |
++---------------------------------------+----------------------------------------------------------------------+-----------------------------------------------------------------------------+
+| **(Q3.2)** Grasslands only            | - synergy between plant diversity & nectar resource indicator        | - win-win biodiversity-productivity relationship in grasslands              |
+|                                       | - synergy between nectar & forage resource indicators                |                                                                             |
++---------------------------------------+----------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
 # Methodological considerations
 
