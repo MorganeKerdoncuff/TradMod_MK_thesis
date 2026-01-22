@@ -18,7 +18,7 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 ```
 
 
-## Scientific environment
+## Scientific environment {background-image="illustrations/presentation/logobg.png" background-size="cover"}
 
 <!-- - Affiliations -->
 <!--   - Department of Biological Sciences, University of Bergen (Bergen, Norway) -->
@@ -30,7 +30,7 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
   - professor **Inger Elisabeth Måren**, University of Bergen;
   - associate professor **Amy Elizabeth Eycott**, Nord University.
 
-# General context
+# General context {background-image="illustrations/presentation/sectionbg.png" background-size="cover"}
 
 ## Livestock's part in the global food security challenge
 
@@ -74,7 +74,7 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 - then we need policy-oriented research to investigate synergies and trade-offs under different farming models and across multiple ecosystems and sociocultural backgrounds [@egliWinnersLosersNational2018; @rockstromSustainableIntensificationAgriculture2017].
 :::
 
-# The small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve as a case study
+# The small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve as a case study {background-image="illustrations/presentation/sectionbg.png" background-size="cover"}
 
 ##
 
@@ -125,7 +125,7 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 At the scale of the Nordhordland UNESCO Biosphere Reserve, these different production systems are expected to complement each others in maintaining an ecologically diverse and multifunctional agroecological landscape [@kremenEcosystemServicesBiologically2012; @sollenbergerGrasslandManagementAffects2019].
 :::
 
-# Ecological study in the Nordhordland UNESCO Biosphere Reserve
+# Ecological study in the Nordhordland UNESCO Biosphere Reserve {background-image="illustrations/presentation/sectionbg.png" background-size="cover"}
 
 ## Aim of the thesis {.center}
 
@@ -201,39 +201,25 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 
 ##
 
-![Location of the 42 grazing fields in the Nordhordland UNESCO Biosphere Reserve.](illustrations/presentation/sitemap.png)
+![](illustrations/presentation/sitemap.png){fig-align="center"}
 
-##
+## {background-image="illustrations/presentation/p1bg.png" background-size="cover"}
 
-![Location of (A) prescribed burns and (B) the 5 burnt (black) and the 5 unburnt (grey) heath patches in the Hopøyna study site, Øygarden. ](illustrations/presentation/NBR_Hopoyna.png)
+![](illustrations/presentation/NBR_Hopoyna.png){fig-align="center"}
 
-##
+## {background-image="illustrations/presentation/p234bg.png" background-size="cover"}
 
-![Sampling area of 20 m x 20 m (Alver municipality, © J. Måren), with the field team at work.](illustrations/presentation/SamplingTeam.jpg)
+![©J. Måren](illustrations/presentation/SamplingTeam.jpg){width="400"}
 
-##
+## {background-image="illustrations/presentation/p234bg.png" background-size="cover"}
 
-![Sampling methods (© L. Voldstad; I. E. Måren; M. Kerdoncuff; J. Måren; A. E. Eycott).](illustrations/presentation/NBR_SamplingQuadrat.png)
+![© L. Voldstad; I. E. Måren; M. Kerdoncuff; J. Måren; A. E. Eycott](illustrations/presentation/NBR_SamplingQuadrat.png)
 
-##
+## {background-image="illustrations/presentation/p1bg.png" background-size="cover"}
 
-![Sampling method used in the Hopøyna site (© I. E. Måren).](illustrations/presentation/oy.sampling.png)
+![© I. E. Måren](illustrations/presentation/oy.sampling.png)
 
-## Analytical methods {.smaller visibility="hidden"}
-
-+------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
-| Papers     | Response                                       | Explanatory                                 | Analyses                                              |
-+:===========+:===============================================+:============================================+:======================================================+
-| paper I    | diversity, community, ecological preferences   | pioneer vs mature heath                     | Wilcoxon, CCA (ordination), indicator (IndVal, phi)   |
-+------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
-| paper II   | diversity, community, ES indicators            | livestock type, landscape zone              | LMM, Kendall, Pearson, Spearman, MCDP                 |
-+------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
-| paper III  | community                                      | scales (regional, landscape, field, fine)   | CCA (canonical correlation), RDA                      |
-+------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
-| paper IV   | diversity, biomass, abundance                  | field type, geographical location           | HAC, Spearman, effect size                            |
-+------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
-
-# Main findings
+# Main findings {background-image="illustrations/presentation/sectionbg.png" background-size="cover"}
 
 ## (Q1) Regional environment {background-image="illustrations/presentation/p4bg.png" background-size="cover"}
 
@@ -419,7 +405,7 @@ infieldsES
 |                                       | - synergy between nectar & forage resource indicators                |                                                                             |
 +---------------------------------------+----------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
-# Methodological considerations
+# Methodological considerations {background-image="illustrations/presentation/sectionbg.png" background-size="cover"}
 
 ##
 
@@ -449,30 +435,29 @@ infieldsES
 
 ## Optimisation methodological approach
 
-- **Spatially-explicit analyses**, to disentangle the respective influences of management and underlying environmental gradients [e.g. @wittmanSocialEcologicalPerspective2017; @redlichDisentanglingEffectsClimate2022];
-- **Farm-scale approaches**, to address environmental and management-driven variance as an inherent determinant of agroecological systems [@deffontainesAgriculturalSystemsLandscape1995; @sinclairOptionsContextApproach2019];
-- **High resolution indicators**, with priority given to taxa contributing to key ecosystem functions [@bardgettBelowgroundBiodiversityEcosystem2014; @degraaffEffectsAgriculturalIntensification2019];
-- **Transdisciplinary approaches**, to ensure the pertinence, applicability and accessibility of agroecological research [@bennettLinkingBiodiversityEcosystem2015; @jagerPathwaysImplementationEvidence2020].
+- **Spatially-explicit analyses**: greater robustness to disentangle the influences underlying environmental gradients.
+- **Farm-scale approaches**: better consideration of management rotational dynamic.
+- **High resolution indicators**: to address current knowledge gaps on arthropods and soil fauna.
+- **Transdisciplinary approaches**: better consideration of farmers' roles and facilitation policy-making.
 
-## Perspectives for the Nordhordland UNESCO Biosphere Reserve
+# Conclusion {background-image="illustrations/presentation/sectionbg.png" background-size="cover"}
 
-- We recommend to **deepen collaboration with local farmers** to investigate more thoroughly the plant and animal communities of semi-natural grasslands and heathlands in relation to management.
-- Further research could aim for:
-  <!-- - comparing the evolution of plant communities of semi-natural grasslands over time and determine whether they have been affected by the changes in management; -->
-  - leading **farm-scale assessments** of plant and animal communities, for a better consideration of the management rotational dynamic;
-  - addressing **Norways's knowledge gaps** regarding arthropods' response to management and environmental factors;
-  - integrating biodiversity assessments within the **ecosystem service framework** in order to facilitate local and regional policy-making.
+## {.center}
 
-# Conclusion
-
-## Conclusion
-
-- Exploring farming alternatives based on agroecological principles has become a priority to support the sustainable use of land resources and preserve the integrity of ecosystems.
-- This thesis aimed to contribute to this objective by using the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve (Western Norway) as a case study.
-- Overall, my thesis **adds to the evidence that win-win strategies promoting biodiversity and multifunctionality are already within our reach**.
-- I encourage further research efforts on already existing models of small-scale and diversified farming, to understand how adaptative management strategies interact with the local context.
+- TAKE-HOME:
+  - land use in the Nordhordland UNESCO Biosphere Reserve still **largely determined by the environment** of the fjord region.
+  - **biological and functional complementarity** of semi-natural grasslands and heathlands.
+  - **no indication of detrimental effects** of livestock type or prescribed burning on plant and animal communities.
+- PERSPECTIVES:
+  - win-win strategies promoting **biodiversity and multifunctionality** are already within our reach.
+  - need more research efforts on already existing models of small-scale and diversified farming.
 
 # Acknowledgements
+
+# References
+
+::: {#refs}
+:::
 
 
 ## {visibility="uncounted"}
@@ -559,6 +544,21 @@ infieldsES
   - the occupation period of the field by livestock (**paper III**);
   - the grazing history including current and former livestock as well as past land use;
   - the type, frequency and intensity of additional management, e.g. fertilisation, mulching and burning.
+  
+## Analytical methods {.smaller visibility="uncounted"}
+
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+| Papers     | Response                                       | Explanatory                                 | Analyses                                              |
++:===========+:===============================================+:============================================+:======================================================+
+| paper I    | diversity, community, ecological preferences   | pioneer vs mature heath                     | Wilcoxon, CCA (ordination), indicator (IndVal, phi)   |
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+| paper II   | diversity, community, ES indicators            | livestock type, landscape zone              | LMM, Kendall, Pearson, Spearman, MCDP                 |
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+| paper III  | community                                      | scales (regional, landscape, field, fine)   | CCA (canonical correlation), RDA                      |
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+| paper IV   | diversity, biomass, abundance                  | field type, geographical location           | HAC, Spearman, effect size                            |
++------------+------------------------------------------------+---------------------------------------------+-------------------------------------------------------+
+
 
 ## (Q1-1) What are the productivity patterns along the coast-to-mountain gradient? {visibility="uncounted"}
 
