@@ -4,7 +4,7 @@ subtitle: "Defense of PhD thesis"
 author: Morgane Kerdoncuff
 date: today
 title-slide-attributes: 
-  data-background-image: /illustrations/Farmers/OC4.jpg
+  data-background-image: /illustrations/presentation/titlebg.png
 format: 
   revealjs:
     theme: [default, defense.scss]
@@ -45,28 +45,21 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 - land use conflicts [@kimMappingEnvironmentalLand2018; @zabelGlobalAgriculturalLand2014] & negative impacts on biodiversity and ecosystems [@beckmannConventionalLandUse2019; @foleyGlobalConsequencesLand2005; @newboldGlobalEffectsLand2015; @newboldHasLandUse2016]
 :::
 
-## {visibility="hidden"}
-
-![Leverage points to reduce agriculture’s effect on climate, water quality, and water consumption, from @westLeveragePointsImproving2014.](illustrations/presentation/westLeveragePointsImproving2014.jpeg)
-
 ## {.center}
 
 ![Extent of degraded grasslands worldwide, from @bardgettCombattingGlobalGrassland2021](illustrations/presentation/bardgettCombattingGlobalGrassland2021.png){#fig-bardgett}
 
-## {.center}
-
-![Trends in per capita land-use emissions, from @hongGlobalRegionalDrivers2021](illustrations/presentation/hongGlobalRegionalDrivers2021.webp){#fig-hong}
-
 ## Beyond the productivist perspective
 
-- New dominant paradigm: synergy between food security, the integrity of ecosystems and human well-being [@fischerReframingFoodBiodiversity2017; @ipbesThematicAssessmentReport2024].
+**Agricultural multifunctionality**: synergy between food security, the integrity of ecosystems and human well-being [@fischerReframingFoodBiodiversity2017; @ipbesThematicAssessmentReport2024].
+
+:::{.notes}
 - **Ecosystem services**: ecological characteristics, functions or processes used for the economic valuation of ecosystem contributions to human well-being [@costanzaTwentyYearsEcosystem2017; @haines-youngCommonInternationalClassification2018].
 - **Multifunctionality**: capacity of agricultural systems to ensure the delivery of multiple ecosystem services [@oecdMultifunctionalityAnalyticalFramework2001].
+:::
 
 <!-- - Main principles: diversified and locally-adapted farming practices for the provision of multiple benefits [@rasmussenJointEnvironmentalSocial2024]. -->
 <!-- - Examples: agroecology, diversified farming, sustainable intensification. -->
-
-##
 
 :::{.r-stack}
 ![](illustrations/presentation/kremenLandscapesThatWork2018A.png)
@@ -74,29 +67,13 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 ![Ecosystem service trade-offs with land management, from @kremenLandscapesThatWork2018.](illustrations/presentation/kremenLandscapesThatWork2018B.png){.fragment #fig-kremen}
 :::
 
-
-## Grazing x biodiversity
-
-![Plant diversity of grassland communities in relation to grazing intensity along gradients of moisture and grazing evolutionary history, from @milchunasGeneralizedModelEffects1988](illustrations/presentation/milchunasGeneralizedModelEffects1988.png){#fig-milchunas}
-
-## The Intermediate Disturbance Hypothesis {visibility="hidden"}
-
-:::{.notes}
-- At moderate intensity, grazing pressure is expected to be strong enough to locally overcome the competition for light, but not so excessive as to homogenise the sward with grazing-tolerant species [@koernerChangeDominanceDetermines2018; @olffEffectsHerbivoresGrassland1998].
-- This intermediate stage of highest spatial heterogeneity should result in a biodiversity optimum, by favouring the coexistence of multiple life strategies and ecological niches for plant and animal communities [@ceraboliniWhyAreMany2016; @steinEnvironmentalHeterogeneityUniversal2014].
-:::
-
-:::{.notes}
-- In nutrient-poor habitats, the prevalence of stress-tolerance strategies usually limits plant growth rate and reproductive capacities [@diazGlobalSpectrumPlant2016; @pierceLeafEconomicsSpectrum2007], increasing the vulnerability of communities to ruderal and fast-growing species [@pakemanConsistencyPlantSpecies2004; @teuberLivestockGrazingIntermountain2013].
-- The relationship between grazing and biodiversity thus depends on both the ecosystem capacity to tolerate disturbance [@piipponenGlobalTrendsGrassland2022] and the management adaptability to abiotic constraints [@plieningerTraditionalLanduseNature2006; @torokGrazingEuropeanOpen2016].
-:::
-
 ## Biodiversity x ecosystem services
 
 ![Positive relationship between the range of ecosystem processes and the number of species, from @hectorBiodiversityEcosystemMultifunctionality2007.](illustrations/presentation/hectorBiodiversityEcosystemMultifunctionality2007.webp){#fig-hector}
 
 :::{.notes}
-Expected synergies: underlying ecosystem processes affected by different sets of species [@hectorBiodiversityEcosystemMultifunctionality2007; @soliveresBiodiversityMultipleTrophic2016].
+- how biodiversity relates to these bundles ?
+- Expected synergies: underlying ecosystem processes affected by different sets of species [@hectorBiodiversityEcosystemMultifunctionality2007; @soliveresBiodiversityMultipleTrophic2016].
 :::
 
 ## Synergies and trade-offs {.center}
@@ -104,9 +81,9 @@ Expected synergies: underlying ecosystem processes affected by different sets of
 ![The multiple drivers of cultural, aboveground regulating and provisioning ecosystem services in grasslands, from @leprovostSupplyMultipleEcosystem2022.](illustrations/presentation/leprovostAdapted.png){#fig-leprovost}
 
 :::{.notes}
-- Biodiversity consistently positively correlated with the delivery of regulating and cultural services [@soliveresBiodiversityMultipleTrophic2016; @yangSoilCarbonSequestration2019].
-- Pollination service: plant taxonomic and functional richness supports greater availability, stability and plurality of nectar resource [@balfourTradeoffPollinatorwildflowerDiversity2025; @goulnikFloralTraitFunctional2020; @heglandRelationshipsDensityDiversity2006].
-- Provisioning: diversity was shown to enhance biomass production and nutritional quality in semi-natural grasslands [@soliveresBiodiversityMultipleTrophic2016; @spehnEcosystemEffectsBiodiversity2005] but productivity-oriented management usually results into a loss of rare species [@brunProductivitybiodiversityRelationshipVaries2019; @schulzTradeoffsGrasslandPlant2024].
+- Highly context-dependent in relation to the local environment and the type of management
+- If the aim is to favour practices that support biodiversity and maximise synergies without too much trade-offs for productivity
+- then we need policy-oriented research to investigate synergies and trade-offs under different farming models and across multiple ecosystems and sociocultural backgrounds [@egliWinnersLosersNational2018; @rockstromSustainableIntensificationAgriculture2017].
 :::
 
 ## Research needs
@@ -162,25 +139,27 @@ Expected synergies: underlying ecosystem processes affected by different sets of
 
 :::{.r-stack}
 
-![](illustrations/presentation/NBR_FarmingPractices.png)
+![](illustrations/presentation/context0.png)
 
-![](illustrations/presentation/NBR_FarmingPractices1.png){.fragment}
+![](illustrations/presentation/context1.png){.fragment}
+
+![](illustrations/presentation/context2.png){.fragment}
 
 ![](illustrations/Farmers/OC4.jpg){.fragment .fade-in-then-out width="800"}
 
 ![](illustrations/presentation/NBR_SheepGoatPictures.png){.fragment .fade-in-then-out}
 
-![](illustrations/presentation/NBR_FarmingPractices2.png){.fragment .fade-in}
+![](illustrations/presentation/context3.png){.fragment .fade-in}
 
 ![](illustrations/Farmers/OV1.jpg){.fragment .fade-in-then-out width="800"}
 
 ![](illustrations/presentation/NBR_BurningPictures.png){.fragment .fade-in-then-out}
 
-![](illustrations/presentation/NBR_FarmingPractices3.png){.fragment .fade-in}
+![](illustrations/presentation/context4.png){.fragment .fade-in}
 
 ![](illustrations/Farmers/US4.jpg){.fragment .fade-in-then-out width="800"}
 
-![](illustrations/presentation/NBR_FarmingPractices3.png){.fragment}
+![](illustrations/presentation/context4.png){.fragment}
 
 :::
 
@@ -337,11 +316,11 @@ At the scale of the Nordhordland UNESCO Biosphere Reserve, these different produ
 |            | is site aggregation reflected in aboveground biomass and belowground activity?               |                                                           |
 +------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------+
 
-## Paper IV
+## (Q1-1) Paper IV
 
 ![Primary site aggregation essentially matches with the infield/outfield classification.](illustrations/presentation/cluster_tree.png){#fig-tree}
 
-## Paper IV
+## (Q1-1) Paper IV
 
 ![Site aggregation driven by forb and woody biomass, but no observed pattern for soil biological activity.](illustrations/presentation/clusterplot_prim.png){#fig-clusterprim}
 
@@ -388,11 +367,11 @@ fjordR1
 <!-- - Paper II: is there an effect of landscape zonation (coastal, fjord) on plant functional group cover? -->
 <!-- - Paper III: is there a correlation between the regional environment and dominant grass, forb and beetle assemblages? -->
 
-## Paper IV
+## (Q1-2) Paper IV
 
 ![No aggregation of infields according to geographical location.](illustrations/presentation/cluster_NMDS.png){#fig-nmds}
 
-## Paper II
+## (Q1-2) Paper II
 
 ``` {r fig-fjordNS}
 #| fig-cap: "No independent effect of landscape zone (coastal, fjord) on plant functional group cover."
@@ -412,15 +391,15 @@ fjordNS <- ggarrange(
 fjordNS
 ```
 
-## Paper II
+## (Q1-2) Paper II
 
 ![Significant interaction between landscape zone and livestock type on plant functional group cover.](illustrations/presentation/boxplot.livland.jpg){#fig-p2livland style="margin: 75px"}
 
-## Paper III {visibility="hidden"}
+## (Q1-2) Paper III {visibility="hidden"}
 
 ![Significant canonical correlation between the regional environment and dominant grass and beetle assemblages.](illustrations/presentation/p3.fjordcom.png){#fig-cancorfjord .center}
 
-## Paper III
+## (Q1-2) Paper III
 
 +----------------+--------------------------+---------------------------------+---------------------------------+---------------------------------+
 |                | Canonical correlation analyses                             | Redundancy analyses                                               |
@@ -480,15 +459,15 @@ fjordR2
 <!-- - Paper II: is there an effect of livestock type on vascular plant diversity or plant functional groups? -->
 <!-- - Paper III: is there a direct or indirect correlation between field management and dominant grass, forb and beetle assemblages? -->
 
-## Paper II - plant diversity
+## (Q2-1) Paper II - plant diversity
 
 ![No effect of livestock type on vascular plant diversity.](illustrations/presentation/NBR_p2Richness.png){#fig-livestockdiv}
 
-## Paper II - plant functional groups
+## (Q2-1) Paper II - plant functional groups
 
 ![Poaceae cover associated with cattle-grazed fields.](illustrations/presentation/pca.livfuncgroup.jpg){#fig-pca.livfuncgroup}
 
-## Paper III
+## (Q2-1) Paper III
 
 ![Marginal correlation between field management and the fine-scale environment (adjusted R^2^ = 0.08; p-value = 0.046).](illustrations/presentation/p3.rda.fieldfine.png){#fig-p3.rdafieldfine}
 
@@ -505,7 +484,7 @@ fjordR2
 plantR3
 ```
 
-## Paper III - direct link
+## (Q2-1) Paper III - direct link
 
 +----------------+--------------------------+---------------------------------+---------------------------------+---------------------------------+
 |                | Canonical correlation analyses                             | Redundancy analyses                                               |
@@ -521,7 +500,7 @@ plantR3
 
 : No clear evidence of direct correlations between the field management and dominant grass, forb and dung-associated beetle assemblages. {#tbl-p3fieldcom style="margin: 75px"}
 
-## Paper III - indirect link
+## (Q2-1) Paper III - indirect link
 
 :::: {.columns}
 
@@ -535,7 +514,7 @@ plantR3
 
 ::::
 
-## Dung-associated beetles - Paper III results {visibility="hidden"}
+## (Q2-1) Dung-associated beetles - Paper III results {visibility="hidden"}
 
 No evidence of a relationship between field management and dung-associated beetle assemblages.
 
@@ -584,7 +563,7 @@ beetleR3
 <!-- - Paper I: is there a difference in species richness, taxonomic composition and functional composition of beetle assemblages between pioneer and mature patches? -->
 <!-- - Paper IV: can we observe a difference of site aggregation between heathlands managed with prescribed burning and other heathlands? -->
 
-## Paper I - beetle diversity
+## (Q2-2) Paper I - beetle diversity
 
 +--------------------+-------------------+-------------------+------------------+-----------------+-------------+
 | Indexes            | Pioneer           | Mature            | Direction        | Test            | p-value     |   
@@ -602,15 +581,15 @@ beetleR3
 
 : Higher alpha diversity in mature patches, beta-diversity no significantly higher in pioneer patches. {#tbl-p1divstat style="margin: 75px"}
 
-## Paper I - community composition
+## (Q2-2) Paper I - community composition
 
 ![Significant community divergence between pioneer and mature patches.](illustrations/presentation/BC_OY2023_Figure3_CCA.png){#fig-oycca}
 
-## Paper I - community composition
+## (Q2-2) Paper I - community composition
 
 ![Higher activity of strict hygrophilous species on mature patches, higher activity of xerophilous and sun-loving species on pioneer patches.](illustrations/presentation/p1.ecopref.png){#fig-p1ecopref}
 
-## Paper IV results
+## (Q2-2) Paper IV results
 
 ![Highest between-site divergence in coastal heathlands (3/5 managed with burning) compared with subalpine heathlands.](illustrations/presentation/cluster_NMDS.png){#fig-nmds2}
 
@@ -639,11 +618,11 @@ beetleR3
 <!-- - Paper IV: what are the ecosystem service synergies and tradeoffs across the fjord landscape? -->
 <!-- - Paper II: what are the synergies and tradeoffs between diversity, nectar resource and forage resource in semi-natural grasslands? -->
 
-## Paper IV
+## (Q3) Paper IV
 
 ![Productivity-diversity trade-offs between infields and outfields.](illustrations/presentation/clusterplot_prim.png){#fig-clusterprim2}
 
-## Paper IV
+## (Q3) Paper IV
 
 ``` {r fig-outfieldsES}
 #| fig-cap: "Greater contributions to climate and water regulation services in outfields."
@@ -662,7 +641,7 @@ outfieldsES <- ggarrange(
 outfieldsES
 ```
 
-## Paper II results
+## (Q3) Paper II results
 
 ``` {r fig-infieldsES}
 #| fig-cap: "Synergies between the nectar resource indicator and plant diversity and between the nectar and forage resource indicators."
@@ -719,7 +698,7 @@ infieldsES
 ## Complex interactions in small-scale grazing systems
 
 :::{.notes}
-Our findings suggested that the independent influences of the environmental gradients and field management on the diversity and community composition of semi-natural grasslands were mediated by their mutual interactions at different spatial scales (**paper II**, **paper III**) (@fig-flowconcept).
+Our findings suggested that the independent influences of the environmental gradients and field management on the diversity and community composition of semi-natural grasslands were mediated by their mutual interactions at different spatial scales (**paper II**, **paper III**).
 The inconsistent outcomes from **paper III** may also suggest that relationships between the underlying regional gradient and plant and dung-associated beetle communities are characterised by more complex interactions [@dixonhamilCrossscaleContradictionsEcological2016; @petersCrossScaleInteractions2007] (see Discussion in **paper III**).
 In **paper II** for example, we observed significant changes in plant functional group cover due to interactions between landscape zone and livestock type:
 coastal sites grazed by cattle were characterised by the lowest forb cover, while fjord sites grazed by cattle showed the lowest grass/forb cover ratio.
@@ -728,9 +707,15 @@ On the other hand, we observed that dominant grass and forb assemblages were con
 
 ##
 
-![Mutual interactions between underlying environmental gradients, the livestock and the farmer in the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve. See in-text description for arrow numbers. Credits: figure created on Inkscape v. 1.1 (Inkscape Developers, https://inkscape.org).](illustrations/NBR_PerspectivesConcept.png){#fig-flowconcept width=85%}
+:::{.r-stack}
 
-## Limitations of our study design
+![](illustrations/presentation/context0.png)
+
+![](illustrations/presentation/context5.png){.fragment}
+
+:::
+
+## Limitations of our study design {visibility="hidden"}
 
 - the scale, whether for capturing environmental heterogeneity (e.g. fjord topography) or management-driven heterogeneity (e.g. rotational management)
 - the biological indicators: especially arthropods
@@ -744,29 +729,56 @@ On the other hand, we observed that dominant grass and forb assemblages were con
 
 ## Optimisation methodological approach
 
-:::{.notes}
-(1) spatially-explicit analyses, in order to identify the processes driving variance in agroecological systems [@petersCrossScaleInteractions2007] and to disentangle the respective influences of management and underlying environmental gradients [e.g. @wittmanSocialEcologicalPerspective2017; @redlichDisentanglingEffectsClimate2022];
-(2) farm- or landscape-scale approaches, to address environmental and management-driven variance not as a bias but as an inherent determinant of agroecological systems [@cloughFieldSizesFuture2020; @deffontainesAgriculturalSystemsLandscape1995; @sinclairOptionsContextApproach2019] (see Discussion in **paper III**);
-(3) high resolution indicators, with priority given to taxa contributing to key ecosystem functions such as soil fauna [@bardgettBelowgroundBiodiversityEcosystem2014; @degraaffEffectsAgriculturalIntensification2019.
-(4) transdisciplinary approaches, to ensure the pertinence, applicability and accessibility of agroecological research by directly involving the farmers as knowledge-holders, decision-makers and managers [@bennettLinkingBiodiversityEcosystem2015; @jagerPathwaysImplementationEvidence2020; @rockstromSustainableIntensificationAgriculture2017].
-:::
+- **Spatially-explicit analyses**, to disentangle the respective influences of management and underlying environmental gradients [e.g. @wittmanSocialEcologicalPerspective2017; @redlichDisentanglingEffectsClimate2022];
+- **Farm-scale approaches**, to address environmental and management-driven variance as an inherent determinant of agroecological systems [@deffontainesAgriculturalSystemsLandscape1995; @sinclairOptionsContextApproach2019];
+- **High resolution indicators**, with priority given to taxa contributing to key ecosystem functions [@bardgettBelowgroundBiodiversityEcosystem2014; @degraaffEffectsAgriculturalIntensification2019];
+- **Transdisciplinary approaches**, to ensure the pertinence, applicability and accessibility of agroecological research [@bennettLinkingBiodiversityEcosystem2015; @jagerPathwaysImplementationEvidence2020].
 
 ## Perspectives for the Nordhordland UNESCO Biosphere Reserve
 
-- pamphlet
-
-:::{.notes}
-We recommend to deepen collaboration with local farmers to investigate more thoroughly the plant and animal communities of semi-natural grasslands and heathlands in relation to management.
-Further research could aim for:
-replicating @losvikHayMeadowCommunities1993' study, to compare the evolution of plant communities of semi-natural grasslands over time and determine whether they have been affected by the changes in management (see Discussion in **paper IV**);
-leading farm-scale assessments of plant and animal communities, to gain a better understanding of how rotational management and farmers' decision-making affect biodiversity and ecosystem service delivery in the agroecological landscapes of the fjord region (see Discussion in **paper II** and **paper III**);
-addressing knowledge gaps regarding arthropods' response to management and environmental factors, which are considerable in Norway [@kalasEnvironmentalConditionsImpacts2010; @totlandStateKnowledgeInsect2013] (see Discussion in **paper I** and **paper IV**);
-integrating biodiversity assessments in the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve within the ecosystem service framework, in order to facilitate local and regional policy-making [@cusensParticipatoryMappingReveals2022; @cusensIntegrationMattersCombining2023].
-:::
+- We recommend to **deepen collaboration with local farmers** to investigate more thoroughly the plant and animal communities of semi-natural grasslands and heathlands in relation to management.
+- Further research could aim for:
+  <!-- - comparing the evolution of plant communities of semi-natural grasslands over time and determine whether they have been affected by the changes in management; -->
+  - leading **farm-scale assessments** of plant and animal communities, for a better consideration of the management rotational dynamic;
+  - addressing **Norways's knowledge gaps** regarding arthropods' response to management and environmental factors;
+  - integrating biodiversity assessments within the **ecosystem service framework** in order to facilitate local and regional policy-making.
 
 # Conclusion
 
-## Bonus
+## Conclusion
+
+- Exploring farming alternatives based on agroecological principles has become a priority to support the sustainable use of land resources and preserve the integrity of ecosystems.
+- This thesis aimed to contribute to this objective by using the small-scale grazing systems of the Nordhordland UNESCO Biosphere Reserve (Western Norway) as a case study.
+- Overall, my thesis **adds to the evidence that win-win strategies promoting biodiversity and multifunctionality are already within our reach**.
+- I encourage further research efforts on already existing models of small-scale and diversified farming, to understand how adaptative management strategies interact with the local context.
+
+# Acknowledgements
+
+
+## {visibility="uncounted"}
+
+![Leverage points to reduce agriculture’s effect on climate, water quality, and water consumption, from @westLeveragePointsImproving2014.](illustrations/presentation/westLeveragePointsImproving2014.jpeg)
+
+## {.center visibility="uncounted"}
+
+![Trends in per capita land-use emissions, from @hongGlobalRegionalDrivers2021](illustrations/presentation/hongGlobalRegionalDrivers2021.webp){#fig-hong}
+
+## The Intermediate Disturbance Hypothesis {visibility="uncounted"}
+
+![Plant diversity of grassland communities in relation to grazing intensity along gradients of moisture and grazing evolutionary history, from @milchunasGeneralizedModelEffects1988](illustrations/presentation/milchunasGeneralizedModelEffects1988.png){#fig-milchunas}
+
+:::{.notes}
+- At moderate intensity, grazing pressure is expected to be strong enough to locally overcome the competition for light, but not so excessive as to homogenise the sward with grazing-tolerant species [@koernerChangeDominanceDetermines2018; @olffEffectsHerbivoresGrassland1998].
+- This intermediate stage of highest spatial heterogeneity should result in a biodiversity optimum, by favouring the coexistence of multiple life strategies and ecological niches for plant and animal communities [@ceraboliniWhyAreMany2016; @steinEnvironmentalHeterogeneityUniversal2014].
+:::
+
+:::{.notes}
+- In nutrient-poor habitats, the prevalence of stress-tolerance strategies usually limits plant growth rate and reproductive capacities [@diazGlobalSpectrumPlant2016; @pierceLeafEconomicsSpectrum2007], increasing the vulnerability of communities to ruderal and fast-growing species [@pakemanConsistencyPlantSpecies2004; @teuberLivestockGrazingIntermountain2013].
+- The relationship between grazing and biodiversity thus depends on both the ecosystem capacity to tolerate disturbance [@piipponenGlobalTrendsGrassland2022] and the management adaptability to abiotic constraints [@plieningerTraditionalLanduseNature2006; @torokGrazingEuropeanOpen2016].
+:::
+
+
+## Bonus {visitbility="uncounted"}
 
 Quotation towards the end of the presentation (about limitations of my work) - "*The time interval during which one chooses to make measurements and the frequency of measurements during the interval will determine the significance of what is perceived."* from @brownImportanceScaleEvaluating1989
 
