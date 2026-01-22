@@ -78,7 +78,7 @@ source("scripts/NBR_TradMod_ThesisIllustration.R", local = knitr::knit_global())
 
 ##
 
-![@kalandNordhordlandBiosphereReserve2018.](illustrations/NBR_IntroBR.jpg)
+![@kalandNordhordlandBiosphereReserve2018](illustrations/NBR_IntroBR.jpg)
 
 :::{.notes}
 - **Biosphere Reserves**: model areas for experimenting innovative pathways for sustainable development [@barracloughGlobalKnowledgeAction2023; @unescoNewRoadmapMan2017].
@@ -135,14 +135,33 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 ## {.center}
 
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------+
-| **paper I**    | Effect of rotational prescribed burning on beetle communities in coastal heathlands [*published*]                                                                               | icon                                  |                   
+| **paper I**    | Effect of rotational prescribed burning on beetle communities in coastal heathlands [*published*]                                                                               | ![](iconp1.png)                       |                   
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------+
-| **paper II**   | Influence of livestock type and landscape zone on plant diversity and forage and pollination services in semi-natural grasslands [*published*]                                  | icon                                  |
+| **paper II**   | Influence of livestock type and landscape zone on plant diversity and forage and pollination services in semi-natural grasslands [*published*]                                  | ![](iconp2.png)                       |
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------+
-| **paper III**  | Cross-scale links between environmental gradient, management factors and dominant grass, forb and dung-associated beetle assemblages in semi-natural grasslands [*submitted*]   | icon                                  |
+| **paper III**  | Cross-scale links between environmental gradient, management factors and dominant grass, forb and dung-associated beetle assemblages in semi-natural grasslands [*submitted*]   | ![](iconp3.png)                       |
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------+
-| **paper IV**   | Trade-offs and synergies between ecosystem service indicators between semi-natural grasslands and heathlands                                                                    | icon                                  |
+| **paper IV**   | Trade-offs and synergies between ecosystem service indicators between semi-natural grasslands and heathlands                                                                    | ![](iconp4.png)                       |
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------+
+
+##
+
+```{=html}
+<table>
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/220px-African_Bush_Elephant.jpg" alt="African Bush Elephant" /></td>
+      <td>Regular output</td>
+    </tr>
+  </tbody>
+</table>
+```
 
 ## Main questions
 
@@ -151,10 +170,39 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 +-------------+------------------------------+--------------------------------------------------------+
 |             | Range                        | Papers                                                 | 
 +:============+:=============================+:=======================================================+
-| **(Q1.1)**  | heathlands & grasslands      | paper IV                                               | 
+| **(Q1.1)**  | heathlands & grasslands      | ![](iconp4.png)                                        | 
 +-------------+------------------------------+--------------------------------------------------------+
-| **(Q1.2)**  | grasslands only              | paper II; paper III; paper IV                          |
+| **(Q1.2)**  | grasslands only              | ![](iconp234.png)                                      |
 +-------------+------------------------------+--------------------------------------------------------+
+
+##
+
+```{=html}
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Range</th>
+      <th>Papers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>**(Q1.1)**</td>
+      <td>heathlands & grasslands</td>
+      <td><img src=iconp4.png /></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>**(Q1.2)**</td>
+      <td>grasslands only</td>
+      <td><img src=iconp234.png /></td>
+    </tr>
+  </tbody>
+</table>
+```
+
 
 ::: {.notes}
 - We expected the constraining environment of the fjord region to affect life strategies particularly on the most exposed sites.
@@ -169,9 +217,9 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 +-------------+------------------------------+--------------------------------------------------------+
 |             | Management                   | Papers                                                 | 
 +:============+:=============================+:=======================================================+
-| **(Q2.1)**  | livestock type               | paper II; paper III                                    | 
+| **(Q2.1)**  | livestock type               | ![](iconp23.png)                                       | 
 +-------------+------------------------------+--------------------------------------------------------+
-| **(Q2.2)**  | prescribed burning           | paper I; paper IV                                      |
+| **(Q2.2)**  | prescribed burning           | ![](iconp14.png)                                       |
 +-------------+------------------------------+--------------------------------------------------------+
 
 ::: {.notes}
@@ -186,9 +234,9 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 +-------------+------------------------------+--------------------------------------------------------+
 |             | Range                        | Papers                                                 | 
 +:============+:=============================+:=======================================================+
-| **(Q3.1)**  | heathlands & grasslands      | paper IV                                               | 
+| **(Q3.1)**  | heathlands & grasslands      | ![](iconp4.png)                                        | 
 +-------------+------------------------------+--------------------------------------------------------+
-| **(Q3.2)**  | grasslands only              | paper II                                               |
+| **(Q3.2)**  | grasslands only              | ![](iconp2.png)                                        |
 +-------------+------------------------------+--------------------------------------------------------+
 
 ::: {.notes}
@@ -201,7 +249,7 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 
 ##
 
-![Location of the 42 grazing fields in the Nordhordland UNESCO Biosphere Reserve.](illustrations/NBR_DesignMapNBR.png)
+![Location of the 42 grazing fields in the Nordhordland UNESCO Biosphere Reserve.](illustrations/presentation/sitemap.png)
 
 ##
 
@@ -235,7 +283,7 @@ This PhD thesis aims to **explore how grazing-dependent habitats support biodive
 
 # Main findings
 
-## (Q1) Regional environment
+## (Q1) Regional environment {background-image="illustrations/presentation/p4bg.png" background-size="cover"}
 
 ### (Q1-1) Regional x Heathlands & grasslands
 
@@ -243,7 +291,7 @@ Two distinct clusters matching field types: infields with higher forb biomass, o
 
 ![](illustrations/presentation/cluster_tree.png){fig-align="center"}
 
-## (Q1) Regional environment
+## (Q1) Regional environment {background-image="illustrations/presentation/p2bg.png" background-size="cover"}
 
 ### (Q1-2) Regional x Grasslands only
 
@@ -251,7 +299,7 @@ Plant functional group only affected by an interaction of landscape zone with li
 
 ![](illustrations/presentation/boxplot.livland.jpg){style="margin: 75px"}
 
-## (Q1) Regional environment
+## (Q1) Regional environment {background-image="illustrations/presentation/p3bg.png" background-size="cover"}
 
 ### (Q1-2) Regional x Grasslands only
 
@@ -271,15 +319,52 @@ No clear evidence of direct correlations between the regional environment and do
 
 ## (Q1) Regional environment
 
-+-------------+------------------------------+--------------------------------------------------------+
-|             | Results                      | Discussion                                             | 
-+:============+:=============================+:=======================================================+
-| **(Q1.1)**  | heathlands & grasslands      | paper IV                                               | 
-+-------------+------------------------------+--------------------------------------------------------+
-| **(Q1.2)**  | grasslands only              | paper II; paper III; paper IV                          |
-+-------------+------------------------------+--------------------------------------------------------+
++---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
+|                                       | Results                                            | Interpretation                                                              | 
++:======================================+:===================================================+:============================================================================+
+| - **(Q1.1)** Heathlands & grasslands  | - clear infield-outfield divergence                | - plant growth limited by abiotic pressure in outer areas                   | 
+|                                       |                                                    | - inner areas more suitable for livestock production                        |
++---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
+| - **(Q1.2)** Grasslands only          | - no evidence of direct effect                     | - gradient of abiotic pressure too limited                                  |
+|                                       | - significant interaction with livestock           | - more complex interactions between the environment and management          |
++------------------------------------- -+----------------------------------------------------+-----------------------------------------------------------------------------+
 
-## (Q2) Management
+::: {.notes}
+- limit of our study design
+:::
+
+## (Q1) Regional environment
+
++----------------------------------------------------+-----------------------------------------------------------------------------+
+| Results                                            | Interpretation                                                              | 
++:===================================================+:============================================================================+
+| - clear infield-outfield divergence                | - plant growth limited by abiotic pressure in outer areas                   | 
+|                                                    | - inner areas more suitable for livestock production                        |
++----------------------------------------------------+-----------------------------------------------------------------------------+
+| - no evidence of direct effect                     | - gradient of abiotic pressure too limited                                  |
+| - significant interaction with livestock           | - more complex interactions between the environment and management          |
++----------------------------------------------------+-----------------------------------------------------------------------------+
+
+##
+
+
+
+
+##
+
++-----------+-----------+--------------------+
+| Fruit     | Price     | Advantages         |
++===========+===========+====================+
+| Bananas   | $1.34     | - built-in wrapper |
+|           |           | - bright color     |
++-----------+-----------+--------------------+
+| Oranges   | $2.10     | - cures scurvy     |
+|           |           | - tasty            |
++-----------+-----------+--------------------+
+
+: Sample grid table.
+
+## (Q2) Management {background-image="illustrations/presentation/p2bg.png" background-size="cover"}
 
 ### (Q2-1) Management: livestock type
 
@@ -291,7 +376,9 @@ Cattle-grazed fields associated with a higher cover of Poaceae.
 no effect on plant diversity
 :::
 
-## (Q2-1) Management: livestock type
+## (Q2) Management {background-image="illustrations/presentation/p3bg.png" background-size="cover"}
+
+### (Q2-1) Management: livestock type
 
 Potential indirect link between field management, the fine-scale environment and dominant plant and forb assemblages.
 
@@ -311,7 +398,7 @@ Potential indirect link between field management, the fine-scale environment and
 no effect on beetle assemblage
 :::
 
-## (Q2) Management
+## (Q2) Management {background-image="illustrations/presentation/p1bg.png" background-size="cover"}
 
 ### (Q2-2) Management: prescribed burning
 
@@ -319,7 +406,7 @@ Higher activity of strict hygrophilous species on mature patches, higher activit
 
 ![](illustrations/presentation/p1.ecopref.png)
 
-## (Q2) Management
+## (Q2) Management {background-image="illustrations/presentation/p4bg.png" background-size="cover"}
 
 ### (Q2-2) Management: prescribed burning
 
@@ -329,15 +416,20 @@ Highest between-site divergence in coastal heathlands (3/5 managed with burning)
 
 ## (Q2) Management
 
-+-------------+------------------------------+--------------------------------------------------------+
-|             | Management                   | Papers                                                 | 
-+:============+:=============================+:=======================================================+
-| **(Q2.1)**  | livestock type               | paper II; paper III                                    | 
-+-------------+------------------------------+--------------------------------------------------------+
-| **(Q2.2)**  | prescribed burning           | paper I; paper IV                                      |
-+-------------+------------------------------+--------------------------------------------------------+
++---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
+|                                       | Results                                            | Interpretation                                                              | 
++:======================================+:===================================================+:============================================================================+
+| **(Q2.1)** Livestock type             | - cattle-grazed fields with higher                | - plant growth limited by abiotic pressure in outer areas                   | 
+|                                       |                                                    | - inner areas more suitable for livestock production                        |
++---------------------------------------+----------------------------------------------------+-----------------------------------------------------------------------------+
+| **(Q2.2)** Prescribed burning         | - no evidence of direct effect                     | - gradient of abiotic pressure too limited                                  |
+|                                       | - significant interaction with livestock           | - more complex interactions between the environment and management          |
++------------------------------------- -+----------------------------------------------------+-----------------------------------------------------------------------------+
 
-## (Q3) Synergies and tradeoffs
+
+ 
+
+## (Q3) Synergies and tradeoffs {background-image="illustrations/presentation/p4bg.png" background-size="cover"}
 
 ### (Q3-1) Synergies and tradeoffs: heathlands & grasslands
 
@@ -360,7 +452,7 @@ outfieldsES <- ggarrange(
 outfieldsES
 ```
 
-## (Q3) Synergies and tradeoffs
+## (Q3) Synergies and tradeoffs {background-image="illustrations/presentation/p2bg.png" background-size="cover"}
 
 ### (Q3-2) Synergies and tradeoffs: grasslands only
 
