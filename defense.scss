@@ -35,6 +35,11 @@
   right: 30px;
 }
 
+td{
+  vertical-align: top !important;
+  height: 100px !important;
+}
+
 // Fonts
 $presentation-font-size-root: 33px;
 $presentation-font-smaller: 0.9;
@@ -47,7 +52,6 @@ $presentation-h3-font-size: 1.3em;
 $presentation-h4-font-size: 1.00em;
 
 // Layout
-$presentation-title-slide-text-align: left;
 
 /*-- scss:rules --*/
 
@@ -55,7 +59,7 @@ $presentation-title-slide-text-align: left;
   .slides {
     .slide {
       img+p.caption {
-        font-size: 1.0em;
+        font-size: 0.7em;
       }
     }
   }
